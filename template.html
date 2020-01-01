@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="renderer" content="webkit">
+
+        <title>Python Changes</title>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css">
+
+        <style>
+            .container {
+                max-width: 85%;
+            }
+
+            .navbar {
+                color: #fff;
+                background-color: #306998;
+            }
+
+            #mainContainer {
+                margin-top: 70px;
+                margin-bottom: 30px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="app">
+            <nav class="navbar fixed-top">
+                <div class="container p-0">
+                    <span class="navbar-brand mb-0 h1">Python Changes</span>
+                    <span class="navbar-text">Until Version: {{ py_version }}</span>
+                </div>
+            </nav>
+            <div id="mainContainer" class="container">
+                <table id="mainTable" class="table table-sm table-hover" cellspacing="0" width="100%">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Type</th>
+                            <th>Version</th>
+                            <th>Category</th>
+                            <th>Name</th>
+                            <th>File</th>
+                            <th data-orderable="false">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr v-for="change in changes">
+                            <td>{{ change.id }}</td>
+                            <td>{{ change.type }}</td>
+                            <td>{{ change.version }}</td>
+                            <td>{{ change.category }}</td>
+                            <td>{{ change.name }}</td>
+                            <td><a v-bind:href="python_doc_url(py_major_version, change.file, change.anchor)" target="_blank">{{ change.file }}</a></td>
+                            <td>{{ change.description }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+    <script>
+        var data = {"changes": [], "py_major_version": null, "py_version": null}; // To be generated.
+    </script>
+
+    <script>
+        function python_doc_url(py_major_version, path, anchor) {
+            return 'https://docs.python.org/' + py_major_version
+                   + '/' + path.split('/').map(encodeURIComponent).join('/')
+                   + '#' + encodeURIComponent(anchor);
+        }
+
+        $(function () {
+            var app = new Vue({
+                el: '#app',
+                data: data
+            });
+
+            $('#mainTable').DataTable();
+        });
+    </script>
+</html>
