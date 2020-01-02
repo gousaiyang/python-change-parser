@@ -1,16 +1,27 @@
 # module
 Bastion: disabled in 2.3, depreacted in 2.6, removed in 3.*
-bsddb: depreacted in 2.6, removed in 3.*
+bsddb: depreacted in 2.6, removed in 3.*; object added dictionary methods in 2.3.1
+codecs: idna & punycode encodings added in 2.3
+datetime: %f directive added in 2.6
 DocXMLRPCServer: renamed to xmlrpc.server in 3.*
 dumbdbm: renamed to dbm.dumb in 3.*
 EasyDialogs: removed in 3.*
+htmllib: depreacted in 2.6, removed in 3.*
+htmlentitydefs: renamed to html.entities in 3.*
+
+# function
+email.utils.dump_address_pair: removed in 2.4
+email.utils.decode: removed in 2.4
+email.utils.encode: removed in 2.4
 
 # class
+bz2.BZ2File: support for with statement added in 2.7
 cgi.SvFormContentDict: depreacted in 2.6
 cgi.FormContentDict: depreacted in 2.6
 cgi.FormContent: depreacted in 2.6
 cgi.InterpFormContentDict: depreacted in 2.6
 email.parser.Parser: depreacted in 2.4
+gzip.GzipFile: support for with statement added in 2.7
 
 # method
 bz2.BZ2File.xreadlines: deprecated in 2.3
@@ -25,7 +36,9 @@ email.message.Message.get_subtype: removed in 2.5
 [ "email.parser.Parser", [ "strict" ] ]: added in 2.2.2, depreacted in 2.4
 [ "email.parser.Parser.parse", [ "headersonly" ] ]: added in 2.2.2
 [ "email.parser.Parser.parsestr", [ "headersonly" ] ]: added in 2.2.2
+[ "fileinput.input", [ "bufsize" ] ]: depreacted in 2.7.12
+[ "fileinput.FileInput", [ "bufsize" ] ]: depreacted in 2.7.12
 
 # misc
 id-110: not specified changes
-codecs: idna & punycode encodings new in 2.3
+decorators: function decorator added in 2.4, class decorator added in 2.6

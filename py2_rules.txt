@@ -1,5 +1,5 @@
 Python 3.8.1: finished record id: None
-Python 2.7.17: finished record id: 1-273
+Python 2.7.17: finished record id: 1-434
 
 module:
 2.6 abc
@@ -26,6 +26,15 @@ module:
 2.2.2 email.charset
 2.2.2 email.header
 2.2 email
+2.7.9 ensurepip
+2.6 fractions
+2.5 functools
+2.6 future_builtins
+2.5 hashlib
+2.3 heapq
+2.2 hmac
+2.2 hotshot
+2.2 hotshot.stats
 
 data:
 2.3 False
@@ -41,8 +50,16 @@ data:
 2.4 doctest.REPORT_ONLY_FIRST_FAILURE
 2.4 doctest.COMPARISON_FLAGS
 2.4 doctest.REPORTING_FLAGS
+2.7 hashlib.hashlib.algorithms
+2.7.9 hashlib.algorithms_guaranteed
+2.7.9 hashlib.algorithms_available
+2.3 htmlentitydefs.name2codepoint
+2.3 htmlentitydefs.codepoint2name
 
 class:
+2.6 bytearray
+2.2 object
+2.2 type
 2.5 calendar.Calendar
 2.5 calendar.TextCalendar
 2.5 calendar.HTMLCalendar
@@ -77,12 +94,66 @@ class:
 2.2.2 email.mime.multipart.MIMEMultipart
 2.5 email.mime.application.MIMEApplication
 2.4 email.parser.FeedParser
+2.7 ftplib.FTP_TLS
 
 exception:
+2.5 BaseException
+1.5.2 EnvironmentError
+2.5 GeneratorExit
+1.5.2 NotImplementedError
+1.5.2 OSError
+2.2 ReferenceError
+2.2 StopIteration
+2.0 UnboundLocalError
+2.0 UnicodeError
+2.3 UnicodeEncodeError
+2.3 UnicodeDecodeError
+2.3 UnicodeTranslateError
+2.0 WindowsError
+2.5 ImportWarning
+2.5 UnicodeWarning
+2.6 BytesWarning
 2.3 ConfigParser.InterpolationMissingOptionError
 2.3 ConfigParser.InterpolationSyntaxError
+2.5 exceptions.BaseException
+1.5.2 exceptions.EnvironmentError
+2.5 exceptions.GeneratorExit
+1.5.2 exceptions.NotImplementedError
+1.5.2 exceptions.OSError
+2.2 exceptions.ReferenceError
+2.2 exceptions.StopIteration
+2.0 exceptions.UnboundLocalError
+2.0 exceptions.UnicodeError
+2.3 exceptions.UnicodeEncodeError
+2.3 exceptions.UnicodeDecodeError
+2.3 exceptions.UnicodeTranslateError
+2.0 exceptions.WindowsError
+2.5 exceptions.ImportWarning
+2.5 exceptions.UnicodeWarning
+2.6 exceptions.BytesWarning
+1.6 getopt.GetoptError
+2.4 htmllib.HTMLParseError
 
 function:
+2.5 all
+2.5 any
+2.3 basestring
+2.6 bin
+2.2.1 bool
+2.3 enumerate
+2.4 file
+2.4 hex
+2.2 iter
+2.6 next
+2.6 print
+2.4 reversed
+2.4 set
+2.4 sorted
+2.3 sum
+2.2 super
+2.0 unichr
+2.0 unicode
+2.0 zip
 2.0 calendar.setfirstweekday
 2.0 calendar.firstweekday
 2.0 calendar.month
@@ -120,6 +191,32 @@ function:
 2.3 doctest.debug
 2.4 doctest.debug_src
 2.0 EasyDialogs.GetArgv
+2.4 email.utils.formatdate
+2.5 fileinput.fileno
+2.5 fileinput.hook_compressed
+2.5 fileinput.hook_encoded
+2.2 fnmatch.filter
+2.7 functools.cmp_to_key
+2.6 functools.reduce
+2.2 gc.get_objects
+2.5 gc.get_count
+2.2 gc.get_referrers
+2.3 gc.get_referents
+2.7 gc.is_tracked
+2.3 getopt.gnu_getopt
+2.4 gettext.bind_textdomain_codeset
+2.4 gettext.lgettext
+2.4 gettext.ldgettext
+2.3 gettext.ngettext
+2.4 gettext.lngettext
+2.3 gettext.dngettext
+2.4 gettext.ldngettext
+2.7.8 hashlib.pbkdf2_hmac
+2.6 heapq.heappushpop
+2.6 heapq.merge
+2.4 heapq.nlargest
+2.4 heapq.nsmallest
+2.7.7 hmac.compare_digest
 
 method:
 2.2 cgi.FieldStorage.getfirst
@@ -195,8 +292,22 @@ method:
 2.2.2 email.message.Message.del_param
 2.2.2 email.message.Message.set_type
 2.2.2 email.message.Message.get_content_charset
+2.4 gettext.NullTranslations.lgettext
+2.3 gettext.NullTranslations.ngettext
+2.4 gettext.NullTranslations.lngettext
+2.3 gettext.NullTranslations.ungettext
+2.4 gettext.NullTranslations.output_charset
+2.4 gettext.NullTranslations.set_output_charset
+2.4 gettext.GNUTranslations.lgettext
+2.3 gettext.GNUTranslations.ngettext
+2.4 gettext.GNUTranslations.lngettext
+2.3 gettext.GNUTranslations.ungettext
+2.5 glob.iglob
 
 attribute:
+2.6 property.getter
+2.6 property.setter
+2.6 property.deleter
 2.6 BaseHTTPServer.BaseHTTPRequestHandler.error_content_type
 2.6 Cookie.Morsel.httponly
 2.5 cookielib.DefaultCookiePolicy.rfc2109_as_netscape
@@ -206,8 +317,17 @@ attribute:
 2.4 email.message.Message.defects
 
 decorator:
+2.2 classmethod
+2.2 property
+2.2 staticmethod
+2.7 functools.total_ordering
 
 argument:
+2.3 [ "compile", [ "flags", "dont_inherit" ] ]
+2.6 [ "enumerate", [ "start" ] ]
+2.5 [ "max", [ "key" ] ]
+2.5 [ "min", [ "key" ] ]
+2.5 [ "__import__", [ "level" ] ]
 2.5 [ "BaseHTTPServer.BaseHTTPRequestHandler.date_time_string", [ "timestamp" ] ]
 2.7 [ "bdb.Bdb", [ "skip" ] ]
 2.4 [ "cmath.log", [ "base" ] ]
@@ -240,3 +360,20 @@ argument:
 2.2.2 [ "email.message.Message.get_param", [ "unquote" ] ]
 2.2.2 [ "email.message_from_string", [ "strict" ] ]
 2.2.2 [ "email.message_from_file", [ "strict" ] ]
+2.5 [ "fileinput.input", [ "mode", "openhook" ] ]
+2.5 [ "fileinput.FileInput", [ "mode", "openhook" ] ]
+2.6 [ "ftplib.FTP", [ "timeout" ] ]
+2.7.10 [ "ftplib.FTP_TLS", [ "context" ] ]
+2.6 [ "ftplib.FTP.connect", [ "timeout" ] ]
+2.6 [ "ftplib.FTP.storbinary", [ "callback" ] ]
+2.7 [ "ftplib.FTP.storbinary", [ "rest" ] ]
+2.6 [ "ftplib.FTP.storlines", [ "callback" ] ]
+2.5 [ "gc.collect", [ "generation" ] ]
+2.5 [ "getpass.getpass", [ "stream" ] ]
+2.4 [ "gettext.translation", [ "codeset" ] ]
+2.4 [ "gettext.install", [ "codeset" ] ]
+2.5 [ "gettext.install", [ "names" ] ]
+2.5 [ "gettext.NullTranslations.install", [ "names" ] ]
+2.7 [ "gzip.GzipFile", [ "mtime" ] ]
+2.5 [ "heapq.nlargest", [ "key" ] ]
+2.5 [ "heapq.nsmallest", [ "key" ] ]
