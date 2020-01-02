@@ -1,0 +1,31 @@
+# module
+Bastion: disabled in 2.3, depreacted in 2.6, removed in 3.*
+bsddb: depreacted in 2.6, removed in 3.*
+DocXMLRPCServer: renamed to xmlrpc.server in 3.*
+dumbdbm: renamed to dbm.dumb in 3.*
+EasyDialogs: removed in 3.*
+
+# class
+cgi.SvFormContentDict: depreacted in 2.6
+cgi.FormContentDict: depreacted in 2.6
+cgi.FormContent: depreacted in 2.6
+cgi.InterpFormContentDict: depreacted in 2.6
+email.parser.Parser: depreacted in 2.4
+
+# method
+bz2.BZ2File.xreadlines: deprecated in 2.3
+email.generator.DecodedGenerator.__call__: removed in 2.5
+email.message.Message.get_type: removed in 2.5
+email.message.Message.get_main_type: removed in 2.5
+email.message.Message.get_subtype: removed in 2.5
+
+# parameter
+[ "doctest.testmod", [ "isprivate" ] ]: depreacted in 2.4, removed in 2.5
+[ "email.mime.text.MIMEText", [ "_encoding" ] ]: removed in 2.4
+[ "email.parser.Parser", [ "strict" ] ]: added in 2.2.2, depreacted in 2.4
+[ "email.parser.Parser.parse", [ "headersonly" ] ]: added in 2.2.2
+[ "email.parser.Parser.parsestr", [ "headersonly" ] ]: added in 2.2.2
+
+# misc
+id-110: not specified changes
+codecs: idna & punycode encodings new in 2.3

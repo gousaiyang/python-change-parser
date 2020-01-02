@@ -1,0 +1,242 @@
+Python 3.8.1: finished record id: None
+Python 2.7.17: finished record id: 1-273
+
+module:
+2.6 abc
+2.7 argparse
+2.5 _ast
+2.6 ast
+2.1 bisect
+2.3 bz2
+2.2 cgitb
+2.3 encodings.idna
+2.5 encodings.utf_8_sig
+2.4 collections
+2.5 contextlib
+2.4 cookielib
+2.3 csv
+2.5 ctypes
+1.6 curses.ascii
+1.6 curses
+1.6 curses.textpad
+2.3 datetime
+2.4 decimal
+2.1 difflib
+2.3 DocXMLRPCServer
+2.2.2 email.charset
+2.2.2 email.header
+2.2 email
+
+data:
+2.3 False
+2.3 True
+2.5 doctest.skip
+2.4 doctest.DONT_ACCEPT_BLANKLINE
+2.4 doctest.NORMALIZE_WHITESPACE
+2.4 doctest.ELLIPSIS
+2.4 doctest.IGNORE_EXCEPTION_DETAIL
+2.4 doctest.REPORT_UDIFF
+2.4 doctest.REPORT_CDIFF
+2.4 doctest.REPORT_NDIFF
+2.4 doctest.REPORT_ONLY_FIRST_FAILURE
+2.4 doctest.COMPARISON_FLAGS
+2.4 doctest.REPORTING_FLAGS
+
+class:
+2.5 calendar.Calendar
+2.5 calendar.TextCalendar
+2.5 calendar.HTMLCalendar
+2.5 calendar.LocaleTextCalendar
+2.5 calendar.LocaleHTMLCalendar
+2.5 codesc.IncrementalEncoder
+2.4 collections.deque
+2.7 collections.Counter
+2.7 collections.OrderedDict
+2.5 collections.defaultdict
+2.3 ConfigParser.RawConfigParser
+2.3 ConfigParser.ConfigParser
+2.3 ConfigParser.SafeConfigParser
+2.6 ctypes.c_longdouble
+2.7 ctypes.c_ssize_t
+2.6 ctypes.c_bool
+2.4 difflib.HtmlDiff
+2.4 doctest.DocTest
+2.4 doctest.Example
+2.4 doctest.DocTestFinder
+2.4 doctest.DocTestParser
+2.4 doctest.DocTestRunner
+2.4 doctest.OutputChecker
+2.4 email.errors.NoBoundaryInMultipartDefect
+2.4 email.errors.StartBoundaryNotFoundDefect
+2.4 email.errors.FirstHeaderLineIsContinuationDefect
+2.4 email.errors.MisplacedEnvelopeHeaderDefect
+2.4 email.errors.MalformedHeaderDefect
+2.4 email.errors.MultipartInvariantViolationDefect
+2.2.2 email.generator.DecodedGenerator
+2.2.2 email.mime.nonmultipart.MIMENonMultipart
+2.2.2 email.mime.multipart.MIMEMultipart
+2.5 email.mime.application.MIMEApplication
+2.4 email.parser.FeedParser
+
+exception:
+2.3 ConfigParser.InterpolationMissingOptionError
+2.3 ConfigParser.InterpolationSyntaxError
+
+function:
+2.0 calendar.setfirstweekday
+2.0 calendar.firstweekday
+2.0 calendar.month
+2.0 calendar.calendar
+2.0 calendar.timegm
+2.6 cmath.phase
+2.6 cmath.polar
+2.6 cmath.rect
+2.6 cmath.isinf
+2.6 cmath.isnan
+2.4 codecs.encode
+2.4 codecs.decode
+2.5 codecs.getincrementalencoder
+2.5 codecs.getincrementaldecoder
+2.5 codesc.iterencode
+2.5 codesc.iterdecode
+2.6 collections.namedtuple
+2.7 compileall.compile_file
+2.5 csv.field_size_limit
+2.6 ctypes.util.find_msvcrt
+2.6 ctypes.get_errno
+2.6 ctypes.get_last_error
+2.6 ctypes.set_errno
+2.6 ctypes.set_last_error
+2.5 decimal.localcontext
+2.3 difflib.context_diff
+2.3 difflib.unified_diff
+2.4 doctest.register_optionflag
+2.4 doctest.testfile
+2.4 doctest.DocFileSuite
+2.3 doctest.DocTestSuite
+2.4 doctest.set_unittest_reportflags
+2.4 doctest.script_from_examples
+2.3 doctest.testsource
+2.3 doctest.debug
+2.4 doctest.debug_src
+2.0 EasyDialogs.GetArgv
+
+method:
+2.2 cgi.FieldStorage.getfirst
+2.2 cgi.FieldStorage.getlist
+2.7 collections.deque.count
+2.5 collections.deque.remove
+2.7 collections.deque.reverse
+2.7 collections.deque.maxlen
+1.6 ConfigParser.RawConfigParser.has_option
+1.6 ConfigParser.RawConfigParser.set
+1.6 ConfigParser.RawConfigParser.write
+1.6 ConfigParser.RawConfigParser.remove_option
+2.3 ConfigParser.ConfigParser.items
+2.4 ConfigParser.SafeConfigParser.set
+2.7 csv.DictWriter.writeheader
+2.6 ctypes._CData.from_buffer
+2.6 ctypes._CData.from_buffer_copy
+2.7 datetime.timedelta.total_seconds
+2.5 datetime.datetime.strptime
+2.6 decimal.Decimal.canonical
+2.6 decimal.Decimal.compare_signal
+2.6 decimal.Decimal.compare_total
+2.6 decimal.Decimal.compare_total_mag
+2.6 decimal.Decimal.conjugate
+2.6 decimal.Decimal.copy_abs
+2.6 decimal.Decimal.copy_negate
+2.6 decimal.Decimal.copy_sign
+2.6 decimal.Decimal.exp
+2.7 decimal.Decimal.from_float
+2.6 decimal.Decimal.fma
+2.6 decimal.Decimal.is_canonical
+2.6 decimal.Decimal.is_finite
+2.6 decimal.Decimal.is_infinite
+2.6 decimal.Decimal.is_nan
+2.6 decimal.Decimal.is_normal
+2.6 decimal.Decimal.is_qnan
+2.6 decimal.Decimal.is_signed
+2.6 decimal.Decimal.is_snan
+2.6 decimal.Decimal.is_subnormal
+2.6 decimal.Decimal.is_zero
+2.6 decimal.Decimal.ln
+2.6 decimal.Decimal.log10
+2.6 decimal.Decimal.logb
+2.6 decimal.Decimal.logical_and
+2.6 decimal.Decimal.logical_invert
+2.6 decimal.Decimal.logical_or
+2.6 decimal.Decimal.logical_xor
+2.6 decimal.Decimal.max_mag
+2.6 decimal.Decimal.min_mag
+2.6 decimal.Decimal.next_minus
+2.6 decimal.Decimal.next_plus
+2.6 decimal.Decimal.next_toward
+2.6 decimal.Decimal.number_class
+2.6 decimal.Decimal.radix
+2.6 decimal.Decimal.rotate
+2.6 decimal.Decimal.scaleb
+2.6 decimal.Decimal.shift
+2.6 decimal.Decimal.to_integral_exact
+2.6 decimal.Decimal.to_integral_value
+2.7 decimal.Context.create_decimal_from_float
+2.3 difflib.SequenceMatcher.get_grouped_opcodes
+2.2.2 email.generator.Generator.flatten
+2.2.2 email.generator.Generator.clone
+2.2.2 email.message.Message.set_charset
+2.2.2 email.message.Message.get_charset
+2.2.2 email.message.Message.replace_header
+2.2.2 email.message.Message.get_content_type
+2.2.2 email.message.Message.get_content_maintype
+2.2.2 email.message.Message.get_content_subtype
+2.2.2 email.message.Message.get_default_type
+2.2.2 email.message.Message.set_default_type
+2.2.2 email.message.Message.set_param
+2.2.2 email.message.Message.del_param
+2.2.2 email.message.Message.set_type
+2.2.2 email.message.Message.get_content_charset
+
+attribute:
+2.6 BaseHTTPServer.BaseHTTPRequestHandler.error_content_type
+2.6 Cookie.Morsel.httponly
+2.5 cookielib.DefaultCookiePolicy.rfc2109_as_netscape
+2.5 cookielib.Cookie.rfc2109
+2.5 csv.csvreader.line_num
+2.6 csv.csvreader.fieldnames
+2.4 email.message.Message.defects
+
+decorator:
+
+argument:
+2.5 [ "BaseHTTPServer.BaseHTTPRequestHandler.date_time_string", [ "timestamp" ] ]
+2.7 [ "bdb.Bdb", [ "skip" ] ]
+2.4 [ "cmath.log", [ "base" ] ]
+2.3 [ "cmd.Cmd", [ "stdin", "stdout" ] ]
+2.4 [ "codecs.StreamReader.read", [ "chars" ] ]
+2.4.2 [ "codecs.StreamReader.read", [ "firstline" ] ]
+2.4 [ "codecs.StreamReader.readline", [ "keepends" ] ]
+2.6 [ "collections.deque", [ "maxlen" ] ]
+2.7 [ "collections.namedtuple", [ "rename" ] ]
+2.6 [ "ConfigParser.RawConfigParser", [ "dict_type" ] ]
+2.6 [ "ConfigParser.ConfigParser", [ "dict_type" ] ]
+2.6 [ "ConfigParser.SafeConfigParser", [ "dict_type" ] ]
+2.6 [ "ConfigParser.RawConfigParser", [ "allow_no_value" ] ]
+2.6 [ "ConfigParser.ConfigParser", [ "allow_no_value" ] ]
+2.6 [ "ConfigParser.SafeConfigParser", [ "allow_no_value" ] ]
+2.6 [ "ctypes.CDLL", [ "use_last_error", "use_errno" ] ]
+2.6 [ "ctypes.OleDLL", [ "use_last_error", "use_errno" ] ]
+2.6 [ "ctypes.WinDLL", [ "use_last_error", "use_errno" ] ]
+2.6 [ "ctypes.CFUNCTYPE", [ "use_errno", "use_last_error" ] ]
+2.6 [ "ctypes.byref", [ "offset" ] ]
+2.7.1 [ "difflib.SequenceMatcher", [ "autojunk" ] ]
+2.5 [ "doctest.testfile", [ "encoding" ] ]
+2.3 [ "doctest.testmod", [ "optionflags" ] ]
+2.4 [ "doctest.testmod", [ "extraglobs", "raise_on_error", "exclude_empty" ] ]
+2.5 [ "doctest.DocFileSuite", [ "encoding" ] ]
+2.4 [ "doctest.DocTestSuite", [ "globs", "extraglobs", "test_finder", "setUp", "tearDown", "optionflags" ] ]
+2.4 [ "doctest.debug", [ "pm" ] ]
+2.2.2 [ "email.message.Message.set_payload", [ "charset" ] ]
+2.2.2 [ "email.message.Message.get_params", [ "unquote" ] ]
+2.2.2 [ "email.message.Message.get_param", [ "unquote" ] ]
+2.2.2 [ "email.message_from_string", [ "strict" ] ]
+2.2.2 [ "email.message_from_file", [ "strict" ] ]
