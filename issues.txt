@@ -1,0 +1,2 @@
+Bastion: disabled in 2.3, depreacted in 2.6, removed in 3.*
+bsddb: depreacted in 2.6, removed in 3.*
