@@ -1,10 +1,21 @@
-Python 3.8.1: finished record id: 1-270
+Python 3.8.1: finished record id: 1-830
 Python 2.7.17: finished record id: None
 
 module:
 3.2 argparse
 3.3 collections.abc
 3.2 concurrent.futures
+3.7 contextvars
+3.7 dataclasses
+3.6 email.contentmanager
+3.6 email.headerregistry
+3.6 email.message
+3.3 email.policy
+3.4 ensurepip
+3.4 enum
+3.3 faulthandler
+3.1 importlib
+3.7 importlib.resources
 
 data:
 3.6 cmath.tau
@@ -12,6 +23,26 @@ data:
 3.6 cmath.infj
 3.6 cmath.nan
 3.6 cmath.nanj
+3.3 crypt.METHOD_SHA512
+3.3 crypt.METHOD_SHA256
+3.3 crypt.METHOD_MD5
+3.3 crypt.METHOD_CRYPT
+3.7 crypt.METHOD_BLOWFISH
+3.8 curses.ncurses_version
+3.7 curses.A_ITALIC
+3.4 doctest.FAIL_FAST
+3.8 fcntl.F_ADD_SEALS
+3.8 fcntl.F_GET_SEALS
+3.8 fcntl.F_SEAL_GROW
+3.8 fcntl.F_SEAL_SEAL
+3.8 fcntl.F_SEAL_SHRINK
+3.8 fcntl.F_SEAL_WRITE
+3.3 gc.callbacks
+3.2 hashlib.algorithms_guaranteed
+3.2 hashlib.algorithms_available
+3.3 html.entities.html5
+3.7 http.HTTPStatus.MISDIRECTED_REQUEST
+3.8 http.HTTPStatus.UNAVAILABLE_FOR_LEGAL_REASONS
 
 class:
 3.4 abc.ABC
@@ -28,14 +59,76 @@ class:
 3.3 collections.ChainMap
 3.1 collections.Counter
 3.1 collections.OrderedDict
+3.6 contextlib.AbstractContextManager
+3.7 contextlib.AbstractAsyncContextManager
+3.2 contextlib.ContextDecorator
+3.3 contextlib.ExitStack
+3.7 contextlib.AsyncExitStack
+3.2 csv.unix_dialect
+3.2 ctypes.c_ssize_t
+3.2 datetime.timezone
+3.2 datetime.timezone
+3.6 decimal.Decimal
+3.4 dis.Bytecode
+3.4 dis.Instruction
+3.3 email.errors.CloseBoundaryNotFoundDefect
+3.3 email.errors.MissingHeaderBodySeparatorDefect
+3.2 email.generator.BytesGenerator
+3.2 email.parser.BytesFeedParser
+3.2 email.parser.BytesParser
+3.3 email.parser.BytesHeaderParser
+3.6 email.policy.EmailPolicy
+3.6 enum.Flag
+3.6 enum.IntFlag
+3.6 enum.auto
+3.2 ftplib.FTP_TLS
+3.4 functools.partialmethod
+3.5 http.HTTPStatus
+3.7 http.server.ThreadingHTTPServer
+3.3 importlib.abc.MetaPathFinder
+3.3 importlib.abc.PathEntryFinder
+3.7 importlib.abc.ResourceReader
+3.3 importlib.abc.FileLoader
+3.3 importlib.machinery.WindowsRegistryFinder
+3.3 importlib.machinery.FileFinder
+3.3 importlib.machinery.SourceFileLoader
+3.3 importlib.machinery.SourcelessFileLoader
+3.3 importlib.machinery.ExtensionFileLoader
+3.4 importlib.machinery.ModuleSpec
+3.5 importlib.util.LazyLoader
+3.3 inspect.Signature
+3.3 inspect.Parameter
+3.3 inspect.BoundArguments
 
 exception:
+3.6 ModuleNotFoundError
+3.5 RecursionError
+3.5 StopAsyncIteration
+3.3 BlockingIOError
+3.3 ChildProcessError
+3.3 ConnectionError
+3.3 BrokenPipeError
+3.3 ConnectionAbortedError
+3.3 ConnectionRefusedError
+3.3 ConnectionResetError
+3.3 FileExistsError
+3.3 FileNotFoundError
+3.3 InterruptedError
+3.3 IsADirectoryError
+3.3 NotADirectoryError
+3.3 PermissionError
+3.3 ProcessLookupError
+3.3 TimeoutError
+3.2 ResourceWarning
 3.7 concurrent.futures.BrokenExecutor
 3.8 concurrent.futures.InvalidStateError
 3.7 concurrent.futures.thread.BrokenThreadPool
 3.3 concurrent.futures.process.BrokenProcessPool
+3.8 gzip.BadGzipFile
 
 function:
+3.7 breakpoint
+3.2 callable
 3.4 abc.get_cache_token
 3.2 array.array.frombytes
 3.2 array.array.tobytes
@@ -59,6 +152,70 @@ function:
 3.5 cmath.isclose
 3.5 codecs.namereplace_errors
 3.2 compileall.compile_file
+3.7 contextlib.nullcontext
+3.4 contextlib.suppress
+3.4 contextlib.redirect_stdout
+3.5 contextlib.redirect_stderr
+3.3 crypt.mksalt
+3.5 curses.update_lines_cols
+3.3 curses.unget_wch
+3.5 difflib.diff_bytes
+3.2 dis.code_info
+3.2 dis.show_code
+3.4 dis.get_instructions
+3.4 dis.stack_effect
+3.2 email.message_from_bytes
+3.2 email.message_from_binary_file
+3.3 email.utils.localtime
+3.3 email.utils.parsedate_to_datetime
+3.3 email.utils.format_datetime
+3.4 filecmp.clear_cache
+3.2 functools.cmp_to_key
+3.4 gc.get_stats
+3.1 gc.is_tracked
+3.7 gc.freeze
+3.7 gc.unfreeze
+3.7 gc.get_freeze_count
+3.8 gettext.dnpgettext
+3.4 glob.escape
+3.2 gzip.compress
+3.2 gzip.decompress
+3.6 hashlib.sha3_224
+3.6 hashlib.sha3_256
+3.6 hashlib.sha3_384
+3.6 hashlib.sha3_512
+3.6 hashlib.shake_128
+3.6 hashlib.shake_256
+3.6 hashlib.blake2b
+3.6 hashlib.blake2s
+3.4 hashlib.pbkdf2_hmac
+3.6 hashlib.scrypt
+3.7 hmac.digest
+3.3 hmac.compare_digest
+3.2 html.escape
+3.4 html.unescape
+3.2 imp.cache_from_source
+3.2 imp.source_from_cache
+3.2 imp.get_tag
+3.3 importlib.find_loader
+3.3 importlib.invalidate_caches
+3.4 importlib.reload
+3.3 importlib.machinery.all_suffixes
+3.4 importlib.util.cache_from_source
+3.4 importlib.util.source_from_cache
+3.4 importlib.util.decode_source
+3.3 importlib.util.resolve_name
+3.4 importlib.util.find_spec
+3.5 importlib.util.module_from_spec
+3.4 importlib.util.spec_from_loader
+3.4 importlib.util.spec_from_file_location
+3.7 importlib.util.source_hash
+3.5 inspect.iscoroutinefunction
+3.5 inspect.iscoroutine
+3.5 inspect.isawaitable
+3.6 inspect.isasyncgenfunction
+3.6 inspect.isasyncgen
+3.3 inspect.signature
 
 method:
 3.7 argparse.ArgumentParser.parse_intermixed_args
@@ -112,8 +269,63 @@ method:
 3.5 collections.UserString.format_map
 3.5 collections.UserString.isprintable
 3.5 collections.UserString.maketrans
+3.2 configparser.ConfigParser.read_file
+3.2 configparser.ConfigParser.read_string
+3.2 configparser.ConfigParser.read_dict
+3.2 csv.DictWriter.writeheader
+3.3 curses.window.get_wch
+3.2 datetime.timedelta.total_seconds
+3.7 datetime.date.fromisoformat
+3.8 datetime.date.fromisocalendar
+3.7 datetime.datetime.fromisoformat
+3.8 datetime.datetime.fromisocalendar
+3.3 datetime.datetime.timestamp
+3.7 datetime.time.fromisoformat
+3.1 decimal.Decimal.from_float
+3.3 decimal.Context.clear_traps
+3.1 decimal.Context.create_decimal_from_float
+3.4 email.message.Message.as_bytes
+3.4 email.message.Message.__bytes__
+3.5 email.message.Message.get_content_disposition
+3.5 email.message.EmailMessage.get_content_disposition
+3.8 fractions.Fraction.as_integer_ratio
+3.3 ftplib.FTP.mlsd
+3.3 ftplib.FTP_TLS.ccc
+3.8 gettext.NullTranslations.pgettext
+3.8 gettext.NullTranslations.npgettext
+3.8 gettext.GNUTranslations.pgettext
+3.8 gettext.GNUTranslations.npgettext
+3.2 gzip.GzipFile.peek
+3.1 http.client.HTTPConnection.set_debuglevel
+3.2 http.client.HTTPConnection.set_tunnel
+3.3 http.client.HTTPResponse.readinto
+3.2 http.server.BaseHTTPRequestHandler.handle_expect_100
+3.2 http.server.BaseHTTPRequestHandler.send_response_only
+3.3 http.server.BaseHTTPRequestHandler.flush_headers
+3.5 imaplib.IMAP4.enable
+3.2 imaplib.IMAP4.starttls
+3.4 importlib.abc.MetaPathFinder.find_spec
+3.4 importlib.abc.PathEntryFinder.find_spec
+3.4 importlib.abc.Loader.create_module
+3.4 importlib.abc.Loader.exec_module
+3.3 importlib.abc.Loader.module_repr
+3.4 importlib.abc.InspectLoader.source_to_code
+3.4 importlib.abc.InspectLoader.exec_module
+3.3 importlib.abc.SourceLoader.path_stats
+3.4 importlib.abc.SourceLoader.exec_module
+3.5 importlib.machinery.BuiltinImporter.create_module
+3.5 importlib.machinery.BuiltinImporter.exec_module
+3.4 importlib.machinery.PathFinder.find_spec
+3.4 importlib.machinery.FileFinder.find_spec
+3.5 importlib.machinery.ExtensionFileLoader.create_module
+3.5 importlib.machinery.ExtensionFileLoader.exec_module
+3.4 importlib.machinery.ExtensionFileLoader.get_filename
 
 attribute:
+3.3 ImportError.name
+3.3 ImportError.path
+3.4 OSError.filename2
+3.3 StopIteration.value
 3.3 bz2.BZ2Decompressor.eof
 3.5 bz2.BZ2Decompressor.needs_input
 3.7 calendar.HTMLCalendar.cssclass_noday
@@ -124,24 +336,63 @@ attribute:
 3.7 calendar.HTMLCalendar.cssclass_year_head
 3.1 collections.deque.maxlen
 3.7 collections.namedtuple._field_defaults
+3.2 configparser.DuplicateSectionError.source
+3.2 configparser.DuplicateSectionError.lineno
+3.2 configparser.ParsingError.source
+3.7.1 contextvars.ContextVar.name
+3.3 crypt.methods
+3.3 curses.window.encoding
+3.6 datetime.datetime.fold
+3.6 datetime.time.fold
+3.2 difflib.SequenceMatcher.bjunk
+3.2 difflib.SequenceMatcher.bpopular
+3.6 email.policy.Policy.message_factory
+3.4 email.policy.EmailPolicy.content_manager
+3.4 filecmp.DEFAULT_IGNORES
+3.1 gzip.GzipFile.mtime
+3.4 hashlib.hash.name
+3.4 hmac.HMAC.block_size
+3.4 hmac.HMAC.name
+3.7 http.client.HTTPConnection.blocksize
+3.5 imaplib.IMAP4.utf8_enabled
+3.3 importlib.machinery.SOURCE_SUFFIXES
+3.3 importlib.machinery.DEBUG_BYTECODE_SUFFIXES
+3.3 importlib.machinery.OPTIMIZED_BYTECODE_SUFFIXES
+3.3 importlib.machinery.BYTECODE_SUFFIXES
+3.3 importlib.machinery.EXTENSION_SUFFIXES
+3.4 importlib.util.MAGIC_NUMBER
 
 decorator:
 3.2 abc.abstractclassmethod
 3.2 abc.abstractstaticmethod
+3.7 contextlib.asynccontextmanager
+3.8 functools.cached_property
+3.2 functools.lru_cache
+3.2 functools.total_ordering
+3.4 functools.singledispatch
+3.8 functools.singledispatchmethod
 
 argument:
-3.5 ["argparse.ArgumentParser", [ "allow_abbrev" ] ]
-3.7 ["argparse.ArgumentParser.add_subparsers", [ "required" ] ]
-3.4 ["argparse.FileType", [ "encodings", "errors" ] ]
+3.3 [ "ImportError", [ "name", "path" ] ]
+3.4 [ "OSError", [ "filename2" ] ]
+3.2 [ "compile", [ "optimize" ] ]
+3.4 [ "max", [ "default" ] ]
+3.4 [ "min", [ "default" ] ]
+3.3 [ "open", [ "opener" ] ]
+3.3 [ "print", [ "flush" ] ]
+3.8 [ "sum", [ "start" ] ]
+3.5 [ "argparse.ArgumentParser", [ "allow_abbrev" ] ]
+3.7 [ "argparse.ArgumentParser.add_subparsers", [ "required" ] ]
+3.4 [ "argparse.FileType", [ "encodings", "errors" ] ]
 3.8 [ "ast.parse", ["type_comments", "feature_version"]]
 3.7 [ "asyncio.loop.call_soon", [ "context" ] ]
 3.7 [ "asyncio.loop.call_soon_threadsafe", [ "context" ] ]
 3.7 [ "asyncio.loop.call_later", [ "context" ] ]
-3.7	[ "asyncio.loop.call_at", [ "context" ] ]
+3.7 [ "asyncio.loop.call_at", [ "context" ] ]
 3.8 [ "asyncio.loop.create_task", [ "name" ] ]
 3.8 [ "asyncio.loop.create_connection", [ "happy_eyeballs_delay", "interleave" ] ]
 3.7 [ "asyncio.loop.create_connection", [ "ssl_handshake_timeout" ] ]
-3.4.4 [ "asyncio.loop.create_datagram_endpoint", [ "family", "proto", "flags", "reuse_address", "reuse_port,\n*allow_broadcast", "sock" ] ]
+3.4.4 [ "asyncio.loop.create_datagram_endpoint", [ "family", "proto", "flags", "reuse_address", "reuse_port", "allow_broadcast", "sock" ] ]
 3.7 [ "asyncio.loop.create_unix_connection", [ "ssl_handshake_timeout" ] ]
 3.7 [ "asyncio.loop.create_server", [ "ssl_handshake_timeout", "start_serving" ] ]
 3.7 [ "asyncio.loop.create_unix_server", [ "ssl_handshake_timeout", "start_serving" ] ]
@@ -182,3 +433,74 @@ argument:
 3.2 [ "configparser.ConfigParser", [ "default_section" ] ]
 3.2 [ "configparser.ConfigParser", [ "interpolation" ] ]
 3.5 [ "configparser.ConfigParser", [ "converters" ] ]
+3.2 [ "configparser.ConfigParser.read", [ "encoding" ] ]
+3.2 [ "configparser.DuplicateSectionError", [ "source", "lineno" ] ]
+3.2 [ "configparser.ParsingError", ["source"] ]
+3.7 [ "crypt.mksalt", [ "rounds" ] ]
+3.8 [ "ctypes.CDLL", [ "winmode" ] ]
+3.8 [ "ctypes.OleDLL", [ "winmode" ] ]
+3.8 [ "ctypes.WinDLL", [ "winmode" ] ]
+3.6 [ "datetime.datetime", [ "fold" ] ]
+3.6 [ "datetime.datetime.combine", [ "tzinfo" ] ]
+3.6 [ "datetime.datetime.replace", [ "fold" ] ]
+3.6 [ "datetime.datetime.isoformat", [ "timespec" ] ]
+3.6 [ "datetime.time.replace", [ "fold" ] ]
+3.6 [ "datetime.time.isoformat", [ "timespec" ] ]
+3.2 [ "difflib.SequenceMatcher", [ "autojunk" ] ]
+3.5 [ "difflib.HtmlDiff.make_file", [ "charset" ] ]
+3.4 [ "dis.show_code", [ "file" ] ]
+3.4 [ "dis.dis", [ "file" ] ]
+3.7 [ "dis.dis", [ "depth" ] ]
+3.4 [ "dis.distb", [ "file" ] ]
+3.4 [ "dis.disassemble", [ "file" ] ]
+3.8 [ "dis.stack_effect", [ "jump" ] ]
+3.3 [ "email.message.Message", [ "policy" ] ]
+3.4 [ "email.message.Message.as_string", [ "policy" ] ]
+3.4 [ "email.message.Message.set_param", [ "replace" ] ]
+3.3 [ "email.generator.BytesGenerator", [ "policy" ] ]
+3.3 [ "email.generator.Generator", [ "policy" ] ]
+3.2 [ "email.generator.Generator.flatten", [ "linesep" ] ]
+3.2 [ "email.header.Header.encode", [ "linesep" ] ]
+3.4 [ "email.message.EmailMessage.set_param", [ "replace" ] ]
+3.6 [ "email.mime.base.MIMEBase", [ "policy" ] ]
+3.6 [ "email.mime.multipart.MIMEMultipart", [ "policy" ] ]
+3.6 [ "email.mime.application.MIMEApplication", [ "policy" ] ]
+3.6 [ "email.mime.audio.MIMEAudio", [ "policy" ] ]
+3.6 [ "email.mime.image.MIMEImage", [ "policy" ] ]
+3.6 [ "email.mime.message.MIMEMessage", [ "policy" ] ]
+3.6 [ "email.mime.text.MIMEText", [ "policy" ] ]
+3.3 [ "email.parser.BytesFeedParser", [ "policy" ] ]
+3.3 [ "email.parser.FeedParser", [ "policy" ] ]
+3.3 [ "email.parser.BytesParser", [ "policy" ] ]
+3.3 [ "email.parser.Parser", [ "policy" ] ]
+3.3 [ "email.message_from_bytes", [ "policy" ] ]
+3.3 [ "email.message_from_binary_file", [ "policy" ] ]
+3.3 [ "email.message_from_string", [ "policy" ] ]
+3.3 [ "email.message_from_file", [ "policy" ] ]
+3.5 [ "email.policy.Policy", [ "mangle_from_" ] ]
+3.2 [ "email.utils.make_msgid", [ "domain" ] ]
+3.3 [ "email.utils.formataddr", [ "charset" ] ]
+3.5 [ "enum.Enum", [ "start" ]]
+3.6 [ "fileinput.hook_encoded", [ "errors" ] ]
+3.3 [ "ftplib.FTP", [ "source_address" ] ]
+3.3 [ "ftplib.FTP_TLS", [ "source_address" ] ]
+3.3 [ "ftplib.FTP.connect", [ "source_address" ] ]
+3.2 [ "ftplib.FTP.storbinary", [ "rest" ] ]
+3.3 [ "functools.lru_cache", [ "typed" ] ]
+3.8 [ "functools.lru_cache", [ "user_function" ] ]
+3.8 [ "gc.get_objects", [ "generation" ] ]
+3.5 [ "glob.glob", [ "recursive" ] ]
+3.3 [ "gzip.open", [ "encoding", "errors", "newline" ] ]
+3.1 [ "gzip.GzipFile", [ "mtime" ] ]
+3.8 [ "gzip.compress", [ "mtime" ] ]
+3.5 [ "heapq.merge", [ "key", "reverse" ] ]
+3.4 [ "html.parser.HTMLParser", [ "convert_charrefs" ] ]
+3.2 [ "http.client.HTTPConnection", [ "source_address" ] ]
+3.7 [ "http.client.HTTPConnection", [ "blocksize" ] ]
+3.2 [ "http.client.HTTPSConnection", [ "source_address", "context", "check_hostname" ] ]
+3.6 [ "http.client.HTTPConnection.request", [ "encode_chunked" ] ]
+3.6 [ "http.client.HTTPConnection.endheaders", [ "encode_chunked" ] ]
+3.4 [ "http.server.BaseHTTPRequestHandler.send_error", [ "explain" ] ]
+3.3 [ "imaplib.IMAP4_SSL", [ "ssl_context" ] ]
+3.5 [ "importlib.util.cache_from_source", [ "optimization" ] ]
+3.5 [ "inspect.signature", [ "follow_wrapped" ] ]
