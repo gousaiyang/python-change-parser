@@ -1,0 +1,184 @@
+Python 3.8.1: finished record id: 1-270
+Python 2.7.17: finished record id: None
+
+module:
+3.2 argparse
+3.3 collections.abc
+3.2 concurrent.futures
+
+data:
+3.6 cmath.tau
+3.6 cmath.inf
+3.6 cmath.infj
+3.6 cmath.nan
+3.6 cmath.nanj
+
+class:
+3.4 abc.ABC
+3.8 asyncio.ThreadedChildWatcher
+3.8 asyncio.MultiLoopChildWatcher
+3.6 collections.abc.Collection
+3.6 collections.abc.Reversible
+3.5 collections.abc.Generator
+3.5 collections.abc.Awaitable
+3.5 collections.abc.Coroutine
+3.5 collections.abc.AsyncIterable
+3.5 collections.abc.AsyncIterator
+3.6 collections.abc.AsyncGenerator
+3.3 collections.ChainMap
+3.1 collections.Counter
+3.1 collections.OrderedDict
+
+exception:
+3.7 concurrent.futures.BrokenExecutor
+3.8 concurrent.futures.InvalidStateError
+3.7 concurrent.futures.thread.BrokenThreadPool
+3.3 concurrent.futures.process.BrokenProcessPool
+
+function:
+3.4 abc.get_cache_token
+3.2 array.array.frombytes
+3.2 array.array.tobytes
+3.8 ast.get_source_segment
+3.7 asyncio.get_running_loop
+3.5 asyncio.isfuture
+3.7 asyncio.run
+3.7 asyncio.create_task
+3.5.1 asyncio.run_coroutine_threadsafe
+3.7 asyncio.current_task
+3.7 asyncio.all_tasks
+3.4 audioop.byteswap
+3.4 base64.a85encode
+3.4 base64.a85decode
+3.4 base64.b85encode
+3.4 base64.b85decode
+3.1 base64.decodebytes
+3.1 base64.encodebytes
+3.3 bz2.open
+3.2 cmath.isfinite
+3.5 cmath.isclose
+3.5 codecs.namereplace_errors
+3.2 compileall.compile_file
+
+method:
+3.7 argparse.ArgumentParser.parse_intermixed_args
+3.7 argparse.ArgumentParser.parse_known_intermixed_args
+3.6 asyncio.loop.shutdown_asyncgens
+3.5.2 asyncio.loop.create_future
+3.5.3 asyncio.loop.connect_accepted_socket
+3.7 asyncio.loop.sendfile
+3.7 asyncio.loop.start_tls
+3.7 asyncio.loop.sock_recv_into
+3.7 asyncio.loop.sock_sendfile
+3.5.2 asyncio.loop.get_exception_handler
+3.7 asyncio.Handle.cancelled
+3.7 asyncio.TimerHandle.when
+3.7 asyncio.Server.get_loop
+3.7 asyncio.Server.start_serving
+3.7 asyncio.Server.serve_forever
+3.7 asyncio.Server.is_serving
+3.7 asyncio.Future.get_loop
+3.8 asyncio.AbstractChildWatcher.is_active
+3.7 asyncio.ReadTransport.is_reading
+3.4.2 asyncio.WriteTransport.get_write_buffer_limits
+3.5.2 asyncio.StreamReader.readuntil
+3.7 asyncio.StreamWriter.is_closing
+3.7 asyncio.StreamWriter.wait_closed
+3.8 asyncio.Task.get_coro
+3.8 asyncio.Task.get_name
+3.8 asyncio.Task.set_name
+3.2 asyncore.dispatcher.handle_accepted
+3.2 bdb.Breakpoint.bpformat
+3.2 bdb.Bdb.get_bpbynumber
+3.3 bz2.BZ2File.peek
+3.3 bz2.BZ2File.fileno
+3.3 bz2.BZ2File.readable
+3.3 bz2.BZ2File.seekable
+3.3 bz2.BZ2File.writable
+3.3 bz2.BZ2File.read1
+3.3 bz2.BZ2File.readinto
+3.7 calendar.Calendar.itermonthdays3
+3.7 calendar.Calendar.itermonthdays4
+3.2 collections.Counter.subtract
+3.5 collections.deque.copy
+3.2 collections.deque.count
+3.5 collections.deque.index
+3.5 collections.deque.insert
+3.2 collections.deque.reverse
+3.2 collections.OrderedDict.move_to_end
+3.5 collections.UserString.__getnewargs__
+3.5 collections.UserString.__rmod__
+3.5 collections.UserString.casefold
+3.5 collections.UserString.format_map
+3.5 collections.UserString.isprintable
+3.5 collections.UserString.maketrans
+
+attribute:
+3.3 bz2.BZ2Decompressor.eof
+3.5 bz2.BZ2Decompressor.needs_input
+3.7 calendar.HTMLCalendar.cssclass_noday
+3.7 calendar.HTMLCalendar.cssclasses_weekday_head
+3.7 calendar.HTMLCalendar.cssclass_month_head
+3.7 calendar.HTMLCalendar.cssclass_month
+3.7 calendar.HTMLCalendar.cssclass_year
+3.7 calendar.HTMLCalendar.cssclass_year_head
+3.1 collections.deque.maxlen
+3.7 collections.namedtuple._field_defaults
+
+decorator:
+3.2 abc.abstractclassmethod
+3.2 abc.abstractstaticmethod
+
+argument:
+3.5 ["argparse.ArgumentParser", [ "allow_abbrev" ] ]
+3.7 ["argparse.ArgumentParser.add_subparsers", [ "required" ] ]
+3.4 ["argparse.FileType", [ "encodings", "errors" ] ]
+3.8 [ "ast.parse", ["type_comments", "feature_version"]]
+3.7 [ "asyncio.loop.call_soon", [ "context" ] ]
+3.7 [ "asyncio.loop.call_soon_threadsafe", [ "context" ] ]
+3.7 [ "asyncio.loop.call_later", [ "context" ] ]
+3.7	[ "asyncio.loop.call_at", [ "context" ] ]
+3.8 [ "asyncio.loop.create_task", [ "name" ] ]
+3.8 [ "asyncio.loop.create_connection", [ "happy_eyeballs_delay", "interleave" ] ]
+3.7 [ "asyncio.loop.create_connection", [ "ssl_handshake_timeout" ] ]
+3.4.4 [ "asyncio.loop.create_datagram_endpoint", [ "family", "proto", "flags", "reuse_address", "reuse_port,\n*allow_broadcast", "sock" ] ]
+3.7 [ "asyncio.loop.create_unix_connection", [ "ssl_handshake_timeout" ] ]
+3.7 [ "asyncio.loop.create_server", [ "ssl_handshake_timeout", "start_serving" ] ]
+3.7 [ "asyncio.loop.create_unix_server", [ "ssl_handshake_timeout", "start_serving" ] ]
+3.7 [ "asyncio.loop.connect_accepted_socket", [ "ssl_handshake_timeout" ] ]
+3.7 [ "asyncio.Future.add_done_callback", [ "context" ] ]
+3.7 [ "asyncio.open_connection", [ "ssl_handshake_timeout" ] ]
+3.7 [ "asyncio.start_server", [ "ssl_handshake_timeout", "start_serving" ] ]
+3.7 [ "asyncio.open_unix_connection", [ "ssl_handshake_timeout" ] ]
+3.7 [ "asyncio.start_unix_server", [ "ssl_handshake_timeout", "start_serving" ] ]
+3.8 [ "asyncio.create_task", [ "name" ] ]
+3.8 [ "asyncio.Task", [ "name" ] ]
+3.1 [ "bdb.Bdb", [ "skip" ] ]
+3.7 [ "binascii.b2a_uu", [ "backtick" ] ]
+3.6 [ "binascii.b2a_base64", [ "newline" ] ]
+3.8 [ "binascii.b2a_hex", [ "sep", "bytes_per_sep" ] ]
+3.5 [ "bz2.BZ2Decompressor.decompress", [ "max_length" ] ]
+3.7 [ "cgi.parse_multipart", [ "encoding", "errors" ] ]
+3.6 [ "code.interact", [ "exitmsg" ] ]
+3.4 [ "collections.ChainMap.new_child", [ "m" ] ]
+3.1 [ "collections.namedtuple", [ "rename" ] ]
+3.6 [ "collections.namedtuple", [ "module" ] ]
+3.7 [ "collections.namedtuple", [ "defaults" ] ]
+3.2 [ "compileall.compile_dir", [ "legacy", "optimize" ] ]
+3.5 [ "compileall.compile_dir", [ "workers" ] ]
+3.7 [ "compileall.compile_dir", [ "invalidation_mode" ] ]
+3.7 [ "compileall.compile_file", [ "invalidation_mode" ] ]
+3.2 [ "compileall.compile_path", [ "legacy", "optimize" ] ]
+3.7 [ "compileall.compile_path", [ "invalidation_mode" ] ]
+3.5 [ "concurrent.futures.Executor.map", [ "chunksize" ] ]
+3.6 [ "concurrent.futures.ThreadPoolExecutor", [ "thread_name_prefix" ] ]
+3.7 [ "concurrent.futures.ThreadPoolExecutor", [ "initializer", "initargs" ] ]
+3.7 [ "concurrent.futures.ProcessPoolExecutor", [ "mp_context" ] ]
+3.2 [ "configparser.ConfigParser", [ "allow_no_value" ] ]
+3.2 [ "configparser.ConfigParser", [ "delimiters" ] ]
+3.2 [ "configparser.ConfigParser", [ "comment_prefixes" ] ]
+3.2 [ "configparser.ConfigParser", [ "strict" ] ]
+3.2 [ "configparser.ConfigParser", [ "empty_lines_in_values" ] ]
+3.2 [ "configparser.ConfigParser", [ "default_section" ] ]
+3.2 [ "configparser.ConfigParser", [ "interpolation" ] ]
+3.5 [ "configparser.ConfigParser", [ "converters" ] ]
