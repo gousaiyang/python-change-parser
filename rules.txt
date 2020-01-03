@@ -1,4 +1,4 @@
-Python 3.8.1: finished record id: 1-830
+Python 3.8.1: finished record id: 1-1540
 Python 2.7.17: finished record id: None
 
 module:
@@ -16,6 +16,12 @@ module:
 3.3 faulthandler
 3.1 importlib
 3.7 importlib.resources
+3.3 ipaddress
+3.3 lzma
+3.8 multiprocessing.shared_memory
+3.4 pathlib
+3.6 secrets
+3.4 selectors
 
 data:
 3.6 cmath.tau
@@ -43,6 +49,150 @@ data:
 3.3 html.entities.html5
 3.7 http.HTTPStatus.MISDIRECTED_REQUEST
 3.8 http.HTTPStatus.UNAVAILABLE_FOR_LEGAL_REASONS
+3.5 inspect.CO_COROUTINE
+3.5 inspect.CO_ITERABLE_COROUTINE
+3.6 inspect.CO_ASYNC_GENERATOR
+3.1 io.SEEK_SET
+3.1 io.SEEK_CUR
+3.1 io.SEEK_END
+3.6 math.tau
+3.5 math.inf
+3.5 math.nan
+3.7 mmap.ACCESS_DEFAULT
+3.8 mmap.MADV_NORMAL
+3.8 mmap.MADV_RANDOM
+3.8 mmap.MADV_SEQUENTIAL
+3.8 mmap.MADV_WILLNEED
+3.8 mmap.MADV_DONTNEED
+3.8 mmap.MADV_REMOVE
+3.8 mmap.MADV_DONTFORK
+3.8 mmap.MADV_DOFORK
+3.8 mmap.MADV_HWPOISON
+3.8 mmap.MADV_MERGEABLE
+3.8 mmap.MADV_UNMERGEABLE
+3.8 mmap.MADV_SOFT_OFFLINE
+3.8 mmap.MADV_HUGEPAGE
+3.8 mmap.MADV_NOHUGEPAGE
+3.8 mmap.MADV_DONTDUMP
+3.8 mmap.MADV_DODUMP
+3.8 mmap.MADV_FREE
+3.8 mmap.MADV_NOSYNC
+3.8 mmap.MADV_AUTOSYNC
+3.8 mmap.MADV_NOCORE
+3.8 mmap.MADV_CORE
+3.8 mmap.MADV_PROTECT
+3.2 os.environb
+3.3 os.PRIO_PROCESS
+3.3 os.PRIO_PGRP
+3.3 os.PRIO_USER
+3.2 os.supports_bytes_environ
+3.3 os.F_LOCK
+3.3 os.F_TLOCK
+3.3 os.F_ULOCK
+3.3 os.F_TEST
+3.3 os.SEEK_HOLE
+3.3 os.SEEK_DATA
+3.3 os.O_CLOEXEC
+3.4 os.O_PATH
+3.4 os.O_TMPFILE
+3.3 os.POSIX_FADV_NORMAL
+3.3 os.POSIX_FADV_SEQUENTIAL
+3.3 os.POSIX_FADV_RANDOM
+3.3 os.POSIX_FADV_NOREUSE
+3.3 os.POSIX_FADV_WILLNEED
+3.3 os.POSIX_FADV_DONTNEED
+3.7 os.RWF_NOWAIT
+3.7 os.RWF_HIPRI
+3.7 os.RWF_DSYNC
+3.7 os.RWF_SYNC
+3.3 os.SF_NODISKIO
+3.3 os.SF_MNOWAIT
+3.3 os.SF_SYNC
+3.2 os.ST_RDONLY
+3.2 os.ST_NOSUID
+3.4 os.ST_NODEV
+3.4 os.ST_NOEXEC
+3.4 os.ST_SYNCHRONOUS
+3.4 os.ST_MANDLOCK
+3.4 os.ST_WRITE
+3.4 os.ST_APPEND
+3.4 os.ST_IMMUTABLE
+3.4 os.ST_NOATIME
+3.4 os.ST_NODIRATIME
+3.4 os.ST_RELATIME
+3.3 os.supports_dir_fd
+3.3 os.supports_effective_ids
+3.3 os.supports_fd
+3.3 os.supports_follow_symlinks
+3.8 os.MFD_CLOEXEC
+3.8 os.MFD_ALLOW_SEALING
+3.8 os.MFD_HUGETLB
+3.8 os.MFD_HUGE_SHIFT
+3.8 os.MFD_HUGE_MASK
+3.8 os.MFD_HUGE_64KB
+3.8 os.MFD_HUGE_512KB
+3.8 os.MFD_HUGE_1MB
+3.8 os.MFD_HUGE_2MB
+3.8 os.MFD_HUGE_8MB
+3.8 os.MFD_HUGE_16MB
+3.8 os.MFD_HUGE_32MB
+3.8 os.MFD_HUGE_256MB
+3.8 os.MFD_HUGE_512MB
+3.8 os.MFD_HUGE_1GB
+3.8 os.MFD_HUGE_2GB
+3.8 os.MFD_HUGE_16GB
+3.3 os.XATTR_SIZE_MAX
+3.3 os.XATTR_CREATE
+3.3 os.XATTR_REPLACE
+3.8 os.POSIX_SPAWN_OPEN
+3.8 os.POSIX_SPAWN_CLOSE
+3.8 os.POSIX_SPAWN_DUP2
+3.3 os.P_PID
+3.3 os.P_PGID
+3.3 os.P_ALL
+3.3 os.WEXITED
+3.3 os.WSTOPPED
+3.3 os.WNOWAIT
+3.3 os.CLD_EXITED
+3.3 os.CLD_DUMPED
+3.3 os.CLD_TRAPPED
+3.3 os.CLD_CONTINUED
+3.3 os.SCHED_OTHER
+3.3 os.SCHED_BATCH
+3.3 os.SCHED_IDLE
+3.3 os.SCHED_SPORADIC
+3.3 os.SCHED_FIFO
+3.3 os.SCHED_RR
+3.3 os.SCHED_RESET_ON_FORK
+3.3 os.RTLD_LAZY
+3.3 os.RTLD_NOW
+3.3 os.RTLD_GLOBAL
+3.3 os.RTLD_LOCAL
+3.3 os.RTLD_NODELETE
+3.3 os.RTLD_NOLOAD
+3.3 os.RTLD_DEEPBIND
+3.6 os.GRND_NONBLOCK
+3.6 os.GRND_RANDOM
+3.4 plistlib.FMT_XML
+3.4 plistlib.FMT_BINARY
+3.7 pstats.SortKey
+3.2 xml.parsers.expat.errors.codes
+3.2 xml.parsers.expat.errors.messages
+3.4 resource.RLIMIT_MSGQUEUE
+3.4 resource.RLIMIT_NICE
+3.4 resource.RLIMIT_RTPRIO
+3.4 resource.RLIMIT_RTTIME
+3.4 resource.RLIMIT_SIGPENDING
+3.4 resource.RLIMIT_SBSIZE
+3.4 resource.RLIMIT_SWAP
+3.4 resource.RLIMIT_NPTS
+3.2 resource.RUSAGE_THREAD
+3.6 select.EPOLLEXCLUSIVE
+3.2 signal.CTRL_C_EVENT
+3.2 signal.CTRL_BREAK_EVENT
+3.3 signal.SIG_BLOCK
+3.3 signal.SIG_UNBLOCK
+3.3 signal.SIG_SETMASK
 
 class:
 3.4 abc.ABC
@@ -99,6 +249,21 @@ class:
 3.3 inspect.Signature
 3.3 inspect.Parameter
 3.3 inspect.BoundArguments
+3.1 logging.NullHandler
+3.2 logging.handlers.QueueHandler
+3.2 logging.handlers.QueueListener
+3.3 multiprocessing.Barrier
+3.2 nntplib.NNTP_SSL
+3.6 os.PathLike
+3.3 os.terminal_size
+3.5 os.DirEntry
+3.3 os.sched_param
+3.8 pickle.PickleBuffer
+3.6 pkgutil.ModuleInfo
+3.8 plistlib.UID
+3.7 py_compile.PycInvalidationMode
+3.7 queue.SimpleQueue
+3.5 selectors.DevpollSelector
 
 exception:
 3.6 ModuleNotFoundError
@@ -125,6 +290,8 @@ exception:
 3.7 concurrent.futures.thread.BrokenThreadPool
 3.3 concurrent.futures.process.BrokenProcessPool
 3.8 gzip.BadGzipFile
+3.5 json.JSONDecodeError
+3.4 shutil.SameFileError
 
 function:
 3.7 breakpoint
@@ -216,6 +383,143 @@ function:
 3.6 inspect.isasyncgenfunction
 3.6 inspect.isasyncgen
 3.3 inspect.signature
+3.2 inspect.getcallargs
+3.3 inspect.getclosurevars
+3.4 inspect.unwrap
+3.2 inspect.getattr_static
+3.2 inspect.getgeneratorstate
+3.5 inspect.getcoroutinestate
+3.3 inspect.getgeneratorlocals
+3.5 inspect.getcoroutinelocals
+3.8 io.open_code
+3.2 itertools.accumulate
+3.1 itertools.combinations_with_replacement
+3.1 itertools.compress
+3.5 linecache.lazycache
+3.5 locale.delocalize
+3.2 logging.config.dictConfig
+3.2 logging.getLogRecordFactory
+3.2 logging.setLogRecordFactory
+3.8 math.comb
+3.5 math.gcd
+3.5 math.isclose
+3.2 math.isfinite
+3.8 math.isqrt
+3.8 math.perm
+3.8 math.prod
+3.7 math.remainder
+3.2 math.expm1
+3.3 math.log2
+3.8 math.dist
+3.2 math.erf
+3.2 math.erfc
+3.2 math.gamma
+3.2 math.lgamma
+3.8 multiprocessing.parent_process
+3.4 multiprocessing.get_all_start_methods
+3.4 multiprocessing.get_context
+3.4 multiprocessing.get_start_method
+3.4 multiprocessing.set_start_method
+3.3 multiprocessing.connection.wait
+3.5 operator.matmul
+3.4 operator.length_hint
+3.5 operator.imatmul
+3.2 os.fsencode
+3.2 os.fsdecode
+3.6 os.fspath
+3.2 os.getenvb
+3.2 os.get_exec_path
+3.3 os.getgrouplist
+3.3 os.getpriority
+3.2 os.getresuid
+3.2 os.getresgid
+3.2 os.initgroups
+3.3 os.setpriority
+3.2 os.setresgid
+3.2 os.setresuid
+3.8 os.copy_file_range
+3.5 os.get_blocking
+3.3 os.lockf
+3.3 os.pipe2
+3.3 os.posix_fallocate
+3.3 os.posix_fadvise
+3.3 os.pread
+3.7 os.preadv
+3.3 os.pwrite
+3.7 os.pwritev
+3.3 os.sendfile
+3.5 os.set_blocking
+3.3 os.readv
+3.3 os.writev
+3.3 os.get_terminal_size
+3.4 os.get_inheritable
+3.4 os.set_inheritable
+3.4 os.get_handle_inheritable
+3.4 os.set_handle_inheritable
+3.3 os.replace
+3.5 os.scandir
+3.3 os.sync
+3.3 os.truncate
+3.3 os.fwalk
+3.8 os.memfd_create
+3.3 os.getxattr
+3.3 os.listxattr
+3.3 os.removexattr
+3.3 os.setxattr
+3.8 os.posix_spawn
+3.8 os.posix_spawnp
+3.7 os.register_at_fork
+3.3 os.waitid
+3.3 os.sched_get_priority_min
+3.3 os.sched_get_priority_max
+3.3 os.sched_setscheduler
+3.3 os.sched_getscheduler
+3.3 os.sched_setparam
+3.3 os.sched_getparam
+3.3 os.sched_rr_get_interval
+3.3 os.sched_yield
+3.3 os.sched_setaffinity
+3.3 os.sched_getaffinity
+3.4 os.cpu_count
+3.6 os.getrandom
+3.5 os.path.commonpath
+3.8 platform.win32_edition
+3.8 platform.win32_is_iot
+3.4 plistlib.load
+3.4 plistlib.loads
+3.4 plistlib.dump
+3.4 plistlib.dumps
+3.8 pprint.pp
+3.6 random.choices
+3.4 re.fullmatch
+3.5 readline.append_history_file
+3.6 readline.set_auto_history
+3.4 resource.prlimit
+3.2 runpy.run_path
+3.3 select.devpoll
+3.8 shlex.join
+3.3 shlex.quote
+3.3 shutil.disk_usage
+3.3 shutil.chown
+3.3 shutil.which
+3.2 shutil.make_archive
+3.2 shutil.get_archive_formats
+3.2 shutil.register_archive_format
+3.2 shutil.unregister_archive_format
+3.2 shutil.unpack_archive
+3.2 shutil.register_unpack_format
+3.2 shutil.unregister_unpack_format
+3.2 shutil.get_unpack_formats
+3.3 shutil.get_terminal_size
+3.8 signal.strsignal
+3.8 signal.valid_signals
+3.8 signal.raise_signal
+3.3 signal.pthread_kill
+3.3 signal.pthread_sigmask
+3.3 signal.sigpending
+3.3 signal.sigwait
+3.3 signal.sigwaitinfo
+3.3 signal.sigtimedwait
 
 method:
 3.7 argparse.ArgumentParser.parse_intermixed_args
@@ -320,6 +624,60 @@ method:
 3.5 importlib.machinery.ExtensionFileLoader.create_module
 3.5 importlib.machinery.ExtensionFileLoader.exec_module
 3.4 importlib.machinery.ExtensionFileLoader.get_filename
+3.5 inspect.Signature.from_callable
+3.5 inspect.BoundArguments.apply_defaults
+3.1 io.BufferedIOBase.detach
+3.5 io.BufferedIOBase.readinto1
+3.2 io.BytesIO.getbuffer
+3.5 io.BytesIO.readinto1
+3.1 io.TextIOBase.detach
+3.7 io.TextIOWrapper.reconfigure
+3.7 ipaddress.IPv4Network.subnet_of
+3.7 ipaddress.IPv4Network.supernet_of
+3.7 logging.StreamHandler.setStream
+3.6 logging.handlers.WatchedFileHandler.reopenIfNeeded
+3.3 logging.handlers.BaseRotatingHandler.rotation_filename
+3.3 logging.handlers.BaseRotatingHandler.rotate
+3.3 logging.handlers.QueueListener.enqueue_sentinel
+3.2 logging.Logger.getChild
+3.2 logging.Logger.hasHandlers
+3.2 logging.LoggerAdapter.isEnabledFor
+3.2 logging.LoggerAdapter.getEffectiveLevel
+3.2 logging.LoggerAdapter.setLevel
+3.2 logging.LoggerAdapter.hasHandlers
+3.2 mailbox.Mailbox.get_bytes
+3.2 mimetypes.MimeTypes.read_windows_registry
+3.8 mmap.mmap.madvise
+3.7 msilib.Database.Close
+3.7 multiprocessing.Process.kill
+3.7 multiprocessing.Process.close
+3.3 multiprocessing.Condition.wait_for
+3.3 multiprocessing.managers.SyncManager.Barrier
+3.3 multiprocessing.managers.SyncManager.Condition.wait_for
+3.3 multiprocessing.pool.Pool.starmap
+3.3 multiprocessing.pool.Pool.starmap_async
+3.2 nntplib.NNTP.getcapabilities
+3.2 nntplib.NNTP.login
+3.2 nntplib.NNTP.starttls
+3.2 nntplib.NNTP.over
+3.6 os.scandir.close
+3.5 pathlib.Path.home
+3.5 pathlib.Path.expanduser
+3.7 pathlib.Path.is_mount
+3.5 pathlib.Path.read_bytes
+3.5 pathlib.Path.read_text
+3.5 pathlib.Path.samefile
+3.8 pathlib.Path.link_to
+3.5 pathlib.Path.write_bytes
+3.5 pathlib.Path.write_text
+3.8 pickle.Pickler.reducer_override
+3.4 poplib.POP3.capa
+3.5 poplib.POP3.utf8
+3.4 poplib.POP3.stls
+3.4 re.Pattern.fullmatch
+3.6 re.Match.__getitem__
+3.4 select.devpoll.close
+3.4 select.devpoll.fileno
 
 attribute:
 3.3 ImportError.name
@@ -361,6 +719,41 @@ attribute:
 3.3 importlib.machinery.BYTECODE_SUFFIXES
 3.3 importlib.machinery.EXTENSION_SUFFIXES
 3.4 importlib.util.MAGIC_NUMBER
+3.8 inspect.Parameter.kind.description
+3.7 io.TextIOWrapper.write_through
+3.5 ipaddress.IPv4Address.reverse_pointer
+3.4 ipaddress.IPv4Address.is_global
+3.2 logging.StreamHandler.terminator
+3.3 logging.handlers.BaseRotatingHandler.name
+3.3 logging.handlers.BaseRotatingHandler.rotator
+3.3 logging.Formatter.default_time_format
+3.3 logging.Formatter.default_msec_format
+3.2 logging.lastResort
+3.5 lzma.LZMADecompressor.needs_input
+3.2 mmap.mmap.closed
+3.3 multiprocessing.Process.sentinel
+3.2 nntplib.NNTP.nntp_version
+3.2 nntplib.NNTP.nntp_implementation
+3.3 os.stat_result.st_atime_ns
+3.3 os.stat_result.st_mtime_ns
+3.3 os.stat_result.st_ctime_ns
+3.5 os.stat_result.st_file_attributes
+3.8 os.stat_result.st_reparse_tag
+3.7 os.statvfs_result.f_fsid
+3.3 pickle.Pickler.dispatch_table
+3.7 pyclbr.Function.parent
+3.7 pyclbr.Function.children
+3.7 pyclbr.Class.parent
+3.7 pyclbr.Class.children
+3.5 re.error.msg
+3.5 re.error.pattern
+3.5 re.error.pos
+3.5 re.error.lineno
+3.5 re.error.colno
+3.2 select.PIPE_BUF
+3.4 select.devpoll.closed
+3.6 shlex.shlex.punctuation_chars
+3.3 shutil.rmtree.avoids_symlink_attacks
 
 decorator:
 3.2 abc.abstractclassmethod
@@ -371,6 +764,7 @@ decorator:
 3.2 functools.total_ordering
 3.4 functools.singledispatch
 3.8 functools.singledispatchmethod
+3.2 reprlib.recursive_repr
 
 argument:
 3.3 [ "ImportError", [ "name", "path" ] ]
@@ -424,7 +818,7 @@ argument:
 3.5 [ "concurrent.futures.Executor.map", [ "chunksize" ] ]
 3.6 [ "concurrent.futures.ThreadPoolExecutor", [ "thread_name_prefix" ] ]
 3.7 [ "concurrent.futures.ThreadPoolExecutor", [ "initializer", "initargs" ] ]
-3.7 [ "concurrent.futures.ProcessPoolExecutor", [ "mp_context" ] ]
+3.7 [ "concurrent.futures.ProcessPoolExecutor", [ "mp_context", "initializer", "initargs" ] ]
 3.2 [ "configparser.ConfigParser", [ "allow_no_value" ] ]
 3.2 [ "configparser.ConfigParser", [ "delimiters" ] ]
 3.2 [ "configparser.ConfigParser", [ "comment_prefixes" ] ]
@@ -504,3 +898,122 @@ argument:
 3.3 [ "imaplib.IMAP4_SSL", [ "ssl_context" ] ]
 3.5 [ "importlib.util.cache_from_source", [ "optimization" ] ]
 3.5 [ "inspect.signature", [ "follow_wrapped" ] ]
+3.3 [ "io.FileIO", [ "opener" ] ]
+3.3 [ "io.TextIOWrapper", [ "write_through" ] ]
+3.3 [ "itertools.accumulate", [ "func" ] ]
+3.8 [ "itertools.accumulate", [ "initial" ] ]
+3.1 [ "itertools.count", [ "step" ] ]
+3.1 [ "json.load", [ "object_pairs_hook" ] ]
+3.1 [ "json.JSONDecoder", [ "object_pairs_hook" ] ]
+3.7 [ "locale.format_string", [ "monetary" ] ]
+3.4 [ "logging.config.listen", [ "verify" ] ]
+3.4 [ "logging.handlers.TimedRotatingFileHandler", [ "atTime" ] ]
+3.2 [ "logging.handlers.SysLogHandler", [ "socktype" ] ]
+3.3 [ "logging.handlers.SMTPHandler", [ "timeout" ] ]
+3.6 [ "logging.handlers.MemoryHandler", [ "flushOnClose" ] ]
+3.5 [ "logging.handlers.HTTPHandler", [ "context" ] ]
+3.5 [ "logging.handlers.QueueListener", [ "respect_handler_level" ] ]
+3.2 [ "logging.Logger.debug", [ "stack_info" ] ]
+3.8 [ "logging.Logger.debug", [ "stacklevel" ] ]
+3.2 [ "logging.Logger.info", [ "stack_info" ] ]
+3.8 [ "logging.Logger.info", [ "stacklevel" ] ]
+3.2 [ "logging.Logger.warning", [ "stack_info" ] ]
+3.8 [ "logging.Logger.warning", [ "stacklevel" ] ]
+3.2 [ "logging.Logger.warn", [ "stack_info" ] ]
+3.8 [ "logging.Logger.warn", [ "stacklevel" ] ]
+3.2 [ "logging.Logger.error", [ "stack_info" ] ]
+3.8 [ "logging.Logger.error", [ "stacklevel" ] ]
+3.2 [ "logging.Logger.critical", [ "stack_info" ] ]
+3.8 [ "logging.Logger.critical", [ "stacklevel" ] ]
+3.2 [ "logging.Logger.log", [ "stack_info" ] ]
+3.8 [ "logging.Logger.log", [ "stacklevel" ] ]
+3.2 [ "logging.Logger.exception", [ "stack_info" ] ]
+3.8 [ "logging.Logger.exception", [ "stacklevel" ] ]
+3.2 [ "logging.Formatter", [ "style" ] ]
+3.8 [ "logging.Formatter", [ "validate" ] ]
+3.2 [ "logging.debug", [ "stack_info" ] ]
+3.8 [ "logging.debug", [ "stacklevel" ] ]
+3.2 [ "logging.info", [ "stack_info" ] ]
+3.8 [ "logging.info", [ "stacklevel" ] ]
+3.2 [ "logging.warning", [ "stack_info" ] ]
+3.8 [ "logging.warning", [ "stacklevel" ] ]
+3.2 [ "logging.warn", [ "stack_info" ] ]
+3.8 [ "logging.warn", [ "stacklevel" ] ]
+3.2 [ "logging.error", [ "stack_info" ] ]
+3.8 [ "logging.error", [ "stacklevel" ] ]
+3.2 [ "logging.critical", [ "stack_info" ] ]
+3.8 [ "logging.critical", [ "stacklevel" ] ]
+3.2 [ "logging.exception", [ "stack_info" ] ]
+3.8 [ "logging.exception", [ "stacklevel" ] ]
+3.2 [ "logging.log", [ "stack_info" ] ]
+3.8 [ "logging.log", [ "stacklevel" ] ]
+3.2 [ "logging.basicConfig", [ "style" ] ]
+3.3 [ "logging.basicConfig", [ "handlers" ] ]
+3.8 [ "logging.basicConfig", [ "force" ] ]
+3.5 [ "lzma.LZMADecompressor.decompress", [ "max_length" ] ]
+3.3 [ "multiprocessing.Process", [ "daemon" ] ]
+3.2 [ "multiprocessing.pool.Pool", [ "maxtasksperchild" ] ]
+3.4 [ "multiprocessing.pool.Pool", [ "context" ] ]
+3.2 [ "nntplib.NNTP.list", [ "group_pattern" ] ]
+3.4 [ "os.dup2", [ "inheritable" ] ]
+3.3 [ "os.open", [ "dir_fd" ] ]
+3.3 [ "os.access", [ "dir_fd", "effective_ids", "follow_symlinks" ] ]
+3.3 [ "os.chflags", [ "follow_symlinks" ] ]
+3.3 [ "os.chmod", [ "dir_fd", "follow_symlinks" ] ]
+3.3 [ "os.chown", [ "dir_fd", "follow_symlinks" ] ]
+3.3 [ "os.link", [ "src_dir_fd", "dst_dir_fd", "follow_symlinks" ] ]
+3.3 [ "os.lstat", [ "dir_fd" ] ]
+3.3 [ "os.mkdir", [ "dir_fd" ] ]
+3.2 [ "os.makedirs", [ "exist_ok" ] ]
+3.3 [ "os.mkfifo", [ "dir_fd" ] ]
+3.3 [ "os.mknod", [ "dir_fd" ] ]
+3.3 [ "os.readlink", [ "dir_fd" ] ]
+3.3 [ "os.remove", [ "dir_fd" ] ]
+3.3 [ "os.rename", [ "src_dir_fd", "dst_dir_fd" ] ]
+3.3 [ "os.rmdir", [ "dir_fd" ] ]
+3.3 [ "os.stat", [ "dir_fd", "follow_symlinks" ] ]
+3.3 [ "os.symlink", [ "dir_fd" ] ]
+3.3 [ "os.unlink", [ "dir_fd" ] ]
+3.3 [ "os.utime", [ "dir_fd", "follow_symlinks", "ns" ] ]
+3.5 [ "pathlib.Path.mkdir", [ "exist_ok" ] ]
+3.6 [ "pathlib.Path.resolve", [ "strict" ] ]
+3.8 [ "pathlib.Path.unlink", [ "missing_ok" ] ]
+3.7 [ "pdb.set_trace", [ "header" ] ]
+3.1 [ "pdb.Pdb", [ "skip" ] ]
+3.2 [ "pdb.Pdb", [ "nosigint" ] ]
+3.6 [ "pdb.Pdb", [ "readrc" ] ]
+3.8 [ "pickle.dump", [ "buffer_callback" ] ]
+3.8 [ "pickle.dumps", [ "buffer_callback" ] ]
+3.8 [ "pickle.load", [ "buffers" ] ]
+3.8 [ "pickle.loads", [ "buffers" ] ]
+3.8 [ "pickle.Pickler", [ "buffer_callback" ] ]
+3.8 [ "pickle.Unpickler", [ "buffers" ] ]
+3.2 [ "pickletools.dis", [ "annotate" ] ]
+3.2 [ "poplib.POP3_SSL", [ "context" ] ]
+3.4 [ "pprint.PrettyPrinter", [ "compact" ] ]
+3.8 [ "pprint.PrettyPrinter", [ "sort_dicts" ] ]
+3.4 [ "pprint.pformat", [ "compact" ] ]
+3.8 [ "pprint.pformat", [ "sort_dicts" ] ]
+3.4 [ "pprint.pprint", [ "compact" ] ]
+3.8 [ "pprint.pprint", [ "sort_dicts" ] ]
+3.2 [ "py_compile.compile", [ "optimize" ] ]
+3.7 [ "py_compile.compile", [ "invalidation_mode" ] ]
+3.8 [ "py_compile.compile", [ "quiet" ] ]
+3.1 [ "re.split", [ "flags" ] ]
+3.1 [ "re.sub", [ "flags" ] ]
+3.1 [ "re.subn", [ "flags" ] ]
+3.3 [ "sched.scheduler.enterabs", [ "kwargs" ] ]
+3.3 [ "sched.scheduler.enter", [ "kwargs" ] ]
+3.3 [ "sched.scheduler.run", [ "blocking" ] ]
+3.3 [ "select.epoll", [ "flags" ] ]
+3.2 [ "shelve.Shelf", [ "keyencoding" ] ]
+3.6 [ "shlex.shlex", [ "punctuation_chars" ] ]
+3.3 [ "shutil.copyfile", [ "follow_symlinks" ] ]
+3.3 [ "shutil.copymode", [ "follow_symlinks" ] ]
+3.3 [ "shutil.copystat", [ "follow_symlinks" ] ]
+3.3 [ "shutil.copy", [ "follow_symlinks" ] ]
+3.3 [ "shutil.copy2", [ "follow_symlinks" ] ]
+3.2 [ "shutil.copytree", [ "copy_function", "ignore_dangling_symlinks" ] ]
+3.8 [ "shutil.copytree", [ "dirs_exist_ok" ] ]
+3.5 [ "shutil.move", [ "copy_function" ] ]
+3.7 [ "signal.set_wakeup_fd", [ "warn_on_full_buffer" ] ]
