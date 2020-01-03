@@ -8,6 +8,7 @@ dumbdbm: renamed to dbm.dumb in 3.*
 EasyDialogs: removed in 3.*
 htmllib: depreacted in 2.6, removed in 3.*
 htmlentitydefs: renamed to html.entities in 3.*
+HTMLParser: renamed to html.parser in 3.*
 
 # function
 email.utils.dump_address_pair: removed in 2.4

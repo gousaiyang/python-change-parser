@@ -1,5 +1,5 @@
 Python 3.8.1: finished record id: None
-Python 2.7.17: finished record id: 1-434
+Python 2.7.17: finished record id: 1-600
 
 module:
 2.6 abc
@@ -35,6 +35,18 @@ module:
 2.2 hmac
 2.2 hotshot
 2.2 hotshot.stats
+2.2 HTMLParser
+2.7 importlib
+2.1 inspect
+2.6 io
+2.3 itertools
+2.6 json
+2.3 logging
+2.3 modulefinder
+2.5 msilib
+2.6 multiprocessing
+1.5.2 netrc
+2.6 numbers
 
 data:
 2.3 False
@@ -55,6 +67,11 @@ data:
 2.7.9 hashlib.algorithms_available
 2.3 htmlentitydefs.name2codepoint
 2.3 htmlentitydefs.codepoint2name
+2.5 httplib.responses
+2.7 io.SEEK_SET
+2.7 io.SEEK_CUR
+2.7 io.SEEK_END
+2.4 marshal.version
 
 class:
 2.6 bytearray
@@ -95,6 +112,14 @@ class:
 2.5 email.mime.application.MIMEApplication
 2.4 email.parser.FeedParser
 2.7 ftplib.FTP_TLS
+2.0 httplib.HTTPConnection
+2.0 httplib.HTTPSConnection
+2.0 httplib.HTTPResponse
+2.3 imaplib.IMAP4_stream
+2.5 imp.NullImporter
+2.7 logging.NullHandler
+2.6 logging.handlers.WatchedFileHandler
+2.6 logging.LoggerAdapter
 
 exception:
 2.5 BaseException
@@ -133,6 +158,18 @@ exception:
 2.6 exceptions.BytesWarning
 1.6 getopt.GetoptError
 2.4 htmllib.HTMLParseError
+2.0 httplib.HTTPException
+2.0 httplib.NotConnected
+2.3 httplib.InvalidURL
+2.0 httplib.UnknownProtocol
+2.0 httplib.UnknownTransferEncoding
+2.0 httplib.UnimplementedFileMode
+2.0 httplib.IncompleteRead
+2.0 httplib.ImproperConnectionState
+2.0 httplib.CannotSendRequest
+2.0 httplib.CannotSendHeader
+2.0 httplib.ResponseNotReady
+2.0 httplib.BadStatusLine
 
 function:
 2.5 all
@@ -211,12 +248,63 @@ function:
 2.4 gettext.lngettext
 2.3 gettext.dngettext
 2.4 gettext.ldngettext
+2.5 glob.iglob
 2.7.8 hashlib.pbkdf2_hmac
 2.6 heapq.heappushpop
 2.6 heapq.merge
 2.4 heapq.nlargest
 2.4 heapq.nsmallest
 2.7.7 hmac.compare_digest
+2.3 imp.acquire_lock
+2.3 imp.release_lock
+2.6 inspect.isgeneratorfunction
+2.6 inspect.isgenerator
+2.6 inspect.isabstract
+2.3 inspect.isdatadescriptor
+2.5 inspect.isgetsetdescriptor
+2.5 inspect.ismemberdescriptor
+2.6 inspect.cleandoc
+2.7 inspect.getcallargs
+2.4 itertools.groupby
+2.6 itertools.izip_longest
+2.6 itertools.permutations
+2.6 itertools.product
+2.4 itertools.tee
+2.0 locale.getdefaultlocale
+2.0 locale.getlocale
+2.3 locale.getpreferredencoding
+2.0 locale.normalize
+2.0 locale.resetlocale
+2.5 locale.format_string
+2.5 locale.currency
+2.7 logging.config.dictConfig
+2.6 math.copysign
+2.6 math.factorial
+2.6 math.fsum
+2.6 math.isinf
+2.6 math.isnan
+2.6 math.trunc
+2.7 math.expm1
+2.6 math.log1p
+2.6 math.acosh
+2.6 math.asinh
+2.6 math.atanh
+2.7 math.erf
+2.7 math.erfc
+2.7 math.gamma
+2.7 math.lgamma
+2.6 msvcrt.getwch
+2.6 msvcrt.getwche
+2.6 msvcrt.putwch
+2.6 msvcrt.ungetwch
+2.5 nis.get_default_domain
+2.2 operator.lt
+2.3 operator.is_
+2.2 operator.floordiv
+2.5 operator.index
+2.0 operator.invert
+2.0 operator.__invert__
+2.3 operator.pow
 
 method:
 2.2 cgi.FieldStorage.getfirst
@@ -302,7 +390,26 @@ method:
 2.3 gettext.GNUTranslations.ngettext
 2.4 gettext.GNUTranslations.lngettext
 2.3 gettext.GNUTranslations.ungettext
-2.5 glob.iglob
+2.7 httplib.HTTPConnection.set_tunnel
+2.4 httplib.HTTPResponse.getheaders
+2.4 imaplib.IMAP4.deleteacl
+2.5 imaplib.IMAP4.getannotation
+2.3 imaplib.IMAP4.getquota
+2.3 imaplib.IMAP4.getquotaroot
+2.3 imaplib.IMAP4.login_cram_md5
+2.4 imaplib.IMAP4.myrights
+2.3 imaplib.IMAP4.namespace
+2.3 imaplib.IMAP4.proxyauth
+2.5 imaplib.IMAP4.setannotation
+2.3 imaplib.IMAP4.setquota
+2.4 imaplib.IMAP4.thread
+2.7 io.BufferedIOBase.detach
+2.7 io.TextIOBase.detach
+2.7 logging.Logger.getChild
+2.7 logging.LoggerAdapter.isEnabledFor
+2.7 mimetypes.MimeTypes.read_windows_registry
+2.4 nntplib.NNTP.descriptions
+2.4 nntplib.NNTP.description
 
 attribute:
 2.6 property.getter
@@ -315,6 +422,8 @@ attribute:
 2.5 csv.csvreader.line_num
 2.6 csv.csvreader.fieldnames
 2.4 email.message.Message.defects
+2.5 logging.LogRecord.funcName
+2.6 logging.LogRecord.processName
 
 decorator:
 2.2 classmethod
@@ -377,3 +486,40 @@ argument:
 2.7 [ "gzip.GzipFile", [ "mtime" ] ]
 2.5 [ "heapq.nlargest", [ "key" ] ]
 2.5 [ "heapq.nsmallest", [ "key" ] ]
+2.6 [ "httplib.HTTPConnection", [ "timeout" ]]
+2.7 [ "httplib.HTTPConnection", [ "source_address" ]]
+2.6 [ "httplib.HTTPSConnection", [ "timeout" ]]
+2.7 [ "httplib.HTTPSConnection", [ "source_address" ]]
+2.7.9 [ "httplib.HTTPSConnection", [ "context" ]]
+2.4 [ "httplib.HTTPConnection.putrequest", [ "skip_accept_encoding" ] ]
+2.7 [ "httplib.HTTPConnection.endheaders", [ "message_body" ] ]
+2.7 [ "itertools.count", [ "step" ] ]
+2.7 [ "json.load", [ "object_pairs_hook" ] ]
+2.7 [ "json.JSONDecoder", [ "object_pairs_hook" ] ]
+2.5 [ "linecache.getline", [ "module_globals" ] ]
+2.5 [ "locale.format", [ "monetary" ] ]
+2.6 [ "logging.config.fileConfig", [ "disable_existing_loggers" ] ]
+2.6 [ "logging.FileHandler", [ "delay" ] ]
+2.6 [ "logging.handlers.RotatingFileHandler", [ "delay" ] ]
+2.6 [ "logging.handlers.TimedRotatingFileHandler", [ "delay", "utc" ] ]
+2.7 [ "logging.handlers.SysLogHandler", [ "socktype" ] ]
+2.6 [ "logging.handlers.SMTPHandler", [ "credentials" ] ]
+2.7 [ "logging.handlers.SMTPHandler", [ "secure" ] ]
+2.5 [ "logging.Logger.makeRecord", [ "func", "extra" ] ]
+2.5 [ "logging.LogRecord", [ "func" ] ]
+2.5 [ "logging.debug", [ "extra" ] ]
+2.5 [ "logging.info", [ "extra" ] ]
+2.5 [ "logging.warning", [ "extra" ] ]
+2.5 [ "logging.error", [ "extra" ] ]
+2.5 [ "logging.critical", [ "extra" ] ]
+2.5 [ "logging.exception", [ "extra" ] ]
+2.5 [ "logging.log", [ "extra" ] ]
+2.4 [ "logging.basicConfig", [ "filename", "filemode", "format", "datefmt", "level", "stream" ] ]
+2.4 [ "marshal.dump", [ "version" ] ]
+2.4 [ "marshal.dumps", [ "version" ] ]
+2.3 [ "math.log", [ "base" ] ]
+2.7 [ "multiprocessing.Pool", [ "maxtasksperchild" ] ]
+2.5 [ "nis.match", [ "domain" ] ]
+2.5 [ "nis.cat", [ "domain" ] ]
+2.5 [ "nis.maps", [ "domain" ] ]
+2.4 [ "nntplib.NNTP", [ "usenetrc" ] ]
