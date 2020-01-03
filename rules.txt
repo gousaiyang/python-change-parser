@@ -1,4 +1,4 @@
-Python 3.8.1: finished record id: 1-1540
+Python 3.8.1: finished record id: 1-1840
 Python 2.7.17: finished record id: None
 
 module:
@@ -22,6 +22,7 @@ module:
 3.4 pathlib
 3.6 secrets
 3.4 selectors
+3.4 statistics
 
 data:
 3.6 cmath.tau
@@ -193,6 +194,192 @@ data:
 3.3 signal.SIG_BLOCK
 3.3 signal.SIG_UNBLOCK
 3.3 signal.SIG_SETMASK
+3.6 socket.AF_ALG
+3.7 socket.AF_VSOCK
+3.8 socket.AF_QIPCRTR
+3.2 socket.SOCK_CLOEXEC
+3.2 socket.SOCK_NONBLOCK
+3.6 socket.SO_DOMAIN
+3.6 socket.SO_PROTOCOL
+3.6 socket.SO_PEERSEC
+3.6 socket.SO_PASSSEC
+3.6 socket.TCP_USER_TIMEOUT
+3.6 socket.TCP_CONGESTION
+3.7 socket.TCP_NOTSENT_LOWAT
+3.3 socket.AF_CAN
+3.3 socket.PF_CAN
+3.3 socket.SOL_CAN_BASE
+3.3 socket.SOL_CAN_RAW
+3.3 socket.CAN_EFF_FLAG
+3.3 socket.CAN_EFF_MASK
+3.3 socket.CAN_ERR_FLAG
+3.3 socket.CAN_ERR_MASK
+3.3 socket.CAN_RAW
+3.3 socket.CAN_RAW_ERR_FILTER
+3.3 socket.CAN_RAW_FILTER
+3.3 socket.CAN_RAW_LOOPBACK
+3.3 socket.CAN_RAW_RECV_OWN_MSGS
+3.3 socket.CAN_RTR_FLAG
+3.3 socket.CAN_SFF_MASK
+3.4 socket.CAN_BCM
+3.4 socket.CAN_BCM_TX_SETUP
+3.4 socket.CAN_BCM_TX_DELETE
+3.4 socket.CAN_BCM_TX_READ
+3.4 socket.CAN_BCM_TX_SEND
+3.4 socket.CAN_BCM_RX_SETUP
+3.4 socket.CAN_BCM_RX_DELETE
+3.4 socket.CAN_BCM_RX_READ
+3.4 socket.CAN_BCM_TX_STATUS
+3.4 socket.CAN_BCM_TX_EXPIRED
+3.4 socket.CAN_BCM_RX_STATUS
+3.4 socket.CAN_BCM_RX_TIMEOUT
+3.4 socket.CAN_BCM_RX_CHANGED
+3.4 socket.CAN_BCM_SETTIMER
+3.4 socket.CAN_BCM_STARTTIMER
+3.4 socket.CAN_BCM_TX_COUNTEVT
+3.4 socket.CAN_BCM_TX_ANNOUNCE
+3.4 socket.CAN_BCM_TX_CP_CAN_ID
+3.4 socket.CAN_BCM_RX_FILTER_ID
+3.4 socket.CAN_BCM_RX_CHECK_DLC
+3.4 socket.CAN_BCM_RX_NO_AUTOTIMER
+3.4 socket.CAN_BCM_RX_ANNOUNCE_RESUME
+3.4 socket.CAN_BCM_TX_RESET_MULTI_IDX
+3.4 socket.CAN_BCM_RX_RTR_FRAME
+3.4 socket.CAN_BCM_CAN_FD_FRAME
+3.5 socket.CAN_RAW_FD_FRAMES
+3.7 socket.CAN_ISOTP
+3.3 socket.AF_RDS
+3.3 socket.PF_RDS
+3.3 socket.SOL_RDS
+3.3 socket.RDS_CANCEL_SENT_TO
+3.3 socket.RDS_GET_MR
+3.3 socket.RDS_FREE_MR
+3.3 socket.RDS_RECVERR
+3.3 socket.RDS_CONG_MONITOR
+3.3 socket.RDS_GET_MR_FOR_DEST
+3.3 socket.RDS_CMSG_RDMA_ARGS
+3.3 socket.RDS_CMSG_RDMA_DEST
+3.3 socket.RDS_CMSG_RDMA_MAP
+3.3 socket.RDS_CMSG_RDMA_STATUS
+3.3 socket.RDS_CMSG_RDMA_UPDATE
+3.3 socket.RDS_RDMA_READWRITE
+3.3 socket.RDS_RDMA_FENCE
+3.3 socket.RDS_RDMA_INVALIDATE
+3.3 socket.RDS_RDMA_USE_ONCE
+3.3 socket.RDS_RDMA_DONTWAIT
+3.3 socket.RDS_RDMA_NOTIFY_ME
+3.3 socket.RDS_RDMA_SILENT
+3.6 socket.SIO_LOOPBACK_FAST_PATH
+3.6 socket.SOL_ALG
+3.6 socket.ALG_SET_KEY
+3.6 socket.ALG_SET_IV
+3.6 socket.ALG_SET_OP
+3.6 socket.ALG_SET_AEAD_ASSOCLEN
+3.6 socket.ALG_SET_AEAD_AUTHSIZE
+3.6 socket.ALG_SET_PUBKEY
+3.6 socket.ALG_OP_DECRYPT
+3.6 socket.ALG_OP_ENCRYPT
+3.6 socket.ALG_OP_SIGN
+3.6 socket.ALG_OP_VERIFY
+3.7 socket.IOCTL_VM_SOCKETS_GET_LOCAL_CID
+3.7 socket.VMADDR_CID_ANY
+3.7 socket.VMADDR_PORT_ANY
+3.7 socket.VMADDR_CID_HOST
+3.7 socket.SO_VM_SOCKETS_BUFFER_SIZE
+3.7 socket.SO_VM_SOCKETS_BUFFER_MIN_SIZE
+3.7 socket.SO_VM_SOCKETS_BUFFER_MAX_SIZE
+3.4 socket.AF_LINK
+3.4 ssl.VERIFY_DEFAULT
+3.4 ssl.VERIFY_CRL_CHECK_LEAF
+3.4 ssl.VERIFY_CRL_CHECK_CHAIN
+3.4 ssl.VERIFY_X509_STRICT
+3.4.4 ssl.VERIFY_X509_TRUSTED_FIRST
+3.6 ssl.PROTOCOL_TLS
+3.6 ssl.PROTOCOL_TLS_CLIENT
+3.6 ssl.PROTOCOL_TLS_SERVER
+3.4 ssl.PROTOCOL_TLSv1_1
+3.4 ssl.PROTOCOL_TLSv1_2
+3.2 ssl.OP_ALL
+3.2 ssl.OP_NO_SSLv2
+3.2 ssl.OP_NO_SSLv3
+3.2 ssl.OP_NO_TLSv1
+3.4 ssl.OP_NO_TLSv1_1
+3.4 ssl.OP_NO_TLSv1_2
+3.7 ssl.OP_NO_TLSv1_3
+3.7 ssl.OP_NO_RENEGOTIATION
+3.3 ssl.OP_CIPHER_SERVER_PREFERENCE
+3.3 ssl.OP_SINGLE_DH_USE
+3.3 ssl.OP_SINGLE_ECDH_USE
+3.8 ssl.OP_ENABLE_MIDDLEBOX_COMPAT
+3.3 ssl.OP_NO_COMPRESSION
+3.6 ssl.OP_NO_TICKET
+3.5 ssl.HAS_ALPN
+3.7 ssl.HAS_NEVER_CHECK_COMMON_NAME
+3.3 ssl.HAS_ECDH
+3.2 ssl.HAS_SNI
+3.3 ssl.HAS_NPN
+3.7 ssl.HAS_SSLv2
+3.7 ssl.HAS_SSLv3
+3.7 ssl.HAS_TLSv1
+3.7 ssl.HAS_TLSv1_1
+3.7 ssl.HAS_TLSv1_2
+3.7 ssl.HAS_TLSv1_3
+3.3 ssl.CHANNEL_BINDING_TYPES
+3.2 ssl.OPENSSL_VERSION
+3.2 ssl.OPENSSL_VERSION_INFO
+3.2 ssl.OPENSSL_VERSION_NUMBER
+3.4 ssl.ALERT_DESCRIPTION_CLOSE_NOTIFY
+3.4 ssl.ALERT_DESCRIPTION_UNEXPECTED_MESSAGE
+3.4 ssl.ALERT_DESCRIPTION_BAD_RECORD_MAC
+3.4 ssl.ALERT_DESCRIPTION_RECORD_OVERFLOW
+3.4 ssl.ALERT_DESCRIPTION_DECOMPRESSION_FAILURE
+3.4 ssl.ALERT_DESCRIPTION_HANDSHAKE_FAILURE
+3.4 ssl.ALERT_DESCRIPTION_BAD_CERTIFICATE
+3.4 ssl.ALERT_DESCRIPTION_UNSUPPORTED_CERTIFICATE
+3.4 ssl.ALERT_DESCRIPTION_CERTIFICATE_REVOKED
+3.4 ssl.ALERT_DESCRIPTION_CERTIFICATE_EXPIRED
+3.4 ssl.ALERT_DESCRIPTION_CERTIFICATE_UNKNOWN
+3.4 ssl.ALERT_DESCRIPTION_ILLEGAL_PARAMETER
+3.4 ssl.ALERT_DESCRIPTION_UNKNOWN_CA
+3.4 ssl.ALERT_DESCRIPTION_ACCESS_DENIED
+3.4 ssl.ALERT_DESCRIPTION_DECODE_ERROR
+3.4 ssl.ALERT_DESCRIPTION_DECRYPT_ERROR
+3.4 ssl.ALERT_DESCRIPTION_PROTOCOL_VERSION
+3.4 ssl.ALERT_DESCRIPTION_INSUFFICIENT_SECURITY
+3.4 ssl.ALERT_DESCRIPTION_INTERNAL_ERROR
+3.4 ssl.ALERT_DESCRIPTION_USER_CANCELLED
+3.4 ssl.ALERT_DESCRIPTION_NO_RENEGOTIATION
+3.4 ssl.ALERT_DESCRIPTION_UNSUPPORTED_EXTENSION
+3.4 ssl.ALERT_DESCRIPTION_CERTIFICATE_UNOBTAINABLE
+3.4 ssl.ALERT_DESCRIPTION_UNRECOGNIZED_NAME
+3.4 ssl.ALERT_DESCRIPTION_BAD_CERTIFICATE_STATUS_RESPONSE
+3.4 ssl.ALERT_DESCRIPTION_BAD_CERTIFICATE_HASH_VALUE
+3.4 ssl.ALERT_DESCRIPTION_UNKNOWN_PSK_IDENTITY
+3.4 ssl.Purpose.SERVER_AUTH
+3.4 ssl.Purpose.CLIENT_AUTH
+3.4 stat.S_IFDOOR
+3.4 stat.S_IFPORT
+3.4 stat.S_IFWHT
+3.5 stat.FILE_ATTRIBUTE_ARCHIVE
+3.5 stat.FILE_ATTRIBUTE_COMPRESSED
+3.5 stat.FILE_ATTRIBUTE_DEVICE
+3.5 stat.FILE_ATTRIBUTE_DIRECTORY
+3.5 stat.FILE_ATTRIBUTE_ENCRYPTED
+3.5 stat.FILE_ATTRIBUTE_HIDDEN
+3.5 stat.FILE_ATTRIBUTE_INTEGRITY_STREAM
+3.5 stat.FILE_ATTRIBUTE_NORMAL
+3.5 stat.FILE_ATTRIBUTE_NOT_CONTENT_INDEXED
+3.5 stat.FILE_ATTRIBUTE_NO_SCRUB_DATA
+3.5 stat.FILE_ATTRIBUTE_OFFLINE
+3.5 stat.FILE_ATTRIBUTE_READONLY
+3.5 stat.FILE_ATTRIBUTE_REPARSE_POINT
+3.5 stat.FILE_ATTRIBUTE_SPARSE_FILE
+3.5 stat.FILE_ATTRIBUTE_SYSTEM
+3.5 stat.FILE_ATTRIBUTE_TEMPORARY
+3.5 stat.FILE_ATTRIBUTE_VIRTUAL
+3.8 stat.IO_REPARSE_TAG_SYMLINK
+3.8 stat.IO_REPARSE_TAG_MOUNT_POINT
+3.8 stat.IO_REPARSE_TAG_APPEXECLINK
 
 class:
 3.4 abc.ABC
@@ -264,6 +451,17 @@ class:
 3.7 py_compile.PycInvalidationMode
 3.7 queue.SimpleQueue
 3.5 selectors.DevpollSelector
+3.6 ssl.VerifyMode
+3.6 ssl.VerifyFlags
+3.6 ssl.Options
+3.6 ssl.AlertDescription
+3.6 ssl.SSLErrorNumber
+3.7 ssl.TLSVersion
+3.2 ssl.SSLContext
+3.5 ssl.SSLObject
+3.5 ssl.MemoryBIO
+3.6 ssl.SSLSession
+3.8 statistics.NormalDist
 
 exception:
 3.6 ModuleNotFoundError
@@ -292,6 +490,13 @@ exception:
 3.8 gzip.BadGzipFile
 3.5 json.JSONDecodeError
 3.4 shutil.SameFileError
+3.5 smtplib.SMTPNotSupportedError
+3.3 ssl.SSLZeroReturnError
+3.3 ssl.SSLWantReadError
+3.3 ssl.SSLWantWriteError
+3.3 ssl.SSLSyscallError
+3.3 ssl.SSLEOFError
+3.7 ssl.SSLCertVerificationError
 
 function:
 3.7 breakpoint
@@ -520,8 +725,41 @@ function:
 3.3 signal.sigwait
 3.3 signal.sigwaitinfo
 3.3 signal.sigtimedwait
+3.2 site.getsitepackages
+3.2 site.getuserbase
+3.2 site.getusersitepackages
+3.8 socket.create_server
+3.8 socket.has_dualstack_ipv6
+3.3 socket.fromshare
+3.7 socket.close
+3.3 socket.CMSG_LEN
+3.3 socket.CMSG_SPACE
+3.3 socket.sethostname
+3.3 socket.if_nameindex
+3.3 socket.if_nametoindex
+3.3 socket.if_indextoname
+3.4 ssl.create_default_context
+3.3 ssl.RAND_bytes
+3.3 ssl.RAND_pseudo_bytes
+3.2 ssl.match_hostname
+3.4 ssl.get_default_verify_paths
+3.4 ssl.enum_certificates
+3.4 ssl.enum_crls
+3.4 stat.S_ISDOOR
+3.4 stat.S_ISPORT
+3.4 stat.S_ISWHT
+3.3 stat.filemode
+3.8 statistics.fmean
+3.8 statistics.geometric_mean
+3.6 statistics.harmonic_mean
+3.8 statistics.multimode
+3.8 statistics.quantiles
 
 method:
+3.1 int.bit_length
+3.2 int.to_bytes
+3.2 int.from_bytes
+3.8 int.as_integer_ratio
 3.7 argparse.ArgumentParser.parse_intermixed_args
 3.7 argparse.ArgumentParser.parse_known_intermixed_args
 3.6 asyncio.loop.shutdown_asyncgens
@@ -560,6 +798,8 @@ method:
 3.3 bz2.BZ2File.readinto
 3.7 calendar.Calendar.itermonthdays3
 3.7 calendar.Calendar.itermonthdays4
+3.3 collections.abc.MutableSequence.clear
+3.3 collections.abc.MutableSequence.copy
 3.2 collections.Counter.subtract
 3.5 collections.deque.copy
 3.2 collections.deque.count
@@ -678,6 +918,40 @@ method:
 3.6 re.Match.__getitem__
 3.4 select.devpoll.close
 3.4 select.devpoll.fileno
+3.5 smtplib.SMTP.auth
+3.2 smtplib.SMTP.send_message
+3.2 socket.socket.detach
+3.4 socket.socket.get_inheritable
+3.7 socket.socket.getblocking
+3.3 socket.socket.recvmsg
+3.3 socket.socket.recvmsg_into
+3.3 socket.socket.sendmsg
+3.6 socket.socket.sendmsg_afalg
+3.5 socket.socket.sendfile
+3.4 socket.socket.set_inheritable
+3.3 socket.socket.share
+3.3 socketserver.BaseServer.service_actions
+3.3 sqlite3.Connection.set_trace_callback
+3.2 sqlite3.Connection.enable_load_extension
+3.2 sqlite3.Connection.load_extension
+3.7 sqlite3.Connection.backup
+3.5 ssl.SSLSocket.sendfile
+3.5 ssl.SSLSocket.shared_ciphers
+3.3 ssl.SSLSocket.compression
+3.3 ssl.SSLSocket.get_channel_binding
+3.5 ssl.SSLSocket.selected_alpn_protocol
+3.3 ssl.SSLSocket.selected_npn_protocol
+3.8 ssl.SSLSocket.verify_client_post_handshake
+3.5 ssl.SSLSocket.version
+3.4 ssl.SSLContext.cert_store_stats
+3.4 ssl.SSLContext.load_default_certs
+3.4 ssl.SSLContext.get_ca_certs
+3.6 ssl.SSLContext.get_ciphers
+3.5 ssl.SSLContext.set_alpn_protocols
+3.3 ssl.SSLContext.set_npn_protocols
+3.4 ssl.SSLContext.set_servername_callback
+3.3 ssl.SSLContext.load_dh_params
+3.3 ssl.SSLContext.set_ecdh_curve
 
 attribute:
 3.3 ImportError.name
@@ -754,6 +1028,26 @@ attribute:
 3.4 select.devpoll.closed
 3.6 shlex.shlex.punctuation_chars
 3.3 shutil.rmtree.avoids_symlink_attacks
+3.7 socketserver.ForkingMixIn.block_on_close
+3.2 sqlite3.Connection.in_transaction
+3.3 ssl.SSLError.library
+3.3 ssl.SSLError.reason
+3.2 ssl.SSLSocket.context
+3.2 ssl.SSLSocket.server_side
+3.2 ssl.SSLSocket.server_hostname
+3.6 ssl.SSLSocket.session
+3.6 ssl.SSLSocket.session_reused
+3.7 ssl.SSLContext.sni_callback
+3.7 ssl.SSLContext.sslsocket_class
+3.7 ssl.SSLContext.sslobject_class
+3.4 ssl.SSLContext.check_hostname
+3.8 ssl.SSLContext.keylog_filename
+3.7 ssl.SSLContext.maximum_version
+3.7 ssl.SSLContext.minimum_version
+3.8 ssl.SSLContext.num_tickets
+3.8 ssl.SSLContext.post_handshake_auth
+3.7 ssl.SSLContext.hostname_checks_common_name
+3.4 ssl.SSLContext.verify_flags
 
 decorator:
 3.2 abc.abstractclassmethod
@@ -1017,3 +1311,18 @@ argument:
 3.8 [ "shutil.copytree", [ "dirs_exist_ok" ] ]
 3.5 [ "shutil.move", [ "copy_function" ] ]
 3.7 [ "signal.set_wakeup_fd", [ "warn_on_full_buffer" ] ]
+3.4 [ "smtpd.SMTPServer", [ "map" ] ]
+3.5 [ "smtpd.SMTPServer", [ "decode_data", "enable_SMTPUTF8" ] ]
+3.5 [ "smtpd.SMTPChannel", [ "decode_data", "enable_SMTPUTF8" ] ]
+3.3 [ "smtplib.SMTP", [ "source_address" ] ]
+3.3 [ "smtplib.SMTP_SSL", [ "context", "source_address" ] ]
+3.5 [ "smtplib.SMTP.login", [ "initial_response_ok" ] ]
+3.3 [ "smtplib.SMTP.starttls", [ "context" ] ]
+3.2 [ "socket.create_connection", [ "source_address" ] ]
+3.6 [ "socket.setsockopt", [ "optlen" ] ]
+3.4 [ "sqlite3.connect", [ "uri" ] ]
+3.8 [ "sqlite3.Connection.create_function", [ "deterministic" ] ]
+3.3 [ "ssl.SSLContext.load_cert_chain", [ "password" ] ]
+3.4 [ "ssl.SSLContext.load_verify_locations", [ "cadata" ] ]
+3.6 [ "ssl.SSLContext.wrap_socket", [ "session" ] ]
+3.6 [ "ssl.SSLContext.wrap_bio", [ "session" ] ]
