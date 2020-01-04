@@ -1,4 +1,4 @@
-Python 3.8.1: finished record id: 1-1840
+Python 3.8.1: finished record id: all
 Python 2.7.17: finished record id: None
 
 module:
@@ -23,8 +23,15 @@ module:
 3.6 secrets
 3.4 selectors
 3.4 statistics
+3.2 sysconfig
+3.4 tracemalloc
+3.5 typing
+3.3 unittest.mock
+3.3 venv
+3.5 zipapp
 
 data:
+3.2 _thread.TIMEOUT_MAX
 3.6 cmath.tau
 3.6 cmath.inf
 3.6 cmath.infj
@@ -380,6 +387,64 @@ data:
 3.8 stat.IO_REPARSE_TAG_SYMLINK
 3.8 stat.IO_REPARSE_TAG_MOUNT_POINT
 3.8 stat.IO_REPARSE_TAG_APPEXECLINK
+3.3 subprocess.DEVNULL
+3.7 subprocess.ABOVE_NORMAL_PRIORITY_CLASS
+3.7 subprocess.BELOW_NORMAL_PRIORITY_CLASS
+3.7 subprocess.HIGH_PRIORITY_CLASS
+3.7 subprocess.IDLE_PRIORITY_CLASS
+3.7 subprocess.NORMAL_PRIORITY_CLASS
+3.7 subprocess.REALTIME_PRIORITY_CLASS
+3.7 subprocess.CREATE_NO_WINDOW
+3.7 subprocess.DETACHED_PROCESS
+3.7 subprocess.CREATE_DEFAULT_ERROR_MODE
+3.7 subprocess.CREATE_BREAKAWAY_FROM_JOB
+3.2 sys.abiflags
+3.3 sys.base_exec_prefix
+3.3 sys.base_prefix
+3.8 sys.pycache_prefix
+3.7 sys.__breakpointhook__
+3.8 sys.__unraisablehook__
+3.1 sys.float_repr_style
+3.2 sys.hash_info
+3.3 sys.implementation
+3.1 sys.int_info
+3.4 sys.__interactivehook__
+3.3 sys.thread_info
+3.2 sys._xoptions
+3.2 threading.TIMEOUT_MAX
+3.7 time.CLOCK_BOOTTIME
+3.3 time.CLOCK_HIGHRES
+3.3 time.CLOCK_MONOTONIC
+3.3 time.CLOCK_MONOTONIC_RAW
+3.3 time.CLOCK_PROCESS_CPUTIME_ID
+3.7 time.CLOCK_PROF
+3.3 time.CLOCK_THREAD_CPUTIME_ID
+3.7 time.CLOCK_UPTIME
+3.8 time.CLOCK_UPTIME_RAW
+3.3 time.CLOCK_REALTIME
+3.5 token.AWAIT
+3.5 token.ASYNC
+3.7 token.COMMENT
+3.7 token.NL
+3.7 token.ENCODING
+3.8 token.TYPE_COMMENT
+3.5 types.CoroutineType
+3.6 types.AsyncGeneratorType
+3.8 types.CellType
+3.7 types.WrapperDescriptorType
+3.7 types.MethodWrapperType
+3.7 types.MethodDescriptorType
+3.7 types.ClassMethodDescriptorType
+3.5.4 typing.NoReturn
+3.8 typing.Literal
+3.5.3 typing.ClassVar
+3.8 typing.Final
+3.5.2 typing.TYPE_CHECKING
+3.6 winreg.REG_QWORD
+3.6 winreg.REG_QWORD_LITTLE_ENDIAN
+3.3 zipfile.ZIP_BZIP2
+3.3 zipfile.ZIP_LZMA
+3.3 zlib.ZLIB_RUNTIME_VERSION
 
 class:
 3.4 abc.ABC
@@ -462,6 +527,48 @@ class:
 3.5 ssl.MemoryBIO
 3.6 ssl.SSLSession
 3.8 statistics.NormalDist
+3.5 subprocess.CompletedProcess
+3.2 threading.Barrier
+3.5 traceback.TracebackException
+3.5 traceback.StackSummary
+3.5 traceback.FrameSummary
+3.6 tracemalloc.DomainFilter
+3.3 types.MappingProxyType
+3.3 types.SimpleNamespace
+3.8 typing.Protocol
+3.5.2 typing.Type
+3.8 typing.SupportsIndex
+3.6.0 typing.Collection
+3.5.4 typing.Deque
+3.5.2 typing.Awaitable
+3.5.3 typing.Coroutine
+3.5.2 typing.AsyncIterable
+3.5.2 typing.AsyncIterator
+3.5.4 typing.ContextManager
+3.5.4 typing.AsyncContextManager
+3.5.2 typing.DefaultDict
+3.7.2 typing.OrderedDict
+3.5.4 typing.Counter
+3.5.4 typing.ChainMap
+3.6.1 typing.AsyncGenerator
+3.5.2 typing.Text
+3.8 typing.TypedDict
+3.8 unittest.IsolatedAsyncioTestCase
+3.2 unittest.TextTestResult
+3.8 unittest.mock.AsyncMock
+3.2 urllib.parse.DefragResult
+3.2 urllib.parse.DefragResultBytes
+3.2 urllib.parse.ParseResultBytes
+3.2 urllib.parse.SplitResultBytes
+3.5 urllib.request.HTTPPasswordMgrWithPriorAuth
+3.4 urllib.request.DataHandler
+3.7 uuid.SafeUUID
+3.4 weakref.WeakMethod
+3.4 weakref.finalize
+3.2 wsgiref.handlers.IISCGIHandler
+3.8 xml.etree.ElementTree.C14NWriterTarget
+3.4 xml.etree.ElementTree.XMLPullParser
+3.8 zipfile.Path
 
 exception:
 3.6 ModuleNotFoundError
@@ -497,10 +604,16 @@ exception:
 3.3 ssl.SSLSyscallError
 3.3 ssl.SSLEOFError
 3.7 ssl.SSLCertVerificationError
+3.3 subprocess.SubprocessError
+3.3 subprocess.TimeoutExpired
+3.2 threading.BrokenBarrierError
+3.1 unittest.SkipTest
+3.2 zipfile.BadZipFile
 
 function:
 3.7 breakpoint
 3.2 callable
+3.8 _thread.get_native_id
 3.4 abc.get_cache_token
 3.2 array.array.frombytes
 3.2 array.array.tobytes
@@ -754,12 +867,102 @@ function:
 3.6 statistics.harmonic_mean
 3.8 statistics.multimode
 3.8 statistics.quantiles
+3.4 struct.iter_unpack
+3.5 subprocess.run
+3.1 subprocess.check_output
+3.8 sys.addaudithook
+3.8 sys.audit
+3.7 sys.breakpointhook
+3.3 sys._debugmallocstats
+3.4 sys.getallocatedblocks
+3.7 sys.getandroidapilevel
+3.6 sys.getfilesystemencodeerrors
+3.2 sys.getswitchinterval
+3.6 sys.get_asyncgen_hooks
+3.7 sys.get_coroutine_origin_tracking_depth
+3.5 sys.is_finalizing
+3.2 sys.setswitchinterval
+3.7 sys.set_coroutine_origin_tracking_depth
+3.6 sys._enablelegacywindowsfsencoding
+3.8 sys.unraisablehook
+3.2 tempfile.TemporaryDirectory
+3.5 tempfile.gettempdirb
+3.5 tempfile.gettempprefixb
+3.8 test.support.check_syntax_warning
+3.1 test.support.import_module
+3.1 test.support.import_fresh_module
+3.8 test.support.catch_threading_exception
+3.8 test.support.catch_unraisable_exception
+3.5 test.support.detect_api_mismatch
+3.6 test.support.check__all__
+3.4 textwrap.shorten
+3.3 textwrap.indent
+3.8 threading.excepthook
+3.3 threading.get_ident
+3.8 threading.get_native_id
+3.4 threading.main_thread
+3.7 time.pthread_getcpuclockid
+3.3 time.clock_getres
+3.3 time.clock_gettime
+3.7 time.clock_gettime_ns
+3.3 time.clock_settime
+3.7 time.clock_settime_ns
+3.3 time.get_clock_info
+3.3 time.monotonic
+3.7 time.monotonic_ns
+3.3 time.perf_counter
+3.7 time.perf_counter_ns
+3.3 time.process_time
+3.7 time.process_time_ns
+3.7 time.thread_time
+3.7 time.thread_time_ns
+3.7 time.time_ns
+3.2 tokenize.open
+3.4 traceback.clear_frames
+3.5 traceback.walk_stack
+3.5 traceback.walk_tb
+3.3 types.new_class
+3.3 types.prepare_class
+3.7 types.resolve_bases
+3.4 types.DynamicClassAttribute
+3.5 types.coroutine
+3.5.2 typing.NewType
+3.8 typing.get_args
+3.8 unicodedata.is_normalized
+3.8 unittest.addModuleCleanup
+3.8 unittest.doModuleCleanups
+3.2 unittest.installHandler
+3.2 unittest.registerResult
+3.2 unittest.removeResult
+3.2 unittest.removeHandler
+3.7 unittest.mock.seal
+3.3 venv.create
+3.2 winreg.CreateKeyEx
+3.2 winreg.DeleteKeyEx
+3.2 wsgiref.handlers.read_environ
+3.8 xml.etree.ElementTree.canonicalize
+3.2 xml.etree.ElementTree.fromstringlist
+3.2 xml.etree.ElementTree.register_namespace
+3.2 xml.etree.ElementTree.tostringlist
 
 method:
 3.1 int.bit_length
 3.2 int.to_bytes
 3.2 int.from_bytes
 3.8 int.as_integer_ratio
+3.3 str.casefold
+3.2 str.format_map
+3.7 str.isascii
+3.5 bytes.hex
+3.5 bytearray.hex
+3.1 bytes.maketrans
+3.1 bytearray.maketrans
+3.7 bytes.isascii
+3.7 bytearray.isascii
+3.5 memoryview.hex
+3.8 memoryview.toreadonly
+3.2 memoryview.release
+3.3 memoryview.cast
 3.7 argparse.ArgumentParser.parse_intermixed_args
 3.7 argparse.ArgumentParser.parse_known_intermixed_args
 3.6 asyncio.loop.shutdown_asyncgens
@@ -952,12 +1155,87 @@ method:
 3.4 ssl.SSLContext.set_servername_callback
 3.3 ssl.SSLContext.load_dh_params
 3.3 ssl.SSLContext.set_ecdh_curve
+3.4 struct.Struct.iter_unpack
+3.2 threading.Condition.wait_for
+3.6 timeit.Timer.autorange
+3.8 types.CodeType.replace
+3.4 types.FrameType.clear
+3.2 unittest.TestCase.setUpClass
+3.2 unittest.TestCase.tearDownClass
+3.1 unittest.TestCase.skipTest
+3.4 unittest.TestCase.subTest
+3.1 unittest.TestCase.assertIs
+3.1 unittest.TestCase.assertIsNot
+3.1 unittest.TestCase.assertIsNone
+3.1 unittest.TestCase.assertIsNotNone
+3.1 unittest.TestCase.assertIn
+3.1 unittest.TestCase.assertNotIn
+3.2 unittest.TestCase.assertIsInstance
+3.2 unittest.TestCase.assertNotIsInstance
+3.1 unittest.TestCase.assertRaisesRegexp
+3.2 unittest.TestCase.assertRaisesRegex
+3.2 unittest.TestCase.assertWarns
+3.2 unittest.TestCase.assertWarnsRegex
+3.4 unittest.TestCase.assertLogs
+3.1 unittest.TestCase.assertGreater
+3.1 unittest.TestCase.assertGreaterEqual
+3.1 unittest.TestCase.assertLess
+3.1 unittest.TestCase.assertLessEqual
+3.1 unittest.TestCase.assertRegexpMatches
+3.2 unittest.TestCase.assertRegex
+3.2 unittest.TestCase.assertNotRegex
+3.5 unittest.TestCase.assertNotRegexpMatches
+3.2 unittest.TestCase.assertCountEqual
+3.1 unittest.TestCase.addTypeEqualityFunc
+3.1 unittest.TestCase.assertMultiLineEqual
+3.1 unittest.TestCase.assertSequenceEqual
+3.1 unittest.TestCase.assertListEqual
+3.1 unittest.TestCase.assertTupleEqual
+3.1 unittest.TestCase.assertSetEqual
+3.1 unittest.TestCase.assertDictEqual
+3.1 unittest.TestCase.addCleanup
+3.1 unittest.TestCase.doCleanups
+3.8 unittest.TestCase.addClassCleanup
+3.8 unittest.TestCase.doClassCleanups
+3.2 unittest.TestLoader.discover
+3.1 unittest.TestResult.startTestRun
+3.1 unittest.TestResult.stopTestRun
+3.4 unittest.TestResult.addSubTest
+3.6 unittest.mock.Mock.assert_called
+3.6 unittest.mock.Mock.assert_called_once
+3.5 unittest.mock.Mock.assert_not_called
+3.4 urllib.request.Request.remove_header
+3.6 urllib.robotparser.RobotFileParser.crawl_delay
+3.6 urllib.robotparser.RobotFileParser.request_rate
+3.8 urllib.robotparser.RobotFileParser.site_maps
+3.2 xml.etree.ElementTree.Element.extend
+3.2 xml.etree.ElementTree.Element.iter
+3.2 xml.etree.ElementTree.Element.iterfind
+3.2 xml.etree.ElementTree.Element.itertext
+3.2 xml.etree.ElementTree.ElementTree.iterfind
+3.8 xml.etree.ElementTree.TreeBuilder.comment
+3.8 xml.etree.ElementTree.TreeBuilder.pi
+3.2 xml.etree.ElementTree.TreeBuilder.doctype
+3.8 xml.etree.ElementTree.TreeBuilder.start_ns
+3.8 xml.etree.ElementTree.TreeBuilder.end_ns
+3.6 zipfile.ZipInfo.from_file
+3.6 zipfile.ZipInfo.is_dir
+3.1 zipimport.zipimporter.get_filename
 
 attribute:
+3.3 BaseException.__suppress_context__
 3.3 ImportError.name
 3.3 ImportError.path
 3.4 OSError.filename2
 3.3 StopIteration.value
+3.3 range.start
+3.3 range.stop
+3.3 range.step
+3.3 memoryview.obj
+3.3 memoryview.nbytes
+3.3 memoryview.c_contiguous
+3.3 memoryview.f_contiguous
+3.3 memoryview.contiguous
 3.3 bz2.BZ2Decompressor.eof
 3.5 bz2.BZ2Decompressor.needs_input
 3.7 calendar.HTMLCalendar.cssclass_noday
@@ -1048,6 +1326,43 @@ attribute:
 3.8 ssl.SSLContext.post_handshake_auth
 3.7 ssl.SSLContext.hostname_checks_common_name
 3.4 ssl.SSLContext.verify_flags
+3.7 string.Template.braceidpattern
+3.2 string.Template.flags
+3.5 subprocess.TimeoutExpired.stdout
+3.5 subprocess.TimeoutExpired.stderr
+3.5 subprocess.CalledProcessError.stdout
+3.5 subprocess.CalledProcessError.stderr
+3.3 subprocess.Popen.args
+3.7 subprocess.STARTUPINFO.lpAttributeList
+3.2 sys.flags.quiet
+3.2.3 sys.flags.hash_randomization
+3.4 sys.flags.isolated
+3.7 sys.flags.dev_mode
+3.7 sys.flags.utf8_mode
+3.4 sys.hash_info.algorithm
+3.4 sys.hash_info.hash_bits
+3.4 sys.hash_info.seed_bits
+3.3 textwrap.TextWrapper.tabsize
+3.4 textwrap.TextWrapper.max_lines
+3.4 textwrap.TextWrapper.placeholder
+3.8 threading.Thread.native_id
+3.3 time.struct_time.tm_gmtoff
+3.3 time.struct_time.tm_zone
+3.6 tracemalloc.Filter.domain
+3.6 tracemalloc.Trace.domain
+3.1 unittest.TestCase.longMessage
+3.2 unittest.TestCase.maxDiff
+3.5 unittest.TestLoader.errors
+3.7 unittest.TestLoader.testNamePatterns
+3.1 unittest.TestResult.skipped
+3.2 unittest.TestResult.buffer
+3.2 unittest.TestResult.failfast
+3.5 unittest.TestResult.tb_locals
+3.4 urllib.error.HTTPError.headers
+3.3 urllib.request.Request.method
+3.7 uuid.UUID.is_safe
+3.4 weakref.ref.__callback__
+3.3 zlib.Decompress.eof
 
 decorator:
 3.2 abc.abstractclassmethod
@@ -1059,6 +1374,12 @@ decorator:
 3.4 functools.singledispatch
 3.8 functools.singledispatchmethod
 3.2 reprlib.recursive_repr
+3.8 typing.final
+3.8 typing.runtime_checkable
+3.1 unittest.skip
+3.1 unittest.skipIf
+3.1 unittest.skipUnless
+3.1 unittest.expectedFailure
 
 argument:
 3.3 [ "ImportError", [ "name", "path" ] ]
@@ -1069,6 +1390,11 @@ argument:
 3.3 [ "open", [ "opener" ] ]
 3.3 [ "print", [ "flush" ] ]
 3.8 [ "sum", [ "start" ] ]
+3.8 [ "bytes.hex", [ "sep", "bytes_per_sep" ] ]
+3.8 [ "bytearray.hex", [ "sep", "bytes_per_sep" ] ]
+3.6 [ "bytes.translate", [ "delete" ] ]
+3.6 [ "bytearray.translate", [ "delete" ] ]
+3.2 [ "_thread.lock.acquire", [ "timeout" ] ]
 3.5 [ "argparse.ArgumentParser", [ "allow_abbrev" ] ]
 3.7 [ "argparse.ArgumentParser.add_subparsers", [ "required" ] ]
 3.4 [ "argparse.FileType", [ "encodings", "errors" ] ]
@@ -1326,3 +1652,111 @@ argument:
 3.4 [ "ssl.SSLContext.load_verify_locations", [ "cadata" ] ]
 3.6 [ "ssl.SSLContext.wrap_socket", [ "session" ] ]
 3.6 [ "ssl.SSLContext.wrap_bio", [ "session" ] ]
+3.6 [ "subprocess.run", [ "encoding", "errors" ] ]
+3.7 [ "subprocess.run", [ "text", "capture_output" ] ]
+3.2 [ "subprocess.Popen", [ "pass_fds" ] ]
+3.2 [ "subprocess.Popen", [ "restore_signals" ] ]
+3.2 [ "subprocess.Popen", [ "start_new_session" ] ]
+3.6 [ "subprocess.Popen", [ "encoding", "errors" ] ]
+3.7 [ "subprocess.Popen", [ "text" ] ]
+3.3 [ "subprocess.Popen.wait", [ "timeout" ] ]
+3.3 [ "subprocess.Popen.communicate", [ "timeout" ] ]
+3.3 [ "subprocess.call", [ "timeout" ] ]
+3.3 [ "subprocess.check_call", [ "timeout" ] ]
+3.3 [ "subprocess.check_output", [ "timeout" ] ]
+3.4 [ "subprocess.check_output", [ "input" ] ]
+3.6 [ "subprocess.check_output", [ "encoding", "errors" ] ]
+3.7 [ "subprocess.check_output", [ "text" ] ]
+3.5 [ "tarfile.TarFile.list", [ "members" ] ]
+3.5 [ "tarfile.TarFile.extractall", [ "numeric_owner" ] ]
+3.2 [ "tarfile.TarFile.extract", [ "set_attrs" ] ]
+3.5 [ "tarfile.TarFile.extract", [ "numeric_owner" ] ]
+3.2 [ "tarfile.TarFile.add", [ "filter" ] ]
+3.8 [ "tempfile.TemporaryFile", [ "errors" ] ]
+3.8 [ "tempfile.NamedTemporaryFile", [ "errors" ] ]
+3.3 [ "tempfile.SpooledTemporaryFile.truncate", [ "size" ] ]
+3.8 [ "tempfile.SpooledTemporaryFile", [ "errors" ] ]
+3.2 [ "test.support.check_warnings", [ "quiet" ] ]
+3.3 [ "threading.Thread", [ "daemon" ] ]
+3.2 [ "threading.Lock.acquire", [ "timeout" ] ]
+3.2 [ "threading.RLock.acquire", [ "timeout" ] ]
+3.2 [ "threading.Semaphore.acquire", [ "timeout" ] ]
+3.5 [ "timeit.timeit", [ "globals" ] ]
+3.5 [ "timeit.repeat", [ "globals" ] ]
+3.5 [ "timeit.Timer", [ "globals" ] ]
+3.3 [ "unittest.TestCase.assertRaises", [ "msg" ] ]
+3.3 [ "unittest.TestCase.assertRaisesRegex", [ "msg" ] ]
+3.3 [ "unittest.TestCase.assertWarns", [ "msg" ] ]
+3.3 [ "unittest.TestCase.assertWarnsRegex", [ "msg" ] ]
+3.2 [ "unittest.TestCase.assertAlmostEqual", [ "delta" ] ]
+3.5 [ "unittest.TestLoader.loadTestsFromModule", [ "pattern" ] ]
+3.2 [ "unittest.TextTestRunner", [ "warnings" ] ]
+3.5 [ "unittest.TextTestRunner", [ "tb_locals" ] ]
+3.1 [ "unittest.main", [ "exit" ] ]
+3.2 [ "unittest.main", [ "verbosity", "failfast", "catchbreak", "buffer", "warnings" ] ]
+3.5 [ "unittest.mock.Mock", [ "unsafe" ] ]
+3.6 [ "unittest.mock.Mock.reset_mock", [ "return_value", "side_effect" ] ]
+3.2 [ "urllib.parse.parse_qs", [ "encoding", "errors" ] ]
+3.8 [ "urllib.parse.parse_qs", [ "max_num_fields" ] ]
+3.2 [ "urllib.parse.parse_qsl", [ "encoding", "errors" ] ]
+3.8 [ "urllib.parse.parse_qsl", [ "max_num_fields" ] ]
+3.5 [ "urllib.parse.urlencode", [ "quote_via" ] ]
+3.2 [ "urllib.request.urlopen", [ "cafile", "capath" ] ]
+3.3 [ "urllib.request.urlopen", [ "cadefault" ] ]
+3.4.3 [ "urllib.request.urlopen", [ "context" ] ]
+3.3 [ "urllib.request.Request", [ "method" ] ]
+3.2 [ "urllib.request.HTTPSHandler", [ "context", "check_hostname" ] ]
+3.7 [ "uu.encode", [ "backtick" ] ]
+3.4 [ "venv.EnvBuilder", [ "with_pip" ] ]
+3.6 [ "venv.EnvBuilder", [ "prompt" ] ]
+3.4 [ "venv.create", [ "with_pip" ] ]
+3.6 [ "venv.create", [ "prompt" ] ]
+3.6 [ "warnings.warn", [ "source" ] ]
+3.6 [ "warnings.warn_explicit", [ "source" ] ]
+3.7 [ "webbrowser.register", [ "preferred" ] ]
+3.4 [ "xml.etree.ElementTree.tostring", [ "short_empty_elements" ] ]
+3.8 [ "xml.etree.ElementTree.tostring", [ "xml_declaration", "default_namespace" ] ]
+3.4 [ "xml.etree.ElementTree.tostringlist", [ "short_empty_elements" ] ]
+3.8 [ "xml.etree.ElementTree.tostringlist", [ "xml_declaration", "default_namespace" ] ]
+3.4 [ "xml.etree.ElementTree.ElementTree.write", [ "short_empty_elements" ] ]
+3.2 [ "xml.sax.saxutils.XMLGenerator", [ "short_empty_elements" ] ]
+3.3 [ "xmlrpc.client.ServerProxy", [ "use_builtin_types" ] ]
+3.8 [ "xmlrpc.client.ServerProxy", [ "headers" ] ]
+3.4.3 [ "xmlrpc.client.ServerProxy", [ "context" ] ]
+3.3 [ "xmlrpc.client.loads", [ "use_builtin_types" ] ]
+3.3 [ "xmlrpc.server.SimpleXMLRPCServer" , [ "use_builtin_types" ] ]
+3.3 [ "xmlrpc.server.CGIXMLRPCRequestHandler" , [ "use_builtin_types" ] ]
+3.3 [ "xmlrpc.server.DocXMLRPCServer" , [ "use_builtin_types" ] ]
+3.7 [ "zipapp.create_archive", [ "filter", "compressed" ] ]
+3.7 [ "zipfile.ZipFile", [ "compresslevel" ] ]
+3.8 [ "zipfile.ZipFile", [ "strict_timestamps" ] ]
+3.2 [ "zipfile.ZipFile.writestr", [ "compress_type" ] ]
+3.2 [ "zipfile.PyZipFile", [ "optimize" ] ]
+3.4 [ "zipfile.PyZipFile.writepy", [ "filterfunc" ] ]
+3.8 [ "zipfile.ZipInfo.from_file", [ "strict_timestamps" ] ]
+3.6 [ "zlib.compress", [ "level" ] ]
+3.3 [ "zlib.compressobj", [ "zdict" ] ]
+3.6 [ "zlib.decompress", [ "wbits", "bufsize" ] ]
+3.3 [ "zlib.decompressobj", [ "zdict" ] ]
+3.6 [ "zlib.Decompress.decompress", [ "max_length" ] ]
+
+misc:
+3.5 printf-style bytes formatting
+3.3 definition.__qualname__ (the qualified name of the class, function, method, descriptor, or generator instance)
+3.8 `continue` in `finally` is legal now
+3.1 support for multiple context expressions
+3.5 coroutines and all the async things
+3.7 __getattr__ and __dir__ module attributes
+3.5 iterable unpacking in expression lists, originally proposed by PEP 448.
+3.5 unpacking into dictionary displays, originally proposed by PEP 448
+3.3 yield from
+3.5 Function calls accept any number of * and ** unpackings, positional arguments may follow iterable unpackings (*), and keyword arguments may follow dictionary unpackings (**). Originally proposed by PEP 448.
+3.5 the @ (at) operator
+3.4 module spec, __spec__
+3.3 the 'rb' prefix of raw bytes literals has been added as a synonym of 'br'
+3.3 u prefix on string
+3.6 f-string
+3.6 underscores are now allowed for grouping purposes in literals (int, float)
+3.8 Now annotated assignments allow same expressions in the right hand side as the regular assignments. Previously, some expressions (like un-parenthesized tuple expressions) caused a syntax error.
+3.2 Previously it was illegal to delete a name from the local namespace if it occurs as a free variable in a nested block.
+3.3 None is now permitted as Y in raise X from Y
