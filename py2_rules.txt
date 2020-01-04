@@ -1,5 +1,5 @@
 Python 3.8.1: finished record id: None
-Python 2.7.17: finished record id: 1-600
+Python 2.7.17: finished record id: 1-771
 
 module:
 2.6 abc
@@ -47,6 +47,14 @@ module:
 2.6 multiprocessing
 1.5.2 netrc
 2.6 numbers
+2.3 optparse
+2.3 ossaudiodev
+2.3 pickletools
+2.3 pkgutil
+2.3 platform
+2.5 cProfile
+2.1 pydoc
+2.0 xml.parsers.expat
 
 data:
 2.3 False
@@ -72,6 +80,39 @@ data:
 2.7 io.SEEK_CUR
 2.7 io.SEEK_END
 2.4 marshal.version
+2.5 os.SEEK_SET
+2.5 os.SEEK_CUR
+2.5 os.SEEK_END
+2.3 os.EX_OK
+2.3 os.EX_USAGE
+2.3 os.EX_DATAERR
+2.3 os.EX_NOINPUT
+2.3 os.EX_NOUSER
+2.3 os.EX_NOHOST
+2.3 os.EX_UNAVAILABLE
+2.3 os.EX_SOFTWARE
+2.3 os.EX_OSERR
+2.3 os.EX_OSFILE
+2.3 os.EX_CANTCREAT
+2.3 os.EX_IOERR
+2.3 os.EX_TEMPFAIL
+2.3 os.EX_PROTOCOL
+2.3 os.EX_NOPERM
+2.3 os.EX_CONFIG
+2.3 os.EX_NOTFOUND
+2.3 os.killpg
+1.6 os.spawnl
+1.6 os.P_NOWAIT
+1.6 os.P_NOWAITO
+1.6 os.P_WAIT
+1.6 os.P_DETACH
+1.6 os.P_OVERLAY
+2.3 os.WCONTINUED
+2.3 os.WUNTRACED
+2.2 os.extsep
+2.4 os.devnull
+2.3 os.path.supports_unicode_filenames
+2.3 pickle.HIGHEST_PROTOCOL
 
 class:
 2.6 bytearray
@@ -120,6 +161,9 @@ class:
 2.7 logging.NullHandler
 2.6 logging.handlers.WatchedFileHandler
 2.6 logging.LoggerAdapter
+2.0 popen2.Popen4
+2.4 poplib.POP3_SSL
+2.3 pstats.Stats
 
 exception:
 2.5 BaseException
@@ -140,22 +184,6 @@ exception:
 2.6 BytesWarning
 2.3 ConfigParser.InterpolationMissingOptionError
 2.3 ConfigParser.InterpolationSyntaxError
-2.5 exceptions.BaseException
-1.5.2 exceptions.EnvironmentError
-2.5 exceptions.GeneratorExit
-1.5.2 exceptions.NotImplementedError
-1.5.2 exceptions.OSError
-2.2 exceptions.ReferenceError
-2.2 exceptions.StopIteration
-2.0 exceptions.UnboundLocalError
-2.0 exceptions.UnicodeError
-2.3 exceptions.UnicodeEncodeError
-2.3 exceptions.UnicodeDecodeError
-2.3 exceptions.UnicodeTranslateError
-2.0 exceptions.WindowsError
-2.5 exceptions.ImportWarning
-2.5 exceptions.UnicodeWarning
-2.6 exceptions.BytesWarning
 1.6 getopt.GetoptError
 2.4 htmllib.HTMLParseError
 2.0 httplib.HTTPException
@@ -305,6 +333,79 @@ function:
 2.0 operator.invert
 2.0 operator.__invert__
 2.3 operator.pow
+2.2 operator.truediv
+2.0 operator.__contains__
+2.5 operator.iadd
+2.5 operator.iand
+2.5 operator.iconcat
+2.5 operator.idiv
+2.5 operator.ifloordiv
+2.5 operator.ilshift
+2.5 operator.imod
+2.5 operator.imul
+2.5 operator.ior
+2.5 operator.ipow
+2.5 operator.irepeat
+2.5 operator.irshift
+2.5 operator.isub
+2.5 operator.itruediv
+2.5 operator.ixor
+2.4 operator.attrgetter
+2.4 operator.itemgetter
+2.5 operator.itemgetter
+2.6 operator.methodcaller
+2.7 os.initgroups
+2.3 os.getpgid
+2.7 os.getresuid
+2.7 os.getresgid
+2.2 os.setgroups
+2.7 os.setresgid
+2.7 os.setresuid
+2.4 os.getsid
+2.0 os.popen2
+2.0 os.popen3
+2.0 os.popen4
+2.6 os.closerange
+2.6 os.fchmod
+2.6 os.fchown
+2.3 os.fchdir
+2.3 os.getcwdu
+2.6 os.chflags
+2.2 os.chroot
+2.6 os.lchflags
+2.6 os.lchmod
+2.3 os.lchown
+2.3 os.mknod
+2.3 os.major
+2.3 os.minor
+2.3 os.makedev
+1.5.2 os.makedirs
+1.5.2 os.removedirs
+1.5.2 os.renames
+2.3 os.walk
+2.0 os.startfile
+2.5 os.wait3
+2.5 os.wait4
+2.3 os.WCOREDUMP
+2.3 os.WIFCONTINUED
+2.3 os.getloadavg
+2.4 os.urandom
+1.5.2 os.path.abspath
+2.3 os.path.lexists
+1.5.2 os.path.getatime
+1.5.2 os.path.getmtime
+2.3 os.path.getctime
+1.5.2 os.path.getsize
+2.2 os.path.realpath
+2.6 os.path.relpath
+1.3 os.path.splitdrive
+2.6 pickletools.optimize
+2.6 pkgutil.get_data
+2.6 platform.python_branch
+2.6 platform.python_implementation
+2.6 platform.python_revision
+2.6 platform.linux_distribution
+2.0 popen2.popen4
 
 method:
 2.2 cgi.FieldStorage.getfirst
@@ -410,6 +511,11 @@ method:
 2.7 mimetypes.MimeTypes.read_windows_registry
 2.4 nntplib.NNTP.descriptions
 2.4 nntplib.NNTP.description
+2.3 pprint.PrettyPrinter.format
+2.1 xml.parsers.expat.XMLParserType.GetInputContext
+2.3 xml.parsers.expat.XMLParserType.UseForeignDTD
+2.1 xml.parsers.expat.XMLParserType.XmlDeclHandler
+2.1 xml.parsers.expat.XMLParserType.EntityDeclHandler
 
 attribute:
 2.6 property.getter
@@ -424,6 +530,47 @@ attribute:
 2.4 email.message.Message.defects
 2.5 logging.LogRecord.funcName
 2.6 logging.LogRecord.processName
+2.2 os.stat_result.st_mode
+2.2 os.stat_result.st_ino
+2.2 os.stat_result.st_dev
+2.2 os.stat_result.st_ulink
+2.2 os.stat_result.st_uid
+2.2 os.stat_result.st_gid
+2.2 os.stat_result.st_size
+2.2 os.stat_result.st_atime
+2.2 os.stat_result.st_mtime
+2.2 os.stat_result.st_ctime
+2.2 os.stat_result.st_blocks
+2.2 os.stat_result.st_blksize
+2.2 os.stat_result.st_rdev
+2.2 os.stat_result.st_flags
+2.5 os.stat_result.st_gen
+2.5 os.stat_result.st_birthtime
+2.2 os.stat_result.st_ftype
+2.2 os.stat_result.st_attrs
+2.2 os.stat_result.st_obtype
+2.2 os.statvfs_result.f_bsize
+2.2 os.statvfs_result.f_frsize
+2.2 os.statvfs_result.f_blocks
+2.2 os.statvfs_result.f_bfree
+2.2 os.statvfs_result.f_bavail
+2.2 os.statvfs_result.f_files
+2.2 os.statvfs_result.f_ffree
+2.2 os.statvfs_result.f_avail
+2.2 os.statvfs_result.f_flag
+2.2 os.statvfs_result.f_namemax
+2.3 xml.parsers.expat.XMLParserType.buffer_size
+2.3 xml.parsers.expat.XMLParserType.buffer_text
+2.3 xml.parsers.expat.XMLParserType.buffer_used
+2.1 xml.parsers.expat.XMLParserType.ordered_attributes
+1.6 xml.parsers.expat.XMLParserType.returns_unicode
+2.1 xml.parsers.expat.XMLParserType.specified_attributes
+2.4 xml.parsers.expat.XMLParserType.CurrentByteIndex
+2.4 xml.parsers.expat.XMLParserType.CurrentColumnNumber
+2.4 xml.parsers.expat.XMLParserType.CurrentLineNumber
+2.1 xml.parsers.expat.ExpatError.code
+2.1 xml.parsers.expat.ExpatError.lineno
+2.1 xml.parsers.expat.ExpatError.offset
 
 decorator:
 2.2 classmethod
@@ -523,3 +670,12 @@ argument:
 2.5 [ "nis.cat", [ "domain" ] ]
 2.5 [ "nis.maps", [ "domain" ] ]
 2.4 [ "nntplib.NNTP", [ "usenetrc" ] ]
+2.6 [ "os.walk", [ "followlinks" ] ]
+2.5 [ "os.startfile", [ "operation" ] ]
+2.7 [ "pdb.Pdb", [ "skip" ] ]
+2.3 [ "pickle.dump", [ "protocol" ] ]
+2.3 [ "pickle.dumps", [ "protocol" ] ]
+2.3 [ "pickle.Pickler", [ "protocol" ] ]
+2.6 [ "poplib.POP3", [ "timeout" ] ]
+2.4 [ "pprint.pformat", [ "indent", "width", "depth" ] ]
+2.4 [ "pprint.pprint", [ "indent", "width", "depth" ] ]

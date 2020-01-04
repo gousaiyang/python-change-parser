@@ -9,11 +9,18 @@ EasyDialogs: removed in 3.*
 htmllib: deprecated in 2.6, removed in 3.*
 htmlentitydefs: renamed to html.entities in 3.*
 HTMLParser: renamed to html.parser in 3.*
+optparse: deprecated in 2.7, %default directive added in 2.4
+popen2: deprecated/obsoleted in 2.6
 
 # function
 email.utils.dump_address_pair: removed in 2.4
 email.utils.decode: removed in 2.4
 email.utils.encode: removed in 2.4
+operator.attrgetter: added support for multiple attributes in 2.5, added support for dotted attributes in 2.6
+os.popen: deprecated/obsoleted in 2.6
+os.popen2: deprecated/obsoleted in 2.6
+os.popen3: deprecated/obsoleted in 2.6
+os.popen4: deprecated/obsoleted in 2.6
 
 # class
 bz2.BZ2File: support for with statement added in 2.7
@@ -43,3 +50,5 @@ email.message.Message.get_subtype: removed in 2.5
 # misc
 id-110: not specified changes
 decorators: function decorator added in 2.4, class decorator added in 2.6
+os.stat/stat_result: added access to values as attributes of the returned object in 2.2
+os.statvfs/statvfs_result: added access to values as attributes of the returned object in 2.2
