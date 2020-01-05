@@ -1,5 +1,5 @@
 Python 3.8.1: finished record id: None
-Python 2.7.17: finished record id: 1-771
+Python 2.7.17: finished record id: 1-887
 
 module:
 2.6 abc
@@ -55,6 +55,11 @@ module:
 2.5 cProfile
 2.1 pydoc
 2.0 xml.parsers.expat
+2.5 runpy
+2.3 sets
+1.5.2 shlex
+2.2 SimpleXMLRPCServer
+2.6 site
 
 data:
 2.3 False
@@ -113,6 +118,15 @@ data:
 2.4 os.devnull
 2.3 os.path.supports_unicode_filenames
 2.3 pickle.HIGHEST_PROTOCOL
+2.0 re.U
+2.0 re.UNICODE
+2.7 select.PIPE_BUF
+2.7 signal.CTRL_C_EVENT
+2.7 signal.CTRL_BREAK_EVENT
+2.6 site.PREFIXES
+2.6 site.ENABLE_USER_SITE
+2.6 site.USER_SITE
+2.6 site.USER_BASE
 
 class:
 2.6 bytearray
@@ -164,6 +178,12 @@ class:
 2.0 popen2.Popen4
 2.4 poplib.POP3_SSL
 2.3 pstats.Stats
+2.6 Queue.LifoQueue
+2.6 Queue.PriorityQueue
+2.4 random.SystemRandom
+2.3 SimpleXMLRPCServer.CGIXMLRPCRequestHandler
+2.6 smtplib.SMTP_SSL
+2.6 smtplib.LMTP
 
 exception:
 2.5 BaseException
@@ -198,6 +218,9 @@ exception:
 2.0 httplib.CannotSendHeader
 2.0 httplib.ResponseNotReady
 2.0 httplib.BadStatusLine
+2.1 sgmllib.SGMLParseError
+2.3 shutil.Error
+2.3 socket.timeout
 
 function:
 2.5 all
@@ -406,6 +429,43 @@ function:
 2.6 platform.python_revision
 2.6 platform.linux_distribution
 2.0 popen2.popen4
+2.1 random.getstate
+2.1 random.setstate
+2.1 random.jumpahead
+2.4 random.getrandbits
+1.5.2 random.randrange
+2.3 random.sample
+2.6 random.triangular
+1.5.2 re.findall
+2.2 re.finditer
+2.4 readline.clear_history
+2.3 readline.get_current_history_length
+2.3 readline.get_history_item
+2.4 readline.remove_history_item
+2.4 readline.replace_history_item
+2.3 readline.set_startup_hook
+2.3 readline.set_pre_input_hook
+2.3 readline.get_completer
+2.6 readline.get_completion_type
+2.6 readline.set_completion_display_matches_hook
+2.7 runpy.run_path
+2.6 select.epoll
+2.6 select.kqueue
+2.6 select.kevent
+2.3 shlex.split
+2.6 shutil.ignore_patterns
+2.3 shutil.move
+2.7 shutil.make_archive
+2.7 shutil.get_archive_formats
+2.7 shutil.register_archive_format
+2.7 shutil.unregister_archive_format
+2.6 signal.setitimer
+2.6 signal.getitimer
+2.6 signal.set_wakeup_fd
+2.6 signal.siginterrupt
+2.7 site.getsitepackages
+2.7 site.getuserbase
+2.7 site.getusersitepackages
 
 method:
 2.2 cgi.FieldStorage.getfirst
@@ -516,6 +576,18 @@ method:
 2.3 xml.parsers.expat.XMLParserType.UseForeignDTD
 2.1 xml.parsers.expat.XMLParserType.XmlDeclHandler
 2.1 xml.parsers.expat.XMLParserType.EntityDeclHandler
+2.5 Queue.Queue.task_done
+2.5 Queue.Queue.join
+2.6 select.poll.modify
+2.5 sgmllib.SGMLParser.convert_charref
+2.5 sgmllib.SGMLParser.convert_codepoint
+2.5 sgmllib.SGMLParser.convert_entityref
+2.1 shlex.shlex.push_source
+2.1 shlex.shlex.pop_source
+2.5 SimpleHTTPServer.SimpleHTTPRequestHandler.do_GET
+2.3 SimpleXMLRPCServer.SimpleXMLRPCServer.register_introspection_functions
+2.6 smtplib.SMTP.ehlo_or_helo_if_needed
+2.6 smtplib.SMTP.starttls
 
 attribute:
 2.6 property.getter
@@ -571,6 +643,32 @@ attribute:
 2.1 xml.parsers.expat.ExpatError.code
 2.1 xml.parsers.expat.ExpatError.lineno
 2.1 xml.parsers.expat.ExpatError.offset
+2.4 repr.Repr.maxset
+2.4 repr.Repr.maxfrozenset
+2.4 repr.Repr.set
+2.3 resource.struct_rusage.ru_utime
+2.3 resource.struct_rusage.ru_stime
+2.3 resource.struct_rusage.ru_maxrss
+2.3 resource.struct_rusage.ru_ixrss
+2.3 resource.struct_rusage.ru_idrss
+2.3 resource.struct_rusage.ru_isrss
+2.3 resource.struct_rusage.ru_minflt
+2.3 resource.struct_rusage.ru_majflt
+2.3 resource.struct_rusage.ru_nswap
+2.3 resource.struct_rusage.ru_inblock
+2.3 resource.struct_rusage.ru_oublock
+2.3 resource.struct_rusage.ru_msgsnd
+2.3 resource.struct_rusage.ru_msgrcv
+2.3 resource.struct_rusage.ru_nsignals
+2.3 resource.struct_rusage.ru_nvcsw
+2.3 resource.struct_rusage.ru_nivcsw
+2.6 sched.scheduler.queue
+2.3 shlex.shlex.escape
+2.3 shlex.shlex.escapedquotes
+2.3 shlex.shlex.whitespace_split
+2.3 shlex.shlex.eof
+2.5 SimpleXMLRPCServer.SimpleXMLRPCRequestHandler.rpc_paths
+2.7 SimpleXMLRPCServer.SimpleXMLRPCRequestHandler.encode_threshold
 
 decorator:
 2.2 classmethod
@@ -679,3 +777,19 @@ argument:
 2.6 [ "poplib.POP3", [ "timeout" ] ]
 2.4 [ "pprint.pformat", [ "indent", "width", "depth" ] ]
 2.4 [ "pprint.pprint", [ "indent", "width", "depth" ] ]
+2.3 [ "Queue.Queue.put", [ "timeout" ] ]
+2.3 [ "Queue.Queue.get", [ "timeout" ] ]
+2.7 [ "re.split", [ "flags" ] ]
+2.4 [ "re.findall", [ "flags" ] ]
+2.4 [ "re.finditer", [ "flags" ] ]
+2.7 [ "re.sub", [ "flags" ] ]
+2.7 [ "re.subn", [ "flags" ] ]
+2.3 [ "shelve.open", [ "protocol" ] ]
+2.3 [ "shelve.Shelf", [ "protocol" ] ]
+2.6 [ "shlex.split", [ "posix" ] ]
+2.6 [ "shutil.copytree", [ "ignore" ] ]
+2.5 [ "SimpleXMLRPCServer.SimpleXMLRPCServer", [ "allow_none", "encoding" ] ]
+2.6 [ "SimpleXMLRPCServer.SimpleXMLRPCServer", [ "bind_and_activate" ] ]
+2.5 [ "SimpleXMLRPCServer.CGIXMLRPCRequestHandler", [ "allow_none", "encoding" ] ]
+2.3.5 [ "SimpleXMLRPCServer.SimpleXMLRPCServer.register_instance", [ "allow_dotted_names" ] ]
+2.6 [ "smtplib.SMTP", [ "timeout" ] ]

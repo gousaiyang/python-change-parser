@@ -11,6 +11,13 @@ htmlentitydefs: renamed to html.entities in 3.*
 HTMLParser: renamed to html.parser in 3.*
 optparse: deprecated in 2.7, %default directive added in 2.4
 popen2: deprecated/obsoleted in 2.6
+Queue: renamed to queue in 3.*
+re: (?(id/name)yes-pattern|no-pattern) pattern added in 2.4
+rexec: disabled in 2.3, deprecated in 2.6, removed in 3.*
+sets: deprecated in 2.6
+sgmllib: deprecated in 2.6, removed in 3.*
+SimpleHTTPServer: renamed to http.server in 3.*
+SimpleXMLRPCServer: merged/renamed to xmlrpc.server
 
 # function
 email.utils.dump_address_pair: removed in 2.4
@@ -52,3 +59,5 @@ id-110: not specified changes
 decorators: function decorator added in 2.4, class decorator added in 2.6
 os.stat/stat_result: added access to values as attributes of the returned object in 2.2
 os.statvfs/statvfs_result: added access to values as attributes of the returned object in 2.2
+resource.getrusage/struct_rusage: added access to values as attributes of the returned object in 2.3
+id-865: ambiguous change message
