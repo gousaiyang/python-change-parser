@@ -47,6 +47,13 @@ sqlite3.Row: iteration and equality (hashability) added in 2.6
 sqlite3.Connection: support for with statement added in 2.6
 
 # method
+frozenset.union: accept multiple input iterables added in 2.6
+frozenset.intersection: accept multiple input iterables added in 2.6
+frozenset.difference: accept multiple input iterables added in 2.6
+frozenset.update: accept multiple input iterables added in 2.6
+frozenset.intersection_update: accept multiple input iterables added in 2.6
+frozenset.difference_update: accept multiple input iterables added in 2.6
+file.xreadlines: deprecated in 2.3
 bz2.BZ2File.xreadlines: deprecated in 2.3
 email.generator.DecodedGenerator.__call__: removed in 2.5
 email.message.Message.get_type: removed in 2.5
@@ -64,9 +71,21 @@ email.message.Message.get_subtype: removed in 2.5
 
 # misc
 id-110: not specified changes
+id-865: ambiguous change message
+
 decorators: function decorator added in 2.4, class decorator added in 2.6
+iterators: iterator types added in 2.2
+contextmanager: context manager (with) types added in 2.5
+
+__import__: support keyword arguments added in 2.5
+set: support {...} syntax for set creation added in 2.7
+str.decode: support keyword arguments added in 2.7
+str.encode: support keyword arguments added in 2.7
+
+dict: support keyword arguments dict creation added in 2.3
+dict: support for in check added in 2.2
+dict: support for not in check added in 2.2
+dict.update: support keyword arguments added in 2.4
 os.stat/stat_result: added access to values as attributes of the returned object in 2.2
 os.statvfs/statvfs_result: added access to values as attributes of the returned object in 2.2
 resource.getrusage/struct_rusage: added access to values as attributes of the returned object in 2.3
-id-865: ambiguous change message
-iterators: iterator types added in 2.2

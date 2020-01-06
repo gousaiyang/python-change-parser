@@ -1,5 +1,5 @@
 Python 3.8.1: finished record id: None
-Python 2.7.17: finished record id: 1-990
+Python 2.7.17: finished record id: 1-1046
 
 module:
 2.6 abc
@@ -200,6 +200,10 @@ class:
 2.6 bytearray
 2.2 object
 2.2 type
+2.4 set
+2.4 frozenset
+2.2 dict
+2.7 memoryview
 2.5 calendar.Calendar
 2.5 calendar.TextCalendar
 2.5 calendar.HTMLCalendar
@@ -557,6 +561,28 @@ function:
 2.7.9 ssl.enum_crls
 
 method:
+2.7 long.bit_length
+105 float.as_integer_ratio
+2.6 float.is_integer
+2.6 float.hex
+2.6 float.fromhex
+2.2 str.decode
+2.0 str.encode
+2.6 str.format
+2.5 str.partition
+2.5 str.rpartition
+2.4 str.rsplit
+2.2.2 str.zfill
+2.6 frozenset.isdisjoint
+2.3 dict.fromkeys
+2.2 dict.iteritems
+2.2 dict.itervalues
+2.3 dict.pop
+2.7 dict.viewitems
+2.7 dict.viewkeys
+2.7 dict.viewvalues
+2.3 file.next
+2.1 file.xreadlines
 2.2 cgi.FieldStorage.getfirst
 2.2 cgi.FieldStorage.getlist
 2.7 collections.deque.count
@@ -694,16 +720,10 @@ method:
 2.7.9 ssl.SSLSocket.selected_npn_protocol
 2.7.9 ssl.SSLSocket.version
 2.7.10 ssl.SSLContext.set_alpn_protocols
-2.7 long.bit_length
-105 float.as_integer_ratio
-2.6 float.is_integer
-2.6 float.hex
-2.6 float.fromhex
 
 attribute:
-2.6 property.getter
-2.6 property.setter
-2.6 property.deleter
+2.3 file.encoding
+2.6 file.errors
 2.6 BaseHTTPServer.BaseHTTPRequestHandler.error_content_type
 2.6 Cookie.Morsel.httponly
 2.5 cookielib.DefaultCookiePolicy.rfc2109_as_netscape
@@ -791,6 +811,9 @@ attribute:
 decorator:
 2.2 classmethod
 2.2 property
+2.6 property.getter
+2.6 property.setter
+2.6 property.deleter
 2.2 staticmethod
 2.7 functools.total_ordering
 
@@ -800,6 +823,13 @@ argument:
 2.5 [ "max", [ "key" ] ]
 2.5 [ "min", [ "key" ] ]
 2.5 [ "__import__", [ "level" ] ]
+2.4 [ "str.center", [ "fillchar" ] ]
+2.4 [ "str.ljust", [ "fillchar" ] ]
+2.2.2 [ "str.lstrip", [ "chars" ] ]
+2.4 [ "str.rjust", [ "fillchar" ] ]
+2.2.2 [ "str.rstrip", [ "chars" ] ]
+2.2.2 [ "str.strip", [ "chars" ] ]
+2.4 [ "sort", [ "key", "reverse" ] ]
 2.5 [ "BaseHTTPServer.BaseHTTPRequestHandler.date_time_string", [ "timestamp" ] ]
 2.7 [ "bdb.Bdb", [ "skip" ] ]
 2.4 [ "cmath.log", [ "base" ] ]
