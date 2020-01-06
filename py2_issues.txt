@@ -19,6 +19,10 @@ sgmllib: deprecated in 2.6, removed in 3.*
 SimpleHTTPServer: renamed to http.server in 3.*
 SimpleXMLRPCServer: merged/renamed to xmlrpc.server
 SocketServer: renamed to socketserver in 3.*
+string: , format option added in 2.7
+struct: ? conversion code added in 2.6
+struct: q/Q conversion code added in 22
+tarfile: support for POSIX.1-2001 (pax) format added in 2.6
 
 # data
 socket.SIO_*: added in 2.6
@@ -45,6 +49,7 @@ email.parser.Parser: deprecated in 2.4
 gzip.GzipFile: support for with statement added in 2.7
 sqlite3.Row: iteration and equality (hashability) added in 2.6
 sqlite3.Connection: support for with statement added in 2.6
+tarfile.TarFile: support for with statement added in 2.7
 
 # method
 frozenset.union: accept multiple input iterables added in 2.6
@@ -89,3 +94,5 @@ dict.update: support keyword arguments added in 2.4
 os.stat/stat_result: added access to values as attributes of the returned object in 2.2
 os.statvfs/statvfs_result: added access to values as attributes of the returned object in 2.2
 resource.getrusage/struct_rusage: added access to values as attributes of the returned object in 2.3
+sys.getwindowsversion: added access to values as attributes of the returned object in 2.7
+sys.version_info: added access to values as attributes of the object in 2.7

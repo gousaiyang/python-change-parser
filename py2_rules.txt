@@ -1,5 +1,5 @@
 Python 3.8.1: finished record id: None
-Python 2.7.17: finished record id: 1-1046
+Python 2.7.17: finished record id: 1-1103
 
 module:
 2.6 abc
@@ -63,6 +63,10 @@ module:
 2.5 spwd
 2.5 sqlite3
 2.6 ssl
+2.3 stringprep
+2.4 subprocess
+2.7 sysconfig
+2.3 tarfile
 
 data:
 2.3 False
@@ -195,6 +199,15 @@ data:
 2.7.9 ssl.ALERT_DESCRIPTION_HANDSHAKE_FAILURE
 2.7.9 ssl.Purpose.SERVER_AUTH
 2.7.9 ssl.Purpose.CLIENT_AUTH
+2.0 sys.byteorder
+2.6 sys.dont_write_bytecode
+2.6 sys.flags
+1.5.2 sys.hexversion
+2.7 sys.long_info
+2.6 sys.py3kwarning
+2.5 sys.subversion
+2.3 sys.api_version
+2.0 sys.version_info
 
 class:
 2.6 bytearray
@@ -257,6 +270,11 @@ class:
 2.6 smtplib.SMTP_SSL
 2.6 smtplib.LMTP
 2.7.9 ssl.SSLContext
+2.6 string.Formatter
+2.4 string.Template
+2.5 struct.Struct
+2.6 sys.float_info
+2.7 sys.float_repr_style
 
 exception:
 2.5 BaseException
@@ -299,6 +317,7 @@ exception:
 2.7.9 ssl.SSLWantWriteError
 2.7.9 ssl.SSLSyscallError
 2.7.9 ssl.SSLEOFError
+2.6 tarfile.HeaderError
 
 function:
 2.5 all
@@ -559,6 +578,25 @@ function:
 2.7.9 ssl.get_default_verify_paths
 2.7.9 ssl.enum_certificates
 2.7.9 ssl.enum_crls
+2.4 string.rsplit
+2.5 struct.pack_into
+2.5 struct.unpack_from
+2.5 subprocess.check_call
+2.7 subprocess.check_output
+2.6 sys._clear_type_cache
+2.5 sys._current_frames
+2.3 sys.exc_clear
+2.3 sys.getcheckinterval
+2.0 sys.getdefaultencoding
+2.2 sys.getdlopenflags
+2.3 sys.getfilesystemencoding
+2.6 sys.getsizeof
+2.6 sys.getprofile
+2.6 sys.gettrace
+2.3 sys.getwindowsversion
+2.0 sys.setdefaultencoding
+2.2 sys.setdlopenflags
+2.4 sys.settscdump
 
 method:
 2.7 long.bit_length
@@ -720,6 +758,9 @@ method:
 2.7.9 ssl.SSLSocket.selected_npn_protocol
 2.7.9 ssl.SSLSocket.version
 2.7.10 ssl.SSLContext.set_alpn_protocols
+2.6 subprocess.Popen.send_signal
+2.6 subprocess.Popen.terminate
+2.6 subprocess.Popen.kill
 
 attribute:
 2.3 file.encoding
@@ -752,16 +793,16 @@ attribute:
 2.2 os.stat_result.st_ftype
 2.2 os.stat_result.st_attrs
 2.2 os.stat_result.st_obtype
-2.2 os.statvfs_result.f_bsize
-2.2 os.statvfs_result.f_frsize
-2.2 os.statvfs_result.f_blocks
-2.2 os.statvfs_result.f_bfree
-2.2 os.statvfs_result.f_bavail
-2.2 os.statvfs_result.f_files
-2.2 os.statvfs_result.f_ffree
-2.2 os.statvfs_result.f_avail
-2.2 os.statvfs_result.f_flag
-2.2 os.statvfs_result.f_namemax
+2.2 os.statvfs.f_bsize
+2.2 os.statvfs.f_frsize
+2.2 os.statvfs.f_blocks
+2.2 os.statvfs.f_bfree
+2.2 os.statvfs.f_bavail
+2.2 os.statvfs.f_files
+2.2 os.statvfs.f_ffree
+2.2 os.statvfs.f_avail
+2.2 os.statvfs.f_flag
+2.2 os.statvfs.f_namemax
 2.3 xml.parsers.expat.XMLParserType.buffer_size
 2.3 xml.parsers.expat.XMLParserType.buffer_text
 2.3 xml.parsers.expat.XMLParserType.buffer_used
@@ -777,22 +818,22 @@ attribute:
 2.4 repr.Repr.maxset
 2.4 repr.Repr.maxfrozenset
 2.4 repr.Repr.set
-2.3 resource.struct_rusage.ru_utime
-2.3 resource.struct_rusage.ru_stime
-2.3 resource.struct_rusage.ru_maxrss
-2.3 resource.struct_rusage.ru_ixrss
-2.3 resource.struct_rusage.ru_idrss
-2.3 resource.struct_rusage.ru_isrss
-2.3 resource.struct_rusage.ru_minflt
-2.3 resource.struct_rusage.ru_majflt
-2.3 resource.struct_rusage.ru_nswap
-2.3 resource.struct_rusage.ru_inblock
-2.3 resource.struct_rusage.ru_oublock
-2.3 resource.struct_rusage.ru_msgsnd
-2.3 resource.struct_rusage.ru_msgrcv
-2.3 resource.struct_rusage.ru_nsignals
-2.3 resource.struct_rusage.ru_nvcsw
-2.3 resource.struct_rusage.ru_nivcsw
+2.3 resource.getrusage.ru_utime
+2.3 resource.getrusage.ru_stime
+2.3 resource.getrusage.ru_maxrss
+2.3 resource.getrusage.ru_ixrss
+2.3 resource.getrusage.ru_idrss
+2.3 resource.getrusage.ru_isrss
+2.3 resource.getrusage.ru_minflt
+2.3 resource.getrusage.ru_majflt
+2.3 resource.getrusage.ru_nswap
+2.3 resource.getrusage.ru_inblock
+2.3 resource.getrusage.ru_oublock
+2.3 resource.getrusage.ru_msgsnd
+2.3 resource.getrusage.ru_msgrcv
+2.3 resource.getrusage.ru_nsignals
+2.3 resource.getrusage.ru_nvcsw
+2.3 resource.getrusage.ru_nivcsw
 2.6 sched.scheduler.queue
 2.3 shlex.shlex.escape
 2.3 shlex.shlex.escapedquotes
@@ -807,6 +848,20 @@ attribute:
 2.7.9 ssl.SSLError.library
 2.7.9 ssl.SSLError.reason
 2.7.9 ssl.SSLSocket.context
+2.7.3 sys.flags.hash_randomization
+2.7 sys.getwindowsversion.major
+2.7 sys.getwindowsversion.minor
+2.7 sys.getwindowsversion.build
+2.7 sys.getwindowsversion.platform
+2.7 sys.getwindowsversion.service_pack
+2.7 sys.getwindowsversion.service_pack_minor
+2.7 sys.getwindowsversion.service_pack_major
+2.7 sys.getwindowsversion.suite_mask
+2.7 sys.getwindowsversion.product_type
+2.7 sys.version_info.major
+2.7 sys.version_info.minor
+2.7 sys.version_info.micro
+2.7 sys.version_info.releaselevel
 
 decorator:
 2.2 classmethod
@@ -943,3 +998,6 @@ argument:
 2.6 [ "smtplib.SMTP", [ "timeout" ] ]
 2.7 [ "socket.create_connection", [ "source_address" ] ]
 2.7 [ "ssl.wrap_socket", [ "ciphers" ] ]
+2.3.3 [ "string.lstrip", [ "chars" ] ]
+2.3.3 [ "string.rstrip", [ "chars" ] ]
+2.3.3 [ "string.strip", [ "chars" ] ]
