@@ -18,6 +18,12 @@ sets: deprecated in 2.6
 sgmllib: deprecated in 2.6, removed in 3.*
 SimpleHTTPServer: renamed to http.server in 3.*
 SimpleXMLRPCServer: merged/renamed to xmlrpc.server
+SocketServer: renamed to socketserver in 3.*
+
+# data
+socket.SIO_*: added in 2.6
+socket.RCVALL_*: added in 2.6
+socket.TIPC_*: added in 2.6
 
 # function
 email.utils.dump_address_pair: removed in 2.4
@@ -37,6 +43,8 @@ cgi.FormContent: deprecated in 2.6
 cgi.InterpFormContentDict: deprecated in 2.6
 email.parser.Parser: deprecated in 2.4
 gzip.GzipFile: support for with statement added in 2.7
+sqlite3.Row: iteration and equality (hashability) added in 2.6
+sqlite3.Connection: support for with statement added in 2.6
 
 # method
 bz2.BZ2File.xreadlines: deprecated in 2.3
@@ -61,3 +69,4 @@ os.stat/stat_result: added access to values as attributes of the returned object
 os.statvfs/statvfs_result: added access to values as attributes of the returned object in 2.2
 resource.getrusage/struct_rusage: added access to values as attributes of the returned object in 2.3
 id-865: ambiguous change message
+iterators: iterator types added in 2.2

@@ -1,5 +1,5 @@
 Python 3.8.1: finished record id: None
-Python 2.7.17: finished record id: 1-887
+Python 2.7.17: finished record id: 1-990
 
 module:
 2.6 abc
@@ -60,6 +60,9 @@ module:
 1.5.2 shlex
 2.2 SimpleXMLRPCServer
 2.6 site
+2.5 spwd
+2.5 sqlite3
+2.6 ssl
 
 data:
 2.3 False
@@ -127,6 +130,71 @@ data:
 2.6 site.ENABLE_USER_SITE
 2.6 site.USER_SITE
 2.6 site.USER_BASE
+2.6 socket.AF_TIPC
+2.6 socket.SOL_TIPC
+2.6 socket.SIO_RCVALL
+2.6 socket.SIO_KEEPALIVE_VALS
+2.6 socket.RCVALL_OFF
+2.6 socket.RCVALL_ON
+2.6 socket.RCVALL_SOCKETLEVELONLY
+2.6 socket.RCVALL_IPLEVEL
+2.6 socket.RCVALL_MAX
+2.6 socket.TIPC_ADDR_NAMESEQ
+2.6 socket.TIPC_ADDR_NAME
+2.6 socket.TIPC_ADDR_ID
+2.6 socket.TIPC_ZONE_SCOPE
+2.6 socket.TIPC_CLUSTER_SCOPE
+2.6 socket.TIPC_NODE_SCOPE
+2.6 socket.TIPC_IMPORTANCE
+2.6 socket.TIPC_SRC_DROPPABLE
+2.6 socket.TIPC_DEST_DROPPABLE
+2.6 socket.TIPC_CONN_TIMEOUT
+2.6 socket.TIPC_LOW_IMPORTANCE
+2.6 socket.TIPC_MEDIUM_IMPORTANCE
+2.6 socket.TIPC_HIGH_IMPORTANCE
+2.6 socket.TIPC_CRITICAL_IMPORTANCE
+2.6 socket.TIPC_SUB_PORTS
+2.6 socket.TIPC_SUB_SERVICE
+2.6 socket.TIPC_SUB_CANCEL
+2.6 socket.TIPC_WAIT_FOREVER
+2.6 socket.TIPC_PUBLISHED
+2.6 socket.TIPC_WITHDRAWN
+2.6 socket.TIPC_SUBSCR_TIMEOUT
+2.6 socket.TIPC_CFG_SRV
+2.6 socket.TIPC_TOP_SRV
+2.3 socket.has_ipv6
+2.7.9 ssl.VERIFY_DEFAULT
+2.7.9 ssl.VERIFY_CRL_CHECK_LEAF
+2.7.9 ssl.VERIFY_CRL_CHECK_CHAIN
+2.7.9 ssl.VERIFY_X509_STRICT
+2.7.10 ssl.VERIFY_X509_TRUSTED_FIRST
+2.7.13 ssl.PROTOCOL_TLS
+2.7.9 ssl.PROTOCOL_TLSv1_1
+2.7.9 ssl.PROTOCOL_TLSv1_2
+2.7.9 ssl.OP_ALL
+2.7.9 ssl.OP_NO_SSLv2
+2.7.9 ssl.OP_NO_SSLv3
+2.7.9 ssl.OP_NO_TLSv1
+2.7.9 ssl.OP_NO_TLSv1_1
+2.7.9 ssl.OP_NO_TLSv1_2
+2.7.15 ssl.OP_NO_TLSv1_3
+2.7.9 ssl.OP_CIPHER_SERVER_PREFERENCE
+2.7.9 ssl.OP_SINGLE_DH_USE
+2.7.9 ssl.OP_SINGLE_ECDH_USE
+2.7.16 ssl.OP_ENABLE_MIDDLEBOX_COMPAT
+2.7.9 ssl.OP_NO_COMPRESSION
+2.7.10 ssl.HAS_ALPN
+2.7.9 ssl.HAS_ECDH
+2.7.9 ssl.HAS_SNI
+2.7.9 ssl.HAS_NPN
+2.7.15 ssl.HAS_TLSv1_3
+2.7.9 ssl.CHANNEL_BINDING_TYPES
+2.7 ssl.OPENSSL_VERSION
+2.7 ssl.OPENSSL_VERSION_INFO
+2.7 ssl.OPENSSL_VERSION_NUMBER
+2.7.9 ssl.ALERT_DESCRIPTION_HANDSHAKE_FAILURE
+2.7.9 ssl.Purpose.SERVER_AUTH
+2.7.9 ssl.Purpose.CLIENT_AUTH
 
 class:
 2.6 bytearray
@@ -184,6 +252,7 @@ class:
 2.3 SimpleXMLRPCServer.CGIXMLRPCRequestHandler
 2.6 smtplib.SMTP_SSL
 2.6 smtplib.LMTP
+2.7.9 ssl.SSLContext
 
 exception:
 2.5 BaseException
@@ -221,6 +290,11 @@ exception:
 2.1 sgmllib.SGMLParseError
 2.3 shutil.Error
 2.3 socket.timeout
+2.7.9 ssl.SSLZeroReturnError
+2.7.9 ssl.SSLWantReadError
+2.7.9 ssl.SSLWantWriteError
+2.7.9 ssl.SSLSyscallError
+2.7.9 ssl.SSLEOFError
 
 function:
 2.5 all
@@ -466,6 +540,21 @@ function:
 2.7 site.getsitepackages
 2.7 site.getuserbase
 2.7 site.getusersitepackages
+2.6 socket.create_connection
+2.2 socket.getaddrinfo
+2.0 socket.getfqdn
+2.2 socket.getnameinfo
+2.4 socket.socketpair
+2.3 socket.inet_pton
+2.3 socket.inet_ntop
+2.3 socket.getdefaulttimeout
+2.3 socket.setdefaulttimeout
+2.7.9 ssl.create_default_context
+2.7.12 ssl._https_verify_certificates
+2.7.9 ssl.match_hostname
+2.7.9 ssl.get_default_verify_paths
+2.7.9 ssl.enum_certificates
+2.7.9 ssl.enum_crls
 
 method:
 2.2 cgi.FieldStorage.getfirst
@@ -588,6 +677,28 @@ method:
 2.3 SimpleXMLRPCServer.SimpleXMLRPCServer.register_introspection_functions
 2.6 smtplib.SMTP.ehlo_or_helo_if_needed
 2.6 smtplib.SMTP.starttls
+2.6 socket.socket.ioctl
+2.5 socket.socket.recvfrom_into
+2.5 socket.socket.recv_into
+2.3 socket.socket.settimeout
+2.3 socket.socket.gettimeout
+2.6 SocketServer.BaseServer.shutdown
+2.6 SocketServer.BaseServer.server_close
+2.6 sqlite3.Connection.set_progress_handler
+2.7 sqlite3.Connection.enable_load_extension
+2.7 sqlite3.Connection.load_extension
+2.6 sqlite3.Row.keys
+2.7.9 ssl.SSLSocket.compression
+2.7.9 ssl.SSLSocket.get_channel_binding
+2.7.10 ssl.SSLSocket.selected_alpn_protocol
+2.7.9 ssl.SSLSocket.selected_npn_protocol
+2.7.9 ssl.SSLSocket.version
+2.7.10 ssl.SSLContext.set_alpn_protocols
+2.7 long.bit_length
+105 float.as_integer_ratio
+2.6 float.is_integer
+2.6 float.hex
+2.6 float.fromhex
 
 attribute:
 2.6 property.getter
@@ -669,6 +780,13 @@ attribute:
 2.3 shlex.shlex.eof
 2.5 SimpleXMLRPCServer.SimpleXMLRPCRequestHandler.rpc_paths
 2.7 SimpleXMLRPCServer.SimpleXMLRPCRequestHandler.encode_threshold
+2.5 socket.socket.family
+2.5 socket.socket.type
+2.5 socket.socket.proto
+2.6 sqlite3.Connection.iterdump
+2.7.9 ssl.SSLError.library
+2.7.9 ssl.SSLError.reason
+2.7.9 ssl.SSLSocket.context
 
 decorator:
 2.2 classmethod
@@ -793,3 +911,5 @@ argument:
 2.5 [ "SimpleXMLRPCServer.CGIXMLRPCRequestHandler", [ "allow_none", "encoding" ] ]
 2.3.5 [ "SimpleXMLRPCServer.SimpleXMLRPCServer.register_instance", [ "allow_dotted_names" ] ]
 2.6 [ "smtplib.SMTP", [ "timeout" ] ]
+2.7 [ "socket.create_connection", [ "source_address" ] ]
+2.7 [ "ssl.wrap_socket", [ "ciphers" ] ]
