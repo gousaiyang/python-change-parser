@@ -1,5 +1,5 @@
 Python 3.8.1: finished record id: None
-Python 2.7.17: finished record id: 1-1103
+Python 2.7.17: finished record id: 1-1290
 
 module:
 2.6 abc
@@ -67,6 +67,15 @@ module:
 2.4 subprocess
 2.7 sysconfig
 2.3 tarfile
+2.3 textwrap
+2.3 timeit
+2.1 unittest
+2.5 uuid
+2.1 warnings
+2.1 weakref
+1.5.2 winsound
+2.5 wsgiref
+2.0 xml.dom
 
 data:
 2.3 False
@@ -208,6 +217,17 @@ data:
 2.5 sys.subversion
 2.3 sys.api_version
 2.0 sys.version_info
+2.6 tarfile.USTAR_FORMAT
+2.6 tarfile.GNU_FORMAT
+2.6 tarfile.PAX_FORMAT
+2.6 tarfile.DEFAULT_FORMAT
+2.3 types.BooleanType
+2.2 types.GeneratorType
+2.5 types.GetSetDescriptorType
+2.5 types.MemberDescriptorType
+2.2 types.StringTypes
+2.3 unicodedata.unidata_version
+2.3 unicodedata.ucd_3_2_0
 
 class:
 2.6 bytearray
@@ -275,6 +295,16 @@ class:
 2.5 struct.Struct
 2.6 sys.float_info
 2.7 sys.float_repr_style
+2.6 test.support.TransientResource
+2.6 test.support.EnvironmentVarGuard
+2.6 test.support.WarningsRecorder
+2.4 threading.local
+2.2 time.struct_time
+2.7 unittest.TextTestResult
+2.4 urllib2.HTTPCookieProcessor
+2.4 urllib2.HTTPErrorProcessor
+2.6 warnings.catch_warnings
+2.7 weakref.WeakSet
 
 exception:
 2.5 BaseException
@@ -318,6 +348,8 @@ exception:
 2.7.9 ssl.SSLSyscallError
 2.7.9 ssl.SSLEOFError
 2.6 tarfile.HeaderError
+2.7 unittest.SkipTest
+2.6 urllib.ContentTooShortError
 
 function:
 2.5 all
@@ -597,6 +629,49 @@ function:
 2.0 sys.setdefaultencoding
 2.2 sys.setdlopenflags
 2.4 sys.settscdump
+2.3 tempfile.NamedTemporaryFile
+2.6 tempfile.SpooledTemporaryFile
+2.3 tempfile.mkstemp
+2.3 tempfile.mkdtemp
+2.3 tempfile.gettempdir
+1.5.2 tempfile.gettempprefix
+2.6 test.support.check_warnings
+2.7 test.support.check_py3k_warnings
+2.6 test.support.captured_stdout
+2.7 test.support.import_module
+2.7 test.support.import_fresh_module
+2.3 thread.interrupt_main
+2.5 thread.stack_size
+2.6 threading.active_count
+2.6 threading.current_thread
+2.3 threading.settrace
+2.3 threading.setprofile
+2.5 threading.stack_size
+2.3 time.tzset
+2.6 timeit.timeit
+2.6 timeit.repeat
+2.4 Tkinter.Tcl
+2.2 tokenize.generate_tokens
+2.5 tokenize.untokenize
+2.4 traceback.format_exc
+2.4 unicodedata.east_asian_width
+2.3 unicodedata.normalize
+2.7 unittest.skip
+2.7 unittest.skipIf
+2.7 unittest.skipUnless
+2.7 unittest.expectedFailure
+2.7 unittest.installHandler
+2.7 unittest.registerResult
+2.7 unittest.removeResult
+2.7 unittest.removeHandler
+2.6 urlparse.parse_qs
+2.6 urlparse.parse_qsl
+2.2 urlparse.urlsplit
+2.2 urlparse.urlunsplit
+2.6 warnings.warnpy3k
+2.5 webbrowser.open_new_tab
+1.6 winsound.Beep
+2.3 winsound.MessageBeep
 
 method:
 2.7 long.bit_length
@@ -761,6 +836,47 @@ method:
 2.6 subprocess.Popen.send_signal
 2.6 subprocess.Popen.terminate
 2.6 subprocess.Popen.kill
+2.5 tarfile.TarFile.extractall
+2.6 tarfile.TarInfo.fromtarfile
+2.3 telnetlib.Telnet.read_sb_data
+2.6 threading.Thread.is_alive
+2.6 threading.Condition.notify_all
+2.6 threading.Event.is_set
+2.7 unittest.TestCase.setUpClass
+2.7 unittest.TestCase.tearDownClass
+2.7 unittest.TestCase.skipTest
+2.7 unittest.TestCase.assertIs
+2.7 unittest.TestCase.assertIsNone
+2.7 unittest.TestCase.assertIn
+2.7 unittest.TestCase.assertIsInstance
+2.7 unittest.TestCase.assertRaisesRegexp
+2.7 unittest.TestCase.assertGreater
+2.7 unittest.TestCase.assertRegexpMatches
+2.7 unittest.TestCase.assertNotRegexpMatches
+2.7 unittest.TestCase.assertItemsEqual
+2.7 unittest.TestCase.assertDictContainsSubset
+2.7 unittest.TestCase.addTypeEqualityFunc
+2.7 unittest.TestCase.assertMultiLineEqual
+2.7 unittest.TestCase.assertSequenceEqual
+2.7 unittest.TestCase.assertListEqual
+2.7 unittest.TestCase.assertSetEqual
+2.7 unittest.TestCase.assertDictEqual
+2.7 unittest.TestCase.longMessage
+2.7 unittest.TestCase.maxDiff
+2.7 unittest.TestCase.addCleanup
+2.7 unittest.TestCase.doCleanups
+2.7 unittest.TestLoader.discover
+2.7 unittest.TestResult.startTestRun
+2.7 unittest.TestResult.stopTestRun
+2.6 urllib.urlopen.getcode
+2.4 urllib2.Request.add_unredirected_header
+2.4 urllib2.Request.has_header
+2.5 urlparse.ParseResult.geturl
+2.5 weakref.WeakKeyDictionary.iterkeyrefs
+2.5 weakref.WeakKeyDictionary.keyrefs
+2.5 weakref.WeakValueDictionary.itervaluerefs
+2.5 weakref.WeakValueDictionary.valuerefs
+2.5 webbrowser.controller.open_new_tab
 
 attribute:
 2.3 file.encoding
@@ -862,6 +978,34 @@ attribute:
 2.7 sys.version_info.minor
 2.7 sys.version_info.micro
 2.7 sys.version_info.releaselevel
+2.6 tarfile.TarInfo.pax_headers
+2.6 textwrap.TextWrapper.drop_whitespace
+2.6 textwrap.TextWrapper.break_on_hyphens
+2.6 threading.Thread.name
+2.6 threading.Thread.ident
+2.6 threading.Thread.daemon
+2.7 unittest.TestResult.skipped
+2.7 unittest.TestResult.buffer
+2.7 unittest.TestResult.failfast
+2.5 urlparse.urlparse.scheme
+2.5 urlparse.urlparse.netloc
+2.5 urlparse.urlparse.path
+2.5 urlparse.urlparse.params
+2.5 urlparse.urlparse.query
+2.5 urlparse.urlparse.fragment
+2.5 urlparse.urlparse.username
+2.5 urlparse.urlparse.password
+2.5 urlparse.urlparse.hostname
+2.5 urlparse.urlparse.port
+2.5 urlparse.urlsplit.scheme
+2.5 urlparse.urlsplit.netloc
+2.5 urlparse.urlsplit.path
+2.5 urlparse.urlsplit.query
+2.5 urlparse.urlsplit.fragment
+2.5 urlparse.urlsplit.username
+2.5 urlparse.urlsplit.password
+2.5 urlparse.urlsplit.hostname
+2.5 urlparse.urlsplit.port
 
 decorator:
 2.2 classmethod
@@ -1001,3 +1145,27 @@ argument:
 2.3.3 [ "string.lstrip", [ "chars" ] ]
 2.3.3 [ "string.rstrip", [ "chars" ] ]
 2.3.3 [ "string.strip", [ "chars" ] ]
+2.6 [ "tarfile.TarFile", [ "format", "tarinfo", "encoding", "errors", "pax_headers" ] ]
+2.6 [ "tarfile.TarFile.add", [ "exclude" ] ]
+2.7 [ "tarfile.TarFile.add", [ "filter" ] ]
+2.6 [ "tarfile.TarInfo.tobuf", [ "format", "encoding", "errors" ] ]
+2.6 [ "telnetlib.Telnet", [ "timeout" ] ]
+2.6 [ "telnetlib.Telnet.open", [ "timeout" ] ]
+2.6 [ "tempfile.NamedTemporaryFile", [ "delete" ] ]
+2.7 [ "test.support.check_warnings", [ "filters", "quiet" ] ]
+2.4 [ "Tkinter.Tk", [ "useTk" ] ]
+2.7 [ "unittest.TestCase.assertAlmostEqual", [ "delta" ] ]
+2.7 [ "unittest.main", [ "exit", "verbosity", "failfast", "catchbreak", "buffer" ] ]
+2.3 [ "urllib.urlopen", [ "proxies" ] ]
+2.7.9 [ "urllib.urlopen", [ "context" ] ]
+2.7.9 [ "urllib.urlretrieve", [ "context" ] ]
+2.7.9 [ "urllib.URLopener", [ "context" ] ]
+2.6 [ "urllib2.urlopen", [ "timeout" ] ]
+2.7.9 [ "urllib2.urlopen", [ "cafile", "capth", "cadefault", "context" ] ]
+2.7.9 ] "urllib2.HTTPSHandler", [ "context" ]
+2.6 [ "urllib2.OpenerDirector.open", [ "timeout" ] ]
+2.7.16 [ "urlparse.parse_qs", [ "max_num_fields" ] ]
+2.7.16 [ "urlparse.parse_qsl", [ "max_num_fields" ] ]
+2.5 [ "warnings.warn_explicit", [ "module_globals" ] ]
+2.7 [ "warnings.showwarning", [ "line" ] ]
+2.6 [ "warnings.formatwarning", [ "line" ] ]

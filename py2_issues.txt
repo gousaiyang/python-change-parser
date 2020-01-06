@@ -23,6 +23,11 @@ string: , format option added in 2.7
 struct: ? conversion code added in 2.6
 struct: q/Q conversion code added in 22
 tarfile: support for POSIX.1-2001 (pax) format added in 2.6
+test.test_support: renamed to test.support in 2.7.14 and 3.*, retained as an alias in 2.7
+time: time value sequence changed to struct_time in 2.2
+Tkinter: renamed to tkinter in 3.*
+urllib2: renamed/splitted to urllib.request and urllib.error in 3.*
+urlparse: renamed to urllib.parse in 3.*
 
 # data
 socket.SIO_*: added in 2.6
@@ -38,6 +43,7 @@ os.popen: deprecated/obsoleted in 2.6
 os.popen2: deprecated/obsoleted in 2.6
 os.popen3: deprecated/obsoleted in 2.6
 os.popen4: deprecated/obsoleted in 2.6
+urllib.urlopen: removed in 3.* (in favour of urllib2.urlopen)
 
 # class
 bz2.BZ2File: support for with statement added in 2.7
@@ -49,7 +55,10 @@ email.parser.Parser: deprecated in 2.4
 gzip.GzipFile: support for with statement added in 2.7
 sqlite3.Row: iteration and equality (hashability) added in 2.6
 sqlite3.Connection: support for with statement added in 2.6
+tarfile.TarFileCompat: deprecated in 2.6, removed in 3.*
 tarfile.TarFile: support for with statement added in 2.7
+unittest._TextTestResult: deprecated in 2.7
+weakref.ref: changed from a factory function to a subclassable type in 2.4
 
 # method
 frozenset.union: accept multiple input iterables added in 2.6
@@ -64,6 +73,10 @@ email.generator.DecodedGenerator.__call__: removed in 2.5
 email.message.Message.get_type: removed in 2.5
 email.message.Message.get_main_type: removed in 2.5
 email.message.Message.get_subtype: removed in 2.5
+unittest.TestCase.assertRaises: support for with statement added in 2.7
+
+# attribute
+tarfile.TarFile.posix: deprecated in 2.6
 
 # parameter
 [ "doctest.testmod", [ "isprivate" ] ]: deprecated in 2.4, removed in 2.5
@@ -96,3 +109,6 @@ os.statvfs/statvfs_result: added access to values as attributes of the returned 
 resource.getrusage/struct_rusage: added access to values as attributes of the returned object in 2.3
 sys.getwindowsversion: added access to values as attributes of the returned object in 2.7
 sys.version_info: added access to values as attributes of the object in 2.7
+test.support.EnvironmentVarGuard: added dictionary interface in 2.7
+urlparse.urlparse/ParseResult: added access to values as attributes of the returned object in 2.4
+urlparse.urlsplit/SplitResult: added access to values as attributes of the returned object in 2.5
