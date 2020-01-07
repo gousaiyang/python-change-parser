@@ -1,5 +1,5 @@
 Python 3.8.1: finished record id: None
-Python 2.7.17: finished record id: 1-1290
+Python 2.7.17: finished record id: 1-1382
 
 module:
 2.6 abc
@@ -76,6 +76,17 @@ module:
 1.5.2 winsound
 2.5 wsgiref
 2.0 xml.dom
+2.0 xml.dom.minidom
+2.0 xml.dom.pulldom
+2.5 xml.etree.ElementTree
+2.0 xml.sax
+2.0 xml.sax.handler
+2.0 xml.sax.xmlreader
+2.0 xml.sax.saxutils
+2.2 xmlrpclib
+1.6 zipfile
+2.3 zipimport
+2.0 _winreg
 
 data:
 2.3 False
@@ -228,6 +239,25 @@ data:
 2.2 types.StringTypes
 2.3 unicodedata.unidata_version
 2.3 unicodedata.ucd_3_2_0
+2.2 xml.dom.EMPTY_NAMESPACE
+2.2 xml.dom.XML_NAMESPACE
+2.2 xml.dom.XMLNS_NAMESPACE
+2.2 xml.dom.XHTML_NAMESPACE
+2.1 xml.dom.DOMSTRING_SIZE_ERR
+2.1 xml.dom.HIERARCHY_REQUEST_ERR
+2.1 xml.dom.INDEX_SIZE_ERR
+2.1 xml.dom.INUSE_ATTRIBUTE_ERR
+2.1 xml.dom.INVALID_ACCESS_ERR
+2.1 xml.dom.INVALID_CHARACTER_ERR
+2.1 xml.dom.INVALID_MODIFICATION_ERR
+2.1 xml.dom.INVALID_STATE_ERR
+2.1 xml.dom.NAMESPACE_ERR
+2.1 xml.dom.NOT_FOUND_ERR
+2.1 xml.dom.NOT_SUPPORTED_ERR
+2.1 xml.dom.NO_DATA_ALLOWED_ERR
+2.1 xml.dom.NO_MODIFICATION_ALLOWED_ERR
+2.1 xml.dom.SYNTAX_ERR
+2.1 xml.dom.WRONG_DOCUMENT_ERR
 
 class:
 2.6 bytearray
@@ -305,6 +335,8 @@ class:
 2.4 urllib2.HTTPErrorProcessor
 2.6 warnings.catch_warnings
 2.7 weakref.WeakSet
+2.4 xmlrpclib.MultiCall
+2.7 zipimport.zipimporter
 
 exception:
 2.5 BaseException
@@ -350,6 +382,22 @@ exception:
 2.6 tarfile.HeaderError
 2.7 unittest.SkipTest
 2.6 urllib.ContentTooShortError
+2.1 xml.dom.DOMException
+2.1 xml.dom.DomstringSizeErr
+2.1 xml.dom.HierarchyRequestErr
+2.1 xml.dom.IndexSizeErr
+2.1 xml.dom.InuseAttributeErr
+2.1 xml.dom.InvalidAccessErr
+2.1 xml.dom.InvalidCharacterErr
+2.1 xml.dom.InvalidModificationErr
+2.1 xml.dom.InvalidStateErr
+2.1 xml.dom.NamespaceErr
+2.1 xml.dom.NotFoundErr
+2.1 xml.dom.NotSupportedErr
+2.1 xml.dom.NoDataAllowedErr
+2.1 xml.dom.NoModificationAllowedErr
+2.1 xml.dom.SyntaxErr
+2.1 xml.dom.WrongDocumentErr
 
 function:
 2.5 all
@@ -672,6 +720,14 @@ function:
 2.5 webbrowser.open_new_tab
 1.6 winsound.Beep
 2.3 winsound.MessageBeep
+2.7 xml.etree.ElementTree.fromstringlist
+2.7 xml.etree.ElementTree.register_namespace
+2.7 xml.etree.ElementTree.tostringlist
+2.3 xml.sax.saxutils.unescape
+2.2 xml.sax.saxutils.quoteattr
+2.7 _winreg.CreateKeyEx
+2.7 _winreg.DeleteKeyEx
+2.6 _winreg.ExpandEnvironmentStrings
 
 method:
 2.7 long.bit_length
@@ -696,6 +752,20 @@ method:
 2.7 dict.viewvalues
 2.3 file.next
 2.1 file.xreadlines
+2.1 object.__lt__
+2.1 object.__le__
+2.1 object.__eq__
+2.1 object.__ne__
+2.1 object.__gt__
+2.1 object.__ge__
+2.2 object.__slots__
+2.2 object.__metaclass__
+2.6 object.__instancecheck__
+2.6 object.__subclasscheck__
+2.6 object.__reversed__
+2.5 object.__index__
+2.5 object.__enter__
+2.5 object.__exit__
 2.2 cgi.FieldStorage.getfirst
 2.2 cgi.FieldStorage.getlist
 2.7 collections.deque.count
@@ -877,6 +947,21 @@ method:
 2.5 weakref.WeakValueDictionary.itervaluerefs
 2.5 weakref.WeakValueDictionary.valuerefs
 2.5 webbrowser.controller.open_new_tab
+2.1 xml.dom.Node.normalize
+2.1 xml.dom.minidom.Node.toprettyxml
+2.7 xml.etree.ElementTree.Element.extend
+2.7 xml.etree.ElementTree.Element.iter
+2.7 xml.etree.ElementTree.Element.iterfind
+2.7 xml.etree.ElementTree.Element.itertext
+2.7 xml.etree.ElementTree.ElementTree.iterfind
+2.7 xml.etree.ElementTree.TreeBuilder.doctype
+2.6 zipfile.ZipFile.open
+2.6 zipfile.ZipFile.extract
+2.6 zipfile.ZipFile.extractall
+2.6 zipfile.ZipFile.setpassword
+2.5 zlib.Compress.copy
+2.5 zlib.Decompress.copy
+2.3 slice.indices
 
 attribute:
 2.3 file.encoding
@@ -1169,3 +1254,13 @@ argument:
 2.5 [ "warnings.warn_explicit", [ "module_globals" ] ]
 2.7 [ "warnings.showwarning", [ "line" ] ]
 2.6 [ "warnings.formatwarning", [ "line" ] ]
+2.1 [ "xml.dom.minidom.Node.writexml", [ "indent", "addindent", "newl" ] ]
+2.3 [ "xml.dom.minidom.Document.writexml", [ "encoding" ] ]
+2.3 [ "xml.dom.minidom.Node.toxml", [ "encoding" ] ]
+2.3 [ "xml.dom.minidom.Node.toxml", [ "encoding" ] ]
+2.3 [ "xml.dom.minidom.Node.toprettyxml", [ "encoding" ] ]
+2.5 [ "xmlrpclib.ServerProxy", [ "use_datetime" ] ]
+2.7.9 [ "xmlrpclib.ServerProxy", [ "context" ] ]
+2.5 [ "xmlrpclib.loads", [ "use_datetime" ] ]
+2.6 [ "zipfile.ZipFile.read", [ "pwd" ] ]
+2.7 [ "zipfile.ZipFile.writestr", [ "compress_type" ] ]

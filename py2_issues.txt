@@ -28,6 +28,8 @@ time: time value sequence changed to struct_time in 2.2
 Tkinter: renamed to tkinter in 3.*
 urllib2: renamed/splitted to urllib.request and urllib.error in 3.*
 urlparse: renamed to urllib.parse in 3.*
+xmlrpclib: renamed to xmlrpc.client in 3.*.
+_winreg: renamed to winreg in 3.*
 
 # data
 socket.SIO_*: added in 2.6
@@ -59,6 +61,8 @@ tarfile.TarFileCompat: deprecated in 2.6, removed in 3.*
 tarfile.TarFile: support for with statement added in 2.7
 unittest._TextTestResult: deprecated in 2.7
 weakref.ref: changed from a factory function to a subclassable type in 2.4
+zipfile.ZipFile: support for with statement added in 2.7
+_winreg.PyHKEY: support for with statement added in 2.6
 
 # method
 frozenset.union: accept multiple input iterables added in 2.6
@@ -74,6 +78,8 @@ email.message.Message.get_type: removed in 2.5
 email.message.Message.get_main_type: removed in 2.5
 email.message.Message.get_subtype: removed in 2.5
 unittest.TestCase.assertRaises: support for with statement added in 2.7
+object.__rcmp__: deprecated/unsupported in 2.1
+object.__getslice__: deprecated in 2.0
 
 # attribute
 tarfile.TarFile.posix: deprecated in 2.6
@@ -94,6 +100,10 @@ id-865: ambiguous change message
 decorators: function decorator added in 2.4, class decorator added in 2.6
 iterators: iterator types added in 2.2
 contextmanager: context manager (with) types added in 2.5
+with: with statement added in 2.5, support for multiple context added in 2.7
+function: __closure__, __code__, __defaults__, __globals__, __func__, __self__ attributes added in 2.6
+yield: yield expression added in 2.5
+ternary: conditional expression added in 2.5
 
 __import__: support keyword arguments added in 2.5
 set: support {...} syntax for set creation added in 2.7
