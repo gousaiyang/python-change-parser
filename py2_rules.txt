@@ -731,7 +731,7 @@ function:
 
 method:
 2.7 long.bit_length
-105 float.as_integer_ratio
+2.6 float.as_integer_ratio
 2.6 float.is_integer
 2.6 float.hex
 2.6 float.fromhex
