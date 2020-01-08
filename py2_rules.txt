@@ -91,7 +91,7 @@ module:
 data:
 2.3 False
 2.3 True
-2.5 doctest.skip
+2.5 doctest.SKIP
 2.4 doctest.DONT_ACCEPT_BLANKLINE
 2.4 doctest.NORMALIZE_WHITESPACE
 2.4 doctest.ELLIPSIS
@@ -102,7 +102,7 @@ data:
 2.4 doctest.REPORT_ONLY_FIRST_FAILURE
 2.4 doctest.COMPARISON_FLAGS
 2.4 doctest.REPORTING_FLAGS
-2.7 hashlib.hashlib.algorithms
+2.7 hashlib.algorithms
 2.7.9 hashlib.algorithms_guaranteed
 2.7.9 hashlib.algorithms_available
 2.3 htmlentitydefs.name2codepoint
@@ -272,7 +272,7 @@ class:
 2.5 calendar.HTMLCalendar
 2.5 calendar.LocaleTextCalendar
 2.5 calendar.LocaleHTMLCalendar
-2.5 codesc.IncrementalEncoder
+2.5 codecs.IncrementalEncoder
 2.4 collections.deque
 2.7 collections.Counter
 2.7 collections.OrderedDict
@@ -433,8 +433,8 @@ function:
 2.4 codecs.decode
 2.5 codecs.getincrementalencoder
 2.5 codecs.getincrementaldecoder
-2.5 codesc.iterencode
-2.5 codesc.iterdecode
+2.5 codecs.iterencode
+2.5 codecs.iterdecode
 2.6 collections.namedtuple
 2.7 compileall.compile_file
 2.5 csv.field_size_limit
@@ -978,7 +978,7 @@ attribute:
 2.2 os.stat_result.st_mode
 2.2 os.stat_result.st_ino
 2.2 os.stat_result.st_dev
-2.2 os.stat_result.st_ulink
+2.2 os.stat_result.st_nlink
 2.2 os.stat_result.st_uid
 2.2 os.stat_result.st_gid
 2.2 os.stat_result.st_size
@@ -994,16 +994,16 @@ attribute:
 2.2 os.stat_result.st_ftype
 2.2 os.stat_result.st_attrs
 2.2 os.stat_result.st_obtype
-2.2 os.statvfs.f_bsize
-2.2 os.statvfs.f_frsize
-2.2 os.statvfs.f_blocks
-2.2 os.statvfs.f_bfree
-2.2 os.statvfs.f_bavail
-2.2 os.statvfs.f_files
-2.2 os.statvfs.f_ffree
-2.2 os.statvfs.f_avail
-2.2 os.statvfs.f_flag
-2.2 os.statvfs.f_namemax
+2.2 os.statvfs_result.f_bsize
+2.2 os.statvfs_result.f_frsize
+2.2 os.statvfs_result.f_blocks
+2.2 os.statvfs_result.f_bfree
+2.2 os.statvfs_result.f_bavail
+2.2 os.statvfs_result.f_files
+2.2 os.statvfs_result.f_ffree
+2.2 os.statvfs_result.f_favail
+2.2 os.statvfs_result.f_flag
+2.2 os.statvfs_result.f_namemax
 2.3 xml.parsers.expat.XMLParserType.buffer_size
 2.3 xml.parsers.expat.XMLParserType.buffer_text
 2.3 xml.parsers.expat.XMLParserType.buffer_used
@@ -1113,7 +1113,7 @@ argument:
 2.4 [ "str.rjust", [ "fillchar" ] ]
 2.2.2 [ "str.rstrip", [ "chars" ] ]
 2.2.2 [ "str.strip", [ "chars" ] ]
-2.4 [ "sort", [ "key", "reverse" ] ]
+2.4 [ "sorted", [ "key", "reverse" ] ]
 2.5 [ "BaseHTTPServer.BaseHTTPRequestHandler.date_time_string", [ "timestamp" ] ]
 2.7 [ "bdb.Bdb", [ "skip" ] ]
 2.4 [ "cmath.log", [ "base" ] ]
@@ -1237,7 +1237,7 @@ argument:
 2.6 [ "telnetlib.Telnet", [ "timeout" ] ]
 2.6 [ "telnetlib.Telnet.open", [ "timeout" ] ]
 2.6 [ "tempfile.NamedTemporaryFile", [ "delete" ] ]
-2.7 [ "test.support.check_warnings", [ "filters", "quiet" ] ]
+2.7 [ "test.support.check_warnings", [ "quiet" ] ]
 2.4 [ "Tkinter.Tk", [ "useTk" ] ]
 2.7 [ "unittest.TestCase.assertAlmostEqual", [ "delta" ] ]
 2.7 [ "unittest.main", [ "exit", "verbosity", "failfast", "catchbreak", "buffer" ] ]
