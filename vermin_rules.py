@@ -1,131 +1,131 @@
 modules_rules = {
-    "DocXMLRPCServer": ((2, 3), None),  # TODO
-    "HTMLParser": ((2, 2), None),  # TODO
-    "SimpleXMLRPCServer": ((2, 2), None),  # TODO
-    "_ast": ((2, 5), None),  # TODO
-    "_winreg": ((2, 0), None),  # TODO
-    "abc": ((2, 6), None),  # TODO
+    "DocXMLRPCServer": ((2, 3), None),
+    "HTMLParser": ((2, 2), None),
+    "SimpleXMLRPCServer": ((2, 2), None),
+    "_ast": ((2, 5), (3, 0)),
+    "_winreg": ((2, 0), None),
+    "abc": ((2, 6), (3, 0)),
     "argparse": ((2, 7), (3, 2)),
-    "ast": ((2, 6), None),  # TODO
-    "bisect": ((2, 1), None),  # TODO
-    "bz2": ((2, 3), None),  # TODO
-    "cProfile": ((2, 5), None),  # TODO
-    "cgitb": ((2, 2), None),  # TODO
-    "collections": ((2, 4), None),  # TODO
+    "ast": ((2, 6), (3, 0)),
+    "bisect": ((2, 1), (3, 0)),
+    "bz2": ((2, 3), (3, 0)),
+    "cProfile": ((2, 5), (3, 0)),
+    "cgitb": ((2, 2), (3, 0)),
+    "collections": ((2, 4), (3, 0)),
     "collections.abc": (None, (3, 3)),
     "concurrent.futures": (None, (3, 2)),
-    "contextlib": ((2, 5), None),  # TODO
+    "contextlib": ((2, 5), (3, 0)),
     "contextvars": (None, (3, 7)),
-    "cookielib": ((2, 4), None),  # TODO
-    "csv": ((2, 3), None),  # TODO
-    "ctypes": ((2, 5), None),  # TODO
-    "curses": ((2, 0), None),  # TODO
-    "curses.ascii": ((2, 0), None),  # TODO
-    "curses.textpad": ((2, 0), None),  # TODO
+    "cookielib": ((2, 4), None),
+    "csv": ((2, 3), (3, 0)),
+    "ctypes": ((2, 5), (3, 0)),
+    "curses": ((2, 0), (3, 0)),
+    "curses.ascii": ((2, 0), (3, 0)),
+    "curses.textpad": ((2, 0), (3, 0)),
     "dataclasses": (None, (3, 7)),
-    "datetime": ((2, 3), None),  # TODO
-    "decimal": ((2, 4), None),  # TODO
-    "difflib": ((2, 1), None),  # TODO
-    "email": ((2, 2), None),  # TODO
-    "email.charset": ((2, 2), None),  # TODO
+    "datetime": ((2, 3), (3, 0)),
+    "decimal": ((2, 4), (3, 0)),
+    "difflib": ((2, 1), (3, 0)),
+    "email": ((2, 2), (3, 0)),
+    "email.charset": ((2, 2), (3, 0)),
     "email.contentmanager": (None, (3, 6)),
-    "email.header": ((2, 2), None),  # TODO
+    "email.header": ((2, 2), (3, 0)),
     "email.headerregistry": (None, (3, 6)),
     "email.message": (None, (3, 6)),
     "email.policy": (None, (3, 3)),
-    "encodings.idna": ((2, 3), None),  # TODO
-    "encodings.utf_8_sig": ((2, 5), None),  # TODO
+    "encodings.idna": ((2, 3), (3, 0)),
+    "encodings.utf_8_sig": ((2, 5), (3, 0)),
     "ensurepip": ((2, 7), (3, 4)),
     "enum": (None, (3, 4)),
     "faulthandler": (None, (3, 3)),
-    "fractions": ((2, 6), None),  # TODO
-    "functools": ((2, 5), None),  # TODO
-    "future_builtins": ((2, 6), None),  # TODO
-    "hashlib": ((2, 5), None),  # TODO
-    "heapq": ((2, 3), None),  # TODO
-    "hmac": ((2, 2), None),  # TODO
-    "hotshot": ((2, 2), None),  # TODO
-    "hotshot.stats": ((2, 2), None),  # TODO
+    "fractions": ((2, 6), (3, 0)),
+    "functools": ((2, 5), (3, 0)),
+    "future_builtins": ((2, 6), None),
+    "hashlib": ((2, 5), (3, 0)),
+    "heapq": ((2, 3), (3, 0)),
+    "hmac": ((2, 2), (3, 0)),
+    "hotshot": ((2, 2), None),
+    "hotshot.stats": ((2, 2), None),
     "importlib": ((2, 7), (3, 1)),
     "importlib.resources": (None, (3, 7)),
-    "inspect": ((2, 1), None),  # TODO
-    "io": ((2, 6), None),  # TODO
+    "inspect": ((2, 1), (3, 0)),
+    "io": ((2, 6), (3, 0)),
     "ipaddress": (None, (3, 3)),
-    "itertools": ((2, 3), None),  # TODO
-    "json": ((2, 6), None),  # TODO
-    "logging": ((2, 3), None),  # TODO
+    "itertools": ((2, 3), (3, 0)),
+    "json": ((2, 6), (3, 0)),
+    "logging": ((2, 3), (3, 0)),
     "lzma": (None, (3, 3)),
-    "modulefinder": ((2, 3), None),  # TODO
-    "msilib": ((2, 5), None),  # TODO
-    "multiprocessing": ((2, 6), None),  # TODO
+    "modulefinder": ((2, 3), (3, 0)),
+    "msilib": ((2, 5), (3, 0)),
+    "multiprocessing": ((2, 6), (3, 0)),
     "multiprocessing.shared_memory": (None, (3, 8)),
-    "netrc": ((2, 0), None),  # TODO
-    "numbers": ((2, 6), None),  # TODO
-    "optparse": ((2, 3), None),  # TODO
-    "ossaudiodev": ((2, 3), None),  # TODO
+    "netrc": ((2, 0), (3, 0)),
+    "numbers": ((2, 6), (3, 0)),
+    "optparse": ((2, 3), (3, 0)),
+    "ossaudiodev": ((2, 3), (3, 0)),
     "pathlib": (None, (3, 4)),
-    "pickletools": ((2, 3), None),  # TODO
-    "pkgutil": ((2, 3), None),  # TODO
-    "platform": ((2, 3), None),  # TODO
-    "pydoc": ((2, 1), None),  # TODO
-    "runpy": ((2, 5), None),  # TODO
+    "pickletools": ((2, 3), (3, 0)),
+    "pkgutil": ((2, 3), (3, 0)),
+    "platform": ((2, 3), (3, 0)),
+    "pydoc": ((2, 1), (3, 0)),
+    "runpy": ((2, 5), (3, 0)),
     "secrets": (None, (3, 6)),
     "selectors": (None, (3, 4)),
-    "sets": ((2, 3), None),  # TODO
-    "shlex": ((2, 0), None),  # TODO
-    "site": ((2, 6), None),  # TODO
-    "spwd": ((2, 5), None),  # TODO
-    "sqlite3": ((2, 5), None),  # TODO
-    "ssl": ((2, 6), None),  # TODO
+    "sets": ((2, 3), None),
+    "shlex": ((2, 0), (3, 0)),
+    "site": ((2, 6), (3, 0)),
+    "spwd": ((2, 5), (3, 0)),
+    "sqlite3": ((2, 5), (3, 0)),
+    "ssl": ((2, 6), (3, 0)),
     "statistics": (None, (3, 4)),
-    "stringprep": ((2, 3), None),  # TODO
-    "subprocess": ((2, 4), None),  # TODO
+    "stringprep": ((2, 3), (3, 0)),
+    "subprocess": ((2, 4), (3, 0)),
     "sysconfig": ((2, 7), (3, 2)),
-    "tarfile": ((2, 3), None),  # TODO
-    "textwrap": ((2, 3), None),  # TODO
-    "timeit": ((2, 3), None),  # TODO
+    "tarfile": ((2, 3), (3, 0)),
+    "textwrap": ((2, 3), (3, 0)),
+    "timeit": ((2, 3), (3, 0)),
     "tracemalloc": (None, (3, 4)),
     "typing": (None, (3, 5)),
-    "unittest": ((2, 1), None),  # TODO
+    "unittest": ((2, 1), (3, 0)),
     "unittest.mock": (None, (3, 3)),
-    "uuid": ((2, 5), None),  # TODO
+    "uuid": ((2, 5), (3, 0)),
     "venv": (None, (3, 3)),
-    "warnings": ((2, 1), None),  # TODO
-    "weakref": ((2, 1), None),  # TODO
-    "winsound": ((2, 0), None),  # TODO
-    "wsgiref": ((2, 5), None),  # TODO
-    "xml.dom": ((2, 0), None),  # TODO
-    "xml.dom.minidom": ((2, 0), None),  # TODO
-    "xml.dom.pulldom": ((2, 0), None),  # TODO
-    "xml.etree.ElementTree": ((2, 5), None),  # TODO
-    "xml.parsers.expat": ((2, 0), None),  # TODO
-    "xml.sax": ((2, 0), None),  # TODO
-    "xml.sax.handler": ((2, 0), None),  # TODO
-    "xml.sax.saxutils": ((2, 0), None),  # TODO
-    "xml.sax.xmlreader": ((2, 0), None),  # TODO
-    "xmlrpclib": ((2, 2), None),  # TODO
+    "warnings": ((2, 1), (3, 0)),
+    "weakref": ((2, 1), (3, 0)),
+    "winsound": ((2, 0), (3, 0)),
+    "wsgiref": ((2, 5), (3, 0)),
+    "xml.dom": ((2, 0), (3, 0)),
+    "xml.dom.minidom": ((2, 0), (3, 0)),
+    "xml.dom.pulldom": ((2, 0), (3, 0)),
+    "xml.etree.ElementTree": ((2, 5), (3, 0)),
+    "xml.parsers.expat": ((2, 0), (3, 0)),
+    "xml.sax": ((2, 0), (3, 0)),
+    "xml.sax.handler": ((2, 0), (3, 0)),
+    "xml.sax.saxutils": ((2, 0), (3, 0)),
+    "xml.sax.xmlreader": ((2, 0), (3, 0)),
+    "xmlrpclib": ((2, 2), None),
     "zipapp": (None, (3, 5)),
-    "zipfile": ((2, 0), None),  # TODO
-    "zipimport": ((2, 3), None),  # TODO
+    "zipfile": ((2, 0), (3, 0)),
+    "zipimport": ((2, 3), (3, 0)),
 }
 
 classes_rules = {
-    "ConfigParser.ConfigParser": ((2, 3), None),  # TODO
-    "ConfigParser.RawConfigParser": ((2, 3), None),  # TODO
-    "ConfigParser.SafeConfigParser": ((2, 3), None),  # TODO
-    "Queue.LifoQueue": ((2, 6), None),  # TODO
-    "Queue.PriorityQueue": ((2, 6), None),  # TODO
-    "SimpleXMLRPCServer.CGIXMLRPCRequestHandler": ((2, 3), None),  # TODO
+    "ConfigParser.ConfigParser": ((2, 3), None),
+    "ConfigParser.RawConfigParser": ((2, 3), None),
+    "ConfigParser.SafeConfigParser": ((2, 3), None),
+    "Queue.LifoQueue": ((2, 6), None),
+    "Queue.PriorityQueue": ((2, 6), None),
+    "SimpleXMLRPCServer.CGIXMLRPCRequestHandler": ((2, 3), None),
     "abc.ABC": (None, (3, 4)),
     "asyncio.MultiLoopChildWatcher": (None, (3, 8)),
     "asyncio.ThreadedChildWatcher": (None, (3, 8)),
-    "bytearray": ((2, 6), None),  # TODO
-    "calendar.Calendar": ((2, 5), None),  # TODO
-    "calendar.HTMLCalendar": ((2, 5), None),  # TODO
-    "calendar.LocaleHTMLCalendar": ((2, 5), None),  # TODO
-    "calendar.LocaleTextCalendar": ((2, 5), None),  # TODO
-    "calendar.TextCalendar": ((2, 5), None),  # TODO
-    "codesc.IncrementalEncoder": ((2, 5), None),  # TODO
+    "bytearray": ((2, 6), (3, 0)),
+    "calendar.Calendar": ((2, 5), (3, 0)),
+    "calendar.HTMLCalendar": ((2, 5), (3, 0)),
+    "calendar.LocaleHTMLCalendar": ((2, 5), (3, 0)),
+    "calendar.LocaleTextCalendar": ((2, 5), (3, 0)),
+    "calendar.TextCalendar": ((2, 5), (3, 0)),
+    "codecs.IncrementalEncoder": ((2, 5), (3, 0)),
     "collections.ChainMap": (None, (3, 3)),
     "collections.Counter": ((2, 7), (3, 1)),
     "collections.OrderedDict": ((2, 7), (3, 1)),
@@ -137,60 +137,60 @@ classes_rules = {
     "collections.abc.Coroutine": (None, (3, 5)),
     "collections.abc.Generator": (None, (3, 5)),
     "collections.abc.Reversible": (None, (3, 6)),
-    "collections.defaultdict": ((2, 5), None),  # TODO
-    "collections.deque": ((2, 4), None),  # TODO
+    "collections.defaultdict": ((2, 5), (3, 0)),
+    "collections.deque": ((2, 4), (3, 0)),
     "contextlib.AbstractAsyncContextManager": (None, (3, 7)),
     "contextlib.AbstractContextManager": (None, (3, 6)),
     "contextlib.AsyncExitStack": (None, (3, 7)),
     "contextlib.ContextDecorator": (None, (3, 2)),
     "contextlib.ExitStack": (None, (3, 3)),
     "csv.unix_dialect": (None, (3, 2)),
-    "ctypes.c_bool": ((2, 6), None),  # TODO
-    "ctypes.c_longdouble": ((2, 6), None),  # TODO
+    "ctypes.c_bool": ((2, 6), (3, 0)),
+    "ctypes.c_longdouble": ((2, 6), (3, 0)),
     "ctypes.c_ssize_t": ((2, 7), (3, 2)),
     "datetime.timezone": (None, (3, 2)),
     "decimal.Decimal": (None, (3, 6)),
-    "dict": ((2, 2), None),  # TODO
-    "difflib.HtmlDiff": ((2, 4), None),  # TODO
+    "dict": ((2, 2), (3, 0)),
+    "difflib.HtmlDiff": ((2, 4), (3, 0)),
     "dis.Bytecode": (None, (3, 4)),
     "dis.Instruction": (None, (3, 4)),
-    "doctest.DocTest": ((2, 4), None),  # TODO
-    "doctest.DocTestFinder": ((2, 4), None),  # TODO
-    "doctest.DocTestParser": ((2, 4), None),  # TODO
-    "doctest.DocTestRunner": ((2, 4), None),  # TODO
-    "doctest.Example": ((2, 4), None),  # TODO
-    "doctest.OutputChecker": ((2, 4), None),  # TODO
+    "doctest.DocTest": ((2, 4), (3, 0)),
+    "doctest.DocTestFinder": ((2, 4), (3, 0)),
+    "doctest.DocTestParser": ((2, 4), (3, 0)),
+    "doctest.DocTestRunner": ((2, 4), (3, 0)),
+    "doctest.Example": ((2, 4), (3, 0)),
+    "doctest.OutputChecker": ((2, 4), (3, 0)),
     "email.errors.CloseBoundaryNotFoundDefect": (None, (3, 3)),
-    "email.errors.FirstHeaderLineIsContinuationDefect": ((2, 4), None),  # TODO
-    "email.errors.MalformedHeaderDefect": ((2, 4), None),  # TODO
-    "email.errors.MisplacedEnvelopeHeaderDefect": ((2, 4), None),  # TODO
+    "email.errors.FirstHeaderLineIsContinuationDefect": ((2, 4), (3, 0)),
+    "email.errors.MalformedHeaderDefect": ((2, 4), (3, 0)),
+    "email.errors.MisplacedEnvelopeHeaderDefect": ((2, 4), (3, 0)),
     "email.errors.MissingHeaderBodySeparatorDefect": (None, (3, 3)),
-    "email.errors.MultipartInvariantViolationDefect": ((2, 4), None),  # TODO
-    "email.errors.NoBoundaryInMultipartDefect": ((2, 4), None),  # TODO
-    "email.errors.StartBoundaryNotFoundDefect": ((2, 4), None),  # TODO
+    "email.errors.MultipartInvariantViolationDefect": ((2, 4), (3, 0)),
+    "email.errors.NoBoundaryInMultipartDefect": ((2, 4), (3, 0)),
+    "email.errors.StartBoundaryNotFoundDefect": ((2, 4), (3, 0)),
     "email.generator.BytesGenerator": (None, (3, 2)),
-    "email.generator.DecodedGenerator": ((2, 2), None),  # TODO
-    "email.mime.application.MIMEApplication": ((2, 5), None),  # TODO
-    "email.mime.multipart.MIMEMultipart": ((2, 2), None),  # TODO
-    "email.mime.nonmultipart.MIMENonMultipart": ((2, 2), None),  # TODO
+    "email.generator.DecodedGenerator": ((2, 2), (3, 0)),
+    "email.mime.application.MIMEApplication": ((2, 5), (3, 0)),
+    "email.mime.multipart.MIMEMultipart": ((2, 2), (3, 0)),
+    "email.mime.nonmultipart.MIMENonMultipart": ((2, 2), (3, 0)),
     "email.parser.BytesFeedParser": (None, (3, 2)),
     "email.parser.BytesHeaderParser": (None, (3, 3)),
     "email.parser.BytesParser": (None, (3, 2)),
-    "email.parser.FeedParser": ((2, 4), None),  # TODO
+    "email.parser.FeedParser": ((2, 4), (3, 0)),
     "email.policy.EmailPolicy": (None, (3, 6)),
     "enum.Flag": (None, (3, 6)),
     "enum.IntFlag": (None, (3, 6)),
     "enum.auto": (None, (3, 6)),
-    "frozenset": ((2, 4), None),  # TODO
+    "frozenset": ((2, 4), (3, 0)),
     "ftplib.FTP_TLS": ((2, 7), (3, 2)),
     "functools.partialmethod": (None, (3, 4)),
     "http.HTTPStatus": (None, (3, 5)),
     "http.server.ThreadingHTTPServer": (None, (3, 7)),
-    "httplib.HTTPConnection": ((2, 0), None),  # TODO
-    "httplib.HTTPResponse": ((2, 0), None),  # TODO
-    "httplib.HTTPSConnection": ((2, 0), None),  # TODO
-    "imaplib.IMAP4_stream": ((2, 3), None),  # TODO
-    "imp.NullImporter": ((2, 5), None),  # TODO
+    "httplib.HTTPConnection": ((2, 0), None),
+    "httplib.HTTPResponse": ((2, 0), None),
+    "httplib.HTTPSConnection": ((2, 0), None),
+    "imaplib.IMAP4_stream": ((2, 3), (3, 0)),
+    "imp.NullImporter": ((2, 5), (3, 0)),
     "importlib.abc.FileLoader": (None, (3, 3)),
     "importlib.abc.MetaPathFinder": (None, (3, 3)),
     "importlib.abc.PathEntryFinder": (None, (3, 3)),
@@ -205,15 +205,15 @@ classes_rules = {
     "inspect.BoundArguments": (None, (3, 3)),
     "inspect.Parameter": (None, (3, 3)),
     "inspect.Signature": (None, (3, 3)),
-    "logging.LoggerAdapter": ((2, 6), None),  # TODO
+    "logging.LoggerAdapter": ((2, 6), (3, 0)),
     "logging.NullHandler": ((2, 7), (3, 1)),
     "logging.handlers.QueueHandler": (None, (3, 2)),
     "logging.handlers.QueueListener": (None, (3, 2)),
-    "logging.handlers.WatchedFileHandler": ((2, 6), None),  # TODO
-    "memoryview": ((2, 7), None),  # TODO
+    "logging.handlers.WatchedFileHandler": ((2, 6), (3, 0)),
+    "memoryview": ((2, 7), (3, 0)),
     "multiprocessing.Barrier": (None, (3, 3)),
     "nntplib.NNTP_SSL": (None, (3, 2)),
-    "object": ((2, 2), None),  # TODO
+    "object": ((2, 2), (3, 0)),
     "os.DirEntry": (None, (3, 5)),
     "os.PathLike": (None, (3, 6)),
     "os.sched_param": (None, (3, 3)),
@@ -221,16 +221,16 @@ classes_rules = {
     "pickle.PickleBuffer": (None, (3, 8)),
     "pkgutil.ModuleInfo": (None, (3, 6)),
     "plistlib.UID": (None, (3, 8)),
-    "popen2.Popen4": ((2, 0), None),  # TODO
-    "poplib.POP3_SSL": ((2, 4), None),  # TODO
-    "pstats.Stats": ((2, 3), None),  # TODO
+    "popen2.Popen4": ((2, 0), None),
+    "poplib.POP3_SSL": ((2, 4), (3, 0)),
+    "pstats.Stats": ((2, 3), (3, 0)),
     "py_compile.PycInvalidationMode": (None, (3, 7)),
     "queue.SimpleQueue": (None, (3, 7)),
-    "random.SystemRandom": ((2, 4), None),  # TODO
+    "random.SystemRandom": ((2, 4), (3, 0)),
     "selectors.DevpollSelector": (None, (3, 5)),
-    "set": ((2, 4), None),  # TODO
-    "smtplib.LMTP": ((2, 6), None),  # TODO
-    "smtplib.SMTP_SSL": ((2, 6), None),  # TODO
+    "set": ((2, 4), (3, 0)),
+    "smtplib.LMTP": ((2, 6), (3, 0)),
+    "smtplib.SMTP_SSL": ((2, 6), (3, 0)),
     "ssl.AlertDescription": (None, (3, 6)),
     "ssl.MemoryBIO": (None, (3, 5)),
     "ssl.Options": (None, (3, 6)),
@@ -242,23 +242,22 @@ classes_rules = {
     "ssl.VerifyFlags": (None, (3, 6)),
     "ssl.VerifyMode": (None, (3, 6)),
     "statistics.NormalDist": (None, (3, 8)),
-    "string.Formatter": ((2, 6), None),  # TODO
-    "string.Template": ((2, 4), None),  # TODO
-    "struct.Struct": ((2, 5), None),  # TODO
+    "string.Formatter": ((2, 6), (3, 0)),
+    "string.Template": ((2, 4), (3, 0)),
+    "struct.Struct": ((2, 5), (3, 0)),
     "subprocess.CompletedProcess": (None, (3, 5)),
-    "sys.float_info": ((2, 6), None),  # TODO
-    "sys.float_repr_style": ((2, 7), None),  # TODO
-    "test.support.EnvironmentVarGuard": ((2, 6), None),  # TODO
-    "test.support.TransientResource": ((2, 6), None),  # TODO
-    "test.support.WarningsRecorder": ((2, 6), None),  # TODO
+    "sys.float_info": ((2, 6), (3, 0)),
+    "test.support.EnvironmentVarGuard": ((2, 6), (3, 0)),
+    "test.support.TransientResource": ((2, 6), (3, 0)),
+    "test.support.WarningsRecorder": ((2, 6), (3, 0)),
     "threading.Barrier": (None, (3, 2)),
-    "threading.local": ((2, 4), None),  # TODO
-    "time.struct_time": ((2, 2), None),  # TODO
+    "threading.local": ((2, 4), (3, 0)),
+    "time.struct_time": ((2, 2), (3, 0)),
     "traceback.FrameSummary": (None, (3, 5)),
     "traceback.StackSummary": (None, (3, 5)),
     "traceback.TracebackException": (None, (3, 5)),
     "tracemalloc.DomainFilter": (None, (3, 6)),
-    "type": ((2, 2), None),  # TODO
+    "type": ((2, 2), (3, 0)),
     "types.MappingProxyType": (None, (3, 3)),
     "types.SimpleNamespace": (None, (3, 3)),
     "typing.AsyncContextManager": (None, (3, 5)),
@@ -288,84 +287,84 @@ classes_rules = {
     "urllib.parse.SplitResultBytes": (None, (3, 2)),
     "urllib.request.DataHandler": (None, (3, 4)),
     "urllib.request.HTTPPasswordMgrWithPriorAuth": (None, (3, 5)),
-    "urllib2.HTTPCookieProcessor": ((2, 4), None),  # TODO
-    "urllib2.HTTPErrorProcessor": ((2, 4), None),  # TODO
+    "urllib2.HTTPCookieProcessor": ((2, 4), None),
+    "urllib2.HTTPErrorProcessor": ((2, 4), None),
     "uuid.SafeUUID": (None, (3, 7)),
-    "warnings.catch_warnings": ((2, 6), None),  # TODO
+    "warnings.catch_warnings": ((2, 6), (3, 0)),
     "weakref.WeakMethod": (None, (3, 4)),
-    "weakref.WeakSet": ((2, 7), None),  # TODO
+    "weakref.WeakSet": ((2, 7), (3, 0)),
     "weakref.finalize": (None, (3, 4)),
     "wsgiref.handlers.IISCGIHandler": (None, (3, 2)),
     "xml.etree.ElementTree.C14NWriterTarget": (None, (3, 8)),
     "xml.etree.ElementTree.XMLPullParser": (None, (3, 4)),
-    "xmlrpclib.MultiCall": ((2, 4), None),  # TODO
+    "xmlrpclib.MultiCall": ((2, 4), None),
     "zipfile.Path": (None, (3, 8)),
-    "zipimport.zipimporter": ((2, 7), None),  # TODO
+    "zipimport.zipimporter": ((2, 7), (3, 0)),
 }
 
 exceptions_rules = {
-    "BaseException": ((2, 5), None),  # TODO
+    "BaseException": ((2, 5), (3, 0)),
     "BlockingIOError": (None, (3, 3)),
     "BrokenPipeError": (None, (3, 3)),
-    "BytesWarning": ((2, 6), None),  # TODO
+    "BytesWarning": ((2, 6), (3, 0)),
     "ChildProcessError": (None, (3, 3)),
-    "ConfigParser.InterpolationMissingOptionError": ((2, 3), None),  # TODO
-    "ConfigParser.InterpolationSyntaxError": ((2, 3), None),  # TODO
+    "ConfigParser.InterpolationMissingOptionError": ((2, 3), None),
+    "ConfigParser.InterpolationSyntaxError": ((2, 3), None),
     "ConnectionAbortedError": (None, (3, 3)),
     "ConnectionError": (None, (3, 3)),
     "ConnectionRefusedError": (None, (3, 3)),
     "ConnectionResetError": (None, (3, 3)),
-    "EnvironmentError": ((2, 0), None),  # TODO
+    "EnvironmentError": ((2, 0), (3, 0)),
     "FileExistsError": (None, (3, 3)),
     "FileNotFoundError": (None, (3, 3)),
-    "GeneratorExit": ((2, 5), None),  # TODO
-    "ImportWarning": ((2, 5), None),  # TODO
+    "GeneratorExit": ((2, 5), (3, 0)),
+    "ImportWarning": ((2, 5), (3, 0)),
     "InterruptedError": (None, (3, 3)),
     "IsADirectoryError": (None, (3, 3)),
     "ModuleNotFoundError": (None, (3, 6)),
     "NotADirectoryError": (None, (3, 3)),
-    "NotImplementedError": ((2, 0), None),  # TODO
-    "OSError": ((2, 0), None),  # TODO
+    "NotImplementedError": ((2, 0), (3, 0)),
+    "OSError": ((2, 0), (3, 0)),
     "PermissionError": (None, (3, 3)),
     "ProcessLookupError": (None, (3, 3)),
     "RecursionError": (None, (3, 5)),
-    "ReferenceError": ((2, 2), None),  # TODO
+    "ReferenceError": ((2, 2), (3, 0)),
     "ResourceWarning": (None, (3, 2)),
     "StopAsyncIteration": (None, (3, 5)),
-    "StopIteration": ((2, 2), None),  # TODO
+    "StopIteration": ((2, 2), (3, 0)),
     "TimeoutError": (None, (3, 3)),
-    "UnboundLocalError": ((2, 0), None),  # TODO
-    "UnicodeDecodeError": ((2, 3), None),  # TODO
-    "UnicodeEncodeError": ((2, 3), None),  # TODO
-    "UnicodeError": ((2, 0), None),  # TODO
-    "UnicodeTranslateError": ((2, 3), None),  # TODO
-    "UnicodeWarning": ((2, 5), None),  # TODO
-    "WindowsError": ((2, 0), None),  # TODO
+    "UnboundLocalError": ((2, 0), (3, 0)),
+    "UnicodeDecodeError": ((2, 3), (3, 0)),
+    "UnicodeEncodeError": ((2, 3), (3, 0)),
+    "UnicodeError": ((2, 0), (3, 0)),
+    "UnicodeTranslateError": ((2, 3), (3, 0)),
+    "UnicodeWarning": ((2, 5), (3, 0)),
+    "WindowsError": ((2, 0), (3, 0)),
     "concurrent.futures.BrokenExecutor": (None, (3, 7)),
     "concurrent.futures.InvalidStateError": (None, (3, 8)),
     "concurrent.futures.process.BrokenProcessPool": (None, (3, 3)),
     "concurrent.futures.thread.BrokenThreadPool": (None, (3, 7)),
-    "getopt.GetoptError": ((2, 0), None),  # TODO
+    "getopt.GetoptError": ((2, 0), (3, 0)),
     "gzip.BadGzipFile": (None, (3, 8)),
-    "htmllib.HTMLParseError": ((2, 4), None),  # TODO
-    "httplib.BadStatusLine": ((2, 0), None),  # TODO
-    "httplib.CannotSendHeader": ((2, 0), None),  # TODO
-    "httplib.CannotSendRequest": ((2, 0), None),  # TODO
-    "httplib.HTTPException": ((2, 0), None),  # TODO
-    "httplib.ImproperConnectionState": ((2, 0), None),  # TODO
-    "httplib.IncompleteRead": ((2, 0), None),  # TODO
-    "httplib.InvalidURL": ((2, 3), None),  # TODO
-    "httplib.NotConnected": ((2, 0), None),  # TODO
-    "httplib.ResponseNotReady": ((2, 0), None),  # TODO
-    "httplib.UnimplementedFileMode": ((2, 0), None),  # TODO
-    "httplib.UnknownProtocol": ((2, 0), None),  # TODO
-    "httplib.UnknownTransferEncoding": ((2, 0), None),  # TODO
+    "htmllib.HTMLParseError": ((2, 4), None),
+    "httplib.BadStatusLine": ((2, 0), None),
+    "httplib.CannotSendHeader": ((2, 0), None),
+    "httplib.CannotSendRequest": ((2, 0), None),
+    "httplib.HTTPException": ((2, 0), None),
+    "httplib.ImproperConnectionState": ((2, 0), None),
+    "httplib.IncompleteRead": ((2, 0), None),
+    "httplib.InvalidURL": ((2, 3), None),
+    "httplib.NotConnected": ((2, 0), None),
+    "httplib.ResponseNotReady": ((2, 0), None),
+    "httplib.UnimplementedFileMode": ((2, 0), None),
+    "httplib.UnknownProtocol": ((2, 0), None),
+    "httplib.UnknownTransferEncoding": ((2, 0), None),
     "json.JSONDecodeError": (None, (3, 5)),
-    "sgmllib.SGMLParseError": ((2, 1), None),  # TODO
-    "shutil.Error": ((2, 3), None),  # TODO
+    "sgmllib.SGMLParseError": ((2, 1), None),
+    "shutil.Error": ((2, 3), (3, 0)),
     "shutil.SameFileError": (None, (3, 4)),
     "smtplib.SMTPNotSupportedError": (None, (3, 5)),
-    "socket.timeout": ((2, 3), None),  # TODO
+    "socket.timeout": ((2, 3), (3, 0)),
     "ssl.SSLCertVerificationError": (None, (3, 7)),
     "ssl.SSLEOFError": ((2, 7), (3, 3)),
     "ssl.SSLSyscallError": ((2, 7), (3, 3)),
@@ -374,51 +373,51 @@ exceptions_rules = {
     "ssl.SSLZeroReturnError": ((2, 7), (3, 3)),
     "subprocess.SubprocessError": (None, (3, 3)),
     "subprocess.TimeoutExpired": (None, (3, 3)),
-    "tarfile.HeaderError": ((2, 6), None),  # TODO
+    "tarfile.HeaderError": ((2, 6), (3, 0)),
     "threading.BrokenBarrierError": (None, (3, 2)),
     "unittest.SkipTest": ((2, 7), (3, 1)),
-    "urllib.ContentTooShortError": ((2, 6), None),  # TODO
-    "xml.dom.DOMException": ((2, 1), None),  # TODO
-    "xml.dom.DomstringSizeErr": ((2, 1), None),  # TODO
-    "xml.dom.HierarchyRequestErr": ((2, 1), None),  # TODO
-    "xml.dom.IndexSizeErr": ((2, 1), None),  # TODO
-    "xml.dom.InuseAttributeErr": ((2, 1), None),  # TODO
-    "xml.dom.InvalidAccessErr": ((2, 1), None),  # TODO
-    "xml.dom.InvalidCharacterErr": ((2, 1), None),  # TODO
-    "xml.dom.InvalidModificationErr": ((2, 1), None),  # TODO
-    "xml.dom.InvalidStateErr": ((2, 1), None),  # TODO
-    "xml.dom.NamespaceErr": ((2, 1), None),  # TODO
-    "xml.dom.NoDataAllowedErr": ((2, 1), None),  # TODO
-    "xml.dom.NoModificationAllowedErr": ((2, 1), None),  # TODO
-    "xml.dom.NotFoundErr": ((2, 1), None),  # TODO
-    "xml.dom.NotSupportedErr": ((2, 1), None),  # TODO
-    "xml.dom.SyntaxErr": ((2, 1), None),  # TODO
-    "xml.dom.WrongDocumentErr": ((2, 1), None),  # TODO
+    "urllib.ContentTooShortError": ((2, 6), None),
+    "xml.dom.DOMException": ((2, 1), (3, 0)),
+    "xml.dom.DomstringSizeErr": ((2, 1), (3, 0)),
+    "xml.dom.HierarchyRequestErr": ((2, 1), (3, 0)),
+    "xml.dom.IndexSizeErr": ((2, 1), (3, 0)),
+    "xml.dom.InuseAttributeErr": ((2, 1), (3, 0)),
+    "xml.dom.InvalidAccessErr": ((2, 1), (3, 0)),
+    "xml.dom.InvalidCharacterErr": ((2, 1), (3, 0)),
+    "xml.dom.InvalidModificationErr": ((2, 1), (3, 0)),
+    "xml.dom.InvalidStateErr": ((2, 1), (3, 0)),
+    "xml.dom.NamespaceErr": ((2, 1), (3, 0)),
+    "xml.dom.NoDataAllowedErr": ((2, 1), (3, 0)),
+    "xml.dom.NoModificationAllowedErr": ((2, 1), (3, 0)),
+    "xml.dom.NotFoundErr": ((2, 1), (3, 0)),
+    "xml.dom.NotSupportedErr": ((2, 1), (3, 0)),
+    "xml.dom.SyntaxErr": ((2, 1), (3, 0)),
+    "xml.dom.WrongDocumentErr": ((2, 1), (3, 0)),
     "zipfile.BadZipFile": (None, (3, 2)),
 }
 
 functions_rules = {
-    "ConfigParser.ConfigParser.items": ((2, 3), None),  # TODO
-    "ConfigParser.RawConfigParser.has_option": ((2, 0), None),  # TODO
-    "ConfigParser.RawConfigParser.remove_option": ((2, 0), None),  # TODO
-    "ConfigParser.RawConfigParser.set": ((2, 0), None),  # TODO
-    "ConfigParser.RawConfigParser.write": ((2, 0), None),  # TODO
-    "ConfigParser.SafeConfigParser.set": ((2, 4), None),  # TODO
-    "EasyDialogs.GetArgv": ((2, 0), None),  # TODO
-    "Queue.Queue.join": ((2, 5), None),  # TODO
-    "Queue.Queue.task_done": ((2, 5), None),  # TODO
-    "SimpleHTTPServer.SimpleHTTPRequestHandler.do_GET": ((2, 5), None),  # TODO
-    "SimpleXMLRPCServer.SimpleXMLRPCServer.register_introspection_functions": ((2, 3), None),  # TODO
-    "SocketServer.BaseServer.server_close": ((2, 6), None),  # TODO
-    "SocketServer.BaseServer.shutdown": ((2, 6), None),  # TODO
-    "Tkinter.Tcl": ((2, 4), None),  # TODO
+    "ConfigParser.ConfigParser.items": ((2, 3), None),
+    "ConfigParser.RawConfigParser.has_option": ((2, 0), None),
+    "ConfigParser.RawConfigParser.remove_option": ((2, 0), None),
+    "ConfigParser.RawConfigParser.set": ((2, 0), None),
+    "ConfigParser.RawConfigParser.write": ((2, 0), None),
+    "ConfigParser.SafeConfigParser.set": ((2, 4), None),
+    "EasyDialogs.GetArgv": ((2, 0), None),
+    "Queue.Queue.join": ((2, 5), None),
+    "Queue.Queue.task_done": ((2, 5), None),
+    "SimpleHTTPServer.SimpleHTTPRequestHandler.do_GET": ((2, 5), None),
+    "SimpleXMLRPCServer.SimpleXMLRPCServer.register_introspection_functions": ((2, 3), None),
+    "SocketServer.BaseServer.server_close": ((2, 6), None),
+    "SocketServer.BaseServer.shutdown": ((2, 6), None),
+    "Tkinter.Tcl": ((2, 4), None),
     "_thread.get_native_id": (None, (3, 8)),
-    "_winreg.CreateKeyEx": ((2, 7), None),  # TODO
-    "_winreg.DeleteKeyEx": ((2, 7), None),  # TODO
-    "_winreg.ExpandEnvironmentStrings": ((2, 6), None),  # TODO
+    "_winreg.CreateKeyEx": ((2, 7), None),
+    "_winreg.DeleteKeyEx": ((2, 7), None),
+    "_winreg.ExpandEnvironmentStrings": ((2, 6), None),
     "abc.get_cache_token": (None, (3, 4)),
-    "all": ((2, 5), None),  # TODO
-    "any": ((2, 5), None),  # TODO
+    "all": ((2, 5), (3, 0)),
+    "any": ((2, 5), (3, 0)),
     "argparse.ArgumentParser.parse_intermixed_args": (None, (3, 7)),
     "argparse.ArgumentParser.parse_known_intermixed_args": (None, (3, 7)),
     "array.array.frombytes": (None, (3, 2)),
@@ -463,11 +462,11 @@ functions_rules = {
     "base64.b85encode": (None, (3, 4)),
     "base64.decodebytes": (None, (3, 1)),
     "base64.encodebytes": (None, (3, 1)),
-    "basestring": ((2, 3), None),  # TODO
+    "basestring": ((2, 3), None),
     "bdb.Bdb.get_bpbynumber": (None, (3, 2)),
     "bdb.Breakpoint.bpformat": (None, (3, 2)),
-    "bin": ((2, 6), None),  # TODO
-    "bool": ((2, 2), None),  # TODO
+    "bin": ((2, 6), (3, 0)),
+    "bool": ((2, 2), (3, 0)),
     "breakpoint": (None, (3, 7)),
     "bytearray.hex": (None, (3, 5)),
     "bytearray.isascii": (None, (3, 7)),
@@ -485,28 +484,28 @@ functions_rules = {
     "bz2.open": (None, (3, 3)),
     "calendar.Calendar.itermonthdays3": (None, (3, 7)),
     "calendar.Calendar.itermonthdays4": (None, (3, 7)),
-    "calendar.calendar": ((2, 0), None),  # TODO
-    "calendar.firstweekday": ((2, 0), None),  # TODO
-    "calendar.month": ((2, 0), None),  # TODO
-    "calendar.setfirstweekday": ((2, 0), None),  # TODO
-    "calendar.timegm": ((2, 0), None),  # TODO
+    "calendar.calendar": ((2, 0), (3, 0)),
+    "calendar.firstweekday": ((2, 0), (3, 0)),
+    "calendar.month": ((2, 0), (3, 0)),
+    "calendar.setfirstweekday": ((2, 0), (3, 0)),
+    "calendar.timegm": ((2, 0), (3, 0)),
     "callable": (None, (3, 2)),
-    "cgi.FieldStorage.getfirst": ((2, 2), None),  # TODO
-    "cgi.FieldStorage.getlist": ((2, 2), None),  # TODO
+    "cgi.FieldStorage.getfirst": ((2, 2), (3, 0)),
+    "cgi.FieldStorage.getlist": ((2, 2), (3, 0)),
     "cmath.isclose": (None, (3, 5)),
     "cmath.isfinite": (None, (3, 2)),
-    "cmath.isinf": ((2, 6), None),  # TODO
-    "cmath.isnan": ((2, 6), None),  # TODO
-    "cmath.phase": ((2, 6), None),  # TODO
-    "cmath.polar": ((2, 6), None),  # TODO
-    "cmath.rect": ((2, 6), None),  # TODO
-    "codecs.decode": ((2, 4), None),  # TODO
-    "codecs.encode": ((2, 4), None),  # TODO
-    "codecs.getincrementaldecoder": ((2, 5), None),  # TODO
-    "codecs.getincrementalencoder": ((2, 5), None),  # TODO
+    "cmath.isinf": ((2, 6), (3, 0)),
+    "cmath.isnan": ((2, 6), (3, 0)),
+    "cmath.phase": ((2, 6), (3, 0)),
+    "cmath.polar": ((2, 6), (3, 0)),
+    "cmath.rect": ((2, 6), (3, 0)),
+    "codecs.decode": ((2, 4), (3, 0)),
+    "codecs.encode": ((2, 4), (3, 0)),
+    "codecs.getincrementaldecoder": ((2, 5), (3, 0)),
+    "codecs.getincrementalencoder": ((2, 5), (3, 0)),
+    "codecs.iterdecode": ((2, 5), (3, 0)),
+    "codecs.iterencode": ((2, 5), (3, 0)),
     "codecs.namereplace_errors": (None, (3, 5)),
-    "codesc.iterdecode": ((2, 5), None),  # TODO
-    "codesc.iterencode": ((2, 5), None),  # TODO
     "collections.Counter.subtract": (None, (3, 2)),
     "collections.OrderedDict.move_to_end": (None, (3, 2)),
     "collections.UserString.__getnewargs__": (None, (3, 5)),
@@ -521,10 +520,9 @@ functions_rules = {
     "collections.deque.count": ((2, 7), (3, 2)),
     "collections.deque.index": (None, (3, 5)),
     "collections.deque.insert": (None, (3, 5)),
-    "collections.deque.maxlen": ((2, 7), None),  # TODO
-    "collections.deque.remove": ((2, 5), None),  # TODO
+    "collections.deque.remove": ((2, 5), (3, 0)),
     "collections.deque.reverse": ((2, 7), (3, 2)),
-    "collections.namedtuple": ((2, 6), None),  # TODO
+    "collections.namedtuple": ((2, 6), (3, 0)),
     "compileall.compile_file": ((2, 7), (3, 2)),
     "configparser.ConfigParser.read_dict": (None, (3, 2)),
     "configparser.ConfigParser.read_file": (None, (3, 2)),
@@ -535,14 +533,14 @@ functions_rules = {
     "contextlib.suppress": (None, (3, 4)),
     "crypt.mksalt": (None, (3, 3)),
     "csv.DictWriter.writeheader": ((2, 7), (3, 2)),
-    "csv.field_size_limit": ((2, 5), None),  # TODO
-    "ctypes._CData.from_buffer": ((2, 6), None),  # TODO
-    "ctypes._CData.from_buffer_copy": ((2, 6), None),  # TODO
-    "ctypes.get_errno": ((2, 6), None),  # TODO
-    "ctypes.get_last_error": ((2, 6), None),  # TODO
-    "ctypes.set_errno": ((2, 6), None),  # TODO
-    "ctypes.set_last_error": ((2, 6), None),  # TODO
-    "ctypes.util.find_msvcrt": ((2, 6), None),  # TODO
+    "csv.field_size_limit": ((2, 5), (3, 0)),
+    "ctypes._CData.from_buffer": ((2, 6), (3, 0)),
+    "ctypes._CData.from_buffer_copy": ((2, 6), (3, 0)),
+    "ctypes.get_errno": ((2, 6), (3, 0)),
+    "ctypes.get_last_error": ((2, 6), (3, 0)),
+    "ctypes.set_errno": ((2, 6), (3, 0)),
+    "ctypes.set_last_error": ((2, 6), (3, 0)),
+    "ctypes.util.find_msvcrt": ((2, 6), (3, 0)),
     "curses.unget_wch": (None, (3, 3)),
     "curses.update_lines_cols": (None, (3, 5)),
     "curses.window.get_wch": (None, (3, 3)),
@@ -550,154 +548,154 @@ functions_rules = {
     "datetime.date.fromisoformat": (None, (3, 7)),
     "datetime.datetime.fromisocalendar": (None, (3, 8)),
     "datetime.datetime.fromisoformat": (None, (3, 7)),
-    "datetime.datetime.strptime": ((2, 5), None),  # TODO
+    "datetime.datetime.strptime": ((2, 5), (3, 0)),
     "datetime.datetime.timestamp": (None, (3, 3)),
     "datetime.time.fromisoformat": (None, (3, 7)),
     "datetime.timedelta.total_seconds": ((2, 7), (3, 2)),
     "decimal.Context.clear_traps": (None, (3, 3)),
     "decimal.Context.create_decimal_from_float": ((2, 7), (3, 1)),
-    "decimal.Decimal.canonical": ((2, 6), None),  # TODO
-    "decimal.Decimal.compare_signal": ((2, 6), None),  # TODO
-    "decimal.Decimal.compare_total": ((2, 6), None),  # TODO
-    "decimal.Decimal.compare_total_mag": ((2, 6), None),  # TODO
-    "decimal.Decimal.conjugate": ((2, 6), None),  # TODO
-    "decimal.Decimal.copy_abs": ((2, 6), None),  # TODO
-    "decimal.Decimal.copy_negate": ((2, 6), None),  # TODO
-    "decimal.Decimal.copy_sign": ((2, 6), None),  # TODO
-    "decimal.Decimal.exp": ((2, 6), None),  # TODO
-    "decimal.Decimal.fma": ((2, 6), None),  # TODO
+    "decimal.Decimal.canonical": ((2, 6), (3, 0)),
+    "decimal.Decimal.compare_signal": ((2, 6), (3, 0)),
+    "decimal.Decimal.compare_total": ((2, 6), (3, 0)),
+    "decimal.Decimal.compare_total_mag": ((2, 6), (3, 0)),
+    "decimal.Decimal.conjugate": ((2, 6), (3, 0)),
+    "decimal.Decimal.copy_abs": ((2, 6), (3, 0)),
+    "decimal.Decimal.copy_negate": ((2, 6), (3, 0)),
+    "decimal.Decimal.copy_sign": ((2, 6), (3, 0)),
+    "decimal.Decimal.exp": ((2, 6), (3, 0)),
+    "decimal.Decimal.fma": ((2, 6), (3, 0)),
     "decimal.Decimal.from_float": ((2, 7), (3, 1)),
-    "decimal.Decimal.is_canonical": ((2, 6), None),  # TODO
-    "decimal.Decimal.is_finite": ((2, 6), None),  # TODO
-    "decimal.Decimal.is_infinite": ((2, 6), None),  # TODO
-    "decimal.Decimal.is_nan": ((2, 6), None),  # TODO
-    "decimal.Decimal.is_normal": ((2, 6), None),  # TODO
-    "decimal.Decimal.is_qnan": ((2, 6), None),  # TODO
-    "decimal.Decimal.is_signed": ((2, 6), None),  # TODO
-    "decimal.Decimal.is_snan": ((2, 6), None),  # TODO
-    "decimal.Decimal.is_subnormal": ((2, 6), None),  # TODO
-    "decimal.Decimal.is_zero": ((2, 6), None),  # TODO
-    "decimal.Decimal.ln": ((2, 6), None),  # TODO
-    "decimal.Decimal.log10": ((2, 6), None),  # TODO
-    "decimal.Decimal.logb": ((2, 6), None),  # TODO
-    "decimal.Decimal.logical_and": ((2, 6), None),  # TODO
-    "decimal.Decimal.logical_invert": ((2, 6), None),  # TODO
-    "decimal.Decimal.logical_or": ((2, 6), None),  # TODO
-    "decimal.Decimal.logical_xor": ((2, 6), None),  # TODO
-    "decimal.Decimal.max_mag": ((2, 6), None),  # TODO
-    "decimal.Decimal.min_mag": ((2, 6), None),  # TODO
-    "decimal.Decimal.next_minus": ((2, 6), None),  # TODO
-    "decimal.Decimal.next_plus": ((2, 6), None),  # TODO
-    "decimal.Decimal.next_toward": ((2, 6), None),  # TODO
-    "decimal.Decimal.number_class": ((2, 6), None),  # TODO
-    "decimal.Decimal.radix": ((2, 6), None),  # TODO
-    "decimal.Decimal.rotate": ((2, 6), None),  # TODO
-    "decimal.Decimal.scaleb": ((2, 6), None),  # TODO
-    "decimal.Decimal.shift": ((2, 6), None),  # TODO
-    "decimal.Decimal.to_integral_exact": ((2, 6), None),  # TODO
-    "decimal.Decimal.to_integral_value": ((2, 6), None),  # TODO
-    "decimal.localcontext": ((2, 5), None),  # TODO
-    "dict.fromkeys": ((2, 3), None),  # TODO
-    "dict.iteritems": ((2, 2), None),  # TODO
-    "dict.itervalues": ((2, 2), None),  # TODO
-    "dict.pop": ((2, 3), None),  # TODO
-    "dict.viewitems": ((2, 7), None),  # TODO
-    "dict.viewkeys": ((2, 7), None),  # TODO
-    "dict.viewvalues": ((2, 7), None),  # TODO
-    "difflib.SequenceMatcher.get_grouped_opcodes": ((2, 3), None),  # TODO
-    "difflib.context_diff": ((2, 3), None),  # TODO
+    "decimal.Decimal.is_canonical": ((2, 6), (3, 0)),
+    "decimal.Decimal.is_finite": ((2, 6), (3, 0)),
+    "decimal.Decimal.is_infinite": ((2, 6), (3, 0)),
+    "decimal.Decimal.is_nan": ((2, 6), (3, 0)),
+    "decimal.Decimal.is_normal": ((2, 6), (3, 0)),
+    "decimal.Decimal.is_qnan": ((2, 6), (3, 0)),
+    "decimal.Decimal.is_signed": ((2, 6), (3, 0)),
+    "decimal.Decimal.is_snan": ((2, 6), (3, 0)),
+    "decimal.Decimal.is_subnormal": ((2, 6), (3, 0)),
+    "decimal.Decimal.is_zero": ((2, 6), (3, 0)),
+    "decimal.Decimal.ln": ((2, 6), (3, 0)),
+    "decimal.Decimal.log10": ((2, 6), (3, 0)),
+    "decimal.Decimal.logb": ((2, 6), (3, 0)),
+    "decimal.Decimal.logical_and": ((2, 6), (3, 0)),
+    "decimal.Decimal.logical_invert": ((2, 6), (3, 0)),
+    "decimal.Decimal.logical_or": ((2, 6), (3, 0)),
+    "decimal.Decimal.logical_xor": ((2, 6), (3, 0)),
+    "decimal.Decimal.max_mag": ((2, 6), (3, 0)),
+    "decimal.Decimal.min_mag": ((2, 6), (3, 0)),
+    "decimal.Decimal.next_minus": ((2, 6), (3, 0)),
+    "decimal.Decimal.next_plus": ((2, 6), (3, 0)),
+    "decimal.Decimal.next_toward": ((2, 6), (3, 0)),
+    "decimal.Decimal.number_class": ((2, 6), (3, 0)),
+    "decimal.Decimal.radix": ((2, 6), (3, 0)),
+    "decimal.Decimal.rotate": ((2, 6), (3, 0)),
+    "decimal.Decimal.scaleb": ((2, 6), (3, 0)),
+    "decimal.Decimal.shift": ((2, 6), (3, 0)),
+    "decimal.Decimal.to_integral_exact": ((2, 6), (3, 0)),
+    "decimal.Decimal.to_integral_value": ((2, 6), (3, 0)),
+    "decimal.localcontext": ((2, 5), (3, 0)),
+    "dict.fromkeys": ((2, 3), (3, 0)),
+    "dict.iteritems": ((2, 2), None),
+    "dict.itervalues": ((2, 2), None),
+    "dict.pop": ((2, 3), (3, 0)),
+    "dict.viewitems": ((2, 7), None),
+    "dict.viewkeys": ((2, 7), None),
+    "dict.viewvalues": ((2, 7), None),
+    "difflib.SequenceMatcher.get_grouped_opcodes": ((2, 3), (3, 0)),
+    "difflib.context_diff": ((2, 3), (3, 0)),
     "difflib.diff_bytes": (None, (3, 5)),
-    "difflib.unified_diff": ((2, 3), None),  # TODO
+    "difflib.unified_diff": ((2, 3), (3, 0)),
     "dis.code_info": (None, (3, 2)),
     "dis.get_instructions": (None, (3, 4)),
     "dis.show_code": (None, (3, 2)),
     "dis.stack_effect": (None, (3, 4)),
-    "doctest.DocFileSuite": ((2, 4), None),  # TODO
-    "doctest.DocTestSuite": ((2, 3), None),  # TODO
-    "doctest.debug": ((2, 3), None),  # TODO
-    "doctest.debug_src": ((2, 4), None),  # TODO
-    "doctest.register_optionflag": ((2, 4), None),  # TODO
-    "doctest.script_from_examples": ((2, 4), None),  # TODO
-    "doctest.set_unittest_reportflags": ((2, 4), None),  # TODO
-    "doctest.testfile": ((2, 4), None),  # TODO
-    "doctest.testsource": ((2, 3), None),  # TODO
-    "email.generator.Generator.clone": ((2, 2), None),  # TODO
-    "email.generator.Generator.flatten": ((2, 2), None),  # TODO
+    "doctest.DocFileSuite": ((2, 4), (3, 0)),
+    "doctest.DocTestSuite": ((2, 3), (3, 0)),
+    "doctest.debug": ((2, 3), (3, 0)),
+    "doctest.debug_src": ((2, 4), (3, 0)),
+    "doctest.register_optionflag": ((2, 4), (3, 0)),
+    "doctest.script_from_examples": ((2, 4), (3, 0)),
+    "doctest.set_unittest_reportflags": ((2, 4), (3, 0)),
+    "doctest.testfile": ((2, 4), (3, 0)),
+    "doctest.testsource": ((2, 3), (3, 0)),
+    "email.generator.Generator.clone": ((2, 2), (3, 0)),
+    "email.generator.Generator.flatten": ((2, 2), (3, 0)),
     "email.message.EmailMessage.get_content_disposition": (None, (3, 5)),
     "email.message.Message.__bytes__": (None, (3, 4)),
     "email.message.Message.as_bytes": (None, (3, 4)),
-    "email.message.Message.del_param": ((2, 2), None),  # TODO
-    "email.message.Message.get_charset": ((2, 2), None),  # TODO
-    "email.message.Message.get_content_charset": ((2, 2), None),  # TODO
+    "email.message.Message.del_param": ((2, 2), (3, 0)),
+    "email.message.Message.get_charset": ((2, 2), (3, 0)),
+    "email.message.Message.get_content_charset": ((2, 2), (3, 0)),
     "email.message.Message.get_content_disposition": (None, (3, 5)),
-    "email.message.Message.get_content_maintype": ((2, 2), None),  # TODO
-    "email.message.Message.get_content_subtype": ((2, 2), None),  # TODO
-    "email.message.Message.get_content_type": ((2, 2), None),  # TODO
-    "email.message.Message.get_default_type": ((2, 2), None),  # TODO
-    "email.message.Message.replace_header": ((2, 2), None),  # TODO
-    "email.message.Message.set_charset": ((2, 2), None),  # TODO
-    "email.message.Message.set_default_type": ((2, 2), None),  # TODO
-    "email.message.Message.set_param": ((2, 2), None),  # TODO
-    "email.message.Message.set_type": ((2, 2), None),  # TODO
+    "email.message.Message.get_content_maintype": ((2, 2), (3, 0)),
+    "email.message.Message.get_content_subtype": ((2, 2), (3, 0)),
+    "email.message.Message.get_content_type": ((2, 2), (3, 0)),
+    "email.message.Message.get_default_type": ((2, 2), (3, 0)),
+    "email.message.Message.replace_header": ((2, 2), (3, 0)),
+    "email.message.Message.set_charset": ((2, 2), (3, 0)),
+    "email.message.Message.set_default_type": ((2, 2), (3, 0)),
+    "email.message.Message.set_param": ((2, 2), (3, 0)),
+    "email.message.Message.set_type": ((2, 2), (3, 0)),
     "email.message_from_binary_file": (None, (3, 2)),
     "email.message_from_bytes": (None, (3, 2)),
     "email.utils.format_datetime": (None, (3, 3)),
-    "email.utils.formatdate": ((2, 4), None),  # TODO
+    "email.utils.formatdate": ((2, 4), (3, 0)),
     "email.utils.localtime": (None, (3, 3)),
     "email.utils.parsedate_to_datetime": (None, (3, 3)),
-    "enumerate": ((2, 3), None),  # TODO
-    "file": ((2, 4), None),  # TODO
-    "file.next": ((2, 3), None),  # TODO
-    "file.xreadlines": ((2, 1), None),  # TODO
+    "enumerate": ((2, 3), (3, 0)),
+    "file": ((2, 4), None),
+    "file.next": ((2, 3), None),
+    "file.xreadlines": ((2, 1), None),
     "filecmp.clear_cache": (None, (3, 4)),
-    "fileinput.fileno": ((2, 5), None),  # TODO
-    "fileinput.hook_compressed": ((2, 5), None),  # TODO
-    "fileinput.hook_encoded": ((2, 5), None),  # TODO
-    "float.as_integer_ratio": ((2, 6), None),  # TODO
-    "float.fromhex": ((2, 6), None),  # TODO
-    "float.hex": ((2, 6), None),  # TODO
-    "float.is_integer": ((2, 6), None),  # TODO
-    "fnmatch.filter": ((2, 2), None),  # TODO
+    "fileinput.fileno": ((2, 5), (3, 0)),
+    "fileinput.hook_compressed": ((2, 5), (3, 0)),
+    "fileinput.hook_encoded": ((2, 5), (3, 0)),
+    "float.as_integer_ratio": ((2, 6), (3, 0)),
+    "float.fromhex": ((2, 6), (3, 0)),
+    "float.hex": ((2, 6), (3, 0)),
+    "float.is_integer": ((2, 6), (3, 0)),
+    "fnmatch.filter": ((2, 2), (3, 0)),
     "fractions.Fraction.as_integer_ratio": (None, (3, 8)),
-    "frozenset.isdisjoint": ((2, 6), None),  # TODO
+    "frozenset.isdisjoint": ((2, 6), (3, 0)),
     "ftplib.FTP.mlsd": (None, (3, 3)),
     "ftplib.FTP_TLS.ccc": (None, (3, 3)),
     "functools.cmp_to_key": ((2, 7), (3, 2)),
-    "functools.reduce": ((2, 6), None),  # TODO
+    "functools.reduce": ((2, 6), (3, 0)),
     "gc.freeze": (None, (3, 7)),
-    "gc.get_count": ((2, 5), None),  # TODO
+    "gc.get_count": ((2, 5), (3, 0)),
     "gc.get_freeze_count": (None, (3, 7)),
-    "gc.get_objects": ((2, 2), None),  # TODO
-    "gc.get_referents": ((2, 3), None),  # TODO
-    "gc.get_referrers": ((2, 2), None),  # TODO
+    "gc.get_objects": ((2, 2), (3, 0)),
+    "gc.get_referents": ((2, 3), (3, 0)),
+    "gc.get_referrers": ((2, 2), (3, 0)),
     "gc.get_stats": (None, (3, 4)),
     "gc.is_tracked": ((2, 7), (3, 1)),
     "gc.unfreeze": (None, (3, 7)),
-    "getopt.gnu_getopt": ((2, 3), None),  # TODO
-    "gettext.GNUTranslations.lgettext": ((2, 4), None),  # TODO
-    "gettext.GNUTranslations.lngettext": ((2, 4), None),  # TODO
-    "gettext.GNUTranslations.ngettext": ((2, 3), None),  # TODO
+    "getopt.gnu_getopt": ((2, 3), (3, 0)),
+    "gettext.GNUTranslations.lgettext": ((2, 4), (3, 0)),
+    "gettext.GNUTranslations.lngettext": ((2, 4), (3, 0)),
+    "gettext.GNUTranslations.ngettext": ((2, 3), (3, 0)),
     "gettext.GNUTranslations.npgettext": (None, (3, 8)),
     "gettext.GNUTranslations.pgettext": (None, (3, 8)),
-    "gettext.GNUTranslations.ungettext": ((2, 3), None),  # TODO
-    "gettext.NullTranslations.lgettext": ((2, 4), None),  # TODO
-    "gettext.NullTranslations.lngettext": ((2, 4), None),  # TODO
-    "gettext.NullTranslations.ngettext": ((2, 3), None),  # TODO
+    "gettext.GNUTranslations.ungettext": ((2, 3), None),
+    "gettext.NullTranslations.lgettext": ((2, 4), (3, 0)),
+    "gettext.NullTranslations.lngettext": ((2, 4), (3, 0)),
+    "gettext.NullTranslations.ngettext": ((2, 3), (3, 0)),
     "gettext.NullTranslations.npgettext": (None, (3, 8)),
-    "gettext.NullTranslations.output_charset": ((2, 4), None),  # TODO
+    "gettext.NullTranslations.output_charset": ((2, 4), (3, 0)),
     "gettext.NullTranslations.pgettext": (None, (3, 8)),
-    "gettext.NullTranslations.set_output_charset": ((2, 4), None),  # TODO
-    "gettext.NullTranslations.ungettext": ((2, 3), None),  # TODO
-    "gettext.bind_textdomain_codeset": ((2, 4), None),  # TODO
-    "gettext.dngettext": ((2, 3), None),  # TODO
+    "gettext.NullTranslations.set_output_charset": ((2, 4), (3, 0)),
+    "gettext.NullTranslations.ungettext": ((2, 3), None),
+    "gettext.bind_textdomain_codeset": ((2, 4), (3, 0)),
+    "gettext.dngettext": ((2, 3), (3, 0)),
     "gettext.dnpgettext": (None, (3, 8)),
-    "gettext.ldgettext": ((2, 4), None),  # TODO
-    "gettext.ldngettext": ((2, 4), None),  # TODO
-    "gettext.lgettext": ((2, 4), None),  # TODO
-    "gettext.lngettext": ((2, 4), None),  # TODO
-    "gettext.ngettext": ((2, 3), None),  # TODO
+    "gettext.ldgettext": ((2, 4), (3, 0)),
+    "gettext.ldngettext": ((2, 4), (3, 0)),
+    "gettext.lgettext": ((2, 4), (3, 0)),
+    "gettext.lngettext": ((2, 4), (3, 0)),
+    "gettext.ngettext": ((2, 3), (3, 0)),
     "glob.escape": (None, (3, 4)),
-    "glob.iglob": ((2, 5), None),  # TODO
+    "glob.iglob": ((2, 5), (3, 0)),
     "gzip.GzipFile.peek": (None, (3, 2)),
     "gzip.compress": (None, (3, 2)),
     "gzip.decompress": (None, (3, 2)),
@@ -711,11 +709,11 @@ functions_rules = {
     "hashlib.sha3_512": (None, (3, 6)),
     "hashlib.shake_128": (None, (3, 6)),
     "hashlib.shake_256": (None, (3, 6)),
-    "heapq.heappushpop": ((2, 6), None),  # TODO
-    "heapq.merge": ((2, 6), None),  # TODO
-    "heapq.nlargest": ((2, 4), None),  # TODO
-    "heapq.nsmallest": ((2, 4), None),  # TODO
-    "hex": ((2, 4), None),  # TODO
+    "heapq.heappushpop": ((2, 6), (3, 0)),
+    "heapq.merge": ((2, 6), (3, 0)),
+    "heapq.nlargest": ((2, 4), (3, 0)),
+    "heapq.nsmallest": ((2, 4), (3, 0)),
+    "hex": ((2, 4), (3, 0)),
     "hmac.compare_digest": ((2, 7), (3, 3)),
     "hmac.digest": (None, (3, 7)),
     "html.escape": (None, (3, 2)),
@@ -726,25 +724,25 @@ functions_rules = {
     "http.server.BaseHTTPRequestHandler.flush_headers": (None, (3, 3)),
     "http.server.BaseHTTPRequestHandler.handle_expect_100": (None, (3, 2)),
     "http.server.BaseHTTPRequestHandler.send_response_only": (None, (3, 2)),
-    "httplib.HTTPConnection.set_tunnel": ((2, 7), None),  # TODO
-    "httplib.HTTPResponse.getheaders": ((2, 4), None),  # TODO
-    "imaplib.IMAP4.deleteacl": ((2, 4), None),  # TODO
+    "httplib.HTTPConnection.set_tunnel": ((2, 7), None),
+    "httplib.HTTPResponse.getheaders": ((2, 4), None),
+    "imaplib.IMAP4.deleteacl": ((2, 4), (3, 0)),
     "imaplib.IMAP4.enable": (None, (3, 5)),
-    "imaplib.IMAP4.getannotation": ((2, 5), None),  # TODO
-    "imaplib.IMAP4.getquota": ((2, 3), None),  # TODO
-    "imaplib.IMAP4.getquotaroot": ((2, 3), None),  # TODO
-    "imaplib.IMAP4.login_cram_md5": ((2, 3), None),  # TODO
-    "imaplib.IMAP4.myrights": ((2, 4), None),  # TODO
-    "imaplib.IMAP4.namespace": ((2, 3), None),  # TODO
-    "imaplib.IMAP4.proxyauth": ((2, 3), None),  # TODO
-    "imaplib.IMAP4.setannotation": ((2, 5), None),  # TODO
-    "imaplib.IMAP4.setquota": ((2, 3), None),  # TODO
+    "imaplib.IMAP4.getannotation": ((2, 5), (3, 0)),
+    "imaplib.IMAP4.getquota": ((2, 3), (3, 0)),
+    "imaplib.IMAP4.getquotaroot": ((2, 3), (3, 0)),
+    "imaplib.IMAP4.login_cram_md5": ((2, 3), (3, 0)),
+    "imaplib.IMAP4.myrights": ((2, 4), (3, 0)),
+    "imaplib.IMAP4.namespace": ((2, 3), (3, 0)),
+    "imaplib.IMAP4.proxyauth": ((2, 3), (3, 0)),
+    "imaplib.IMAP4.setannotation": ((2, 5), (3, 0)),
+    "imaplib.IMAP4.setquota": ((2, 3), (3, 0)),
     "imaplib.IMAP4.starttls": (None, (3, 2)),
-    "imaplib.IMAP4.thread": ((2, 4), None),  # TODO
-    "imp.acquire_lock": ((2, 3), None),  # TODO
+    "imaplib.IMAP4.thread": ((2, 4), (3, 0)),
+    "imp.acquire_lock": ((2, 3), (3, 0)),
     "imp.cache_from_source": (None, (3, 2)),
     "imp.get_tag": (None, (3, 2)),
-    "imp.release_lock": ((2, 3), None),  # TODO
+    "imp.release_lock": ((2, 3), (3, 0)),
     "imp.source_from_cache": (None, (3, 2)),
     "importlib.abc.InspectLoader.exec_module": (None, (3, 4)),
     "importlib.abc.InspectLoader.source_to_code": (None, (3, 4)),
@@ -777,7 +775,7 @@ functions_rules = {
     "importlib.util.spec_from_loader": (None, (3, 4)),
     "inspect.BoundArguments.apply_defaults": (None, (3, 5)),
     "inspect.Signature.from_callable": (None, (3, 5)),
-    "inspect.cleandoc": ((2, 6), None),  # TODO
+    "inspect.cleandoc": ((2, 6), (3, 0)),
     "inspect.getattr_static": (None, (3, 2)),
     "inspect.getcallargs": ((2, 7), (3, 2)),
     "inspect.getclosurevars": (None, (3, 3)),
@@ -785,17 +783,17 @@ functions_rules = {
     "inspect.getcoroutinestate": (None, (3, 5)),
     "inspect.getgeneratorlocals": (None, (3, 3)),
     "inspect.getgeneratorstate": (None, (3, 2)),
-    "inspect.isabstract": ((2, 6), None),  # TODO
+    "inspect.isabstract": ((2, 6), (3, 0)),
     "inspect.isasyncgen": (None, (3, 6)),
     "inspect.isasyncgenfunction": (None, (3, 6)),
     "inspect.isawaitable": (None, (3, 5)),
     "inspect.iscoroutine": (None, (3, 5)),
     "inspect.iscoroutinefunction": (None, (3, 5)),
-    "inspect.isdatadescriptor": ((2, 3), None),  # TODO
-    "inspect.isgenerator": ((2, 6), None),  # TODO
-    "inspect.isgeneratorfunction": ((2, 6), None),  # TODO
-    "inspect.isgetsetdescriptor": ((2, 5), None),  # TODO
-    "inspect.ismemberdescriptor": ((2, 5), None),  # TODO
+    "inspect.isdatadescriptor": ((2, 3), (3, 0)),
+    "inspect.isgenerator": ((2, 6), (3, 0)),
+    "inspect.isgeneratorfunction": ((2, 6), (3, 0)),
+    "inspect.isgetsetdescriptor": ((2, 5), (3, 0)),
+    "inspect.ismemberdescriptor": ((2, 5), (3, 0)),
     "inspect.signature": (None, (3, 3)),
     "inspect.unwrap": (None, (3, 4)),
     "int.as_integer_ratio": (None, (3, 8)),
@@ -811,24 +809,24 @@ functions_rules = {
     "io.open_code": (None, (3, 8)),
     "ipaddress.IPv4Network.subnet_of": (None, (3, 7)),
     "ipaddress.IPv4Network.supernet_of": (None, (3, 7)),
-    "iter": ((2, 2), None),  # TODO
+    "iter": ((2, 2), (3, 0)),
     "itertools.accumulate": (None, (3, 2)),
     "itertools.combinations_with_replacement": (None, (3, 1)),
     "itertools.compress": (None, (3, 1)),
-    "itertools.groupby": ((2, 4), None),  # TODO
-    "itertools.izip_longest": ((2, 6), None),  # TODO
-    "itertools.permutations": ((2, 6), None),  # TODO
-    "itertools.product": ((2, 6), None),  # TODO
-    "itertools.tee": ((2, 4), None),  # TODO
+    "itertools.groupby": ((2, 4), (3, 0)),
+    "itertools.izip_longest": ((2, 6), None),
+    "itertools.permutations": ((2, 6), (3, 0)),
+    "itertools.product": ((2, 6), (3, 0)),
+    "itertools.tee": ((2, 4), (3, 0)),
     "linecache.lazycache": (None, (3, 5)),
-    "locale.currency": ((2, 5), None),  # TODO
+    "locale.currency": ((2, 5), (3, 0)),
     "locale.delocalize": (None, (3, 5)),
-    "locale.format_string": ((2, 5), None),  # TODO
-    "locale.getdefaultlocale": ((2, 0), None),  # TODO
-    "locale.getlocale": ((2, 0), None),  # TODO
-    "locale.getpreferredencoding": ((2, 3), None),  # TODO
-    "locale.normalize": ((2, 0), None),  # TODO
-    "locale.resetlocale": ((2, 0), None),  # TODO
+    "locale.format_string": ((2, 5), (3, 0)),
+    "locale.getdefaultlocale": ((2, 0), (3, 0)),
+    "locale.getlocale": ((2, 0), (3, 0)),
+    "locale.getpreferredencoding": ((2, 3), (3, 0)),
+    "locale.normalize": ((2, 0), (3, 0)),
+    "locale.resetlocale": ((2, 0), (3, 0)),
     "logging.Logger.getChild": ((2, 7), (3, 2)),
     "logging.Logger.hasHandlers": (None, (3, 2)),
     "logging.LoggerAdapter.getEffectiveLevel": (None, (3, 2)),
@@ -843,33 +841,33 @@ functions_rules = {
     "logging.handlers.QueueListener.enqueue_sentinel": (None, (3, 3)),
     "logging.handlers.WatchedFileHandler.reopenIfNeeded": (None, (3, 6)),
     "logging.setLogRecordFactory": (None, (3, 2)),
-    "long.bit_length": ((2, 7), None),  # TODO
+    "long.bit_length": ((2, 7), None),
     "mailbox.Mailbox.get_bytes": (None, (3, 2)),
-    "math.acosh": ((2, 6), None),  # TODO
-    "math.asinh": ((2, 6), None),  # TODO
-    "math.atanh": ((2, 6), None),  # TODO
+    "math.acosh": ((2, 6), (3, 0)),
+    "math.asinh": ((2, 6), (3, 0)),
+    "math.atanh": ((2, 6), (3, 0)),
     "math.comb": (None, (3, 8)),
-    "math.copysign": ((2, 6), None),  # TODO
+    "math.copysign": ((2, 6), (3, 0)),
     "math.dist": (None, (3, 8)),
     "math.erf": ((2, 7), (3, 2)),
     "math.erfc": ((2, 7), (3, 2)),
     "math.expm1": ((2, 7), (3, 2)),
-    "math.factorial": ((2, 6), None),  # TODO
-    "math.fsum": ((2, 6), None),  # TODO
+    "math.factorial": ((2, 6), (3, 0)),
+    "math.fsum": ((2, 6), (3, 0)),
     "math.gamma": ((2, 7), (3, 2)),
     "math.gcd": (None, (3, 5)),
     "math.isclose": (None, (3, 5)),
     "math.isfinite": (None, (3, 2)),
-    "math.isinf": ((2, 6), None),  # TODO
-    "math.isnan": ((2, 6), None),  # TODO
+    "math.isinf": ((2, 6), (3, 0)),
+    "math.isnan": ((2, 6), (3, 0)),
     "math.isqrt": (None, (3, 8)),
     "math.lgamma": ((2, 7), (3, 2)),
-    "math.log1p": ((2, 6), None),  # TODO
+    "math.log1p": ((2, 6), (3, 0)),
     "math.log2": (None, (3, 3)),
     "math.perm": (None, (3, 8)),
     "math.prod": (None, (3, 8)),
     "math.remainder": (None, (3, 7)),
-    "math.trunc": ((2, 6), None),  # TODO
+    "math.trunc": ((2, 6), (3, 0)),
     "memoryview.cast": (None, (3, 3)),
     "memoryview.hex": (None, (3, 5)),
     "memoryview.release": (None, (3, 2)),
@@ -877,10 +875,10 @@ functions_rules = {
     "mimetypes.MimeTypes.read_windows_registry": ((2, 7), (3, 2)),
     "mmap.mmap.madvise": (None, (3, 8)),
     "msilib.Database.Close": (None, (3, 7)),
-    "msvcrt.getwch": ((2, 6), None),  # TODO
-    "msvcrt.getwche": ((2, 6), None),  # TODO
-    "msvcrt.putwch": ((2, 6), None),  # TODO
-    "msvcrt.ungetwch": ((2, 6), None),  # TODO
+    "msvcrt.getwch": ((2, 6), (3, 0)),
+    "msvcrt.getwche": ((2, 6), (3, 0)),
+    "msvcrt.putwch": ((2, 6), (3, 0)),
+    "msvcrt.ungetwch": ((2, 6), (3, 0)),
     "multiprocessing.Condition.wait_for": (None, (3, 3)),
     "multiprocessing.Process.close": (None, (3, 7)),
     "multiprocessing.Process.kill": (None, (3, 7)),
@@ -894,68 +892,68 @@ functions_rules = {
     "multiprocessing.pool.Pool.starmap": (None, (3, 3)),
     "multiprocessing.pool.Pool.starmap_async": (None, (3, 3)),
     "multiprocessing.set_start_method": (None, (3, 4)),
-    "next": ((2, 6), None),  # TODO
-    "nis.get_default_domain": ((2, 5), None),  # TODO
-    "nntplib.NNTP.description": ((2, 4), None),  # TODO
-    "nntplib.NNTP.descriptions": ((2, 4), None),  # TODO
+    "next": ((2, 6), (3, 0)),
+    "nis.get_default_domain": ((2, 5), (3, 0)),
+    "nntplib.NNTP.description": ((2, 4), (3, 0)),
+    "nntplib.NNTP.descriptions": ((2, 4), (3, 0)),
     "nntplib.NNTP.getcapabilities": (None, (3, 2)),
     "nntplib.NNTP.login": (None, (3, 2)),
     "nntplib.NNTP.over": (None, (3, 2)),
     "nntplib.NNTP.starttls": (None, (3, 2)),
-    "object.__enter__": ((2, 5), None),  # TODO
-    "object.__eq__": ((2, 1), None),  # TODO
-    "object.__exit__": ((2, 5), None),  # TODO
-    "object.__ge__": ((2, 1), None),  # TODO
-    "object.__gt__": ((2, 1), None),  # TODO
-    "object.__index__": ((2, 5), None),  # TODO
-    "object.__instancecheck__": ((2, 6), None),  # TODO
-    "object.__le__": ((2, 1), None),  # TODO
-    "object.__lt__": ((2, 1), None),  # TODO
-    "object.__metaclass__": ((2, 2), None),  # TODO
-    "object.__ne__": ((2, 1), None),  # TODO
-    "object.__reversed__": ((2, 6), None),  # TODO
-    "object.__slots__": ((2, 2), None),  # TODO
-    "object.__subclasscheck__": ((2, 6), None),  # TODO
-    "operator.__contains__": ((2, 0), None),  # TODO
-    "operator.__invert__": ((2, 0), None),  # TODO
-    "operator.attrgetter": ((2, 4), None),  # TODO
-    "operator.floordiv": ((2, 2), None),  # TODO
-    "operator.iadd": ((2, 5), None),  # TODO
-    "operator.iand": ((2, 5), None),  # TODO
-    "operator.iconcat": ((2, 5), None),  # TODO
-    "operator.idiv": ((2, 5), None),  # TODO
-    "operator.ifloordiv": ((2, 5), None),  # TODO
-    "operator.ilshift": ((2, 5), None),  # TODO
+    "object.__enter__": ((2, 5), (3, 0)),
+    "object.__eq__": ((2, 1), (3, 0)),
+    "object.__exit__": ((2, 5), (3, 0)),
+    "object.__ge__": ((2, 1), (3, 0)),
+    "object.__gt__": ((2, 1), (3, 0)),
+    "object.__index__": ((2, 5), (3, 0)),
+    "object.__instancecheck__": ((2, 6), (3, 0)),
+    "object.__le__": ((2, 1), (3, 0)),
+    "object.__lt__": ((2, 1), (3, 0)),
+    "object.__metaclass__": ((2, 2), (3, 0)),
+    "object.__ne__": ((2, 1), (3, 0)),
+    "object.__reversed__": ((2, 6), (3, 0)),
+    "object.__slots__": ((2, 2), (3, 0)),
+    "object.__subclasscheck__": ((2, 6), (3, 0)),
+    "operator.__contains__": ((2, 0), (3, 0)),
+    "operator.__invert__": ((2, 0), (3, 0)),
+    "operator.attrgetter": ((2, 4), (3, 0)),
+    "operator.floordiv": ((2, 2), (3, 0)),
+    "operator.iadd": ((2, 5), (3, 0)),
+    "operator.iand": ((2, 5), (3, 0)),
+    "operator.iconcat": ((2, 5), (3, 0)),
+    "operator.idiv": ((2, 5), None),
+    "operator.ifloordiv": ((2, 5), (3, 0)),
+    "operator.ilshift": ((2, 5), (3, 0)),
     "operator.imatmul": (None, (3, 5)),
-    "operator.imod": ((2, 5), None),  # TODO
-    "operator.imul": ((2, 5), None),  # TODO
-    "operator.index": ((2, 5), None),  # TODO
-    "operator.invert": ((2, 0), None),  # TODO
-    "operator.ior": ((2, 5), None),  # TODO
-    "operator.ipow": ((2, 5), None),  # TODO
-    "operator.irepeat": ((2, 5), None),  # TODO
-    "operator.irshift": ((2, 5), None),  # TODO
-    "operator.is_": ((2, 3), None),  # TODO
-    "operator.isub": ((2, 5), None),  # TODO
-    "operator.itemgetter": ((2, 5), None),  # TODO
-    "operator.itruediv": ((2, 5), None),  # TODO
-    "operator.ixor": ((2, 5), None),  # TODO
+    "operator.imod": ((2, 5), (3, 0)),
+    "operator.imul": ((2, 5), (3, 0)),
+    "operator.index": ((2, 5), (3, 0)),
+    "operator.invert": ((2, 0), (3, 0)),
+    "operator.ior": ((2, 5), (3, 0)),
+    "operator.ipow": ((2, 5), (3, 0)),
+    "operator.irepeat": ((2, 5), (3, 0)),
+    "operator.irshift": ((2, 5), (3, 0)),
+    "operator.is_": ((2, 3), (3, 0)),
+    "operator.isub": ((2, 5), (3, 0)),
+    "operator.itemgetter": ((2, 5), (3, 0)),
+    "operator.itruediv": ((2, 5), (3, 0)),
+    "operator.ixor": ((2, 5), (3, 0)),
     "operator.length_hint": (None, (3, 4)),
-    "operator.lt": ((2, 2), None),  # TODO
+    "operator.lt": ((2, 2), (3, 0)),
     "operator.matmul": (None, (3, 5)),
-    "operator.methodcaller": ((2, 6), None),  # TODO
-    "operator.pow": ((2, 3), None),  # TODO
-    "operator.truediv": ((2, 2), None),  # TODO
-    "os.WCOREDUMP": ((2, 3), None),  # TODO
-    "os.WIFCONTINUED": ((2, 3), None),  # TODO
-    "os.chflags": ((2, 6), None),  # TODO
-    "os.chroot": ((2, 2), None),  # TODO
-    "os.closerange": ((2, 6), None),  # TODO
+    "operator.methodcaller": ((2, 6), (3, 0)),
+    "operator.pow": ((2, 3), (3, 0)),
+    "operator.truediv": ((2, 2), (3, 0)),
+    "os.WCOREDUMP": ((2, 3), (3, 0)),
+    "os.WIFCONTINUED": ((2, 3), (3, 0)),
+    "os.chflags": ((2, 6), (3, 0)),
+    "os.chroot": ((2, 2), (3, 0)),
+    "os.closerange": ((2, 6), (3, 0)),
     "os.copy_file_range": (None, (3, 8)),
     "os.cpu_count": (None, (3, 4)),
-    "os.fchdir": ((2, 3), None),  # TODO
-    "os.fchmod": ((2, 6), None),  # TODO
-    "os.fchown": ((2, 6), None),  # TODO
+    "os.fchdir": ((2, 3), (3, 0)),
+    "os.fchmod": ((2, 6), (3, 0)),
+    "os.fchown": ((2, 6), (3, 0)),
     "os.fsdecode": (None, (3, 2)),
     "os.fsencode": (None, (3, 2)),
     "os.fspath": (None, (3, 6)),
@@ -965,43 +963,43 @@ functions_rules = {
     "os.get_handle_inheritable": (None, (3, 4)),
     "os.get_inheritable": (None, (3, 4)),
     "os.get_terminal_size": (None, (3, 3)),
-    "os.getcwdu": ((2, 3), None),  # TODO
+    "os.getcwdu": ((2, 3), None),
     "os.getenvb": (None, (3, 2)),
     "os.getgrouplist": (None, (3, 3)),
-    "os.getloadavg": ((2, 3), None),  # TODO
-    "os.getpgid": ((2, 3), None),  # TODO
+    "os.getloadavg": ((2, 3), (3, 0)),
+    "os.getpgid": ((2, 3), (3, 0)),
     "os.getpriority": (None, (3, 3)),
     "os.getrandom": (None, (3, 6)),
     "os.getresgid": ((2, 7), (3, 2)),
     "os.getresuid": ((2, 7), (3, 2)),
-    "os.getsid": ((2, 4), None),  # TODO
+    "os.getsid": ((2, 4), (3, 0)),
     "os.getxattr": (None, (3, 3)),
     "os.initgroups": ((2, 7), (3, 2)),
-    "os.lchflags": ((2, 6), None),  # TODO
-    "os.lchmod": ((2, 6), None),  # TODO
-    "os.lchown": ((2, 3), None),  # TODO
+    "os.lchflags": ((2, 6), (3, 0)),
+    "os.lchmod": ((2, 6), (3, 0)),
+    "os.lchown": ((2, 3), (3, 0)),
     "os.listxattr": (None, (3, 3)),
     "os.lockf": (None, (3, 3)),
-    "os.major": ((2, 3), None),  # TODO
-    "os.makedev": ((2, 3), None),  # TODO
-    "os.makedirs": ((2, 0), None),  # TODO
+    "os.major": ((2, 3), (3, 0)),
+    "os.makedev": ((2, 3), (3, 0)),
+    "os.makedirs": ((2, 0), (3, 0)),
     "os.memfd_create": (None, (3, 8)),
-    "os.minor": ((2, 3), None),  # TODO
-    "os.mknod": ((2, 3), None),  # TODO
-    "os.path.abspath": ((2, 0), None),  # TODO
+    "os.minor": ((2, 3), (3, 0)),
+    "os.mknod": ((2, 3), (3, 0)),
+    "os.path.abspath": ((2, 0), (3, 0)),
     "os.path.commonpath": (None, (3, 5)),
-    "os.path.getatime": ((2, 0), None),  # TODO
-    "os.path.getctime": ((2, 3), None),  # TODO
-    "os.path.getmtime": ((2, 0), None),  # TODO
-    "os.path.getsize": ((2, 0), None),  # TODO
-    "os.path.lexists": ((2, 3), None),  # TODO
-    "os.path.realpath": ((2, 2), None),  # TODO
-    "os.path.relpath": ((2, 6), None),  # TODO
-    "os.path.splitdrive": ((2, 0), None),  # TODO
+    "os.path.getatime": ((2, 0), (3, 0)),
+    "os.path.getctime": ((2, 3), (3, 0)),
+    "os.path.getmtime": ((2, 0), (3, 0)),
+    "os.path.getsize": ((2, 0), (3, 0)),
+    "os.path.lexists": ((2, 3), (3, 0)),
+    "os.path.realpath": ((2, 2), (3, 0)),
+    "os.path.relpath": ((2, 6), (3, 0)),
+    "os.path.splitdrive": ((2, 0), (3, 0)),
     "os.pipe2": (None, (3, 3)),
-    "os.popen2": ((2, 0), None),  # TODO
-    "os.popen3": ((2, 0), None),  # TODO
-    "os.popen4": ((2, 0), None),  # TODO
+    "os.popen2": ((2, 0), None),
+    "os.popen3": ((2, 0), None),
+    "os.popen4": ((2, 0), None),
     "os.posix_fadvise": (None, (3, 3)),
     "os.posix_fallocate": (None, (3, 3)),
     "os.posix_spawn": (None, (3, 8)),
@@ -1012,9 +1010,9 @@ functions_rules = {
     "os.pwritev": (None, (3, 7)),
     "os.readv": (None, (3, 3)),
     "os.register_at_fork": (None, (3, 7)),
-    "os.removedirs": ((2, 0), None),  # TODO
+    "os.removedirs": ((2, 0), (3, 0)),
     "os.removexattr": (None, (3, 3)),
-    "os.renames": ((2, 0), None),  # TODO
+    "os.renames": ((2, 0), (3, 0)),
     "os.replace": (None, (3, 3)),
     "os.scandir": (None, (3, 5)),
     "os.scandir.close": (None, (3, 6)),
@@ -1032,19 +1030,19 @@ functions_rules = {
     "os.set_blocking": (None, (3, 5)),
     "os.set_handle_inheritable": (None, (3, 4)),
     "os.set_inheritable": (None, (3, 4)),
-    "os.setgroups": ((2, 2), None),  # TODO
+    "os.setgroups": ((2, 2), (3, 0)),
     "os.setpriority": (None, (3, 3)),
     "os.setresgid": ((2, 7), (3, 2)),
     "os.setresuid": ((2, 7), (3, 2)),
     "os.setxattr": (None, (3, 3)),
-    "os.startfile": ((2, 0), None),  # TODO
+    "os.startfile": ((2, 0), (3, 0)),
     "os.sync": (None, (3, 3)),
     "os.truncate": (None, (3, 3)),
-    "os.urandom": ((2, 4), None),  # TODO
-    "os.wait3": ((2, 5), None),  # TODO
-    "os.wait4": ((2, 5), None),  # TODO
+    "os.urandom": ((2, 4), (3, 0)),
+    "os.wait3": ((2, 5), (3, 0)),
+    "os.wait4": ((2, 5), (3, 0)),
     "os.waitid": (None, (3, 3)),
-    "os.walk": ((2, 3), None),  # TODO
+    "os.walk": ((2, 3), (3, 0)),
     "os.writev": (None, (3, 3)),
     "pathlib.Path.expanduser": (None, (3, 5)),
     "pathlib.Path.home": (None, (3, 5)),
@@ -1056,90 +1054,89 @@ functions_rules = {
     "pathlib.Path.write_bytes": (None, (3, 5)),
     "pathlib.Path.write_text": (None, (3, 5)),
     "pickle.Pickler.reducer_override": (None, (3, 8)),
-    "pickletools.optimize": ((2, 6), None),  # TODO
-    "pkgutil.get_data": ((2, 6), None),  # TODO
-    "platform.linux_distribution": ((2, 6), None),  # TODO
-    "platform.python_branch": ((2, 6), None),  # TODO
-    "platform.python_implementation": ((2, 6), None),  # TODO
-    "platform.python_revision": ((2, 6), None),  # TODO
+    "pickletools.optimize": ((2, 6), (3, 0)),
+    "pkgutil.get_data": ((2, 6), (3, 0)),
+    "platform.linux_distribution": ((2, 6), (3, 0)),
+    "platform.python_branch": ((2, 6), (3, 0)),
+    "platform.python_implementation": ((2, 6), (3, 0)),
+    "platform.python_revision": ((2, 6), (3, 0)),
     "platform.win32_edition": (None, (3, 8)),
     "platform.win32_is_iot": (None, (3, 8)),
     "plistlib.dump": (None, (3, 4)),
     "plistlib.dumps": (None, (3, 4)),
     "plistlib.load": (None, (3, 4)),
     "plistlib.loads": (None, (3, 4)),
-    "popen2.popen4": ((2, 0), None),  # TODO
+    "popen2.popen4": ((2, 0), None),
     "poplib.POP3.capa": (None, (3, 4)),
     "poplib.POP3.stls": (None, (3, 4)),
     "poplib.POP3.utf8": (None, (3, 5)),
-    "pprint.PrettyPrinter.format": ((2, 3), None),  # TODO
+    "pprint.PrettyPrinter.format": ((2, 3), (3, 0)),
     "pprint.pp": (None, (3, 8)),
-    "print": ((2, 6), None),  # TODO
+    "print": ((2, 6), (3, 0)),
     "random.choices": (None, (3, 6)),
-    "random.getrandbits": ((2, 4), None),  # TODO
-    "random.getstate": ((2, 1), None),  # TODO
-    "random.jumpahead": ((2, 1), None),  # TODO
-    "random.randrange": ((2, 0), None),  # TODO
-    "random.sample": ((2, 3), None),  # TODO
-    "random.setstate": ((2, 1), None),  # TODO
-    "random.triangular": ((2, 6), None),  # TODO
+    "random.getrandbits": ((2, 4), (3, 0)),
+    "random.getstate": ((2, 1), (3, 0)),
+    "random.jumpahead": ((2, 1), None),
+    "random.randrange": ((2, 0), (3, 0)),
+    "random.sample": ((2, 3), (3, 0)),
+    "random.setstate": ((2, 1), (3, 0)),
+    "random.triangular": ((2, 6), (3, 0)),
     "re.Match.__getitem__": (None, (3, 6)),
     "re.Pattern.fullmatch": (None, (3, 4)),
-    "re.findall": ((2, 0), None),  # TODO
-    "re.finditer": ((2, 2), None),  # TODO
+    "re.findall": ((2, 0), (3, 0)),
+    "re.finditer": ((2, 2), (3, 0)),
     "re.fullmatch": (None, (3, 4)),
     "readline.append_history_file": (None, (3, 5)),
-    "readline.clear_history": ((2, 4), None),  # TODO
-    "readline.get_completer": ((2, 3), None),  # TODO
-    "readline.get_completion_type": ((2, 6), None),  # TODO
-    "readline.get_current_history_length": ((2, 3), None),  # TODO
-    "readline.get_history_item": ((2, 3), None),  # TODO
-    "readline.remove_history_item": ((2, 4), None),  # TODO
-    "readline.replace_history_item": ((2, 4), None),  # TODO
+    "readline.clear_history": ((2, 4), (3, 0)),
+    "readline.get_completer": ((2, 3), (3, 0)),
+    "readline.get_completion_type": ((2, 6), (3, 0)),
+    "readline.get_current_history_length": ((2, 3), (3, 0)),
+    "readline.get_history_item": ((2, 3), (3, 0)),
+    "readline.remove_history_item": ((2, 4), (3, 0)),
+    "readline.replace_history_item": ((2, 4), (3, 0)),
     "readline.set_auto_history": (None, (3, 6)),
-    "readline.set_completion_display_matches_hook": ((2, 6), None),  # TODO
-    "readline.set_pre_input_hook": ((2, 3), None),  # TODO
-    "readline.set_startup_hook": ((2, 3), None),  # TODO
+    "readline.set_completion_display_matches_hook": ((2, 6), (3, 0)),
+    "readline.set_pre_input_hook": ((2, 3), (3, 0)),
+    "readline.set_startup_hook": ((2, 3), (3, 0)),
     "resource.prlimit": (None, (3, 4)),
-    "reversed": ((2, 4), None),  # TODO
+    "reversed": ((2, 4), (3, 0)),
     "runpy.run_path": ((2, 7), (3, 2)),
     "select.devpoll": (None, (3, 3)),
     "select.devpoll.close": (None, (3, 4)),
     "select.devpoll.fileno": (None, (3, 4)),
-    "select.epoll": ((2, 6), None),  # TODO
-    "select.kevent": ((2, 6), None),  # TODO
-    "select.kqueue": ((2, 6), None),  # TODO
-    "select.poll.modify": ((2, 6), None),  # TODO
-    "set": ((2, 4), None),  # TODO
-    "sgmllib.SGMLParser.convert_charref": ((2, 5), None),  # TODO
-    "sgmllib.SGMLParser.convert_codepoint": ((2, 5), None),  # TODO
-    "sgmllib.SGMLParser.convert_entityref": ((2, 5), None),  # TODO
+    "select.epoll": ((2, 6), (3, 0)),
+    "select.kevent": ((2, 6), (3, 0)),
+    "select.kqueue": ((2, 6), (3, 0)),
+    "select.poll.modify": ((2, 6), (3, 0)),
+    "sgmllib.SGMLParser.convert_charref": ((2, 5), None),
+    "sgmllib.SGMLParser.convert_codepoint": ((2, 5), None),
+    "sgmllib.SGMLParser.convert_entityref": ((2, 5), None),
     "shlex.join": (None, (3, 8)),
     "shlex.quote": (None, (3, 3)),
-    "shlex.shlex.pop_source": ((2, 1), None),  # TODO
-    "shlex.shlex.push_source": ((2, 1), None),  # TODO
-    "shlex.split": ((2, 3), None),  # TODO
+    "shlex.shlex.pop_source": ((2, 1), (3, 0)),
+    "shlex.shlex.push_source": ((2, 1), (3, 0)),
+    "shlex.split": ((2, 3), (3, 0)),
     "shutil.chown": (None, (3, 3)),
     "shutil.disk_usage": (None, (3, 3)),
     "shutil.get_archive_formats": ((2, 7), (3, 2)),
     "shutil.get_terminal_size": (None, (3, 3)),
     "shutil.get_unpack_formats": (None, (3, 2)),
-    "shutil.ignore_patterns": ((2, 6), None),  # TODO
+    "shutil.ignore_patterns": ((2, 6), (3, 0)),
     "shutil.make_archive": ((2, 7), (3, 2)),
-    "shutil.move": ((2, 3), None),  # TODO
+    "shutil.move": ((2, 3), (3, 0)),
     "shutil.register_archive_format": ((2, 7), (3, 2)),
     "shutil.register_unpack_format": (None, (3, 2)),
     "shutil.unpack_archive": (None, (3, 2)),
     "shutil.unregister_archive_format": ((2, 7), (3, 2)),
     "shutil.unregister_unpack_format": (None, (3, 2)),
     "shutil.which": (None, (3, 3)),
-    "signal.getitimer": ((2, 6), None),  # TODO
+    "signal.getitimer": ((2, 6), (3, 0)),
     "signal.pthread_kill": (None, (3, 3)),
     "signal.pthread_sigmask": (None, (3, 3)),
     "signal.raise_signal": (None, (3, 8)),
-    "signal.set_wakeup_fd": ((2, 6), None),  # TODO
-    "signal.setitimer": ((2, 6), None),  # TODO
-    "signal.siginterrupt": ((2, 6), None),  # TODO
+    "signal.set_wakeup_fd": ((2, 6), (3, 0)),
+    "signal.setitimer": ((2, 6), (3, 0)),
+    "signal.siginterrupt": ((2, 6), (3, 0)),
     "signal.sigpending": (None, (3, 3)),
     "signal.sigtimedwait": (None, (3, 3)),
     "signal.sigwait": (None, (3, 3)),
@@ -1149,53 +1146,53 @@ functions_rules = {
     "site.getsitepackages": ((2, 7), (3, 2)),
     "site.getuserbase": ((2, 7), (3, 2)),
     "site.getusersitepackages": ((2, 7), (3, 2)),
-    "slice.indices": ((2, 3), None),  # TODO
+    "slice.indices": ((2, 3), (3, 0)),
     "smtplib.SMTP.auth": (None, (3, 5)),
-    "smtplib.SMTP.ehlo_or_helo_if_needed": ((2, 6), None),  # TODO
+    "smtplib.SMTP.ehlo_or_helo_if_needed": ((2, 6), (3, 0)),
     "smtplib.SMTP.send_message": (None, (3, 2)),
-    "smtplib.SMTP.starttls": ((2, 6), None),  # TODO
+    "smtplib.SMTP.starttls": ((2, 6), (3, 0)),
     "socket.CMSG_LEN": (None, (3, 3)),
     "socket.CMSG_SPACE": (None, (3, 3)),
     "socket.close": (None, (3, 7)),
-    "socket.create_connection": ((2, 6), None),  # TODO
+    "socket.create_connection": ((2, 6), (3, 0)),
     "socket.create_server": (None, (3, 8)),
     "socket.fromshare": (None, (3, 3)),
-    "socket.getaddrinfo": ((2, 2), None),  # TODO
-    "socket.getdefaulttimeout": ((2, 3), None),  # TODO
-    "socket.getfqdn": ((2, 0), None),  # TODO
-    "socket.getnameinfo": ((2, 2), None),  # TODO
+    "socket.getaddrinfo": ((2, 2), (3, 0)),
+    "socket.getdefaulttimeout": ((2, 3), (3, 0)),
+    "socket.getfqdn": ((2, 0), (3, 0)),
+    "socket.getnameinfo": ((2, 2), (3, 0)),
     "socket.has_dualstack_ipv6": (None, (3, 8)),
     "socket.if_indextoname": (None, (3, 3)),
     "socket.if_nameindex": (None, (3, 3)),
     "socket.if_nametoindex": (None, (3, 3)),
-    "socket.inet_ntop": ((2, 3), None),  # TODO
-    "socket.inet_pton": ((2, 3), None),  # TODO
-    "socket.setdefaulttimeout": ((2, 3), None),  # TODO
+    "socket.inet_ntop": ((2, 3), (3, 0)),
+    "socket.inet_pton": ((2, 3), (3, 0)),
+    "socket.setdefaulttimeout": ((2, 3), (3, 0)),
     "socket.sethostname": (None, (3, 3)),
     "socket.socket.detach": (None, (3, 2)),
     "socket.socket.get_inheritable": (None, (3, 4)),
     "socket.socket.getblocking": (None, (3, 7)),
-    "socket.socket.gettimeout": ((2, 3), None),  # TODO
-    "socket.socket.ioctl": ((2, 6), None),  # TODO
-    "socket.socket.recv_into": ((2, 5), None),  # TODO
-    "socket.socket.recvfrom_into": ((2, 5), None),  # TODO
+    "socket.socket.gettimeout": ((2, 3), (3, 0)),
+    "socket.socket.ioctl": ((2, 6), (3, 0)),
+    "socket.socket.recv_into": ((2, 5), (3, 0)),
+    "socket.socket.recvfrom_into": ((2, 5), (3, 0)),
     "socket.socket.recvmsg": (None, (3, 3)),
     "socket.socket.recvmsg_into": (None, (3, 3)),
     "socket.socket.sendfile": (None, (3, 5)),
     "socket.socket.sendmsg": (None, (3, 3)),
     "socket.socket.sendmsg_afalg": (None, (3, 6)),
     "socket.socket.set_inheritable": (None, (3, 4)),
-    "socket.socket.settimeout": ((2, 3), None),  # TODO
+    "socket.socket.settimeout": ((2, 3), (3, 0)),
     "socket.socket.share": (None, (3, 3)),
-    "socket.socketpair": ((2, 4), None),  # TODO
+    "socket.socketpair": ((2, 4), (3, 0)),
     "socketserver.BaseServer.service_actions": (None, (3, 3)),
-    "sorted": ((2, 4), None),  # TODO
+    "sorted": ((2, 4), (3, 0)),
     "sqlite3.Connection.backup": (None, (3, 7)),
     "sqlite3.Connection.enable_load_extension": ((2, 7), (3, 2)),
     "sqlite3.Connection.load_extension": ((2, 7), (3, 2)),
-    "sqlite3.Connection.set_progress_handler": ((2, 6), None),  # TODO
+    "sqlite3.Connection.set_progress_handler": ((2, 6), (3, 0)),
     "sqlite3.Connection.set_trace_callback": (None, (3, 3)),
-    "sqlite3.Row.keys": ((2, 6), None),  # TODO
+    "sqlite3.Row.keys": ((2, 6), (3, 0)),
     "ssl.RAND_bytes": (None, (3, 3)),
     "ssl.RAND_pseudo_bytes": (None, (3, 3)),
     "ssl.SSLContext.cert_store_stats": (None, (3, 4)),
@@ -1215,7 +1212,7 @@ functions_rules = {
     "ssl.SSLSocket.shared_ciphers": (None, (3, 5)),
     "ssl.SSLSocket.verify_client_post_handshake": (None, (3, 8)),
     "ssl.SSLSocket.version": ((2, 7), (3, 5)),
-    "ssl._https_verify_certificates": ((2, 7), None),  # TODO
+    "ssl._https_verify_certificates": ((2, 7), None),
     "ssl.create_default_context": ((2, 7), (3, 4)),
     "ssl.enum_certificates": ((2, 7), (3, 4)),
     "ssl.enum_crls": ((2, 7), (3, 4)),
@@ -1231,96 +1228,96 @@ functions_rules = {
     "statistics.multimode": (None, (3, 8)),
     "statistics.quantiles": (None, (3, 8)),
     "str.casefold": (None, (3, 3)),
-    "str.decode": ((2, 2), None),  # TODO
-    "str.encode": ((2, 0), None),  # TODO
-    "str.format": ((2, 6), None),  # TODO
+    "str.decode": ((2, 2), None),
+    "str.encode": ((2, 0), (3, 0)),
+    "str.format": ((2, 6), (3, 0)),
     "str.format_map": (None, (3, 2)),
     "str.isascii": (None, (3, 7)),
-    "str.partition": ((2, 5), None),  # TODO
-    "str.rpartition": ((2, 5), None),  # TODO
-    "str.rsplit": ((2, 4), None),  # TODO
-    "str.zfill": ((2, 2), None),  # TODO
-    "string.rsplit": ((2, 4), None),  # TODO
+    "str.partition": ((2, 5), (3, 0)),
+    "str.rpartition": ((2, 5), (3, 0)),
+    "str.rsplit": ((2, 4), (3, 0)),
+    "str.zfill": ((2, 2), (3, 0)),
+    "string.rsplit": ((2, 4), None),
     "struct.Struct.iter_unpack": (None, (3, 4)),
     "struct.iter_unpack": (None, (3, 4)),
-    "struct.pack_into": ((2, 5), None),  # TODO
-    "struct.unpack_from": ((2, 5), None),  # TODO
-    "subprocess.Popen.kill": ((2, 6), None),  # TODO
-    "subprocess.Popen.send_signal": ((2, 6), None),  # TODO
-    "subprocess.Popen.terminate": ((2, 6), None),  # TODO
-    "subprocess.check_call": ((2, 5), None),  # TODO
+    "struct.pack_into": ((2, 5), (3, 0)),
+    "struct.unpack_from": ((2, 5), (3, 0)),
+    "subprocess.Popen.kill": ((2, 6), (3, 0)),
+    "subprocess.Popen.send_signal": ((2, 6), (3, 0)),
+    "subprocess.Popen.terminate": ((2, 6), (3, 0)),
+    "subprocess.check_call": ((2, 5), (3, 0)),
     "subprocess.check_output": ((2, 7), (3, 1)),
     "subprocess.run": (None, (3, 5)),
-    "sum": ((2, 3), None),  # TODO
-    "super": ((2, 2), None),  # TODO
-    "sys._clear_type_cache": ((2, 6), None),  # TODO
-    "sys._current_frames": ((2, 5), None),  # TODO
+    "sum": ((2, 3), (3, 0)),
+    "super": ((2, 2), (3, 0)),
+    "sys._clear_type_cache": ((2, 6), (3, 0)),
+    "sys._current_frames": ((2, 5), (3, 0)),
     "sys._debugmallocstats": (None, (3, 3)),
     "sys._enablelegacywindowsfsencoding": (None, (3, 6)),
     "sys.addaudithook": (None, (3, 8)),
     "sys.audit": (None, (3, 8)),
     "sys.breakpointhook": (None, (3, 7)),
-    "sys.exc_clear": ((2, 3), None),  # TODO
+    "sys.exc_clear": ((2, 3), None),
     "sys.get_asyncgen_hooks": (None, (3, 6)),
     "sys.get_coroutine_origin_tracking_depth": (None, (3, 7)),
     "sys.getallocatedblocks": (None, (3, 4)),
     "sys.getandroidapilevel": (None, (3, 7)),
-    "sys.getcheckinterval": ((2, 3), None),  # TODO
-    "sys.getdefaultencoding": ((2, 0), None),  # TODO
-    "sys.getdlopenflags": ((2, 2), None),  # TODO
+    "sys.getcheckinterval": ((2, 3), (3, 0)),
+    "sys.getdefaultencoding": ((2, 0), (3, 0)),
+    "sys.getdlopenflags": ((2, 2), (3, 0)),
     "sys.getfilesystemencodeerrors": (None, (3, 6)),
-    "sys.getfilesystemencoding": ((2, 3), None),  # TODO
-    "sys.getprofile": ((2, 6), None),  # TODO
-    "sys.getsizeof": ((2, 6), None),  # TODO
+    "sys.getfilesystemencoding": ((2, 3), (3, 0)),
+    "sys.getprofile": ((2, 6), (3, 0)),
+    "sys.getsizeof": ((2, 6), (3, 0)),
     "sys.getswitchinterval": (None, (3, 2)),
-    "sys.gettrace": ((2, 6), None),  # TODO
-    "sys.getwindowsversion": ((2, 3), None),  # TODO
+    "sys.gettrace": ((2, 6), (3, 0)),
+    "sys.getwindowsversion": ((2, 3), (3, 0)),
     "sys.is_finalizing": (None, (3, 5)),
     "sys.set_coroutine_origin_tracking_depth": (None, (3, 7)),
-    "sys.setdefaultencoding": ((2, 0), None),  # TODO
-    "sys.setdlopenflags": ((2, 2), None),  # TODO
+    "sys.setdefaultencoding": ((2, 0), None),
+    "sys.setdlopenflags": ((2, 2), (3, 0)),
     "sys.setswitchinterval": (None, (3, 2)),
-    "sys.settscdump": ((2, 4), None),  # TODO
+    "sys.settscdump": ((2, 4), None),
     "sys.unraisablehook": (None, (3, 8)),
-    "tarfile.TarFile.extractall": ((2, 5), None),  # TODO
-    "tarfile.TarInfo.fromtarfile": ((2, 6), None),  # TODO
-    "telnetlib.Telnet.read_sb_data": ((2, 3), None),  # TODO
-    "tempfile.NamedTemporaryFile": ((2, 3), None),  # TODO
-    "tempfile.SpooledTemporaryFile": ((2, 6), None),  # TODO
+    "tarfile.TarFile.extractall": ((2, 5), (3, 0)),
+    "tarfile.TarInfo.fromtarfile": ((2, 6), (3, 0)),
+    "telnetlib.Telnet.read_sb_data": ((2, 3), (3, 0)),
+    "tempfile.NamedTemporaryFile": ((2, 3), (3, 0)),
+    "tempfile.SpooledTemporaryFile": ((2, 6), (3, 0)),
     "tempfile.TemporaryDirectory": (None, (3, 2)),
-    "tempfile.gettempdir": ((2, 3), None),  # TODO
+    "tempfile.gettempdir": ((2, 3), (3, 0)),
     "tempfile.gettempdirb": (None, (3, 5)),
-    "tempfile.gettempprefix": ((2, 0), None),  # TODO
+    "tempfile.gettempprefix": ((2, 0), (3, 0)),
     "tempfile.gettempprefixb": (None, (3, 5)),
-    "tempfile.mkdtemp": ((2, 3), None),  # TODO
-    "tempfile.mkstemp": ((2, 3), None),  # TODO
-    "test.support.captured_stdout": ((2, 6), None),  # TODO
+    "tempfile.mkdtemp": ((2, 3), (3, 0)),
+    "tempfile.mkstemp": ((2, 3), (3, 0)),
+    "test.support.captured_stdout": ((2, 6), (3, 0)),
     "test.support.catch_threading_exception": (None, (3, 8)),
     "test.support.catch_unraisable_exception": (None, (3, 8)),
     "test.support.check__all__": (None, (3, 6)),
-    "test.support.check_py3k_warnings": ((2, 7), None),  # TODO
+    "test.support.check_py3k_warnings": ((2, 7), None),
     "test.support.check_syntax_warning": (None, (3, 8)),
-    "test.support.check_warnings": ((2, 6), None),  # TODO
+    "test.support.check_warnings": ((2, 6), (3, 0)),
     "test.support.detect_api_mismatch": (None, (3, 5)),
     "test.support.import_fresh_module": ((2, 7), (3, 1)),
     "test.support.import_module": ((2, 7), (3, 1)),
     "textwrap.indent": (None, (3, 3)),
     "textwrap.shorten": (None, (3, 4)),
-    "thread.interrupt_main": ((2, 3), None),  # TODO
-    "thread.stack_size": ((2, 5), None),  # TODO
-    "threading.Condition.notify_all": ((2, 6), None),  # TODO
+    "thread.interrupt_main": ((2, 3), None),
+    "thread.stack_size": ((2, 5), None),
+    "threading.Condition.notify_all": ((2, 6), (3, 0)),
     "threading.Condition.wait_for": (None, (3, 2)),
-    "threading.Event.is_set": ((2, 6), None),  # TODO
-    "threading.Thread.is_alive": ((2, 6), None),  # TODO
-    "threading.active_count": ((2, 6), None),  # TODO
-    "threading.current_thread": ((2, 6), None),  # TODO
+    "threading.Event.is_set": ((2, 6), (3, 0)),
+    "threading.Thread.is_alive": ((2, 6), (3, 0)),
+    "threading.active_count": ((2, 6), (3, 0)),
+    "threading.current_thread": ((2, 6), (3, 0)),
     "threading.excepthook": (None, (3, 8)),
     "threading.get_ident": (None, (3, 3)),
     "threading.get_native_id": (None, (3, 8)),
     "threading.main_thread": (None, (3, 4)),
-    "threading.setprofile": ((2, 3), None),  # TODO
-    "threading.settrace": ((2, 3), None),  # TODO
-    "threading.stack_size": ((2, 5), None),  # TODO
+    "threading.setprofile": ((2, 3), (3, 0)),
+    "threading.settrace": ((2, 3), (3, 0)),
+    "threading.stack_size": ((2, 5), (3, 0)),
     "time.clock_getres": (None, (3, 3)),
     "time.clock_gettime": (None, (3, 3)),
     "time.clock_gettime_ns": (None, (3, 7)),
@@ -1337,15 +1334,15 @@ functions_rules = {
     "time.thread_time": (None, (3, 7)),
     "time.thread_time_ns": (None, (3, 7)),
     "time.time_ns": (None, (3, 7)),
-    "time.tzset": ((2, 3), None),  # TODO
+    "time.tzset": ((2, 3), (3, 0)),
     "timeit.Timer.autorange": (None, (3, 6)),
-    "timeit.repeat": ((2, 6), None),  # TODO
-    "timeit.timeit": ((2, 6), None),  # TODO
-    "tokenize.generate_tokens": ((2, 2), None),  # TODO
+    "timeit.repeat": ((2, 6), (3, 0)),
+    "timeit.timeit": ((2, 6), (3, 0)),
+    "tokenize.generate_tokens": ((2, 2), (3, 0)),
     "tokenize.open": (None, (3, 2)),
-    "tokenize.untokenize": ((2, 5), None),  # TODO
+    "tokenize.untokenize": ((2, 5), (3, 0)),
     "traceback.clear_frames": (None, (3, 4)),
-    "traceback.format_exc": ((2, 4), None),  # TODO
+    "traceback.format_exc": ((2, 4), (3, 0)),
     "traceback.walk_stack": (None, (3, 5)),
     "traceback.walk_tb": (None, (3, 5)),
     "types.CodeType.replace": (None, (3, 8)),
@@ -1357,16 +1354,16 @@ functions_rules = {
     "types.resolve_bases": (None, (3, 7)),
     "typing.NewType": (None, (3, 5)),
     "typing.get_args": (None, (3, 8)),
-    "unichr": ((2, 0), None),  # TODO
-    "unicode": ((2, 0), None),  # TODO
-    "unicodedata.east_asian_width": ((2, 4), None),  # TODO
+    "unichr": ((2, 0), None),
+    "unicode": ((2, 0), None),
+    "unicodedata.east_asian_width": ((2, 4), (3, 0)),
     "unicodedata.is_normalized": (None, (3, 8)),
-    "unicodedata.normalize": ((2, 3), None),  # TODO
+    "unicodedata.normalize": ((2, 3), (3, 0)),
     "unittest.TestCase.addClassCleanup": (None, (3, 8)),
     "unittest.TestCase.addCleanup": ((2, 7), (3, 1)),
     "unittest.TestCase.addTypeEqualityFunc": ((2, 7), (3, 1)),
     "unittest.TestCase.assertCountEqual": (None, (3, 2)),
-    "unittest.TestCase.assertDictContainsSubset": ((2, 7), None),  # TODO
+    "unittest.TestCase.assertDictContainsSubset": ((2, 7), (3, 0)),
     "unittest.TestCase.assertDictEqual": ((2, 7), (3, 1)),
     "unittest.TestCase.assertGreater": ((2, 7), (3, 1)),
     "unittest.TestCase.assertGreaterEqual": (None, (3, 1)),
@@ -1376,7 +1373,7 @@ functions_rules = {
     "unittest.TestCase.assertIsNone": ((2, 7), (3, 1)),
     "unittest.TestCase.assertIsNot": (None, (3, 1)),
     "unittest.TestCase.assertIsNotNone": (None, (3, 1)),
-    "unittest.TestCase.assertItemsEqual": ((2, 7), None),  # TODO
+    "unittest.TestCase.assertItemsEqual": ((2, 7), None),
     "unittest.TestCase.assertLess": (None, (3, 1)),
     "unittest.TestCase.assertLessEqual": (None, (3, 1)),
     "unittest.TestCase.assertListEqual": ((2, 7), (3, 1)),
@@ -1397,8 +1394,6 @@ functions_rules = {
     "unittest.TestCase.assertWarnsRegex": (None, (3, 2)),
     "unittest.TestCase.doClassCleanups": (None, (3, 8)),
     "unittest.TestCase.doCleanups": ((2, 7), (3, 1)),
-    "unittest.TestCase.longMessage": ((2, 7), None),  # TODO
-    "unittest.TestCase.maxDiff": ((2, 7), None),  # TODO
     "unittest.TestCase.setUpClass": ((2, 7), (3, 2)),
     "unittest.TestCase.skipTest": ((2, 7), (3, 1)),
     "unittest.TestCase.subTest": (None, (3, 4)),
@@ -1409,7 +1404,6 @@ functions_rules = {
     "unittest.TestResult.stopTestRun": ((2, 7), (3, 1)),
     "unittest.addModuleCleanup": (None, (3, 8)),
     "unittest.doModuleCleanups": (None, (3, 8)),
-    "unittest.expectedFailure": ((2, 7), None),  # TODO
     "unittest.installHandler": ((2, 7), (3, 2)),
     "unittest.mock.Mock.assert_called": (None, (3, 6)),
     "unittest.mock.Mock.assert_called_once": (None, (3, 6)),
@@ -1418,36 +1412,33 @@ functions_rules = {
     "unittest.registerResult": ((2, 7), (3, 2)),
     "unittest.removeHandler": ((2, 7), (3, 2)),
     "unittest.removeResult": ((2, 7), (3, 2)),
-    "unittest.skip": ((2, 7), None),  # TODO
-    "unittest.skipIf": ((2, 7), None),  # TODO
-    "unittest.skipUnless": ((2, 7), None),  # TODO
     "urllib.request.Request.remove_header": (None, (3, 4)),
     "urllib.robotparser.RobotFileParser.crawl_delay": (None, (3, 6)),
     "urllib.robotparser.RobotFileParser.request_rate": (None, (3, 6)),
     "urllib.robotparser.RobotFileParser.site_maps": (None, (3, 8)),
-    "urllib.urlopen.getcode": ((2, 6), None),  # TODO
-    "urllib2.Request.add_unredirected_header": ((2, 4), None),  # TODO
-    "urllib2.Request.has_header": ((2, 4), None),  # TODO
-    "urlparse.ParseResult.geturl": ((2, 5), None),  # TODO
-    "urlparse.parse_qs": ((2, 6), None),  # TODO
-    "urlparse.parse_qsl": ((2, 6), None),  # TODO
-    "urlparse.urlsplit": ((2, 2), None),  # TODO
-    "urlparse.urlunsplit": ((2, 2), None),  # TODO
+    "urllib.urlopen.getcode": ((2, 6), None),
+    "urllib2.Request.add_unredirected_header": ((2, 4), None),
+    "urllib2.Request.has_header": ((2, 4), None),
+    "urlparse.ParseResult.geturl": ((2, 5), None),
+    "urlparse.parse_qs": ((2, 6), None),
+    "urlparse.parse_qsl": ((2, 6), None),
+    "urlparse.urlsplit": ((2, 2), None),
+    "urlparse.urlunsplit": ((2, 2), None),
     "venv.create": (None, (3, 3)),
-    "warnings.warnpy3k": ((2, 6), None),  # TODO
-    "weakref.WeakKeyDictionary.iterkeyrefs": ((2, 5), None),  # TODO
-    "weakref.WeakKeyDictionary.keyrefs": ((2, 5), None),  # TODO
-    "weakref.WeakValueDictionary.itervaluerefs": ((2, 5), None),  # TODO
-    "weakref.WeakValueDictionary.valuerefs": ((2, 5), None),  # TODO
-    "webbrowser.controller.open_new_tab": ((2, 5), None),  # TODO
-    "webbrowser.open_new_tab": ((2, 5), None),  # TODO
+    "warnings.warnpy3k": ((2, 6), None),
+    "weakref.WeakKeyDictionary.iterkeyrefs": ((2, 5), None),
+    "weakref.WeakKeyDictionary.keyrefs": ((2, 5), (3, 0)),
+    "weakref.WeakValueDictionary.itervaluerefs": ((2, 5), None),
+    "weakref.WeakValueDictionary.valuerefs": ((2, 5), (3, 0)),
+    "webbrowser.controller.open_new_tab": ((2, 5), (3, 0)),
+    "webbrowser.open_new_tab": ((2, 5), (3, 0)),
     "winreg.CreateKeyEx": (None, (3, 2)),
     "winreg.DeleteKeyEx": (None, (3, 2)),
-    "winsound.Beep": ((2, 0), None),  # TODO
-    "winsound.MessageBeep": ((2, 3), None),  # TODO
+    "winsound.Beep": ((2, 0), (3, 0)),
+    "winsound.MessageBeep": ((2, 3), (3, 0)),
     "wsgiref.handlers.read_environ": (None, (3, 2)),
-    "xml.dom.Node.normalize": ((2, 1), None),  # TODO
-    "xml.dom.minidom.Node.toprettyxml": ((2, 1), None),  # TODO
+    "xml.dom.Node.normalize": ((2, 1), (3, 0)),
+    "xml.dom.minidom.Node.toprettyxml": ((2, 1), (3, 0)),
     "xml.etree.ElementTree.Element.extend": ((2, 7), (3, 2)),
     "xml.etree.ElementTree.Element.iter": ((2, 7), (3, 2)),
     "xml.etree.ElementTree.Element.iterfind": ((2, 7), (3, 2)),
@@ -1462,36 +1453,36 @@ functions_rules = {
     "xml.etree.ElementTree.fromstringlist": ((2, 7), (3, 2)),
     "xml.etree.ElementTree.register_namespace": ((2, 7), (3, 2)),
     "xml.etree.ElementTree.tostringlist": ((2, 7), (3, 2)),
-    "xml.parsers.expat.XMLParserType.EntityDeclHandler": ((2, 1), None),  # TODO
-    "xml.parsers.expat.XMLParserType.GetInputContext": ((2, 1), None),  # TODO
-    "xml.parsers.expat.XMLParserType.UseForeignDTD": ((2, 3), None),  # TODO
-    "xml.parsers.expat.XMLParserType.XmlDeclHandler": ((2, 1), None),  # TODO
-    "xml.sax.saxutils.quoteattr": ((2, 2), None),  # TODO
-    "xml.sax.saxutils.unescape": ((2, 3), None),  # TODO
-    "zip": ((2, 0), None),  # TODO
-    "zipfile.ZipFile.extract": ((2, 6), None),  # TODO
-    "zipfile.ZipFile.extractall": ((2, 6), None),  # TODO
-    "zipfile.ZipFile.open": ((2, 6), None),  # TODO
-    "zipfile.ZipFile.setpassword": ((2, 6), None),  # TODO
+    "xml.parsers.expat.XMLParserType.EntityDeclHandler": ((2, 1), (3, 0)),
+    "xml.parsers.expat.XMLParserType.GetInputContext": ((2, 1), (3, 0)),
+    "xml.parsers.expat.XMLParserType.UseForeignDTD": ((2, 3), (3, 0)),
+    "xml.parsers.expat.XMLParserType.XmlDeclHandler": ((2, 1), (3, 0)),
+    "xml.sax.saxutils.quoteattr": ((2, 2), (3, 0)),
+    "xml.sax.saxutils.unescape": ((2, 3), (3, 0)),
+    "zip": ((2, 0), (3, 0)),
+    "zipfile.ZipFile.extract": ((2, 6), (3, 0)),
+    "zipfile.ZipFile.extractall": ((2, 6), (3, 0)),
+    "zipfile.ZipFile.open": ((2, 6), (3, 0)),
+    "zipfile.ZipFile.setpassword": ((2, 6), (3, 0)),
     "zipfile.ZipInfo.from_file": (None, (3, 6)),
     "zipfile.ZipInfo.is_dir": (None, (3, 6)),
     "zipimport.zipimporter.get_filename": (None, (3, 1)),
-    "zlib.Compress.copy": ((2, 5), None),  # TODO
-    "zlib.Decompress.copy": ((2, 5), None),  # TODO
+    "zlib.Compress.copy": ((2, 5), (3, 0)),
+    "zlib.Decompress.copy": ((2, 5), (3, 0)),
 }
 
 variables_and_constants_rules = {
     "BaseException.__suppress_context__": (None, (3, 3)),
-    "BaseHTTPServer.BaseHTTPRequestHandler.error_content_type": ((2, 6), None),  # TODO
-    "Cookie.Morsel.httponly": ((2, 6), None),  # TODO
-    "False": ((2, 3), None),  # TODO
+    "BaseHTTPServer.BaseHTTPRequestHandler.error_content_type": ((2, 6), None),
+    "Cookie.Morsel.httponly": ((2, 6), None),
+    "False": ((2, 3), (3, 0)),
     "ImportError.name": (None, (3, 3)),
     "ImportError.path": (None, (3, 3)),
     "OSError.filename2": (None, (3, 4)),
-    "SimpleXMLRPCServer.SimpleXMLRPCRequestHandler.encode_threshold": ((2, 7), None),  # TODO
-    "SimpleXMLRPCServer.SimpleXMLRPCRequestHandler.rpc_paths": ((2, 5), None),  # TODO
+    "SimpleXMLRPCServer.SimpleXMLRPCRequestHandler.encode_threshold": ((2, 7), None),
+    "SimpleXMLRPCServer.SimpleXMLRPCRequestHandler.rpc_paths": ((2, 5), None),
     "StopIteration.value": (None, (3, 3)),
-    "True": ((2, 3), None),  # TODO
+    "True": ((2, 3), (3, 0)),
     "_thread.TIMEOUT_MAX": (None, (3, 2)),
     "bz2.BZ2Decompressor.eof": (None, (3, 3)),
     "bz2.BZ2Decompressor.needs_input": (None, (3, 5)),
@@ -1506,22 +1497,22 @@ variables_and_constants_rules = {
     "cmath.nan": (None, (3, 6)),
     "cmath.nanj": (None, (3, 6)),
     "cmath.tau": (None, (3, 6)),
-    "collections.deque.maxlen": (None, (3, 1)),
+    "collections.deque.maxlen": ((2, 7), (3, 1)),
     "collections.namedtuple._field_defaults": (None, (3, 7)),
     "configparser.DuplicateSectionError.lineno": (None, (3, 2)),
     "configparser.DuplicateSectionError.source": (None, (3, 2)),
     "configparser.ParsingError.source": (None, (3, 2)),
     "contextvars.ContextVar.name": (None, (3, 7)),
-    "cookielib.Cookie.rfc2109": ((2, 5), None),  # TODO
-    "cookielib.DefaultCookiePolicy.rfc2109_as_netscape": ((2, 5), None),  # TODO
+    "cookielib.Cookie.rfc2109": ((2, 5), None),
+    "cookielib.DefaultCookiePolicy.rfc2109_as_netscape": ((2, 5), None),
     "crypt.METHOD_BLOWFISH": (None, (3, 7)),
     "crypt.METHOD_CRYPT": (None, (3, 3)),
     "crypt.METHOD_MD5": (None, (3, 3)),
     "crypt.METHOD_SHA256": (None, (3, 3)),
     "crypt.METHOD_SHA512": (None, (3, 3)),
     "crypt.methods": (None, (3, 3)),
-    "csv.csvreader.fieldnames": ((2, 6), None),  # TODO
-    "csv.csvreader.line_num": ((2, 5), None),  # TODO
+    "csv.csvreader.fieldnames": ((2, 6), (3, 0)),
+    "csv.csvreader.line_num": ((2, 5), (3, 0)),
     "curses.A_ITALIC": (None, (3, 7)),
     "curses.ncurses_version": (None, (3, 8)),
     "curses.window.encoding": (None, (3, 3)),
@@ -1529,19 +1520,19 @@ variables_and_constants_rules = {
     "datetime.time.fold": (None, (3, 6)),
     "difflib.SequenceMatcher.bjunk": (None, (3, 2)),
     "difflib.SequenceMatcher.bpopular": (None, (3, 2)),
-    "doctest.COMPARISON_FLAGS": ((2, 4), None),  # TODO
-    "doctest.DONT_ACCEPT_BLANKLINE": ((2, 4), None),  # TODO
-    "doctest.ELLIPSIS": ((2, 4), None),  # TODO
+    "doctest.COMPARISON_FLAGS": ((2, 4), (3, 0)),
+    "doctest.DONT_ACCEPT_BLANKLINE": ((2, 4), (3, 0)),
+    "doctest.ELLIPSIS": ((2, 4), (3, 0)),
     "doctest.FAIL_FAST": (None, (3, 4)),
-    "doctest.IGNORE_EXCEPTION_DETAIL": ((2, 4), None),  # TODO
-    "doctest.NORMALIZE_WHITESPACE": ((2, 4), None),  # TODO
-    "doctest.REPORTING_FLAGS": ((2, 4), None),  # TODO
-    "doctest.REPORT_CDIFF": ((2, 4), None),  # TODO
-    "doctest.REPORT_NDIFF": ((2, 4), None),  # TODO
-    "doctest.REPORT_ONLY_FIRST_FAILURE": ((2, 4), None),  # TODO
-    "doctest.REPORT_UDIFF": ((2, 4), None),  # TODO
-    "doctest.skip": ((2, 5), None),  # TODO
-    "email.message.Message.defects": ((2, 4), None),  # TODO
+    "doctest.IGNORE_EXCEPTION_DETAIL": ((2, 4), (3, 0)),
+    "doctest.NORMALIZE_WHITESPACE": ((2, 4), (3, 0)),
+    "doctest.REPORTING_FLAGS": ((2, 4), (3, 0)),
+    "doctest.REPORT_CDIFF": ((2, 4), (3, 0)),
+    "doctest.REPORT_NDIFF": ((2, 4), (3, 0)),
+    "doctest.REPORT_ONLY_FIRST_FAILURE": ((2, 4), (3, 0)),
+    "doctest.REPORT_UDIFF": ((2, 4), (3, 0)),
+    "doctest.SKIP": ((2, 5), (3, 0)),
+    "email.message.Message.defects": ((2, 4), (3, 0)),
     "email.policy.EmailPolicy.content_manager": (None, (3, 4)),
     "email.policy.Policy.message_factory": (None, (3, 6)),
     "fcntl.F_ADD_SEALS": (None, (3, 8)),
@@ -1550,24 +1541,24 @@ variables_and_constants_rules = {
     "fcntl.F_SEAL_SEAL": (None, (3, 8)),
     "fcntl.F_SEAL_SHRINK": (None, (3, 8)),
     "fcntl.F_SEAL_WRITE": (None, (3, 8)),
-    "file.encoding": ((2, 3), None),  # TODO
-    "file.errors": ((2, 6), None),  # TODO
+    "file.encoding": ((2, 3), None),
+    "file.errors": ((2, 6), None),
     "filecmp.DEFAULT_IGNORES": (None, (3, 4)),
     "gc.callbacks": (None, (3, 3)),
     "gzip.GzipFile.mtime": (None, (3, 1)),
+    "hashlib.algorithms": ((2, 7), None),
     "hashlib.algorithms_available": ((2, 7), (3, 2)),
     "hashlib.algorithms_guaranteed": ((2, 7), (3, 2)),
     "hashlib.hash.name": (None, (3, 4)),
-    "hashlib.hashlib.algorithms": ((2, 7), None),  # TODO
     "hmac.HMAC.block_size": (None, (3, 4)),
     "hmac.HMAC.name": (None, (3, 4)),
     "html.entities.html5": (None, (3, 3)),
-    "htmlentitydefs.codepoint2name": ((2, 3), None),  # TODO
-    "htmlentitydefs.name2codepoint": ((2, 3), None),  # TODO
+    "htmlentitydefs.codepoint2name": ((2, 3), None),
+    "htmlentitydefs.name2codepoint": ((2, 3), None),
     "http.HTTPStatus.MISDIRECTED_REQUEST": (None, (3, 7)),
     "http.HTTPStatus.UNAVAILABLE_FOR_LEGAL_REASONS": (None, (3, 8)),
     "http.client.HTTPConnection.blocksize": (None, (3, 7)),
-    "httplib.responses": ((2, 5), None),  # TODO
+    "httplib.responses": ((2, 5), None),
     "imaplib.IMAP4.utf8_enabled": (None, (3, 5)),
     "importlib.machinery.BYTECODE_SUFFIXES": (None, (3, 3)),
     "importlib.machinery.DEBUG_BYTECODE_SUFFIXES": (None, (3, 3)),
@@ -1587,14 +1578,14 @@ variables_and_constants_rules = {
     "ipaddress.IPv4Address.reverse_pointer": (None, (3, 5)),
     "logging.Formatter.default_msec_format": (None, (3, 3)),
     "logging.Formatter.default_time_format": (None, (3, 3)),
-    "logging.LogRecord.funcName": ((2, 5), None),  # TODO
-    "logging.LogRecord.processName": ((2, 6), None),  # TODO
+    "logging.LogRecord.funcName": ((2, 5), (3, 0)),
+    "logging.LogRecord.processName": ((2, 6), (3, 0)),
     "logging.StreamHandler.terminator": (None, (3, 2)),
     "logging.handlers.BaseRotatingHandler.name": (None, (3, 3)),
     "logging.handlers.BaseRotatingHandler.rotator": (None, (3, 3)),
     "logging.lastResort": (None, (3, 2)),
     "lzma.LZMADecompressor.needs_input": (None, (3, 5)),
-    "marshal.version": ((2, 4), None),  # TODO
+    "marshal.version": ((2, 4), (3, 0)),
     "math.inf": (None, (3, 5)),
     "math.nan": (None, (3, 5)),
     "math.tau": (None, (3, 6)),
@@ -1634,23 +1625,23 @@ variables_and_constants_rules = {
     "os.CLD_DUMPED": (None, (3, 3)),
     "os.CLD_EXITED": (None, (3, 3)),
     "os.CLD_TRAPPED": (None, (3, 3)),
-    "os.EX_CANTCREAT": ((2, 3), None),  # TODO
-    "os.EX_CONFIG": ((2, 3), None),  # TODO
-    "os.EX_DATAERR": ((2, 3), None),  # TODO
-    "os.EX_IOERR": ((2, 3), None),  # TODO
-    "os.EX_NOHOST": ((2, 3), None),  # TODO
-    "os.EX_NOINPUT": ((2, 3), None),  # TODO
-    "os.EX_NOPERM": ((2, 3), None),  # TODO
-    "os.EX_NOTFOUND": ((2, 3), None),  # TODO
-    "os.EX_NOUSER": ((2, 3), None),  # TODO
-    "os.EX_OK": ((2, 3), None),  # TODO
-    "os.EX_OSERR": ((2, 3), None),  # TODO
-    "os.EX_OSFILE": ((2, 3), None),  # TODO
-    "os.EX_PROTOCOL": ((2, 3), None),  # TODO
-    "os.EX_SOFTWARE": ((2, 3), None),  # TODO
-    "os.EX_TEMPFAIL": ((2, 3), None),  # TODO
-    "os.EX_UNAVAILABLE": ((2, 3), None),  # TODO
-    "os.EX_USAGE": ((2, 3), None),  # TODO
+    "os.EX_CANTCREAT": ((2, 3), (3, 0)),
+    "os.EX_CONFIG": ((2, 3), (3, 0)),
+    "os.EX_DATAERR": ((2, 3), (3, 0)),
+    "os.EX_IOERR": ((2, 3), (3, 0)),
+    "os.EX_NOHOST": ((2, 3), (3, 0)),
+    "os.EX_NOINPUT": ((2, 3), (3, 0)),
+    "os.EX_NOPERM": ((2, 3), (3, 0)),
+    "os.EX_NOTFOUND": ((2, 3), (3, 0)),
+    "os.EX_NOUSER": ((2, 3), (3, 0)),
+    "os.EX_OK": ((2, 3), (3, 0)),
+    "os.EX_OSERR": ((2, 3), (3, 0)),
+    "os.EX_OSFILE": ((2, 3), (3, 0)),
+    "os.EX_PROTOCOL": ((2, 3), (3, 0)),
+    "os.EX_SOFTWARE": ((2, 3), (3, 0)),
+    "os.EX_TEMPFAIL": ((2, 3), (3, 0)),
+    "os.EX_UNAVAILABLE": ((2, 3), (3, 0)),
+    "os.EX_USAGE": ((2, 3), (3, 0)),
     "os.F_LOCK": (None, (3, 3)),
     "os.F_TEST": (None, (3, 3)),
     "os.F_TLOCK": (None, (3, 3)),
@@ -1690,13 +1681,13 @@ variables_and_constants_rules = {
     "os.PRIO_PROCESS": (None, (3, 3)),
     "os.PRIO_USER": (None, (3, 3)),
     "os.P_ALL": (None, (3, 3)),
-    "os.P_DETACH": ((2, 0), None),  # TODO
-    "os.P_NOWAIT": ((2, 0), None),  # TODO
-    "os.P_NOWAITO": ((2, 0), None),  # TODO
-    "os.P_OVERLAY": ((2, 0), None),  # TODO
+    "os.P_DETACH": ((2, 0), (3, 0)),
+    "os.P_NOWAIT": ((2, 0), (3, 0)),
+    "os.P_NOWAITO": ((2, 0), (3, 0)),
+    "os.P_OVERLAY": ((2, 0), (3, 0)),
     "os.P_PGID": (None, (3, 3)),
     "os.P_PID": (None, (3, 3)),
-    "os.P_WAIT": ((2, 0), None),  # TODO
+    "os.P_WAIT": ((2, 0), (3, 0)),
     "os.RTLD_DEEPBIND": (None, (3, 3)),
     "os.RTLD_GLOBAL": (None, (3, 3)),
     "os.RTLD_LAZY": (None, (3, 3)),
@@ -1715,11 +1706,11 @@ variables_and_constants_rules = {
     "os.SCHED_RESET_ON_FORK": (None, (3, 3)),
     "os.SCHED_RR": (None, (3, 3)),
     "os.SCHED_SPORADIC": (None, (3, 3)),
-    "os.SEEK_CUR": ((2, 5), None),  # TODO
+    "os.SEEK_CUR": ((2, 5), (3, 0)),
     "os.SEEK_DATA": (None, (3, 3)),
-    "os.SEEK_END": ((2, 5), None),  # TODO
+    "os.SEEK_END": ((2, 5), (3, 0)),
     "os.SEEK_HOLE": (None, (3, 3)),
-    "os.SEEK_SET": ((2, 5), None),  # TODO
+    "os.SEEK_SET": ((2, 5), (3, 0)),
     "os.SF_MNOWAIT": (None, (3, 3)),
     "os.SF_NODISKIO": (None, (3, 3)),
     "os.SF_SYNC": (None, (3, 3)),
@@ -1735,61 +1726,61 @@ variables_and_constants_rules = {
     "os.ST_RELATIME": (None, (3, 4)),
     "os.ST_SYNCHRONOUS": (None, (3, 4)),
     "os.ST_WRITE": (None, (3, 4)),
-    "os.WCONTINUED": ((2, 3), None),  # TODO
+    "os.WCONTINUED": ((2, 3), (3, 0)),
     "os.WEXITED": (None, (3, 3)),
     "os.WNOWAIT": (None, (3, 3)),
     "os.WSTOPPED": (None, (3, 3)),
-    "os.WUNTRACED": ((2, 3), None),  # TODO
+    "os.WUNTRACED": ((2, 3), (3, 0)),
     "os.XATTR_CREATE": (None, (3, 3)),
     "os.XATTR_REPLACE": (None, (3, 3)),
     "os.XATTR_SIZE_MAX": (None, (3, 3)),
-    "os.devnull": ((2, 4), None),  # TODO
+    "os.devnull": ((2, 4), (3, 0)),
     "os.environb": (None, (3, 2)),
-    "os.extsep": ((2, 2), None),  # TODO
-    "os.killpg": ((2, 3), None),  # TODO
-    "os.path.supports_unicode_filenames": ((2, 3), None),  # TODO
-    "os.spawnl": ((2, 0), None),  # TODO
-    "os.stat_result.st_atime": ((2, 2), None),  # TODO
+    "os.extsep": ((2, 2), (3, 0)),
+    "os.killpg": ((2, 3), (3, 0)),
+    "os.path.supports_unicode_filenames": ((2, 3), (3, 0)),
+    "os.spawnl": ((2, 0), (3, 0)),
+    "os.stat_result.st_atime": ((2, 2), (3, 0)),
     "os.stat_result.st_atime_ns": (None, (3, 3)),
-    "os.stat_result.st_attrs": ((2, 2), None),  # TODO
-    "os.stat_result.st_birthtime": ((2, 5), None),  # TODO
-    "os.stat_result.st_blksize": ((2, 2), None),  # TODO
-    "os.stat_result.st_blocks": ((2, 2), None),  # TODO
-    "os.stat_result.st_ctime": ((2, 2), None),  # TODO
+    "os.stat_result.st_attrs": ((2, 2), (3, 0)),
+    "os.stat_result.st_birthtime": ((2, 5), (3, 0)),
+    "os.stat_result.st_blksize": ((2, 2), (3, 0)),
+    "os.stat_result.st_blocks": ((2, 2), (3, 0)),
+    "os.stat_result.st_ctime": ((2, 2), (3, 0)),
     "os.stat_result.st_ctime_ns": (None, (3, 3)),
-    "os.stat_result.st_dev": ((2, 2), None),  # TODO
+    "os.stat_result.st_dev": ((2, 2), (3, 0)),
     "os.stat_result.st_file_attributes": (None, (3, 5)),
-    "os.stat_result.st_flags": ((2, 2), None),  # TODO
-    "os.stat_result.st_ftype": ((2, 2), None),  # TODO
-    "os.stat_result.st_gen": ((2, 5), None),  # TODO
-    "os.stat_result.st_gid": ((2, 2), None),  # TODO
-    "os.stat_result.st_ino": ((2, 2), None),  # TODO
-    "os.stat_result.st_mode": ((2, 2), None),  # TODO
-    "os.stat_result.st_mtime": ((2, 2), None),  # TODO
+    "os.stat_result.st_flags": ((2, 2), (3, 0)),
+    "os.stat_result.st_ftype": ((2, 2), (3, 0)),
+    "os.stat_result.st_gen": ((2, 5), (3, 0)),
+    "os.stat_result.st_gid": ((2, 2), (3, 0)),
+    "os.stat_result.st_ino": ((2, 2), (3, 0)),
+    "os.stat_result.st_mode": ((2, 2), (3, 0)),
+    "os.stat_result.st_mtime": ((2, 2), (3, 0)),
     "os.stat_result.st_mtime_ns": (None, (3, 3)),
-    "os.stat_result.st_obtype": ((2, 2), None),  # TODO
-    "os.stat_result.st_rdev": ((2, 2), None),  # TODO
+    "os.stat_result.st_nlink": ((2, 2), (3, 0)),
+    "os.stat_result.st_obtype": ((2, 2), (3, 0)),
+    "os.stat_result.st_rdev": ((2, 2), (3, 0)),
     "os.stat_result.st_reparse_tag": (None, (3, 8)),
-    "os.stat_result.st_size": ((2, 2), None),  # TODO
-    "os.stat_result.st_uid": ((2, 2), None),  # TODO
-    "os.stat_result.st_ulink": ((2, 2), None),  # TODO
-    "os.statvfs.f_avail": ((2, 2), None),  # TODO
-    "os.statvfs.f_bavail": ((2, 2), None),  # TODO
-    "os.statvfs.f_bfree": ((2, 2), None),  # TODO
-    "os.statvfs.f_blocks": ((2, 2), None),  # TODO
-    "os.statvfs.f_bsize": ((2, 2), None),  # TODO
-    "os.statvfs.f_ffree": ((2, 2), None),  # TODO
-    "os.statvfs.f_files": ((2, 2), None),  # TODO
-    "os.statvfs.f_flag": ((2, 2), None),  # TODO
-    "os.statvfs.f_frsize": ((2, 2), None),  # TODO
-    "os.statvfs.f_namemax": ((2, 2), None),  # TODO
+    "os.stat_result.st_size": ((2, 2), (3, 0)),
+    "os.stat_result.st_uid": ((2, 2), (3, 0)),
+    "os.statvfs_result.f_bavail": ((2, 2), (3, 0)),
+    "os.statvfs_result.f_bfree": ((2, 2), (3, 0)),
+    "os.statvfs_result.f_blocks": ((2, 2), (3, 0)),
+    "os.statvfs_result.f_bsize": ((2, 2), (3, 0)),
+    "os.statvfs_result.f_favail": ((2, 2), (3, 0)),
+    "os.statvfs_result.f_ffree": ((2, 2), (3, 0)),
+    "os.statvfs_result.f_files": ((2, 2), (3, 0)),
+    "os.statvfs_result.f_flag": ((2, 2), (3, 0)),
+    "os.statvfs_result.f_frsize": ((2, 2), (3, 0)),
     "os.statvfs_result.f_fsid": (None, (3, 7)),
+    "os.statvfs_result.f_namemax": ((2, 2), (3, 0)),
     "os.supports_bytes_environ": (None, (3, 2)),
     "os.supports_dir_fd": (None, (3, 3)),
     "os.supports_effective_ids": (None, (3, 3)),
     "os.supports_fd": (None, (3, 3)),
     "os.supports_follow_symlinks": (None, (3, 3)),
-    "pickle.HIGHEST_PROTOCOL": ((2, 3), None),  # TODO
+    "pickle.HIGHEST_PROTOCOL": ((2, 3), (3, 0)),
     "pickle.Pickler.dispatch_table": (None, (3, 3)),
     "plistlib.FMT_BINARY": (None, (3, 4)),
     "plistlib.FMT_XML": (None, (3, 4)),
@@ -1801,16 +1792,16 @@ variables_and_constants_rules = {
     "range.start": (None, (3, 3)),
     "range.step": (None, (3, 3)),
     "range.stop": (None, (3, 3)),
-    "re.U": ((2, 0), None),  # TODO
-    "re.UNICODE": ((2, 0), None),  # TODO
+    "re.U": ((2, 0), (3, 0)),
+    "re.UNICODE": ((2, 0), (3, 0)),
     "re.error.colno": (None, (3, 5)),
     "re.error.lineno": (None, (3, 5)),
     "re.error.msg": (None, (3, 5)),
     "re.error.pattern": (None, (3, 5)),
     "re.error.pos": (None, (3, 5)),
-    "repr.Repr.maxfrozenset": ((2, 4), None),  # TODO
-    "repr.Repr.maxset": ((2, 4), None),  # TODO
-    "repr.Repr.set": ((2, 4), None),  # TODO
+    "repr.Repr.maxfrozenset": ((2, 4), None),
+    "repr.Repr.maxset": ((2, 4), None),
+    "repr.Repr.set": ((2, 4), None),
     "resource.RLIMIT_MSGQUEUE": (None, (3, 4)),
     "resource.RLIMIT_NICE": (None, (3, 4)),
     "resource.RLIMIT_NPTS": (None, (3, 4)),
@@ -1820,47 +1811,47 @@ variables_and_constants_rules = {
     "resource.RLIMIT_SIGPENDING": (None, (3, 4)),
     "resource.RLIMIT_SWAP": (None, (3, 4)),
     "resource.RUSAGE_THREAD": (None, (3, 2)),
-    "resource.getrusage.ru_idrss": ((2, 3), None),  # TODO
-    "resource.getrusage.ru_inblock": ((2, 3), None),  # TODO
-    "resource.getrusage.ru_isrss": ((2, 3), None),  # TODO
-    "resource.getrusage.ru_ixrss": ((2, 3), None),  # TODO
-    "resource.getrusage.ru_majflt": ((2, 3), None),  # TODO
-    "resource.getrusage.ru_maxrss": ((2, 3), None),  # TODO
-    "resource.getrusage.ru_minflt": ((2, 3), None),  # TODO
-    "resource.getrusage.ru_msgrcv": ((2, 3), None),  # TODO
-    "resource.getrusage.ru_msgsnd": ((2, 3), None),  # TODO
-    "resource.getrusage.ru_nivcsw": ((2, 3), None),  # TODO
-    "resource.getrusage.ru_nsignals": ((2, 3), None),  # TODO
-    "resource.getrusage.ru_nswap": ((2, 3), None),  # TODO
-    "resource.getrusage.ru_nvcsw": ((2, 3), None),  # TODO
-    "resource.getrusage.ru_oublock": ((2, 3), None),  # TODO
-    "resource.getrusage.ru_stime": ((2, 3), None),  # TODO
-    "resource.getrusage.ru_utime": ((2, 3), None),  # TODO
-    "sched.scheduler.queue": ((2, 6), None),  # TODO
+    "resource.getrusage.ru_idrss": ((2, 3), (3, 0)),
+    "resource.getrusage.ru_inblock": ((2, 3), (3, 0)),
+    "resource.getrusage.ru_isrss": ((2, 3), (3, 0)),
+    "resource.getrusage.ru_ixrss": ((2, 3), (3, 0)),
+    "resource.getrusage.ru_majflt": ((2, 3), (3, 0)),
+    "resource.getrusage.ru_maxrss": ((2, 3), (3, 0)),
+    "resource.getrusage.ru_minflt": ((2, 3), (3, 0)),
+    "resource.getrusage.ru_msgrcv": ((2, 3), (3, 0)),
+    "resource.getrusage.ru_msgsnd": ((2, 3), (3, 0)),
+    "resource.getrusage.ru_nivcsw": ((2, 3), (3, 0)),
+    "resource.getrusage.ru_nsignals": ((2, 3), (3, 0)),
+    "resource.getrusage.ru_nswap": ((2, 3), (3, 0)),
+    "resource.getrusage.ru_nvcsw": ((2, 3), (3, 0)),
+    "resource.getrusage.ru_oublock": ((2, 3), (3, 0)),
+    "resource.getrusage.ru_stime": ((2, 3), (3, 0)),
+    "resource.getrusage.ru_utime": ((2, 3), (3, 0)),
+    "sched.scheduler.queue": ((2, 6), (3, 0)),
     "select.EPOLLEXCLUSIVE": (None, (3, 6)),
     "select.PIPE_BUF": ((2, 7), (3, 2)),
     "select.devpoll.closed": (None, (3, 4)),
-    "shlex.shlex.eof": ((2, 3), None),  # TODO
-    "shlex.shlex.escape": ((2, 3), None),  # TODO
-    "shlex.shlex.escapedquotes": ((2, 3), None),  # TODO
+    "shlex.shlex.eof": ((2, 3), (3, 0)),
+    "shlex.shlex.escape": ((2, 3), (3, 0)),
+    "shlex.shlex.escapedquotes": ((2, 3), (3, 0)),
     "shlex.shlex.punctuation_chars": (None, (3, 6)),
-    "shlex.shlex.whitespace_split": ((2, 3), None),  # TODO
+    "shlex.shlex.whitespace_split": ((2, 3), (3, 0)),
     "shutil.rmtree.avoids_symlink_attacks": (None, (3, 3)),
     "signal.CTRL_BREAK_EVENT": ((2, 7), (3, 2)),
     "signal.CTRL_C_EVENT": ((2, 7), (3, 2)),
     "signal.SIG_BLOCK": (None, (3, 3)),
     "signal.SIG_SETMASK": (None, (3, 3)),
     "signal.SIG_UNBLOCK": (None, (3, 3)),
-    "site.ENABLE_USER_SITE": ((2, 6), None),  # TODO
-    "site.PREFIXES": ((2, 6), None),  # TODO
-    "site.USER_BASE": ((2, 6), None),  # TODO
-    "site.USER_SITE": ((2, 6), None),  # TODO
+    "site.ENABLE_USER_SITE": ((2, 6), (3, 0)),
+    "site.PREFIXES": ((2, 6), (3, 0)),
+    "site.USER_BASE": ((2, 6), (3, 0)),
+    "site.USER_SITE": ((2, 6), (3, 0)),
     "socket.AF_ALG": (None, (3, 6)),
     "socket.AF_CAN": (None, (3, 3)),
     "socket.AF_LINK": (None, (3, 4)),
     "socket.AF_QIPCRTR": (None, (3, 8)),
     "socket.AF_RDS": (None, (3, 3)),
-    "socket.AF_TIPC": ((2, 6), None),  # TODO
+    "socket.AF_TIPC": ((2, 6), (3, 0)),
     "socket.AF_VSOCK": (None, (3, 7)),
     "socket.ALG_OP_DECRYPT": (None, (3, 6)),
     "socket.ALG_OP_ENCRYPT": (None, (3, 6)),
@@ -1913,11 +1904,11 @@ variables_and_constants_rules = {
     "socket.IOCTL_VM_SOCKETS_GET_LOCAL_CID": (None, (3, 7)),
     "socket.PF_CAN": (None, (3, 3)),
     "socket.PF_RDS": (None, (3, 3)),
-    "socket.RCVALL_IPLEVEL": ((2, 6), None),  # TODO
-    "socket.RCVALL_MAX": ((2, 6), None),  # TODO
-    "socket.RCVALL_OFF": ((2, 6), None),  # TODO
-    "socket.RCVALL_ON": ((2, 6), None),  # TODO
-    "socket.RCVALL_SOCKETLEVELONLY": ((2, 6), None),  # TODO
+    "socket.RCVALL_IPLEVEL": ((2, 6), (3, 0)),
+    "socket.RCVALL_MAX": ((2, 6), (3, 0)),
+    "socket.RCVALL_OFF": ((2, 6), (3, 0)),
+    "socket.RCVALL_ON": ((2, 6), (3, 0)),
+    "socket.RCVALL_SOCKETLEVELONLY": ((2, 6), (3, 0)),
     "socket.RDS_CANCEL_SENT_TO": (None, (3, 3)),
     "socket.RDS_CMSG_RDMA_ARGS": (None, (3, 3)),
     "socket.RDS_CMSG_RDMA_DEST": (None, (3, 3)),
@@ -1936,16 +1927,16 @@ variables_and_constants_rules = {
     "socket.RDS_RDMA_SILENT": (None, (3, 3)),
     "socket.RDS_RDMA_USE_ONCE": (None, (3, 3)),
     "socket.RDS_RECVERR": (None, (3, 3)),
-    "socket.SIO_KEEPALIVE_VALS": ((2, 6), None),  # TODO
+    "socket.SIO_KEEPALIVE_VALS": ((2, 6), (3, 0)),
     "socket.SIO_LOOPBACK_FAST_PATH": (None, (3, 6)),
-    "socket.SIO_RCVALL": ((2, 6), None),  # TODO
+    "socket.SIO_RCVALL": ((2, 6), (3, 0)),
     "socket.SOCK_CLOEXEC": (None, (3, 2)),
     "socket.SOCK_NONBLOCK": (None, (3, 2)),
     "socket.SOL_ALG": (None, (3, 6)),
     "socket.SOL_CAN_BASE": (None, (3, 3)),
     "socket.SOL_CAN_RAW": (None, (3, 3)),
     "socket.SOL_RDS": (None, (3, 3)),
-    "socket.SOL_TIPC": ((2, 6), None),  # TODO
+    "socket.SOL_TIPC": ((2, 6), (3, 0)),
     "socket.SO_DOMAIN": (None, (3, 6)),
     "socket.SO_PASSSEC": (None, (3, 6)),
     "socket.SO_PEERSEC": (None, (3, 6)),
@@ -1956,39 +1947,39 @@ variables_and_constants_rules = {
     "socket.TCP_CONGESTION": (None, (3, 6)),
     "socket.TCP_NOTSENT_LOWAT": (None, (3, 7)),
     "socket.TCP_USER_TIMEOUT": (None, (3, 6)),
-    "socket.TIPC_ADDR_ID": ((2, 6), None),  # TODO
-    "socket.TIPC_ADDR_NAME": ((2, 6), None),  # TODO
-    "socket.TIPC_ADDR_NAMESEQ": ((2, 6), None),  # TODO
-    "socket.TIPC_CFG_SRV": ((2, 6), None),  # TODO
-    "socket.TIPC_CLUSTER_SCOPE": ((2, 6), None),  # TODO
-    "socket.TIPC_CONN_TIMEOUT": ((2, 6), None),  # TODO
-    "socket.TIPC_CRITICAL_IMPORTANCE": ((2, 6), None),  # TODO
-    "socket.TIPC_DEST_DROPPABLE": ((2, 6), None),  # TODO
-    "socket.TIPC_HIGH_IMPORTANCE": ((2, 6), None),  # TODO
-    "socket.TIPC_IMPORTANCE": ((2, 6), None),  # TODO
-    "socket.TIPC_LOW_IMPORTANCE": ((2, 6), None),  # TODO
-    "socket.TIPC_MEDIUM_IMPORTANCE": ((2, 6), None),  # TODO
-    "socket.TIPC_NODE_SCOPE": ((2, 6), None),  # TODO
-    "socket.TIPC_PUBLISHED": ((2, 6), None),  # TODO
-    "socket.TIPC_SRC_DROPPABLE": ((2, 6), None),  # TODO
-    "socket.TIPC_SUBSCR_TIMEOUT": ((2, 6), None),  # TODO
-    "socket.TIPC_SUB_CANCEL": ((2, 6), None),  # TODO
-    "socket.TIPC_SUB_PORTS": ((2, 6), None),  # TODO
-    "socket.TIPC_SUB_SERVICE": ((2, 6), None),  # TODO
-    "socket.TIPC_TOP_SRV": ((2, 6), None),  # TODO
-    "socket.TIPC_WAIT_FOREVER": ((2, 6), None),  # TODO
-    "socket.TIPC_WITHDRAWN": ((2, 6), None),  # TODO
-    "socket.TIPC_ZONE_SCOPE": ((2, 6), None),  # TODO
+    "socket.TIPC_ADDR_ID": ((2, 6), (3, 0)),
+    "socket.TIPC_ADDR_NAME": ((2, 6), (3, 0)),
+    "socket.TIPC_ADDR_NAMESEQ": ((2, 6), (3, 0)),
+    "socket.TIPC_CFG_SRV": ((2, 6), (3, 0)),
+    "socket.TIPC_CLUSTER_SCOPE": ((2, 6), (3, 0)),
+    "socket.TIPC_CONN_TIMEOUT": ((2, 6), (3, 0)),
+    "socket.TIPC_CRITICAL_IMPORTANCE": ((2, 6), (3, 0)),
+    "socket.TIPC_DEST_DROPPABLE": ((2, 6), (3, 0)),
+    "socket.TIPC_HIGH_IMPORTANCE": ((2, 6), (3, 0)),
+    "socket.TIPC_IMPORTANCE": ((2, 6), (3, 0)),
+    "socket.TIPC_LOW_IMPORTANCE": ((2, 6), (3, 0)),
+    "socket.TIPC_MEDIUM_IMPORTANCE": ((2, 6), (3, 0)),
+    "socket.TIPC_NODE_SCOPE": ((2, 6), (3, 0)),
+    "socket.TIPC_PUBLISHED": ((2, 6), (3, 0)),
+    "socket.TIPC_SRC_DROPPABLE": ((2, 6), (3, 0)),
+    "socket.TIPC_SUBSCR_TIMEOUT": ((2, 6), (3, 0)),
+    "socket.TIPC_SUB_CANCEL": ((2, 6), (3, 0)),
+    "socket.TIPC_SUB_PORTS": ((2, 6), (3, 0)),
+    "socket.TIPC_SUB_SERVICE": ((2, 6), (3, 0)),
+    "socket.TIPC_TOP_SRV": ((2, 6), (3, 0)),
+    "socket.TIPC_WAIT_FOREVER": ((2, 6), (3, 0)),
+    "socket.TIPC_WITHDRAWN": ((2, 6), (3, 0)),
+    "socket.TIPC_ZONE_SCOPE": ((2, 6), (3, 0)),
     "socket.VMADDR_CID_ANY": (None, (3, 7)),
     "socket.VMADDR_CID_HOST": (None, (3, 7)),
     "socket.VMADDR_PORT_ANY": (None, (3, 7)),
-    "socket.has_ipv6": ((2, 3), None),  # TODO
-    "socket.socket.family": ((2, 5), None),  # TODO
-    "socket.socket.proto": ((2, 5), None),  # TODO
-    "socket.socket.type": ((2, 5), None),  # TODO
+    "socket.has_ipv6": ((2, 3), (3, 0)),
+    "socket.socket.family": ((2, 5), (3, 0)),
+    "socket.socket.proto": ((2, 5), (3, 0)),
+    "socket.socket.type": ((2, 5), (3, 0)),
     "socketserver.ForkingMixIn.block_on_close": (None, (3, 7)),
     "sqlite3.Connection.in_transaction": (None, (3, 2)),
-    "sqlite3.Connection.iterdump": ((2, 6), None),  # TODO
+    "sqlite3.Connection.iterdump": ((2, 6), (3, 0)),
     "ssl.ALERT_DESCRIPTION_ACCESS_DENIED": (None, (3, 4)),
     "ssl.ALERT_DESCRIPTION_BAD_CERTIFICATE": (None, (3, 4)),
     "ssl.ALERT_DESCRIPTION_BAD_CERTIFICATE_HASH_VALUE": (None, (3, 4)),
@@ -2122,58 +2113,58 @@ variables_and_constants_rules = {
     "sys.__unraisablehook__": (None, (3, 8)),
     "sys._xoptions": (None, (3, 2)),
     "sys.abiflags": (None, (3, 2)),
-    "sys.api_version": ((2, 3), None),  # TODO
+    "sys.api_version": ((2, 3), (3, 0)),
     "sys.base_exec_prefix": (None, (3, 3)),
     "sys.base_prefix": (None, (3, 3)),
-    "sys.byteorder": ((2, 0), None),  # TODO
-    "sys.dont_write_bytecode": ((2, 6), None),  # TODO
-    "sys.flags": ((2, 6), None),  # TODO
+    "sys.byteorder": ((2, 0), (3, 0)),
+    "sys.dont_write_bytecode": ((2, 6), (3, 0)),
+    "sys.flags": ((2, 6), (3, 0)),
     "sys.flags.dev_mode": (None, (3, 7)),
     "sys.flags.hash_randomization": ((2, 7), (3, 2)),
     "sys.flags.isolated": (None, (3, 4)),
     "sys.flags.quiet": (None, (3, 2)),
     "sys.flags.utf8_mode": (None, (3, 7)),
-    "sys.float_repr_style": (None, (3, 1)),
-    "sys.getwindowsversion.build": ((2, 7), None),  # TODO
-    "sys.getwindowsversion.major": ((2, 7), None),  # TODO
-    "sys.getwindowsversion.minor": ((2, 7), None),  # TODO
-    "sys.getwindowsversion.platform": ((2, 7), None),  # TODO
-    "sys.getwindowsversion.product_type": ((2, 7), None),  # TODO
-    "sys.getwindowsversion.service_pack": ((2, 7), None),  # TODO
-    "sys.getwindowsversion.service_pack_major": ((2, 7), None),  # TODO
-    "sys.getwindowsversion.service_pack_minor": ((2, 7), None),  # TODO
-    "sys.getwindowsversion.suite_mask": ((2, 7), None),  # TODO
+    "sys.float_repr_style": ((2, 7), (3, 1)),
+    "sys.getwindowsversion.build": ((2, 7), (3, 0)),
+    "sys.getwindowsversion.major": ((2, 7), (3, 0)),
+    "sys.getwindowsversion.minor": ((2, 7), (3, 0)),
+    "sys.getwindowsversion.platform": ((2, 7), (3, 0)),
+    "sys.getwindowsversion.product_type": ((2, 7), (3, 0)),
+    "sys.getwindowsversion.service_pack": ((2, 7), (3, 0)),
+    "sys.getwindowsversion.service_pack_major": ((2, 7), (3, 0)),
+    "sys.getwindowsversion.service_pack_minor": ((2, 7), (3, 0)),
+    "sys.getwindowsversion.suite_mask": ((2, 7), (3, 0)),
     "sys.hash_info": (None, (3, 2)),
     "sys.hash_info.algorithm": (None, (3, 4)),
     "sys.hash_info.hash_bits": (None, (3, 4)),
     "sys.hash_info.seed_bits": (None, (3, 4)),
-    "sys.hexversion": ((2, 0), None),  # TODO
+    "sys.hexversion": ((2, 0), (3, 0)),
     "sys.implementation": (None, (3, 3)),
     "sys.int_info": (None, (3, 1)),
-    "sys.long_info": ((2, 7), None),  # TODO
-    "sys.py3kwarning": ((2, 6), None),  # TODO
+    "sys.long_info": ((2, 7), None),
+    "sys.py3kwarning": ((2, 6), None),
     "sys.pycache_prefix": (None, (3, 8)),
-    "sys.subversion": ((2, 5), None),  # TODO
+    "sys.subversion": ((2, 5), (3, 0)),
     "sys.thread_info": (None, (3, 3)),
-    "sys.version_info": ((2, 0), None),  # TODO
-    "sys.version_info.major": ((2, 7), None),  # TODO
-    "sys.version_info.micro": ((2, 7), None),  # TODO
-    "sys.version_info.minor": ((2, 7), None),  # TODO
-    "sys.version_info.releaselevel": ((2, 7), None),  # TODO
-    "tarfile.DEFAULT_FORMAT": ((2, 6), None),  # TODO
-    "tarfile.GNU_FORMAT": ((2, 6), None),  # TODO
-    "tarfile.PAX_FORMAT": ((2, 6), None),  # TODO
-    "tarfile.TarInfo.pax_headers": ((2, 6), None),  # TODO
-    "tarfile.USTAR_FORMAT": ((2, 6), None),  # TODO
-    "textwrap.TextWrapper.break_on_hyphens": ((2, 6), None),  # TODO
-    "textwrap.TextWrapper.drop_whitespace": ((2, 6), None),  # TODO
+    "sys.version_info": ((2, 0), (3, 0)),
+    "sys.version_info.major": ((2, 7), (3, 0)),
+    "sys.version_info.micro": ((2, 7), (3, 0)),
+    "sys.version_info.minor": ((2, 7), (3, 0)),
+    "sys.version_info.releaselevel": ((2, 7), (3, 0)),
+    "tarfile.DEFAULT_FORMAT": ((2, 6), (3, 0)),
+    "tarfile.GNU_FORMAT": ((2, 6), (3, 0)),
+    "tarfile.PAX_FORMAT": ((2, 6), (3, 0)),
+    "tarfile.TarInfo.pax_headers": ((2, 6), (3, 0)),
+    "tarfile.USTAR_FORMAT": ((2, 6), (3, 0)),
+    "textwrap.TextWrapper.break_on_hyphens": ((2, 6), (3, 0)),
+    "textwrap.TextWrapper.drop_whitespace": ((2, 6), (3, 0)),
     "textwrap.TextWrapper.max_lines": (None, (3, 4)),
     "textwrap.TextWrapper.placeholder": (None, (3, 4)),
     "textwrap.TextWrapper.tabsize": (None, (3, 3)),
     "threading.TIMEOUT_MAX": (None, (3, 2)),
-    "threading.Thread.daemon": ((2, 6), None),  # TODO
-    "threading.Thread.ident": ((2, 6), None),  # TODO
-    "threading.Thread.name": ((2, 6), None),  # TODO
+    "threading.Thread.daemon": ((2, 6), (3, 0)),
+    "threading.Thread.ident": ((2, 6), (3, 0)),
+    "threading.Thread.name": ((2, 6), (3, 0)),
     "threading.Thread.native_id": (None, (3, 8)),
     "time.CLOCK_BOOTTIME": (None, (3, 7)),
     "time.CLOCK_HIGHRES": (None, (3, 3)),
@@ -2196,26 +2187,26 @@ variables_and_constants_rules = {
     "tracemalloc.Filter.domain": (None, (3, 6)),
     "tracemalloc.Trace.domain": (None, (3, 6)),
     "types.AsyncGeneratorType": (None, (3, 6)),
-    "types.BooleanType": ((2, 3), None),  # TODO
+    "types.BooleanType": ((2, 3), None),
     "types.CellType": (None, (3, 8)),
     "types.ClassMethodDescriptorType": (None, (3, 7)),
     "types.CoroutineType": (None, (3, 5)),
-    "types.GeneratorType": ((2, 2), None),  # TODO
-    "types.GetSetDescriptorType": ((2, 5), None),  # TODO
-    "types.MemberDescriptorType": ((2, 5), None),  # TODO
+    "types.GeneratorType": ((2, 2), (3, 0)),
+    "types.GetSetDescriptorType": ((2, 5), (3, 0)),
+    "types.MemberDescriptorType": ((2, 5), (3, 0)),
     "types.MethodDescriptorType": (None, (3, 7)),
     "types.MethodWrapperType": (None, (3, 7)),
-    "types.StringTypes": ((2, 2), None),  # TODO
+    "types.StringTypes": ((2, 2), None),
     "types.WrapperDescriptorType": (None, (3, 7)),
     "typing.ClassVar": (None, (3, 5)),
     "typing.Final": (None, (3, 8)),
     "typing.Literal": (None, (3, 8)),
     "typing.NoReturn": (None, (3, 5)),
     "typing.TYPE_CHECKING": (None, (3, 5)),
-    "unicodedata.ucd_3_2_0": ((2, 3), None),  # TODO
-    "unicodedata.unidata_version": ((2, 3), None),  # TODO
-    "unittest.TestCase.longMessage": (None, (3, 1)),
-    "unittest.TestCase.maxDiff": (None, (3, 2)),
+    "unicodedata.ucd_3_2_0": ((2, 3), (3, 0)),
+    "unicodedata.unidata_version": ((2, 3), (3, 0)),
+    "unittest.TestCase.longMessage": ((2, 7), (3, 1)),
+    "unittest.TestCase.maxDiff": ((2, 7), (3, 2)),
     "unittest.TestLoader.errors": (None, (3, 5)),
     "unittest.TestLoader.testNamePatterns": (None, (3, 7)),
     "unittest.TestResult.buffer": ((2, 7), (3, 2)),
@@ -2224,60 +2215,60 @@ variables_and_constants_rules = {
     "unittest.TestResult.tb_locals": (None, (3, 5)),
     "urllib.error.HTTPError.headers": (None, (3, 4)),
     "urllib.request.Request.method": (None, (3, 3)),
-    "urlparse.urlparse.fragment": ((2, 5), None),  # TODO
-    "urlparse.urlparse.hostname": ((2, 5), None),  # TODO
-    "urlparse.urlparse.netloc": ((2, 5), None),  # TODO
-    "urlparse.urlparse.params": ((2, 5), None),  # TODO
-    "urlparse.urlparse.password": ((2, 5), None),  # TODO
-    "urlparse.urlparse.path": ((2, 5), None),  # TODO
-    "urlparse.urlparse.port": ((2, 5), None),  # TODO
-    "urlparse.urlparse.query": ((2, 5), None),  # TODO
-    "urlparse.urlparse.scheme": ((2, 5), None),  # TODO
-    "urlparse.urlparse.username": ((2, 5), None),  # TODO
-    "urlparse.urlsplit.fragment": ((2, 5), None),  # TODO
-    "urlparse.urlsplit.hostname": ((2, 5), None),  # TODO
-    "urlparse.urlsplit.netloc": ((2, 5), None),  # TODO
-    "urlparse.urlsplit.password": ((2, 5), None),  # TODO
-    "urlparse.urlsplit.path": ((2, 5), None),  # TODO
-    "urlparse.urlsplit.port": ((2, 5), None),  # TODO
-    "urlparse.urlsplit.query": ((2, 5), None),  # TODO
-    "urlparse.urlsplit.scheme": ((2, 5), None),  # TODO
-    "urlparse.urlsplit.username": ((2, 5), None),  # TODO
+    "urlparse.urlparse.fragment": ((2, 5), None),
+    "urlparse.urlparse.hostname": ((2, 5), None),
+    "urlparse.urlparse.netloc": ((2, 5), None),
+    "urlparse.urlparse.params": ((2, 5), None),
+    "urlparse.urlparse.password": ((2, 5), None),
+    "urlparse.urlparse.path": ((2, 5), None),
+    "urlparse.urlparse.port": ((2, 5), None),
+    "urlparse.urlparse.query": ((2, 5), None),
+    "urlparse.urlparse.scheme": ((2, 5), None),
+    "urlparse.urlparse.username": ((2, 5), None),
+    "urlparse.urlsplit.fragment": ((2, 5), None),
+    "urlparse.urlsplit.hostname": ((2, 5), None),
+    "urlparse.urlsplit.netloc": ((2, 5), None),
+    "urlparse.urlsplit.password": ((2, 5), None),
+    "urlparse.urlsplit.path": ((2, 5), None),
+    "urlparse.urlsplit.port": ((2, 5), None),
+    "urlparse.urlsplit.query": ((2, 5), None),
+    "urlparse.urlsplit.scheme": ((2, 5), None),
+    "urlparse.urlsplit.username": ((2, 5), None),
     "uuid.UUID.is_safe": (None, (3, 7)),
     "weakref.ref.__callback__": (None, (3, 4)),
     "winreg.REG_QWORD": (None, (3, 6)),
     "winreg.REG_QWORD_LITTLE_ENDIAN": (None, (3, 6)),
-    "xml.dom.DOMSTRING_SIZE_ERR": ((2, 1), None),  # TODO
-    "xml.dom.EMPTY_NAMESPACE": ((2, 2), None),  # TODO
-    "xml.dom.HIERARCHY_REQUEST_ERR": ((2, 1), None),  # TODO
-    "xml.dom.INDEX_SIZE_ERR": ((2, 1), None),  # TODO
-    "xml.dom.INUSE_ATTRIBUTE_ERR": ((2, 1), None),  # TODO
-    "xml.dom.INVALID_ACCESS_ERR": ((2, 1), None),  # TODO
-    "xml.dom.INVALID_CHARACTER_ERR": ((2, 1), None),  # TODO
-    "xml.dom.INVALID_MODIFICATION_ERR": ((2, 1), None),  # TODO
-    "xml.dom.INVALID_STATE_ERR": ((2, 1), None),  # TODO
-    "xml.dom.NAMESPACE_ERR": ((2, 1), None),  # TODO
-    "xml.dom.NOT_FOUND_ERR": ((2, 1), None),  # TODO
-    "xml.dom.NOT_SUPPORTED_ERR": ((2, 1), None),  # TODO
-    "xml.dom.NO_DATA_ALLOWED_ERR": ((2, 1), None),  # TODO
-    "xml.dom.NO_MODIFICATION_ALLOWED_ERR": ((2, 1), None),  # TODO
-    "xml.dom.SYNTAX_ERR": ((2, 1), None),  # TODO
-    "xml.dom.WRONG_DOCUMENT_ERR": ((2, 1), None),  # TODO
-    "xml.dom.XHTML_NAMESPACE": ((2, 2), None),  # TODO
-    "xml.dom.XMLNS_NAMESPACE": ((2, 2), None),  # TODO
-    "xml.dom.XML_NAMESPACE": ((2, 2), None),  # TODO
-    "xml.parsers.expat.ExpatError.code": ((2, 1), None),  # TODO
-    "xml.parsers.expat.ExpatError.lineno": ((2, 1), None),  # TODO
-    "xml.parsers.expat.ExpatError.offset": ((2, 1), None),  # TODO
-    "xml.parsers.expat.XMLParserType.CurrentByteIndex": ((2, 4), None),  # TODO
-    "xml.parsers.expat.XMLParserType.CurrentColumnNumber": ((2, 4), None),  # TODO
-    "xml.parsers.expat.XMLParserType.CurrentLineNumber": ((2, 4), None),  # TODO
-    "xml.parsers.expat.XMLParserType.buffer_size": ((2, 3), None),  # TODO
-    "xml.parsers.expat.XMLParserType.buffer_text": ((2, 3), None),  # TODO
-    "xml.parsers.expat.XMLParserType.buffer_used": ((2, 3), None),  # TODO
-    "xml.parsers.expat.XMLParserType.ordered_attributes": ((2, 1), None),  # TODO
-    "xml.parsers.expat.XMLParserType.returns_unicode": ((2, 0), None),  # TODO
-    "xml.parsers.expat.XMLParserType.specified_attributes": ((2, 1), None),  # TODO
+    "xml.dom.DOMSTRING_SIZE_ERR": ((2, 1), (3, 0)),
+    "xml.dom.EMPTY_NAMESPACE": ((2, 2), (3, 0)),
+    "xml.dom.HIERARCHY_REQUEST_ERR": ((2, 1), (3, 0)),
+    "xml.dom.INDEX_SIZE_ERR": ((2, 1), (3, 0)),
+    "xml.dom.INUSE_ATTRIBUTE_ERR": ((2, 1), (3, 0)),
+    "xml.dom.INVALID_ACCESS_ERR": ((2, 1), (3, 0)),
+    "xml.dom.INVALID_CHARACTER_ERR": ((2, 1), (3, 0)),
+    "xml.dom.INVALID_MODIFICATION_ERR": ((2, 1), (3, 0)),
+    "xml.dom.INVALID_STATE_ERR": ((2, 1), (3, 0)),
+    "xml.dom.NAMESPACE_ERR": ((2, 1), (3, 0)),
+    "xml.dom.NOT_FOUND_ERR": ((2, 1), (3, 0)),
+    "xml.dom.NOT_SUPPORTED_ERR": ((2, 1), (3, 0)),
+    "xml.dom.NO_DATA_ALLOWED_ERR": ((2, 1), (3, 0)),
+    "xml.dom.NO_MODIFICATION_ALLOWED_ERR": ((2, 1), (3, 0)),
+    "xml.dom.SYNTAX_ERR": ((2, 1), (3, 0)),
+    "xml.dom.WRONG_DOCUMENT_ERR": ((2, 1), (3, 0)),
+    "xml.dom.XHTML_NAMESPACE": ((2, 2), (3, 0)),
+    "xml.dom.XMLNS_NAMESPACE": ((2, 2), (3, 0)),
+    "xml.dom.XML_NAMESPACE": ((2, 2), (3, 0)),
+    "xml.parsers.expat.ExpatError.code": ((2, 1), (3, 0)),
+    "xml.parsers.expat.ExpatError.lineno": ((2, 1), (3, 0)),
+    "xml.parsers.expat.ExpatError.offset": ((2, 1), (3, 0)),
+    "xml.parsers.expat.XMLParserType.CurrentByteIndex": ((2, 4), (3, 0)),
+    "xml.parsers.expat.XMLParserType.CurrentColumnNumber": ((2, 4), (3, 0)),
+    "xml.parsers.expat.XMLParserType.CurrentLineNumber": ((2, 4), (3, 0)),
+    "xml.parsers.expat.XMLParserType.buffer_size": ((2, 3), (3, 0)),
+    "xml.parsers.expat.XMLParserType.buffer_text": ((2, 3), (3, 0)),
+    "xml.parsers.expat.XMLParserType.buffer_used": ((2, 3), (3, 0)),
+    "xml.parsers.expat.XMLParserType.ordered_attributes": ((2, 1), (3, 0)),
+    "xml.parsers.expat.XMLParserType.returns_unicode": ((2, 0), None),
+    "xml.parsers.expat.XMLParserType.specified_attributes": ((2, 1), (3, 0)),
     "xml.parsers.expat.errors.codes": (None, (3, 2)),
     "xml.parsers.expat.errors.messages": (None, (3, 2)),
     "zipfile.ZIP_BZIP2": (None, (3, 3)),
@@ -2289,48 +2280,48 @@ variables_and_constants_rules = {
 decorators_rules = {
     "abc.abstractclassmethod": (None, (3, 2)),
     "abc.abstractstaticmethod": (None, (3, 2)),
-    "classmethod": ((2, 2), None),  # TODO
+    "classmethod": ((2, 2), (3, 0)),
     "contextlib.asynccontextmanager": (None, (3, 7)),
     "functools.cached_property": (None, (3, 8)),
     "functools.lru_cache": (None, (3, 2)),
     "functools.singledispatch": (None, (3, 4)),
     "functools.singledispatchmethod": (None, (3, 8)),
     "functools.total_ordering": ((2, 7), (3, 2)),
-    "property": ((2, 2), None),  # TODO
-    "property.deleter": ((2, 6), None),  # TODO
-    "property.getter": ((2, 6), None),  # TODO
-    "property.setter": ((2, 6), None),  # TODO
+    "property": ((2, 2), (3, 0)),
+    "property.deleter": ((2, 6), (3, 0)),
+    "property.getter": ((2, 6), (3, 0)),
+    "property.setter": ((2, 6), (3, 0)),
     "reprlib.recursive_repr": (None, (3, 2)),
-    "staticmethod": ((2, 2), None),  # TODO
+    "staticmethod": ((2, 2), (3, 0)),
     "typing.final": (None, (3, 8)),
     "typing.runtime_checkable": (None, (3, 8)),
-    "unittest.expectedFailure": (None, (3, 1)),
-    "unittest.skip": (None, (3, 1)),
-    "unittest.skipIf": (None, (3, 1)),
-    "unittest.skipUnless": (None, (3, 1)),
+    "unittest.expectedFailure": ((2, 7), (3, 1)),
+    "unittest.skip": ((2, 7), (3, 1)),
+    "unittest.skipIf": ((2, 7), (3, 1)),
+    "unittest.skipUnless": ((2, 7), (3, 1)),
 }
 
 kwargs_rules = {
-    ("BaseHTTPServer.BaseHTTPRequestHandler.date_time_string", "timestamp"): ((2, 5), None),  # TODO
-    ("ConfigParser.ConfigParser", "allow_no_value"): ((2, 6), None),  # TODO
-    ("ConfigParser.ConfigParser", "dict_type"): ((2, 6), None),  # TODO
-    ("ConfigParser.RawConfigParser", "allow_no_value"): ((2, 6), None),  # TODO
-    ("ConfigParser.RawConfigParser", "dict_type"): ((2, 6), None),  # TODO
-    ("ConfigParser.SafeConfigParser", "allow_no_value"): ((2, 6), None),  # TODO
-    ("ConfigParser.SafeConfigParser", "dict_type"): ((2, 6), None),  # TODO
+    ("BaseHTTPServer.BaseHTTPRequestHandler.date_time_string", "timestamp"): ((2, 5), None),
+    ("ConfigParser.ConfigParser", "allow_no_value"): ((2, 6), None),
+    ("ConfigParser.ConfigParser", "dict_type"): ((2, 6), None),
+    ("ConfigParser.RawConfigParser", "allow_no_value"): ((2, 6), None),
+    ("ConfigParser.RawConfigParser", "dict_type"): ((2, 6), None),
+    ("ConfigParser.SafeConfigParser", "allow_no_value"): ((2, 6), None),
+    ("ConfigParser.SafeConfigParser", "dict_type"): ((2, 6), None),
     ("ImportError", "name"): (None, (3, 3)),
     ("ImportError", "path"): (None, (3, 3)),
     ("OSError", "filename2"): (None, (3, 4)),
-    ("Queue.Queue.get", "timeout"): ((2, 3), None),  # TODO
-    ("Queue.Queue.put", "timeout"): ((2, 3), None),  # TODO
-    ("SimpleXMLRPCServer.CGIXMLRPCRequestHandler", "allow_none"): ((2, 5), None),  # TODO
-    ("SimpleXMLRPCServer.CGIXMLRPCRequestHandler", "encoding"): ((2, 5), None),  # TODO
-    ("SimpleXMLRPCServer.SimpleXMLRPCServer", "allow_none"): ((2, 5), None),  # TODO
-    ("SimpleXMLRPCServer.SimpleXMLRPCServer", "bind_and_activate"): ((2, 6), None),  # TODO
-    ("SimpleXMLRPCServer.SimpleXMLRPCServer", "encoding"): ((2, 5), None),  # TODO
-    ("SimpleXMLRPCServer.SimpleXMLRPCServer.register_instance", "allow_dotted_names"): ((2, 3), None),  # TODO
-    ("Tkinter.Tk", "useTk"): ((2, 4), None),  # TODO
-    ("__import__", "level"): ((2, 5), None),  # TODO
+    ("Queue.Queue.get", "timeout"): ((2, 3), None),
+    ("Queue.Queue.put", "timeout"): ((2, 3), None),
+    ("SimpleXMLRPCServer.CGIXMLRPCRequestHandler", "allow_none"): ((2, 5), None),
+    ("SimpleXMLRPCServer.CGIXMLRPCRequestHandler", "encoding"): ((2, 5), None),
+    ("SimpleXMLRPCServer.SimpleXMLRPCServer", "allow_none"): ((2, 5), None),
+    ("SimpleXMLRPCServer.SimpleXMLRPCServer", "bind_and_activate"): ((2, 6), None),
+    ("SimpleXMLRPCServer.SimpleXMLRPCServer", "encoding"): ((2, 5), None),
+    ("SimpleXMLRPCServer.SimpleXMLRPCServer.register_instance", "allow_dotted_names"): ((2, 3), None),
+    ("Tkinter.Tk", "useTk"): ((2, 4), None),
+    ("__import__", "level"): ((2, 5), (3, 0)),
     ("_thread.lock.acquire", "timeout"): (None, (3, 2)),
     ("argparse.ArgumentParser", "allow_abbrev"): (None, (3, 5)),
     ("argparse.ArgumentParser.add_subparsers", "required"): (None, (3, 7)),
@@ -2382,20 +2373,20 @@ kwargs_rules = {
     ("bz2.BZ2Decompressor.decompress", "max_length"): (None, (3, 5)),
     ("cgi.parse_multipart", "encoding"): (None, (3, 7)),
     ("cgi.parse_multipart", "errors"): (None, (3, 7)),
-    ("cmath.log", "base"): ((2, 4), None),  # TODO
-    ("cmd.Cmd", "stdin"): ((2, 3), None),  # TODO
-    ("cmd.Cmd", "stdout"): ((2, 3), None),  # TODO
+    ("cmath.log", "base"): ((2, 4), (3, 0)),
+    ("cmd.Cmd", "stdin"): ((2, 3), (3, 0)),
+    ("cmd.Cmd", "stdout"): ((2, 3), (3, 0)),
     ("code.interact", "exitmsg"): (None, (3, 6)),
-    ("codecs.StreamReader.read", "chars"): ((2, 4), None),  # TODO
-    ("codecs.StreamReader.read", "firstline"): ((2, 4), None),  # TODO
-    ("codecs.StreamReader.readline", "keepends"): ((2, 4), None),  # TODO
+    ("codecs.StreamReader.read", "chars"): ((2, 4), (3, 0)),
+    ("codecs.StreamReader.read", "firstline"): ((2, 4), (3, 0)),
+    ("codecs.StreamReader.readline", "keepends"): ((2, 4), (3, 0)),
     ("collections.ChainMap.new_child", "m"): (None, (3, 4)),
-    ("collections.deque", "maxlen"): ((2, 6), None),  # TODO
+    ("collections.deque", "maxlen"): ((2, 6), (3, 0)),
     ("collections.namedtuple", "defaults"): (None, (3, 7)),
     ("collections.namedtuple", "module"): (None, (3, 6)),
     ("collections.namedtuple", "rename"): ((2, 7), (3, 1)),
-    ("compile", "dont_inherit"): ((2, 3), None),  # TODO
-    ("compile", "flags"): ((2, 3), None),  # TODO
+    ("compile", "dont_inherit"): ((2, 3), (3, 0)),
+    ("compile", "flags"): ((2, 3), (3, 0)),
     ("compile", "optimize"): (None, (3, 2)),
     ("compileall.compile_dir", "invalidation_mode"): (None, (3, 7)),
     ("compileall.compile_dir", "legacy"): (None, (3, 2)),
@@ -2425,18 +2416,18 @@ kwargs_rules = {
     ("configparser.DuplicateSectionError", "source"): (None, (3, 2)),
     ("configparser.ParsingError", "source"): (None, (3, 2)),
     ("crypt.mksalt", "rounds"): (None, (3, 7)),
-    ("ctypes.CDLL", "use_errno"): ((2, 6), None),  # TODO
-    ("ctypes.CDLL", "use_last_error"): ((2, 6), None),  # TODO
+    ("ctypes.CDLL", "use_errno"): ((2, 6), (3, 0)),
+    ("ctypes.CDLL", "use_last_error"): ((2, 6), (3, 0)),
     ("ctypes.CDLL", "winmode"): (None, (3, 8)),
-    ("ctypes.CFUNCTYPE", "use_errno"): ((2, 6), None),  # TODO
-    ("ctypes.CFUNCTYPE", "use_last_error"): ((2, 6), None),  # TODO
-    ("ctypes.OleDLL", "use_errno"): ((2, 6), None),  # TODO
-    ("ctypes.OleDLL", "use_last_error"): ((2, 6), None),  # TODO
+    ("ctypes.CFUNCTYPE", "use_errno"): ((2, 6), (3, 0)),
+    ("ctypes.CFUNCTYPE", "use_last_error"): ((2, 6), (3, 0)),
+    ("ctypes.OleDLL", "use_errno"): ((2, 6), (3, 0)),
+    ("ctypes.OleDLL", "use_last_error"): ((2, 6), (3, 0)),
     ("ctypes.OleDLL", "winmode"): (None, (3, 8)),
-    ("ctypes.WinDLL", "use_errno"): ((2, 6), None),  # TODO
-    ("ctypes.WinDLL", "use_last_error"): ((2, 6), None),  # TODO
+    ("ctypes.WinDLL", "use_errno"): ((2, 6), (3, 0)),
+    ("ctypes.WinDLL", "use_last_error"): ((2, 6), (3, 0)),
     ("ctypes.WinDLL", "winmode"): (None, (3, 8)),
-    ("ctypes.byref", "offset"): ((2, 6), None),  # TODO
+    ("ctypes.byref", "offset"): ((2, 6), (3, 0)),
     ("datetime.datetime", "fold"): (None, (3, 6)),
     ("datetime.datetime.combine", "tzinfo"): (None, (3, 6)),
     ("datetime.datetime.isoformat", "timespec"): (None, (3, 6)),
@@ -2451,19 +2442,19 @@ kwargs_rules = {
     ("dis.distb", "file"): (None, (3, 4)),
     ("dis.show_code", "file"): (None, (3, 4)),
     ("dis.stack_effect", "jump"): (None, (3, 8)),
-    ("doctest.DocFileSuite", "encoding"): ((2, 5), None),  # TODO
-    ("doctest.DocTestSuite", "extraglobs"): ((2, 4), None),  # TODO
-    ("doctest.DocTestSuite", "globs"): ((2, 4), None),  # TODO
-    ("doctest.DocTestSuite", "optionflags"): ((2, 4), None),  # TODO
-    ("doctest.DocTestSuite", "setUp"): ((2, 4), None),  # TODO
-    ("doctest.DocTestSuite", "tearDown"): ((2, 4), None),  # TODO
-    ("doctest.DocTestSuite", "test_finder"): ((2, 4), None),  # TODO
-    ("doctest.debug", "pm"): ((2, 4), None),  # TODO
-    ("doctest.testfile", "encoding"): ((2, 5), None),  # TODO
-    ("doctest.testmod", "exclude_empty"): ((2, 4), None),  # TODO
-    ("doctest.testmod", "extraglobs"): ((2, 4), None),  # TODO
-    ("doctest.testmod", "optionflags"): ((2, 3), None),  # TODO
-    ("doctest.testmod", "raise_on_error"): ((2, 4), None),  # TODO
+    ("doctest.DocFileSuite", "encoding"): ((2, 5), (3, 0)),
+    ("doctest.DocTestSuite", "extraglobs"): ((2, 4), (3, 0)),
+    ("doctest.DocTestSuite", "globs"): ((2, 4), (3, 0)),
+    ("doctest.DocTestSuite", "optionflags"): ((2, 4), (3, 0)),
+    ("doctest.DocTestSuite", "setUp"): ((2, 4), (3, 0)),
+    ("doctest.DocTestSuite", "tearDown"): ((2, 4), (3, 0)),
+    ("doctest.DocTestSuite", "test_finder"): ((2, 4), (3, 0)),
+    ("doctest.debug", "pm"): ((2, 4), (3, 0)),
+    ("doctest.testfile", "encoding"): ((2, 5), (3, 0)),
+    ("doctest.testmod", "exclude_empty"): ((2, 4), (3, 0)),
+    ("doctest.testmod", "extraglobs"): ((2, 4), (3, 0)),
+    ("doctest.testmod", "optionflags"): ((2, 3), (3, 0)),
+    ("doctest.testmod", "raise_on_error"): ((2, 4), (3, 0)),
     ("email.generator.BytesGenerator", "policy"): (None, (3, 3)),
     ("email.generator.Generator", "policy"): (None, (3, 3)),
     ("email.generator.Generator.flatten", "linesep"): (None, (3, 2)),
@@ -2471,16 +2462,16 @@ kwargs_rules = {
     ("email.message.EmailMessage.set_param", "replace"): (None, (3, 4)),
     ("email.message.Message", "policy"): (None, (3, 3)),
     ("email.message.Message.as_string", "policy"): (None, (3, 4)),
-    ("email.message.Message.get_param", "unquote"): ((2, 2), None),  # TODO
-    ("email.message.Message.get_params", "unquote"): ((2, 2), None),  # TODO
+    ("email.message.Message.get_param", "unquote"): ((2, 2), (3, 0)),
+    ("email.message.Message.get_params", "unquote"): ((2, 2), (3, 0)),
     ("email.message.Message.set_param", "replace"): (None, (3, 4)),
-    ("email.message.Message.set_payload", "charset"): ((2, 2), None),  # TODO
+    ("email.message.Message.set_payload", "charset"): ((2, 2), (3, 0)),
     ("email.message_from_binary_file", "policy"): (None, (3, 3)),
     ("email.message_from_bytes", "policy"): (None, (3, 3)),
     ("email.message_from_file", "policy"): (None, (3, 3)),
-    ("email.message_from_file", "strict"): ((2, 2), None),  # TODO
+    ("email.message_from_file", "strict"): ((2, 2), (3, 0)),
     ("email.message_from_string", "policy"): (None, (3, 3)),
-    ("email.message_from_string", "strict"): ((2, 2), None),  # TODO
+    ("email.message_from_string", "strict"): ((2, 2), (3, 0)),
     ("email.mime.application.MIMEApplication", "policy"): (None, (3, 6)),
     ("email.mime.audio.MIMEAudio", "policy"): (None, (3, 6)),
     ("email.mime.base.MIMEBase", "policy"): (None, (3, 6)),
@@ -2496,30 +2487,30 @@ kwargs_rules = {
     ("email.utils.formataddr", "charset"): (None, (3, 3)),
     ("email.utils.make_msgid", "domain"): (None, (3, 2)),
     ("enum.Enum", "start"): (None, (3, 5)),
-    ("enumerate", "start"): ((2, 6), None),  # TODO
-    ("fileinput.FileInput", "mode"): ((2, 5), None),  # TODO
-    ("fileinput.FileInput", "openhook"): ((2, 5), None),  # TODO
+    ("enumerate", "start"): ((2, 6), (3, 0)),
+    ("fileinput.FileInput", "mode"): ((2, 5), (3, 0)),
+    ("fileinput.FileInput", "openhook"): ((2, 5), (3, 0)),
     ("fileinput.hook_encoded", "errors"): (None, (3, 6)),
-    ("fileinput.input", "mode"): ((2, 5), None),  # TODO
-    ("fileinput.input", "openhook"): ((2, 5), None),  # TODO
+    ("fileinput.input", "mode"): ((2, 5), (3, 0)),
+    ("fileinput.input", "openhook"): ((2, 5), (3, 0)),
     ("ftplib.FTP", "source_address"): (None, (3, 3)),
-    ("ftplib.FTP", "timeout"): ((2, 6), None),  # TODO
+    ("ftplib.FTP", "timeout"): ((2, 6), (3, 0)),
     ("ftplib.FTP.connect", "source_address"): (None, (3, 3)),
-    ("ftplib.FTP.connect", "timeout"): ((2, 6), None),  # TODO
-    ("ftplib.FTP.storbinary", "callback"): ((2, 6), None),  # TODO
+    ("ftplib.FTP.connect", "timeout"): ((2, 6), (3, 0)),
+    ("ftplib.FTP.storbinary", "callback"): ((2, 6), (3, 0)),
     ("ftplib.FTP.storbinary", "rest"): ((2, 7), (3, 2)),
-    ("ftplib.FTP.storlines", "callback"): ((2, 6), None),  # TODO
-    ("ftplib.FTP_TLS", "context"): ((2, 7), None),  # TODO
+    ("ftplib.FTP.storlines", "callback"): ((2, 6), (3, 0)),
+    ("ftplib.FTP_TLS", "context"): ((2, 7), (3, 0)),
     ("ftplib.FTP_TLS", "source_address"): (None, (3, 3)),
     ("functools.lru_cache", "typed"): (None, (3, 3)),
     ("functools.lru_cache", "user_function"): (None, (3, 8)),
-    ("gc.collect", "generation"): ((2, 5), None),  # TODO
+    ("gc.collect", "generation"): ((2, 5), (3, 0)),
     ("gc.get_objects", "generation"): (None, (3, 8)),
-    ("getpass.getpass", "stream"): ((2, 5), None),  # TODO
-    ("gettext.NullTranslations.install", "names"): ((2, 5), None),  # TODO
-    ("gettext.install", "codeset"): ((2, 4), None),  # TODO
-    ("gettext.install", "names"): ((2, 5), None),  # TODO
-    ("gettext.translation", "codeset"): ((2, 4), None),  # TODO
+    ("getpass.getpass", "stream"): ((2, 5), (3, 0)),
+    ("gettext.NullTranslations.install", "names"): ((2, 5), (3, 0)),
+    ("gettext.install", "codeset"): ((2, 4), (3, 0)),
+    ("gettext.install", "names"): ((2, 5), (3, 0)),
+    ("gettext.translation", "codeset"): ((2, 4), (3, 0)),
     ("glob.glob", "recursive"): (None, (3, 5)),
     ("gzip.GzipFile", "mtime"): ((2, 7), (3, 1)),
     ("gzip.compress", "mtime"): (None, (3, 8)),
@@ -2528,8 +2519,8 @@ kwargs_rules = {
     ("gzip.open", "newline"): (None, (3, 3)),
     ("heapq.merge", "key"): (None, (3, 5)),
     ("heapq.merge", "reverse"): (None, (3, 5)),
-    ("heapq.nlargest", "key"): ((2, 5), None),  # TODO
-    ("heapq.nsmallest", "key"): ((2, 5), None),  # TODO
+    ("heapq.nlargest", "key"): ((2, 5), (3, 0)),
+    ("heapq.nsmallest", "key"): ((2, 5), (3, 0)),
     ("html.parser.HTMLParser", "convert_charrefs"): (None, (3, 4)),
     ("http.client.HTTPConnection", "blocksize"): (None, (3, 7)),
     ("http.client.HTTPConnection", "source_address"): (None, (3, 2)),
@@ -2539,13 +2530,13 @@ kwargs_rules = {
     ("http.client.HTTPSConnection", "context"): (None, (3, 2)),
     ("http.client.HTTPSConnection", "source_address"): (None, (3, 2)),
     ("http.server.BaseHTTPRequestHandler.send_error", "explain"): (None, (3, 4)),
-    ("httplib.HTTPConnection", "source_address"): ((2, 7), None),  # TODO
-    ("httplib.HTTPConnection", "timeout"): ((2, 6), None),  # TODO
-    ("httplib.HTTPConnection.endheaders", "message_body"): ((2, 7), None),  # TODO
-    ("httplib.HTTPConnection.putrequest", "skip_accept_encoding"): ((2, 4), None),  # TODO
-    ("httplib.HTTPSConnection", "context"): ((2, 7), None),  # TODO
-    ("httplib.HTTPSConnection", "source_address"): ((2, 7), None),  # TODO
-    ("httplib.HTTPSConnection", "timeout"): ((2, 6), None),  # TODO
+    ("httplib.HTTPConnection", "source_address"): ((2, 7), None),
+    ("httplib.HTTPConnection", "timeout"): ((2, 6), None),
+    ("httplib.HTTPConnection.endheaders", "message_body"): ((2, 7), None),
+    ("httplib.HTTPConnection.putrequest", "skip_accept_encoding"): ((2, 4), None),
+    ("httplib.HTTPSConnection", "context"): ((2, 7), None),
+    ("httplib.HTTPSConnection", "source_address"): ((2, 7), None),
+    ("httplib.HTTPSConnection", "timeout"): ((2, 6), None),
     ("imaplib.IMAP4_SSL", "ssl_context"): (None, (3, 3)),
     ("importlib.util.cache_from_source", "optimization"): (None, (3, 5)),
     ("inspect.signature", "follow_wrapped"): (None, (3, 5)),
@@ -2556,13 +2547,13 @@ kwargs_rules = {
     ("itertools.count", "step"): ((2, 7), (3, 1)),
     ("json.JSONDecoder", "object_pairs_hook"): ((2, 7), (3, 1)),
     ("json.load", "object_pairs_hook"): ((2, 7), (3, 1)),
-    ("linecache.getline", "module_globals"): ((2, 5), None),  # TODO
-    ("locale.format", "monetary"): ((2, 5), None),  # TODO
+    ("linecache.getline", "module_globals"): ((2, 5), (3, 0)),
+    ("locale.format", "monetary"): ((2, 5), (3, 0)),
     ("locale.format_string", "monetary"): (None, (3, 7)),
-    ("logging.FileHandler", "delay"): ((2, 6), None),  # TODO
+    ("logging.FileHandler", "delay"): ((2, 6), (3, 0)),
     ("logging.Formatter", "style"): (None, (3, 2)),
     ("logging.Formatter", "validate"): (None, (3, 8)),
-    ("logging.LogRecord", "func"): ((2, 5), None),  # TODO
+    ("logging.LogRecord", "func"): ((2, 5), (3, 0)),
     ("logging.Logger.critical", "stack_info"): (None, (3, 2)),
     ("logging.Logger.critical", "stacklevel"): (None, (3, 8)),
     ("logging.Logger.debug", "stack_info"): (None, (3, 2)),
@@ -2575,73 +2566,73 @@ kwargs_rules = {
     ("logging.Logger.info", "stacklevel"): (None, (3, 8)),
     ("logging.Logger.log", "stack_info"): (None, (3, 2)),
     ("logging.Logger.log", "stacklevel"): (None, (3, 8)),
-    ("logging.Logger.makeRecord", "extra"): ((2, 5), None),  # TODO
-    ("logging.Logger.makeRecord", "func"): ((2, 5), None),  # TODO
+    ("logging.Logger.makeRecord", "extra"): ((2, 5), (3, 0)),
+    ("logging.Logger.makeRecord", "func"): ((2, 5), (3, 0)),
     ("logging.Logger.warn", "stack_info"): (None, (3, 2)),
     ("logging.Logger.warn", "stacklevel"): (None, (3, 8)),
     ("logging.Logger.warning", "stack_info"): (None, (3, 2)),
     ("logging.Logger.warning", "stacklevel"): (None, (3, 8)),
-    ("logging.basicConfig", "datefmt"): ((2, 4), None),  # TODO
-    ("logging.basicConfig", "filemode"): ((2, 4), None),  # TODO
-    ("logging.basicConfig", "filename"): ((2, 4), None),  # TODO
+    ("logging.basicConfig", "datefmt"): ((2, 4), (3, 0)),
+    ("logging.basicConfig", "filemode"): ((2, 4), (3, 0)),
+    ("logging.basicConfig", "filename"): ((2, 4), (3, 0)),
     ("logging.basicConfig", "force"): (None, (3, 8)),
-    ("logging.basicConfig", "format"): ((2, 4), None),  # TODO
+    ("logging.basicConfig", "format"): ((2, 4), (3, 0)),
     ("logging.basicConfig", "handlers"): (None, (3, 3)),
-    ("logging.basicConfig", "level"): ((2, 4), None),  # TODO
-    ("logging.basicConfig", "stream"): ((2, 4), None),  # TODO
+    ("logging.basicConfig", "level"): ((2, 4), (3, 0)),
+    ("logging.basicConfig", "stream"): ((2, 4), (3, 0)),
     ("logging.basicConfig", "style"): (None, (3, 2)),
-    ("logging.config.fileConfig", "disable_existing_loggers"): ((2, 6), None),  # TODO
+    ("logging.config.fileConfig", "disable_existing_loggers"): ((2, 6), (3, 0)),
     ("logging.config.listen", "verify"): (None, (3, 4)),
-    ("logging.critical", "extra"): ((2, 5), None),  # TODO
+    ("logging.critical", "extra"): ((2, 5), (3, 0)),
     ("logging.critical", "stack_info"): (None, (3, 2)),
     ("logging.critical", "stacklevel"): (None, (3, 8)),
-    ("logging.debug", "extra"): ((2, 5), None),  # TODO
+    ("logging.debug", "extra"): ((2, 5), (3, 0)),
     ("logging.debug", "stack_info"): (None, (3, 2)),
     ("logging.debug", "stacklevel"): (None, (3, 8)),
-    ("logging.error", "extra"): ((2, 5), None),  # TODO
+    ("logging.error", "extra"): ((2, 5), (3, 0)),
     ("logging.error", "stack_info"): (None, (3, 2)),
     ("logging.error", "stacklevel"): (None, (3, 8)),
-    ("logging.exception", "extra"): ((2, 5), None),  # TODO
+    ("logging.exception", "extra"): ((2, 5), (3, 0)),
     ("logging.exception", "stack_info"): (None, (3, 2)),
     ("logging.exception", "stacklevel"): (None, (3, 8)),
     ("logging.handlers.HTTPHandler", "context"): (None, (3, 5)),
     ("logging.handlers.MemoryHandler", "flushOnClose"): (None, (3, 6)),
     ("logging.handlers.QueueListener", "respect_handler_level"): (None, (3, 5)),
-    ("logging.handlers.RotatingFileHandler", "delay"): ((2, 6), None),  # TODO
-    ("logging.handlers.SMTPHandler", "credentials"): ((2, 6), None),  # TODO
-    ("logging.handlers.SMTPHandler", "secure"): ((2, 7), None),  # TODO
+    ("logging.handlers.RotatingFileHandler", "delay"): ((2, 6), (3, 0)),
+    ("logging.handlers.SMTPHandler", "credentials"): ((2, 6), (3, 0)),
+    ("logging.handlers.SMTPHandler", "secure"): ((2, 7), (3, 0)),
     ("logging.handlers.SMTPHandler", "timeout"): (None, (3, 3)),
     ("logging.handlers.SysLogHandler", "socktype"): ((2, 7), (3, 2)),
     ("logging.handlers.TimedRotatingFileHandler", "atTime"): (None, (3, 4)),
-    ("logging.handlers.TimedRotatingFileHandler", "delay"): ((2, 6), None),  # TODO
-    ("logging.handlers.TimedRotatingFileHandler", "utc"): ((2, 6), None),  # TODO
-    ("logging.info", "extra"): ((2, 5), None),  # TODO
+    ("logging.handlers.TimedRotatingFileHandler", "delay"): ((2, 6), (3, 0)),
+    ("logging.handlers.TimedRotatingFileHandler", "utc"): ((2, 6), (3, 0)),
+    ("logging.info", "extra"): ((2, 5), (3, 0)),
     ("logging.info", "stack_info"): (None, (3, 2)),
     ("logging.info", "stacklevel"): (None, (3, 8)),
-    ("logging.log", "extra"): ((2, 5), None),  # TODO
+    ("logging.log", "extra"): ((2, 5), (3, 0)),
     ("logging.log", "stack_info"): (None, (3, 2)),
     ("logging.log", "stacklevel"): (None, (3, 8)),
     ("logging.warn", "stack_info"): (None, (3, 2)),
     ("logging.warn", "stacklevel"): (None, (3, 8)),
-    ("logging.warning", "extra"): ((2, 5), None),  # TODO
+    ("logging.warning", "extra"): ((2, 5), (3, 0)),
     ("logging.warning", "stack_info"): (None, (3, 2)),
     ("logging.warning", "stacklevel"): (None, (3, 8)),
     ("lzma.LZMADecompressor.decompress", "max_length"): (None, (3, 5)),
-    ("marshal.dump", "version"): ((2, 4), None),  # TODO
-    ("marshal.dumps", "version"): ((2, 4), None),  # TODO
-    ("math.log", "base"): ((2, 3), None),  # TODO
+    ("marshal.dump", "version"): ((2, 4), (3, 0)),
+    ("marshal.dumps", "version"): ((2, 4), (3, 0)),
+    ("math.log", "base"): ((2, 3), (3, 0)),
     ("max", "default"): (None, (3, 4)),
-    ("max", "key"): ((2, 5), None),  # TODO
+    ("max", "key"): ((2, 5), (3, 0)),
     ("min", "default"): (None, (3, 4)),
-    ("min", "key"): ((2, 5), None),  # TODO
-    ("multiprocessing.Pool", "maxtasksperchild"): ((2, 7), None),  # TODO
+    ("min", "key"): ((2, 5), (3, 0)),
+    ("multiprocessing.Pool", "maxtasksperchild"): ((2, 7), (3, 0)),
     ("multiprocessing.Process", "daemon"): (None, (3, 3)),
     ("multiprocessing.pool.Pool", "context"): (None, (3, 4)),
     ("multiprocessing.pool.Pool", "maxtasksperchild"): (None, (3, 2)),
-    ("nis.cat", "domain"): ((2, 5), None),  # TODO
-    ("nis.maps", "domain"): ((2, 5), None),  # TODO
-    ("nis.match", "domain"): ((2, 5), None),  # TODO
-    ("nntplib.NNTP", "usenetrc"): ((2, 4), None),  # TODO
+    ("nis.cat", "domain"): ((2, 5), (3, 0)),
+    ("nis.maps", "domain"): ((2, 5), (3, 0)),
+    ("nis.match", "domain"): ((2, 5), (3, 0)),
+    ("nntplib.NNTP", "usenetrc"): ((2, 4), (3, 0)),
     ("nntplib.NNTP.list", "group_pattern"): (None, (3, 2)),
     ("open", "opener"): (None, (3, 3)),
     ("os.access", "dir_fd"): (None, (3, 3)),
@@ -2667,7 +2658,7 @@ kwargs_rules = {
     ("os.rename", "dst_dir_fd"): (None, (3, 3)),
     ("os.rename", "src_dir_fd"): (None, (3, 3)),
     ("os.rmdir", "dir_fd"): (None, (3, 3)),
-    ("os.startfile", "operation"): ((2, 5), None),  # TODO
+    ("os.startfile", "operation"): ((2, 5), (3, 0)),
     ("os.stat", "dir_fd"): (None, (3, 3)),
     ("os.stat", "follow_symlinks"): (None, (3, 3)),
     ("os.symlink", "dir_fd"): (None, (3, 3)),
@@ -2675,7 +2666,7 @@ kwargs_rules = {
     ("os.utime", "dir_fd"): (None, (3, 3)),
     ("os.utime", "follow_symlinks"): (None, (3, 3)),
     ("os.utime", "ns"): (None, (3, 3)),
-    ("os.walk", "followlinks"): ((2, 6), None),  # TODO
+    ("os.walk", "followlinks"): ((2, 6), (3, 0)),
     ("pathlib.Path.mkdir", "exist_ok"): (None, (3, 5)),
     ("pathlib.Path.resolve", "strict"): (None, (3, 6)),
     ("pathlib.Path.unlink", "missing_ok"): (None, (3, 8)),
@@ -2684,35 +2675,35 @@ kwargs_rules = {
     ("pdb.Pdb", "skip"): ((2, 7), (3, 1)),
     ("pdb.set_trace", "header"): (None, (3, 7)),
     ("pickle.Pickler", "buffer_callback"): (None, (3, 8)),
-    ("pickle.Pickler", "protocol"): ((2, 3), None),  # TODO
+    ("pickle.Pickler", "protocol"): ((2, 3), (3, 0)),
     ("pickle.Unpickler", "buffers"): (None, (3, 8)),
     ("pickle.dump", "buffer_callback"): (None, (3, 8)),
-    ("pickle.dump", "protocol"): ((2, 3), None),  # TODO
+    ("pickle.dump", "protocol"): ((2, 3), (3, 0)),
     ("pickle.dumps", "buffer_callback"): (None, (3, 8)),
-    ("pickle.dumps", "protocol"): ((2, 3), None),  # TODO
+    ("pickle.dumps", "protocol"): ((2, 3), (3, 0)),
     ("pickle.load", "buffers"): (None, (3, 8)),
     ("pickle.loads", "buffers"): (None, (3, 8)),
     ("pickletools.dis", "annotate"): (None, (3, 2)),
-    ("poplib.POP3", "timeout"): ((2, 6), None),  # TODO
+    ("poplib.POP3", "timeout"): ((2, 6), (3, 0)),
     ("poplib.POP3_SSL", "context"): (None, (3, 2)),
     ("pprint.PrettyPrinter", "compact"): (None, (3, 4)),
     ("pprint.PrettyPrinter", "sort_dicts"): (None, (3, 8)),
     ("pprint.pformat", "compact"): (None, (3, 4)),
-    ("pprint.pformat", "depth"): ((2, 4), None),  # TODO
-    ("pprint.pformat", "indent"): ((2, 4), None),  # TODO
+    ("pprint.pformat", "depth"): ((2, 4), (3, 0)),
+    ("pprint.pformat", "indent"): ((2, 4), (3, 0)),
     ("pprint.pformat", "sort_dicts"): (None, (3, 8)),
-    ("pprint.pformat", "width"): ((2, 4), None),  # TODO
+    ("pprint.pformat", "width"): ((2, 4), (3, 0)),
     ("pprint.pprint", "compact"): (None, (3, 4)),
-    ("pprint.pprint", "depth"): ((2, 4), None),  # TODO
-    ("pprint.pprint", "indent"): ((2, 4), None),  # TODO
+    ("pprint.pprint", "depth"): ((2, 4), (3, 0)),
+    ("pprint.pprint", "indent"): ((2, 4), (3, 0)),
     ("pprint.pprint", "sort_dicts"): (None, (3, 8)),
-    ("pprint.pprint", "width"): ((2, 4), None),  # TODO
+    ("pprint.pprint", "width"): ((2, 4), (3, 0)),
     ("print", "flush"): (None, (3, 3)),
     ("py_compile.compile", "invalidation_mode"): (None, (3, 7)),
     ("py_compile.compile", "optimize"): (None, (3, 2)),
     ("py_compile.compile", "quiet"): (None, (3, 8)),
-    ("re.findall", "flags"): ((2, 4), None),  # TODO
-    ("re.finditer", "flags"): ((2, 4), None),  # TODO
+    ("re.findall", "flags"): ((2, 4), (3, 0)),
+    ("re.finditer", "flags"): ((2, 4), (3, 0)),
     ("re.split", "flags"): ((2, 7), (3, 1)),
     ("re.sub", "flags"): ((2, 7), (3, 1)),
     ("re.subn", "flags"): ((2, 7), (3, 1)),
@@ -2721,10 +2712,10 @@ kwargs_rules = {
     ("sched.scheduler.run", "blocking"): (None, (3, 3)),
     ("select.epoll", "flags"): (None, (3, 3)),
     ("shelve.Shelf", "keyencoding"): (None, (3, 2)),
-    ("shelve.Shelf", "protocol"): ((2, 3), None),  # TODO
-    ("shelve.open", "protocol"): ((2, 3), None),  # TODO
+    ("shelve.Shelf", "protocol"): ((2, 3), (3, 0)),
+    ("shelve.open", "protocol"): ((2, 3), (3, 0)),
     ("shlex.shlex", "punctuation_chars"): (None, (3, 6)),
-    ("shlex.split", "posix"): ((2, 6), None),  # TODO
+    ("shlex.split", "posix"): ((2, 6), (3, 0)),
     ("shutil.copy", "follow_symlinks"): (None, (3, 3)),
     ("shutil.copy2", "follow_symlinks"): (None, (3, 3)),
     ("shutil.copyfile", "follow_symlinks"): (None, (3, 3)),
@@ -2732,7 +2723,7 @@ kwargs_rules = {
     ("shutil.copystat", "follow_symlinks"): (None, (3, 3)),
     ("shutil.copytree", "copy_function"): (None, (3, 2)),
     ("shutil.copytree", "dirs_exist_ok"): (None, (3, 8)),
-    ("shutil.copytree", "ignore"): ((2, 6), None),  # TODO
+    ("shutil.copytree", "ignore"): ((2, 6), (3, 0)),
     ("shutil.copytree", "ignore_dangling_symlinks"): (None, (3, 2)),
     ("shutil.move", "copy_function"): (None, (3, 5)),
     ("signal.set_wakeup_fd", "warn_on_full_buffer"): (None, (3, 7)),
@@ -2742,31 +2733,31 @@ kwargs_rules = {
     ("smtpd.SMTPServer", "enable_SMTPUTF8"): (None, (3, 5)),
     ("smtpd.SMTPServer", "map"): (None, (3, 4)),
     ("smtplib.SMTP", "source_address"): (None, (3, 3)),
-    ("smtplib.SMTP", "timeout"): ((2, 6), None),  # TODO
+    ("smtplib.SMTP", "timeout"): ((2, 6), (3, 0)),
     ("smtplib.SMTP.login", "initial_response_ok"): (None, (3, 5)),
     ("smtplib.SMTP.starttls", "context"): (None, (3, 3)),
     ("smtplib.SMTP_SSL", "context"): (None, (3, 3)),
     ("smtplib.SMTP_SSL", "source_address"): (None, (3, 3)),
     ("socket.create_connection", "source_address"): ((2, 7), (3, 2)),
     ("socket.setsockopt", "optlen"): (None, (3, 6)),
-    ("sort", "key"): ((2, 4), None),  # TODO
-    ("sort", "reverse"): ((2, 4), None),  # TODO
+    ("sorted", "key"): ((2, 4), (3, 0)),
+    ("sorted", "reverse"): ((2, 4), (3, 0)),
     ("sqlite3.Connection.create_function", "deterministic"): (None, (3, 8)),
     ("sqlite3.connect", "uri"): (None, (3, 4)),
     ("ssl.SSLContext.load_cert_chain", "password"): (None, (3, 3)),
     ("ssl.SSLContext.load_verify_locations", "cadata"): (None, (3, 4)),
     ("ssl.SSLContext.wrap_bio", "session"): (None, (3, 6)),
     ("ssl.SSLContext.wrap_socket", "session"): (None, (3, 6)),
-    ("ssl.wrap_socket", "ciphers"): ((2, 7), None),  # TODO
-    ("str.center", "fillchar"): ((2, 4), None),  # TODO
-    ("str.ljust", "fillchar"): ((2, 4), None),  # TODO
-    ("str.lstrip", "chars"): ((2, 2), None),  # TODO
-    ("str.rjust", "fillchar"): ((2, 4), None),  # TODO
-    ("str.rstrip", "chars"): ((2, 2), None),  # TODO
-    ("str.strip", "chars"): ((2, 2), None),  # TODO
-    ("string.lstrip", "chars"): ((2, 3), None),  # TODO
-    ("string.rstrip", "chars"): ((2, 3), None),  # TODO
-    ("string.strip", "chars"): ((2, 3), None),  # TODO
+    ("ssl.wrap_socket", "ciphers"): ((2, 7), (3, 0)),
+    ("str.center", "fillchar"): ((2, 4), (3, 0)),
+    ("str.ljust", "fillchar"): ((2, 4), (3, 0)),
+    ("str.lstrip", "chars"): ((2, 2), (3, 0)),
+    ("str.rjust", "fillchar"): ((2, 4), (3, 0)),
+    ("str.rstrip", "chars"): ((2, 2), (3, 0)),
+    ("str.strip", "chars"): ((2, 2), (3, 0)),
+    ("string.lstrip", "chars"): ((2, 3), None),
+    ("string.rstrip", "chars"): ((2, 3), None),
+    ("string.strip", "chars"): ((2, 3), None),
     ("subprocess.Popen", "encoding"): (None, (3, 6)),
     ("subprocess.Popen", "errors"): (None, (3, 6)),
     ("subprocess.Popen", "pass_fds"): (None, (3, 2)),
@@ -2787,28 +2778,27 @@ kwargs_rules = {
     ("subprocess.run", "errors"): (None, (3, 6)),
     ("subprocess.run", "text"): (None, (3, 7)),
     ("sum", "start"): (None, (3, 8)),
-    ("tarfile.TarFile", "encoding"): ((2, 6), None),  # TODO
-    ("tarfile.TarFile", "errors"): ((2, 6), None),  # TODO
-    ("tarfile.TarFile", "format"): ((2, 6), None),  # TODO
-    ("tarfile.TarFile", "pax_headers"): ((2, 6), None),  # TODO
-    ("tarfile.TarFile", "tarinfo"): ((2, 6), None),  # TODO
-    ("tarfile.TarFile.add", "exclude"): ((2, 6), None),  # TODO
+    ("tarfile.TarFile", "encoding"): ((2, 6), (3, 0)),
+    ("tarfile.TarFile", "errors"): ((2, 6), (3, 0)),
+    ("tarfile.TarFile", "format"): ((2, 6), (3, 0)),
+    ("tarfile.TarFile", "pax_headers"): ((2, 6), (3, 0)),
+    ("tarfile.TarFile", "tarinfo"): ((2, 6), (3, 0)),
+    ("tarfile.TarFile.add", "exclude"): ((2, 6), (3, 0)),
     ("tarfile.TarFile.add", "filter"): ((2, 7), (3, 2)),
     ("tarfile.TarFile.extract", "numeric_owner"): (None, (3, 5)),
     ("tarfile.TarFile.extract", "set_attrs"): (None, (3, 2)),
     ("tarfile.TarFile.extractall", "numeric_owner"): (None, (3, 5)),
     ("tarfile.TarFile.list", "members"): (None, (3, 5)),
-    ("tarfile.TarInfo.tobuf", "encoding"): ((2, 6), None),  # TODO
-    ("tarfile.TarInfo.tobuf", "errors"): ((2, 6), None),  # TODO
-    ("tarfile.TarInfo.tobuf", "format"): ((2, 6), None),  # TODO
-    ("telnetlib.Telnet", "timeout"): ((2, 6), None),  # TODO
-    ("telnetlib.Telnet.open", "timeout"): ((2, 6), None),  # TODO
-    ("tempfile.NamedTemporaryFile", "delete"): ((2, 6), None),  # TODO
+    ("tarfile.TarInfo.tobuf", "encoding"): ((2, 6), (3, 0)),
+    ("tarfile.TarInfo.tobuf", "errors"): ((2, 6), (3, 0)),
+    ("tarfile.TarInfo.tobuf", "format"): ((2, 6), (3, 0)),
+    ("telnetlib.Telnet", "timeout"): ((2, 6), (3, 0)),
+    ("telnetlib.Telnet.open", "timeout"): ((2, 6), (3, 0)),
+    ("tempfile.NamedTemporaryFile", "delete"): ((2, 6), (3, 0)),
     ("tempfile.NamedTemporaryFile", "errors"): (None, (3, 8)),
     ("tempfile.SpooledTemporaryFile", "errors"): (None, (3, 8)),
     ("tempfile.SpooledTemporaryFile.truncate", "size"): (None, (3, 3)),
     ("tempfile.TemporaryFile", "errors"): (None, (3, 8)),
-    ("test.support.check_warnings", "filters"): ((2, 7), None),  # TODO
     ("test.support.check_warnings", "quiet"): ((2, 7), (3, 2)),
     ("threading.Lock.acquire", "timeout"): (None, (3, 2)),
     ("threading.RLock.acquire", "timeout"): (None, (3, 2)),
@@ -2834,7 +2824,7 @@ kwargs_rules = {
     ("unittest.mock.Mock", "unsafe"): (None, (3, 5)),
     ("unittest.mock.Mock.reset_mock", "return_value"): (None, (3, 6)),
     ("unittest.mock.Mock.reset_mock", "side_effect"): (None, (3, 6)),
-    ("urllib.URLopener", "context"): ((2, 7), None),  # TODO
+    ("urllib.URLopener", "context"): ((2, 7), None),
     ("urllib.parse.parse_qs", "encoding"): (None, (3, 2)),
     ("urllib.parse.parse_qs", "errors"): (None, (3, 2)),
     ("urllib.parse.parse_qs", "max_num_fields"): (None, (3, 8)),
@@ -2849,35 +2839,35 @@ kwargs_rules = {
     ("urllib.request.urlopen", "cafile"): (None, (3, 2)),
     ("urllib.request.urlopen", "capath"): (None, (3, 2)),
     ("urllib.request.urlopen", "context"): (None, (3, 4)),
-    ("urllib.urlopen", "context"): ((2, 7), None),  # TODO
-    ("urllib.urlopen", "proxies"): ((2, 3), None),  # TODO
-    ("urllib.urlretrieve", "context"): ((2, 7), None),  # TODO
-    ("urllib2.HTTPSHandler", "context"): ((2, 7), None),  # TODO
-    ("urllib2.OpenerDirector.open", "timeout"): ((2, 6), None),  # TODO
-    ("urllib2.urlopen", "cadefault"): ((2, 7), None),  # TODO
-    ("urllib2.urlopen", "cafile"): ((2, 7), None),  # TODO
-    ("urllib2.urlopen", "capth"): ((2, 7), None),  # TODO
-    ("urllib2.urlopen", "context"): ((2, 7), None),  # TODO
-    ("urllib2.urlopen", "timeout"): ((2, 6), None),  # TODO
-    ("urlparse.parse_qs", "max_num_fields"): ((2, 7), None),  # TODO
-    ("urlparse.parse_qsl", "max_num_fields"): ((2, 7), None),  # TODO
+    ("urllib.urlopen", "context"): ((2, 7), None),
+    ("urllib.urlopen", "proxies"): ((2, 3), None),
+    ("urllib.urlretrieve", "context"): ((2, 7), None),
+    ("urllib2.HTTPSHandler", "context"): ((2, 7), None),
+    ("urllib2.OpenerDirector.open", "timeout"): ((2, 6), None),
+    ("urllib2.urlopen", "cadefault"): ((2, 7), None),
+    ("urllib2.urlopen", "cafile"): ((2, 7), None),
+    ("urllib2.urlopen", "capth"): ((2, 7), None),
+    ("urllib2.urlopen", "context"): ((2, 7), None),
+    ("urllib2.urlopen", "timeout"): ((2, 6), None),
+    ("urlparse.parse_qs", "max_num_fields"): ((2, 7), None),
+    ("urlparse.parse_qsl", "max_num_fields"): ((2, 7), None),
     ("uu.encode", "backtick"): (None, (3, 7)),
     ("venv.EnvBuilder", "prompt"): (None, (3, 6)),
     ("venv.EnvBuilder", "with_pip"): (None, (3, 4)),
     ("venv.create", "prompt"): (None, (3, 6)),
     ("venv.create", "with_pip"): (None, (3, 4)),
-    ("warnings.formatwarning", "line"): ((2, 6), None),  # TODO
-    ("warnings.showwarning", "line"): ((2, 7), None),  # TODO
+    ("warnings.formatwarning", "line"): ((2, 6), (3, 0)),
+    ("warnings.showwarning", "line"): ((2, 7), (3, 0)),
     ("warnings.warn", "source"): (None, (3, 6)),
-    ("warnings.warn_explicit", "module_globals"): ((2, 5), None),  # TODO
+    ("warnings.warn_explicit", "module_globals"): ((2, 5), (3, 0)),
     ("warnings.warn_explicit", "source"): (None, (3, 6)),
     ("webbrowser.register", "preferred"): (None, (3, 7)),
-    ("xml.dom.minidom.Document.writexml", "encoding"): ((2, 3), None),  # TODO
-    ("xml.dom.minidom.Node.toprettyxml", "encoding"): ((2, 3), None),  # TODO
-    ("xml.dom.minidom.Node.toxml", "encoding"): ((2, 3), None),  # TODO
-    ("xml.dom.minidom.Node.writexml", "addindent"): ((2, 1), None),  # TODO
-    ("xml.dom.minidom.Node.writexml", "indent"): ((2, 1), None),  # TODO
-    ("xml.dom.minidom.Node.writexml", "newl"): ((2, 1), None),  # TODO
+    ("xml.dom.minidom.Document.writexml", "encoding"): ((2, 3), (3, 0)),
+    ("xml.dom.minidom.Node.toprettyxml", "encoding"): ((2, 3), (3, 0)),
+    ("xml.dom.minidom.Node.toxml", "encoding"): ((2, 3), (3, 0)),
+    ("xml.dom.minidom.Node.writexml", "addindent"): ((2, 1), (3, 0)),
+    ("xml.dom.minidom.Node.writexml", "indent"): ((2, 1), (3, 0)),
+    ("xml.dom.minidom.Node.writexml", "newl"): ((2, 1), (3, 0)),
     ("xml.etree.ElementTree.ElementTree.write", "short_empty_elements"): (None, (3, 4)),
     ("xml.etree.ElementTree.tostring", "default_namespace"): (None, (3, 8)),
     ("xml.etree.ElementTree.tostring", "short_empty_elements"): (None, (3, 4)),
@@ -2893,16 +2883,16 @@ kwargs_rules = {
     ("xmlrpc.server.CGIXMLRPCRequestHandler", "use_builtin_types"): (None, (3, 3)),
     ("xmlrpc.server.DocXMLRPCServer", "use_builtin_types"): (None, (3, 3)),
     ("xmlrpc.server.SimpleXMLRPCServer", "use_builtin_types"): (None, (3, 3)),
-    ("xmlrpclib.ServerProxy", "context"): ((2, 7), None),  # TODO
-    ("xmlrpclib.ServerProxy", "use_datetime"): ((2, 5), None),  # TODO
-    ("xmlrpclib.loads", "use_datetime"): ((2, 5), None),  # TODO
+    ("xmlrpclib.ServerProxy", "context"): ((2, 7), None),
+    ("xmlrpclib.ServerProxy", "use_datetime"): ((2, 5), None),
+    ("xmlrpclib.loads", "use_datetime"): ((2, 5), None),
     ("zipapp.create_archive", "compressed"): (None, (3, 7)),
     ("zipapp.create_archive", "filter"): (None, (3, 7)),
     ("zipfile.PyZipFile", "optimize"): (None, (3, 2)),
     ("zipfile.PyZipFile.writepy", "filterfunc"): (None, (3, 4)),
     ("zipfile.ZipFile", "compresslevel"): (None, (3, 7)),
     ("zipfile.ZipFile", "strict_timestamps"): (None, (3, 8)),
-    ("zipfile.ZipFile.read", "pwd"): ((2, 6), None),  # TODO
+    ("zipfile.ZipFile.read", "pwd"): ((2, 6), (3, 0)),
     ("zipfile.ZipFile.writestr", "compress_type"): ((2, 7), (3, 2)),
     ("zipfile.ZipInfo.from_file", "strict_timestamps"): (None, (3, 8)),
     ("zlib.Decompress.decompress", "max_length"): (None, (3, 6)),

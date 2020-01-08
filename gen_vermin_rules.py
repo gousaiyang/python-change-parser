@@ -31,12 +31,20 @@ def parse_version_requirement(text, expect_major):
     return (major, minor)
 
 
+def is_removed_in_py3(name):
+    name_parts = name.split('.')
+    return any(name_parts[:len(x)] == x for x in removed_in_py3_list)
+
+
 def validate_identifier_name(name):
-    return re.fullmatch('[_A-Za-z][_0-9A-Za-z]*', name)
+    parts = name.split('.')
+    if not all(re.fullmatch('[_A-Za-z][_0-9A-Za-z]*', x) for x in parts):
+        raise ValueError('invalid identifier name')
 
 
 py3_rules = read_text_file('py3_rules.txt').rstrip('\n').split('\n\n')[1:]
 py2_rules = read_text_file('py2_rules.txt').rstrip('\n').split('\n\n')[1:]
+removed_in_py3_list = [x.split('.') for x in read_text_file('removed_in_py3.txt').splitlines() if not x.startswith('#')]
 
 modules_rules = collections.defaultdict(lambda: [None, None])
 classes_rules = collections.defaultdict(lambda: [None, None])
@@ -98,15 +106,17 @@ with open('vermin_rules_generated.py', 'w', encoding='utf-8') as rulefile:
     for rule_type in ('modules_rules', 'classes_rules', 'exceptions_rules', 'functions_rules', 'variables_and_constants_rules', 'decorators_rules'):
         rulefile.write(f'{rule_type} = {{\n')
         for name, versions in globals()[rule_type]:
-            rulefile.write(f'    "{name}": {tuple(versions)!r},')
-            if versions[0] is not None and versions[1] is None:
-                rulefile.write('  # TODO')
-            rulefile.write('\n')
+            if not any(versions):
+                raise ValueError('invalid versions tuple')
+            if versions[1] is None and not is_removed_in_py3(name):
+                versions[1] = (3, 0)
+            rulefile.write(f'    "{name}": {tuple(versions)!r},\n')
         rulefile.write('}\n\n')
     rulefile.write('kwargs_rules = {\n')
     for name, versions in kwargs_rules:
-        rulefile.write(f'    ("{name[0]}", "{name[1]}"): {tuple(versions)!r},')
-        if versions[0] is not None and versions[1] is None:
-            rulefile.write('  # TODO')
-        rulefile.write('\n')
+        if not any(versions):
+            raise ValueError('invalid versions tuple')
+        if versions[1] is None and not is_removed_in_py3(name[0]):
+            versions[1] = (3, 0)
+        rulefile.write(f'    ("{name[0]}", "{name[1]}"): {tuple(versions)!r},\n')
     rulefile.write('}\n')

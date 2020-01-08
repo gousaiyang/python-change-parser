@@ -222,6 +222,7 @@ data:
 2.0 sys.byteorder
 2.6 sys.dont_write_bytecode
 2.6 sys.flags
+2.7 sys.float_repr_style
 1.5.2 sys.hexversion
 2.7 sys.long_info
 2.6 sys.py3kwarning
@@ -324,7 +325,6 @@ class:
 2.4 string.Template
 2.5 struct.Struct
 2.6 sys.float_info
-2.7 sys.float_repr_style
 2.6 test.support.TransientResource
 2.6 test.support.EnvironmentVarGuard
 2.6 test.support.WarningsRecorder
@@ -412,7 +412,6 @@ function:
 2.6 next
 2.6 print
 2.4 reversed
-2.4 set
 2.4 sorted
 2.3 sum
 2.2 super
@@ -704,10 +703,6 @@ function:
 2.4 traceback.format_exc
 2.4 unicodedata.east_asian_width
 2.3 unicodedata.normalize
-2.7 unittest.skip
-2.7 unittest.skipIf
-2.7 unittest.skipUnless
-2.7 unittest.expectedFailure
 2.7 unittest.installHandler
 2.7 unittest.registerResult
 2.7 unittest.removeResult
@@ -771,7 +766,6 @@ method:
 2.7 collections.deque.count
 2.5 collections.deque.remove
 2.7 collections.deque.reverse
-2.7 collections.deque.maxlen
 1.6 ConfigParser.RawConfigParser.has_option
 1.6 ConfigParser.RawConfigParser.set
 1.6 ConfigParser.RawConfigParser.write
@@ -931,8 +925,6 @@ method:
 2.7 unittest.TestCase.assertListEqual
 2.7 unittest.TestCase.assertSetEqual
 2.7 unittest.TestCase.assertDictEqual
-2.7 unittest.TestCase.longMessage
-2.7 unittest.TestCase.maxDiff
 2.7 unittest.TestCase.addCleanup
 2.7 unittest.TestCase.doCleanups
 2.7 unittest.TestLoader.discover
@@ -967,6 +959,7 @@ attribute:
 2.3 file.encoding
 2.6 file.errors
 2.6 BaseHTTPServer.BaseHTTPRequestHandler.error_content_type
+2.7 collections.deque.maxlen
 2.6 Cookie.Morsel.httponly
 2.5 cookielib.DefaultCookiePolicy.rfc2109_as_netscape
 2.5 cookielib.Cookie.rfc2109
@@ -1069,6 +1062,8 @@ attribute:
 2.6 threading.Thread.name
 2.6 threading.Thread.ident
 2.6 threading.Thread.daemon
+2.7 unittest.TestCase.longMessage
+2.7 unittest.TestCase.maxDiff
 2.7 unittest.TestResult.skipped
 2.7 unittest.TestResult.buffer
 2.7 unittest.TestResult.failfast
@@ -1100,6 +1095,10 @@ decorator:
 2.6 property.deleter
 2.2 staticmethod
 2.7 functools.total_ordering
+2.7 unittest.skip
+2.7 unittest.skipIf
+2.7 unittest.skipUnless
+2.7 unittest.expectedFailure
 
 argument:
 2.3 [ "compile", [ "flags", "dont_inherit" ] ]
