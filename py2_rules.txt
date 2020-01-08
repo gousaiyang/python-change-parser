@@ -1247,7 +1247,7 @@ argument:
 2.7.9 [ "urllib.URLopener", [ "context" ] ]
 2.6 [ "urllib2.urlopen", [ "timeout" ] ]
 2.7.9 [ "urllib2.urlopen", [ "cafile", "capth", "cadefault", "context" ] ]
-2.7.9 ] "urllib2.HTTPSHandler", [ "context" ]
+2.7.9 [ "urllib2.HTTPSHandler", [ "context" ] ]
 2.6 [ "urllib2.OpenerDirector.open", [ "timeout" ] ]
 2.7.16 [ "urlparse.parse_qs", [ "max_num_fields" ] ]
 2.7.16 [ "urlparse.parse_qsl", [ "max_num_fields" ] ]
