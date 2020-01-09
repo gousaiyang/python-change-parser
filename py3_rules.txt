@@ -1431,6 +1431,7 @@ argument:
 3.7 [ "binascii.b2a_uu", [ "backtick" ] ]
 3.6 [ "binascii.b2a_base64", [ "newline" ] ]
 3.8 [ "binascii.b2a_hex", [ "sep", "bytes_per_sep" ] ]
+3.8 [ "binascii.hexlify", [ "sep", "bytes_per_sep" ] ]
 3.5 [ "bz2.BZ2Decompressor.decompress", [ "max_length" ] ]
 3.7 [ "cgi.parse_multipart", [ "encoding", "errors" ] ]
 3.6 [ "code.interact", [ "exitmsg" ] ]
