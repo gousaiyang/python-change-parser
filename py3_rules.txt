@@ -661,6 +661,9 @@ function:
 3.7 gc.freeze
 3.7 gc.unfreeze
 3.7 gc.get_freeze_count
+3.8 gettext.pgettext
+3.8 gettext.dpgettext
+3.8 gettext.npgettext
 3.8 gettext.dnpgettext
 3.4 glob.escape
 3.2 gzip.compress
@@ -742,6 +745,7 @@ function:
 3.5 operator.matmul
 3.4 operator.length_hint
 3.5 operator.imatmul
+3.8 os.add_dll_directory
 3.2 os.fsencode
 3.2 os.fsdecode
 3.6 os.fspath
@@ -927,6 +931,7 @@ function:
 3.4 types.DynamicClassAttribute
 3.5 types.coroutine
 3.5.2 typing.NewType
+3.8 typing.get_origin
 3.8 typing.get_args
 3.8 unicodedata.is_normalized
 3.8 unittest.addModuleCleanup
@@ -1029,6 +1034,7 @@ method:
 3.3 datetime.datetime.timestamp
 3.7 datetime.time.fromisoformat
 3.1 decimal.Decimal.from_float
+3.6 decimal.Decimal.as_integer_ratio
 3.3 decimal.Context.clear_traps
 3.1 decimal.Context.create_decimal_from_float
 3.4 email.message.Message.as_bytes
@@ -1164,6 +1170,7 @@ method:
 3.2 unittest.TestCase.tearDownClass
 3.1 unittest.TestCase.skipTest
 3.4 unittest.TestCase.subTest
+3.1 unittest.TestCase.assertDictContainsSubset
 3.1 unittest.TestCase.assertIs
 3.1 unittest.TestCase.assertIsNot
 3.1 unittest.TestCase.assertIsNone
@@ -1275,6 +1282,7 @@ attribute:
 3.7 io.TextIOWrapper.write_through
 3.5 ipaddress.IPv4Address.reverse_pointer
 3.4 ipaddress.IPv4Address.is_global
+3.4 ipaddress.IPv6Address.is_global
 3.2 logging.StreamHandler.terminator
 3.3 logging.handlers.BaseRotatingHandler.name
 3.3 logging.handlers.BaseRotatingHandler.rotator
@@ -1394,6 +1402,7 @@ argument:
 3.8 [ "bytearray.hex", [ "sep", "bytes_per_sep" ] ]
 3.6 [ "bytes.translate", [ "delete" ] ]
 3.6 [ "bytearray.translate", [ "delete" ] ]
+3.1 [ "str.encode", [ "encoding", "errors" ] ]
 3.2 [ "_thread.lock.acquire", [ "timeout" ] ]
 3.5 [ "argparse.ArgumentParser", [ "allow_abbrev" ] ]
 3.7 [ "argparse.ArgumentParser.add_subparsers", [ "required" ] ]
@@ -1467,6 +1476,7 @@ argument:
 3.7 [ "dis.dis", [ "depth" ] ]
 3.4 [ "dis.distb", [ "file" ] ]
 3.4 [ "dis.disassemble", [ "file" ] ]
+3.4 [ "dis.disco", [ "file" ] ]
 3.8 [ "dis.stack_effect", [ "jump" ] ]
 3.3 [ "email.message.Message", [ "policy" ] ]
 3.4 [ "email.message.Message.as_string", [ "policy" ] ]
@@ -1661,6 +1671,7 @@ argument:
 3.7 [ "subprocess.Popen", [ "text" ] ]
 3.3 [ "subprocess.Popen.wait", [ "timeout" ] ]
 3.3 [ "subprocess.Popen.communicate", [ "timeout" ] ]
+3.7 [ "subprocess.STARTUPINFO", [ "lpAttributeList" ] ]
 3.3 [ "subprocess.call", [ "timeout" ] ]
 3.3 [ "subprocess.check_call", [ "timeout" ] ]
 3.3 [ "subprocess.check_output", [ "timeout" ] ]
@@ -1684,11 +1695,13 @@ argument:
 3.5 [ "timeit.timeit", [ "globals" ] ]
 3.5 [ "timeit.repeat", [ "globals" ] ]
 3.5 [ "timeit.Timer", [ "globals" ] ]
+3.6 [ "tracemalloc.Filter", [ "domain" ] ]
 3.3 [ "unittest.TestCase.assertRaises", [ "msg" ] ]
 3.3 [ "unittest.TestCase.assertRaisesRegex", [ "msg" ] ]
 3.3 [ "unittest.TestCase.assertWarns", [ "msg" ] ]
 3.3 [ "unittest.TestCase.assertWarnsRegex", [ "msg" ] ]
 3.2 [ "unittest.TestCase.assertAlmostEqual", [ "delta" ] ]
+3.2 [ "unittest.TestCase.assertNotAlmostEqual", [ "delta" ] ]
 3.5 [ "unittest.TestLoader.loadTestsFromModule", [ "pattern" ] ]
 3.2 [ "unittest.TextTestRunner", [ "warnings" ] ]
 3.5 [ "unittest.TextTestRunner", [ "tb_locals" ] ]
