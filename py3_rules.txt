@@ -1400,6 +1400,7 @@ argument:
 3.8 [ "sum", [ "start" ] ]
 3.8 [ "bytes.hex", [ "sep", "bytes_per_sep" ] ]
 3.8 [ "bytearray.hex", [ "sep", "bytes_per_sep" ] ]
+3.8 [ "memoryview.hex", [ "sep", "bytes_per_sep" ] ]
 3.6 [ "bytes.translate", [ "delete" ] ]
 3.6 [ "bytearray.translate", [ "delete" ] ]
 3.1 [ "str.encode", [ "encoding", "errors" ] ]
