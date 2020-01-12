@@ -50,11 +50,11 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr v-for="change in changes">
+                        <tr v-for="change in changes" v-bind:style="change.multi ? 'color: orange' : ''">
                             <td>{{ change.id }}</td>
                             <td>{{ change.type }}</td>
                             <td>{{ change.version }}</td>
-                            <td>{{ change.category }}</td>
+                            <td>{{ change.category + (change.multi ? '-multi' : '') }}</td>
                             <td>{{ change.name }}</td>
                             <td><a v-bind:href="python_doc_url(py_major_version, change.file, change.anchor)" target="_blank">{{ change.file }}</a></td>
                             <td>{{ change.description }}</td>

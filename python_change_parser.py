@@ -44,11 +44,14 @@ def parse_changes(text, file):
 
         description = element.parent.get_text()
         version = re.findall(r'in version (\d+(?:.\d+)+)', element.string, re.ASCII)[0]
+        multi = False
 
         for parent in element.parents:
             parent_class = parent.get('class')
             if parent.name == 'dl':
                 category = parent_class[0] if parent_class else 'unknown object'
+                if sum(child.name == 'dt' for child in parent.children) > 1:
+                    multi = True
                 name = parent.find('dt').get('id')
                 anchor = name
                 if may_be_argument_change(description):
@@ -75,6 +78,7 @@ def parse_changes(text, file):
             'id': record_id,
             'type': type_,
             'version': version,
+            'multi': multi,
             'category': category,
             'name': name,
             'file': file,
