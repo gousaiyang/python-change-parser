@@ -40,7 +40,14 @@ gettext.GNUTranslations.ungettext
 gettext.NullTranslations.ungettext
 hashlib.algorithms
 itertools.izip_longest
+operator.div
+operator.__div__
 operator.idiv
+operator.__idiv__
+operator.repeat
+operator.__repeat__
+operator.irepeat
+operator.__irepeat__
 os.getcwdu
 os.popen2
 os.popen3

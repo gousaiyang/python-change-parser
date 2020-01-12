@@ -7,8 +7,8 @@ module:
 3.2 concurrent.futures
 3.7 contextvars
 3.7 dataclasses
-3.6 email.contentmanager
-3.6 email.headerregistry
+3.4 email.contentmanager
+3.3 email.headerregistry
 3.6 email.message
 3.3 email.policy
 3.4 ensurepip
@@ -448,6 +448,7 @@ data:
 
 class:
 3.4 abc.ABC
+3.7 asyncio.BufferedProtocol
 3.8 asyncio.ThreadedChildWatcher
 3.8 asyncio.MultiLoopChildWatcher
 3.6 collections.abc.Collection
@@ -743,8 +744,10 @@ function:
 3.4 multiprocessing.set_start_method
 3.3 multiprocessing.connection.wait
 3.5 operator.matmul
+3.5 operator.__matmul__
 3.4 operator.length_hint
 3.5 operator.imatmul
+3.5 operator.__imatmul__
 3.8 os.add_dll_directory
 3.2 os.fsencode
 3.2 os.fsdecode
@@ -886,6 +889,7 @@ function:
 3.7 sys.get_coroutine_origin_tracking_depth
 3.5 sys.is_finalizing
 3.2 sys.setswitchinterval
+3.6 sys.set_asyncgen_hooks
 3.7 sys.set_coroutine_origin_tracking_depth
 3.6 sys._enablelegacywindowsfsencoding
 3.8 sys.unraisablehook
@@ -1315,6 +1319,7 @@ attribute:
 3.6 shlex.shlex.punctuation_chars
 3.3 shutil.rmtree.avoids_symlink_attacks
 3.7 socketserver.ForkingMixIn.block_on_close
+3.7 socketserver.ThreadingMixIn.block_on_close
 3.2 sqlite3.Connection.in_transaction
 3.3 ssl.SSLError.library
 3.3 ssl.SSLError.reason
@@ -1398,6 +1403,8 @@ argument:
 3.3 [ "open", [ "opener" ] ]
 3.3 [ "print", [ "flush" ] ]
 3.8 [ "sum", [ "start" ] ]
+3.2 [ "bytes.decode", [ "encoding", "errors" ] ]
+3.2 [ "bytearray.decode", [ "encoding", "errors" ] ]
 3.8 [ "bytes.hex", [ "sep", "bytes_per_sep" ] ]
 3.8 [ "bytearray.hex", [ "sep", "bytes_per_sep" ] ]
 3.8 [ "memoryview.hex", [ "sep", "bytes_per_sep" ] ]
@@ -1437,6 +1444,9 @@ argument:
 3.7 [ "cgi.parse_multipart", [ "encoding", "errors" ] ]
 3.6 [ "code.interact", [ "exitmsg" ] ]
 3.4 [ "collections.ChainMap.new_child", [ "m" ] ]
+3.5 [ "collections.abc.ByteString.index", [ "stop", "start" ] ]
+3.5 [ "collections.abc.MutableSequence.index", [ "stop", "start" ] ]
+3.5 [ "collections.abc.Sequence.index", [ "stop", "start" ] ]
 3.1 [ "collections.namedtuple", [ "rename" ] ]
 3.6 [ "collections.namedtuple", [ "module" ] ]
 3.7 [ "collections.namedtuple", [ "defaults" ] ]
@@ -1729,6 +1739,8 @@ argument:
 3.6 [ "warnings.warn", [ "source" ] ]
 3.6 [ "warnings.warn_explicit", [ "source" ] ]
 3.7 [ "webbrowser.register", [ "preferred" ] ]
+3.2 [ "winreg.OpenKey",  [ "key", "sub_key", "reserved", "access" ] ]
+3.2 [ "winreg.OpenKeyEx",  [ "key", "sub_key", "reserved", "access" ] ]
 3.4 [ "xml.etree.ElementTree.tostring", [ "short_empty_elements" ] ]
 3.8 [ "xml.etree.ElementTree.tostring", [ "xml_declaration", "default_namespace" ] ]
 3.4 [ "xml.etree.ElementTree.tostringlist", [ "short_empty_elements" ] ]
