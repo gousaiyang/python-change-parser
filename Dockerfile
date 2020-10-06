@@ -1,4 +1,4 @@
-FROM ubuntu:bionic
+FROM ubuntu:20.04
 
 ENV LANG="C.UTF-8" \
     LC_ALL="C.UTF-8" \
@@ -23,4 +23,5 @@ RUN set -x \
         python3.5 \
         python3.6 \
         python3.7 \
-        python3.8
+        python3.8 \
+        python3.9
