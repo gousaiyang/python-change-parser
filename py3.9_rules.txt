@@ -1,0 +1,146 @@
+Finished ID: 210
+
+module:
+3.9 graphlib
+3.9 test.support.socket_helper
+3.9 zoneinfo
+
+data:
+3.7 decimal.HAVE_CONTEXTVAR
+3.9 fcntl.F_GETPATH
+3.9 fcntl.F_OFD_GETLK
+3.9 fcntl.F_OFD_SETLK
+3.9 fcntl.F_OFD_SETLKW
+3.9 http.HTTPStatus.EARLY_HINTS
+3.9 http.HTTPStatus.IM_A_TEAPOT
+3.9 http.HTTPStatus.TOO_EARLY
+3.9 keyword.softkwlist
+3.9 os.CLD_KILLED
+3.9 os.CLD_STOPPED
+3.9 os.P_PIDFD
+3.9 socket.CAN_J1939
+3.9 socket.CAN_RAW_JOIN_FILTERS
+3.9 socket.IPPROTO_UDPLITE
+3.8 sys.__unraisablehook__
+3.7 sys.flags.dev_mode
+3.7 sys.flags.utf8_mode
+3.9 sys.platlibdir
+3.9 time.CLOCK_TAI
+3.8 token.COLONEQUAL
+3.8 token.TYPE_COMMENT
+3.8 token.TYPE_IGNORE
+3.9 typing.Annotated
+
+class:
+3.7 asyncio.BufferedProtocol
+3.9 asyncio.PidfdChildWatcher
+3.9 importlib.abc.Traversable
+3.9 importlib.abc.TraversableReader
+3.9 pstats.FunctionProfile
+3.9 pstats.StatsProfile
+
+function:
+3.9 ast.unparse
+3.9 asyncio.to_thread
+3.9 curses.get_escdelay
+3.9 curses.get_tabsize
+3.9 curses.set_escdelay
+3.9 curses.set_tabsize
+3.9 gc.is_finalized
+3.9 importlib.resources.files
+3.9 keyword.issoftkeyword
+3.9 math.lcm
+3.9 math.nextafter
+3.9 math.ulp
+3.9 os.pidfd_open
+3.9 os.waitstatus_to_exitcode
+3.9 pkgutil.resolve_name
+3.9 random.randbytes
+3.9 signal.pidfd_send_signal
+3.9 test.support.print_warning
+3.9 test.support.wait_process
+3.9 tracemalloc.reset_peak
+3.8 typing.get_origin
+3.9 xml.etree.ElementTree.indent
+
+method:
+3.9 asyncio.loop.shutdown_default_executor
+3.9 bytearray.removeprefix
+3.9 bytearray.removesuffix
+3.9 bytes.removeprefix
+3.9 bytes.removesuffix
+3.9 imaplib.IMAP4.unselect
+3.4 importlib.machinery.FrozenImporter.create_module
+3.4 importlib.machinery.FrozenImporter.exec_module
+3.7 logging.StreamHandler.setStream
+3.9 multiprocessing.SimpleQueue.close
+3.8 pathlib.Path.link_to
+3.9 pathlib.Path.readlink
+3.9 pathlib.PurePath.is_relative_to
+3.9 pathlib.PurePath.with_stem
+3.9 pstats.Stats.get_stats_profile
+3.9 socket.socket.recv_fds
+3.9 socket.socket.send_fds
+3.9 statistics.NormalDist.zscore
+3.9 str.removeprefix
+3.9 str.removesuffix
+3.8 types.CodeType.replace
+3.9 venv.EnvBuilder.upgrade_dependencies
+
+attribute:
+3.2 difflib.SequenceMatcher.bjunk
+3.2 difflib.SequenceMatcher.bpopular
+3.2 logging.StreamHandler.terminator
+3.9 tracemalloc.Traceback.total_nframe
+3.8 unittest.mock.Mock.call_args.args
+3.8 unittest.mock.Mock.call_args.kwargs
+3.9 urllib.response.addinfourl.status
+
+decorator:
+3.9 functools.cache
+
+argument:
+3.9 [ "argparse.ArgumentParser", [ "exit_on_error" ] ]
+3.9 [ "ast.dump", [ "indent" ]]
+3.9 [ "asyncio.Future.cancel", [ "msg" ] ]
+3.9 [ "asyncio.Task.cancel", [ "msg" ] ]
+3.8 [ "asyncio.loop.create_connection", [ "happy_eyeballs_delay", "interleave" ] ]
+3.8 [ "bytearray.hex", [ "sep", "bytes_per_sep" ] ]
+3.9 [ "compileall.compile_dir", [ "stripdir", "prependdir", "limit_sl_dest", "hardlink_dupes" ] ]
+3.9 [ "compileall.compile_file", [ "stripdir", "prependdir", "limit_sl_dest", "hardlink_dupes" ] ]
+3.9 [ "concurrent.futures.Executor.shutdown", [ "cancel_futures" ]]
+3.9 [ "ftplib.FTP", [ "encoding" ] ]
+3.9 [ "ftplib.FTP_TLS", [ "encoding" ] ]
+3.9 [ "hashlib.blake2b", [ "usedforsecurity" ] ]
+3.9 [ "hashlib.blake2s", [ "usedforsecurity" ] ]
+3.9 [ "hashlib.md5", [ "usedforsecurity" ] ]
+3.9 [ "hashlib.new", [ "usedforsecurity" ] ]
+3.9 [ "hashlib.sha1", [ "usedforsecurity" ] ]
+3.9 [ "hashlib.sha224", [ "usedforsecurity" ] ]
+3.9 [ "hashlib.sha256", [ "usedforsecurity" ] ]
+3.9 [ "hashlib.sha384", [ "usedforsecurity" ] ]
+3.9 [ "hashlib.sha3_224", [ "usedforsecurity" ] ]
+3.9 [ "hashlib.sha3_256", [ "usedforsecurity" ] ]
+3.9 [ "hashlib.sha3_384", [ "usedforsecurity" ] ]
+3.9 [ "hashlib.sha3_512", [ "usedforsecurity" ] ]
+3.9 [ "hashlib.sha512", [ "usedforsecurity" ] ]
+3.9 [ "hashlib.shake_128", [ "usedforsecurity" ] ]
+3.9 [ "hashlib.shake_2", [ "usedforsecurity" ] ]
+3.9 [ "imaplib.IMAP4", [ "timeout" ] ]
+3.9 [ "imaplib.IMAP4.open", [ "timeout" ] ]
+3.3 [ "imaplib.IMAP4_SSL", [ "ssl_context" ] ]
+3.9 [ "imaplib.IMAP4_SSL", [ "timeout" ] ]
+3.9 [ "logging.basicConfig", [ "encoding", "errors" ] ]
+3.9 [ "logging.handlers.RotatingFileHandler", [ "errors" ] ]
+3.9 [ "logging.handlers.TimedRotatingFileHandler", [ "errors" ] ]
+3.9 [ "logging.handlers.WatchedFileHandler", [ "errors" ] ]
+3.8 [ "memoryview.hex", [ "sep", "bytes_per_sep" ] ]
+3.9 [ "os.sendfile", [ "out_fd", "in_fd" ] ]
+3.8 [ "pow", [ "base", "exp", "mod" ] ]
+3.9 [ "random.sample", [ "counts" ] ]
+3.9 [ "smtplib.LMTP", [ "timeout" ] ]
+3.9 [ "subprocess.Popen", [ "group", "extra_groups", "user", "umask" ] ]
+3.9 [ "threading.Semaphore.release", [ "n" ] ]
+3.9 [ "typing.get_type_hints", [ "include_extras" ] ]
+3.9 [ "venv.EnvBuilder", [ "upgrade_deps" ] ]
+3.9 [ "xml.etree.ElementTree.xml.etree.ElementInclude.include", [ "base_url", "max_depth" ] ]
