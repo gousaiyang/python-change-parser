@@ -57,6 +57,8 @@ function:
 3.9 pkgutil.resolve_name
 3.9 random.randbytes
 3.9 signal.pidfd_send_signal
+3.9 socket.recv_fds
+3.9 socket.send_fds
 3.9 test.support.print_warning
 3.9 test.support.wait_process
 3.9 tracemalloc.reset_peak
@@ -79,8 +81,6 @@ method:
 3.9 pathlib.PurePath.is_relative_to
 3.9 pathlib.PurePath.with_stem
 3.9 pstats.Stats.get_stats_profile
-3.9 socket.socket.recv_fds
-3.9 socket.socket.send_fds
 3.9 statistics.NormalDist.zscore
 3.9 str.removeprefix
 3.9 str.removesuffix
@@ -125,7 +125,7 @@ argument:
 3.9 [ "hashlib.sha3_512", [ "usedforsecurity" ] ]
 3.9 [ "hashlib.sha512", [ "usedforsecurity" ] ]
 3.9 [ "hashlib.shake_128", [ "usedforsecurity" ] ]
-3.9 [ "hashlib.shake_2", [ "usedforsecurity" ] ]
+3.9 [ "hashlib.shake_256", [ "usedforsecurity" ] ]
 3.9 [ "imaplib.IMAP4", [ "timeout" ] ]
 3.9 [ "imaplib.IMAP4.open", [ "timeout" ] ]
 3.3 [ "imaplib.IMAP4_SSL", [ "ssl_context" ] ]
@@ -143,4 +143,4 @@ argument:
 3.9 [ "threading.Semaphore.release", [ "n" ] ]
 3.9 [ "typing.get_type_hints", [ "include_extras" ] ]
 3.9 [ "venv.EnvBuilder", [ "upgrade_deps" ] ]
-3.9 [ "xml.etree.ElementTree.xml.etree.ElementInclude.include", [ "base_url", "max_depth" ] ]
+3.9 [ "xml.etree.ElementInclude.include", [ "base_url", "max_depth" ] ]
