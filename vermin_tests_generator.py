@@ -2,24 +2,24 @@ import ast
 
 module_test_template = '''\
 def test_{test_name}(self):
-{indentation}self.assertOnlyIn({version}, detect("import {name}"))
+{indentation}self.assertOnlyIn({version}, self.detect("import {name}"))
 '''
 
 class_test_template = '''\
 def test_{item}_of_{test_module}(self):
-{indentation}self.assertOnlyIn({version}, detect("from {module} import {item}"))
+{indentation}self.assertOnlyIn({version}, self.detect("from {module} import {item}"))
 '''
 
 function_test_template = '''\
 def test_{item}_from_{test_module}(self):
-{indentation}self.assertOnlyIn({version}, detect("import {module}\\n{module}.{item}()"))
+{indentation}self.assertOnlyIn({version}, self.detect("import {module}\\n{module}.{item}()"))
 '''
 
 method_test_template = '''\
 def test_{method}_from_{test_module}_{item}(self):
 {indentation}self.assertOnlyIn({version},
-{indentation}                  detect("from {module} import {item}\\n"
-{indentation}                         "{item}().{method}()"))
+{indentation}                  self.detect("from {module} import {item}\\n"
+{indentation}                              "{item}().{method}()"))
 '''
 
 data_test_template = class_test_template
@@ -27,23 +27,23 @@ data_test_template = class_test_template
 attribute_test_template = '''\
 def test_{attribute}_from_{test_module}_{item}(self):
 {indentation}self.assertOnlyIn({version},
-{indentation}                  detect("from {module} import {item}\\n"
-{indentation}                         "{item}().{attribute}"))
+{indentation}                  self.detect("from {module} import {item}\\n"
+{indentation}                              "{item}().{attribute}"))
 '''
 
 function_kwarg_test_template = '''\
 def test_{kwarg}_of_{item}_from_{test_module}(self):
 {indentation}self.assertOnlyIn({version},
-                               detect("from {module} import {item}\\n"
-                                      "{item}({kwarg}=None)"))
+{indentation}                  self.detect("from {module} import {item}\\n"
+{indentation}                              "{item}({kwarg}=None)"))
 '''
 
 method_kwarg_test_template = '''\
 def test_{kwarg}_of_{method}_from_{test_module}_{item}(self):
 {indentation}self.assertOnlyIn({version},
-{indentation}                  detect("from {module} import {item}\\n"
-{indentation}                         "x = {item}()\\n"
-{indentation}                         "x.{method}({kwarg}=None)"))
+{indentation}                  self.detect("from {module} import {item}\\n"
+{indentation}                              "x = {item}()\\n"
+{indentation}                              "x.{method}({kwarg}=None)"))
 '''
 
 all_rule_types = [x[:-14] for x in globals().keys() if x.endswith('_test_template')]

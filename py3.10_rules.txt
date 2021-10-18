@@ -1,0 +1,184 @@
+Finished ID: 328
+
+module:
+3.8 importlib.metadata
+3.9 test.support.bytecode_helper
+3.10 test.support.threading_helper
+3.10 test.support.os_helper
+3.10 test.support.import_helper
+3.10 test.support.warnings_helper
+
+data:
+3.8 ast.PyCF_ALLOW_TOP_LEVEL_AWAIT
+3.8 ast.PyCF_TYPE_COMMENTS
+3.10 fcntl.F_GETPIPE_SZ
+3.10 fcntl.F_SETPIPE_SZ
+3.10 mmap.MAP_POPULATE
+3.10 os.O_EVTONLY
+3.10 os.O_FSYNC
+3.10 os.O_SYMLINK
+3.10 os.O_NOFOLLOW_ANY
+3.10 os.RWF_APPEND
+3.10 os.SPLICE_F_MOVE
+3.10 os.SPLICE_F_NONBLOCK
+3.10 os.SPLICE_F_MORE
+3.10 os.EFD_CLOEXEC
+3.10 os.EFD_NONBLOCK
+3.10 os.EFD_SEMAPHORE
+3.10 resource.RLIMIT_KQUEUES
+3.10 socket.IP_RECVTOS
+3.10 socket.TCP_KEEPALIVE
+3.10 socket.IPPROTO_MPTCP
+3.10 ssl.VERIFY_ALLOW_PROXY_CERTS
+3.10 ssl.VERIFY_X509_PARTIAL_CHAIN
+3.10 ssl.OP_IGNORE_UNEXPECTED_EOF
+3.10 sys.orig_argv
+3.10 sys.stdlib_module_names
+3.10 threading.__excepthook__
+3.10 types.NoneType
+3.10 types.NotImplementedType
+3.10 types.EllipsisType
+3.10 types.UnionType
+3.10 typing.TypeAlias
+3.10 typing.Concatenate
+3.10 typing.TypeGuard
+3.10 typing.ParamSpecKwargs
+3.2 _thread.TIMEOUT_MAX
+
+class:
+3.9 argparse.BooleanOptionalAction
+3.10 contextlib.AsyncContextDecorator
+3.9 importlib.abc.TraversableResources
+3.10 importlib.metadata.EntryPoints
+3.9 types.GenericAlias
+3.10 typing.ParamSpec
+3.7 typing.ForwardRef
+3.10 xml.sax.handler.LexicalHandler
+
+exception:
+3.10 EncodingWarning
+
+function:
+3.10 abc.update_abstractmethods
+3.10 base64.b32hexdecode
+3.10 base64.b32hexencode
+3.10 codecs.unregister
+3.10 contextlib.aclosing
+3.10 curses.has_extended_color_support
+3.10 aiter
+3.10 anext
+3.9 importlib.resources.as_file
+3.10 importlib.metadata.packages_distributions
+3.10 inspect.get_annotations
+3.10 io.text_encoding
+3.10 itertools.pairwise
+3.10 locale.localize
+3.4 multiprocessing.get_start_method
+3.10 os.splice
+3.10 os.eventfd
+3.10 os.eventfd_read
+3.10 os.eventfd_write
+3.10 platform.freedesktop_os_release
+3.10 statistics.covariance
+3.10 statistics.correlation
+3.10 statistics.linear_regression
+3.10 sysconfig.get_default_scheme
+3.10 sysconfig.get_preferred_scheme
+3.10 sysconfig._get_preferred_schemes
+3.10 test.support.skip_if_broken_multiprocessing_synchronize
+3.10 test.support.check_disallow_instantiation
+3.10 threading.gettrace
+3.10 threading.getprofile
+3.10 typing.is_typeddict
+3.8 _thread.get_native_id
+
+method:
+3.10 collections.Counter.total
+3.9 ipaddress.IPv4Address.__format__
+3.9 ipaddress.IPv6Address.__format__
+3.6 logging.LoggerAdapter._log
+3.10 pathlib.Path.hardlink_to
+3.10 int.bit_count
+3.6 symtable.Symbol.is_annotated
+3.10 unittest.TestCase.assertNoLogs
+3.10 zipimport.zipimporter.create_module
+3.10 zipimport.zipimporter.exec_module
+3.10 zipimport.zipimporter.find_spec
+3.10 zipimport.zipimporter.invalidate_caches
+3.10 bdb.Breakpoint.clearBreakpoints
+
+attribute:
+3.10 AttributeError.name
+3.10 AttributeError.obj
+3.10 NameError.name
+3.4 OSError.filename2
+3.10 SyntaxError.end_lineno
+3.10 SyntaxError.end_offset
+3.10 classmethod.__wrapped__
+3.10 staticmethod.__wrapped__
+3.10 importlib.metadata.metadata.json
+3.6 logging.LoggerAdapter.manager
+3.10 pyclbr.Function.is_async
+3.10 ssl.SSLContext.security_level
+3.10 dict.keys.mapping
+3.10 dict.values.mapping
+3.10 dict.items.mapping
+3.4 types.ModuleType.__spec__
+3.10 object.__match_args__
+3.10 urllib.parse._UNSAFE_URL_BYTES_TO_REMOVE
+3.10 pyclbr.Function.end_lineno
+3.10 pyclbr.Class.end_lineno
+
+argument:
+3.10 [ "bisect.bisect_left", [ "key" ] ]
+3.10 [ "bisect.bisect_right", [ "key" ] ]
+3.10 [ "bisect.bisect", [ "key" ] ]
+3.10 [ "bisect.insort_left", [ "key" ] ]
+3.10 [ "bisect.insort_right", [ "key" ] ]
+3.10 [ "bisect.insort", [ "key" ] ]
+3.6 [ "cgi.parse", [ "separator" ] ]
+3.6 [ "cgi.parse_multipart", [ "separator" ] ]
+3.10 [ "dataclasses.dataclass", [ "match_args", "kw_only", "slots" ] ]
+3.10 [ "dataclasses.field", [ "kw_only" ] ]
+3.10 [ "fileinput.input", [ "encoding", "errors" ] ]
+3.10 [ "fileinput.FileInput", [ "encoding", "errors" ] ]
+3.10 [ "fileinput.hook_compressed", [ "encoding", "errors" ] ]
+3.2 [ "compile", [ "optimize" ] ]
+3.10 [ "zip", [ "strict" ] ]
+3.10 [ "glob.glob", [ "root_dir", "dir_fd" ] ]
+3.10 [ "glob.iglob", [ "root_dir", "dir_fd" ] ]
+3.5 [ "glob.iglob", [ "recursive" ] ]
+3.7 [ "http.server.SimpleHTTPRequestHandler", [ "directory" ] ]
+3.10 [ "inspect.signature", [ "globals", "locals", "eval_str" ] ]
+3.10 [ "inspect.Signature.from_callable", [ "globalns", "localns" ] ]
+3.10 [ "logging.config.fileConfig", [ "encoding" ] ]
+3.10 [ "logging.Formatter", [ "defaults" ] ]
+3.10 [ "os.startfile", [ "arguments", "cwd", "show_cmd" ] ]
+3.10 [ "os.path.realpath", [ "strict" ] ]
+3.10 [ "pathlib.Path.stat", [ "follow_symlinks" ] ]
+3.10 [ "pathlib.Path.chmod", [ "follow_symlinks" ] ]
+3.10 [ "pathlib.Path.write_text", [ "newline" ] ]
+3.10 [ "pprint.PrettyPrinter", [ "underscore_numbers" ] ]
+3.10 [ "pprint.pformat", [ "underscore_numbers" ] ]
+3.10 [ "pprint.pprint", [ "underscore_numbers" ] ]
+3.9 [ "smtplib.LMTP", [ "timeout" ] ]
+3.10 [ "ssl.get_server_certificate", [ "timeout" ] ]
+3.10 [ "statistics.harmonic_mean", [ "weights" ] ]
+3.10 [ "subprocess.Popen", [ "pipesize" ] ]
+3.10 [ "subprocess.run", [ "pipesize" ] ]
+3.10 [ "subprocess.call", [ "pipesize" ] ]
+3.10 [ "subprocess.check_call", [ "pipesize" ] ]
+3.10 [ "subprocess.check_output", [ "pipesize" ] ]
+3.10 [ "tempfile.TemporaryDirectory", [ "ignore_cleanup_errors" ] ]
+3.10 [ "tkinter.font.nametofont", [ "root" ] ]
+3.10 [ "traceback.TracebackException", [ "compact" ] ]
+3.6 [ "urllib.parse.parse_qs", [ "max_num_fields", "separator" ] ]
+3.6 [ "urllib.parse.parse_qsl", [ "max_num_fields", "separator" ] ]
+3.9 [ "venv.create", [ "upgrade_deps" ] ]
+3.9 [ "xml.dom.minidom.Node.writexml", [ "standalone" ] ]
+3.9 [ "xml.dom.minidom.Node.toxml", [ "standalone" ] ]
+3.9 [ "xml.dom.minidom.Node.toprettyxml", [ "standalone" ] ]
+3.2 [ "_thread.lock.acquire", [ "timeout" ] ]
+3.10 [ "pyclbr.Class", [ "end_lineno" ] ]
+3.10 [ "pyclbr.Function", [ "end_lineno" ] ]
+3.10 [ "pyclbr.Function", [ "is_async" ] ]

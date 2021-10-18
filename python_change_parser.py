@@ -48,6 +48,8 @@ def parse_changes(text, file):
 
         for parent in element.parents:
             parent_class = parent.get('class')
+            if parent_class:
+                parent_class = [x for x in parent_class if x != 'py']
             if parent.name == 'dl':
                 category = parent_class[0] if parent_class else 'unknown object'
                 if sum(child.name == 'dt' for child in parent.children) > 1:
